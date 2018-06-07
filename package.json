@@ -1,0 +1,19 @@
+{
+  "name": "data-portal-content",
+  "version": "0.0.1",
+  "description": "This repository contains content (markdown, images, downloadable PDFs)for the HCA Data poral website.  The website it self is Gatsby.js site with the repository located here: https://github.com/HumanCellAtlas/data-portal",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HumanCellAtlas/data-portal-content.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HumanCellAtlas/data-portal-content/issues"
+  },
+  "homepage": "https://github.com/HumanCellAtlas/data-portal-content#readme"
+}
