@@ -4,14 +4,14 @@ date: "2018-05-03"
 title: "Smart-seq2 Workflow in Detail"
 ---
 
-## Description of Smart-seq2 scRNA sequencing
+## Description of Smart-seq2 scRNA Sequencing
 
 Currently the most technically and economically feasible methodology for single-cell RNA sequencing involves generating (by reverse transcription), amplifying, and then sequencing cDNA copies of the RNA transcripts. One main challenge of this strategy is to overcome the problem of 3’-end bias that limits synthesis of full-length cDNAs. The Smart-seq2 technology has been an important advancement in addressing this challenge, greatly improving recovery of full-length transcripts (Picelli, et al., [2013](https://www.nature.com/articles/nmeth.2639), [2014](https://www.nature.com/articles/nprot.2014.006)).
 
 The SMART acronym, which stands for Switching Mechanism At the end of the 5’-end of the RNA Transcript, describes a key property of the reverse transcriptase enzyme from Maloney Murine Leukemia Virus (MMLV). During reverse transcription this enzyme adds a few nucleotides, generally 2-5 cytosines, when it reaches the 5’ end of the RNA template. These extra nucleotides on the newly-synthesized cDNA act as a docking site for a complementary oligonucleotide (termed a TSO or Template Switching Oligonucleotide) that carries 3 riboguanosines at its 3’ end. The reverse transcriptase is then able to switch templates and synthesize the complementary cDNA strand using the TSO as a primer. Overall, optimization of this technique has improved both the yield and the length of transcripts from single-cell cDNA libraries. These features, coupled with reasonable cost, have made Smart-seq2 a widely used method for single-cell RNA sequencing.
 
 
-## Overview of the pipeline
+## Overview of the Pipeline
 
 The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scRNA sequencing protocols. The pipeline currently comprises two modules: a quality control module, which generates post-alignment quality control metrics, and a transcriptome quantification module, which aligns reads to the genome and estimates transcript expression levels. 
 
