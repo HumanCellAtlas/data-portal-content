@@ -27,10 +27,10 @@ Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus e
 
 Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur.
 
-<dl>
-  <dt>Tip</dt>
-  <dd>Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum.</dd>
-</dl>
+
+>####Tip
+>Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum.</dd>
+
 
 <dl>
   <dt>Note</dt>
