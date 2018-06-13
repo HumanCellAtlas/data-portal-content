@@ -1,10 +1,10 @@
 ---
-path: "/learn/userguides/contributing-data/how-to-upload-data"
+path: "/learn/userguides/accessing-data/using-the-cli-to-download"
 date: "2018-05-30"
-title: "How to upload data?"
+title: "Using the CLI to Download Data"
 ---
 
-##How to upload your data?
+## Using the CLI to Download Data
 
 Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
 
@@ -27,10 +27,10 @@ Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus e
 
 Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur.
 
-<dl>
-  <dt>Tip</dt>
-  <dd>Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum.</dd>
-</dl>
+
+>####Tip
+>Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum.</dd>
+
 
 <dl>
   <dt>Note</dt>

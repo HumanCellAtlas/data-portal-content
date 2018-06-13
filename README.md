@@ -20,7 +20,7 @@ https://docs.google.com/document/d/1c8XdfBxMfsOoUJ6wqjOCTiIXYecgzLFFmar-oDBvPpM/
 
 1. If you prefer, use google docs or your favorite editor to actualy create the content and get fe edback from peers.
 
-1. Once the document is ready Use the github website user interface to create a folder and markdown document for it in the proper section in the outline. 
+1. Once the document is ready Use the github website user interface to create markdown document for it in the proper folder.
 
 1. Use the github interface to add and format the content, using the preview mode to check the formatting.
 
