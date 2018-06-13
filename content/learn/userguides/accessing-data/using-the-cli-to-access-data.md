@@ -1,10 +1,10 @@
 ---
-path: "/learn/userguides/accessing-data/using-the-cli-to-download"
+path: "/learn/userguides/accessing-data/using-the-cli-to-access-data"
 date: "2018-05-30"
-title: "Using the CLI to Download Data"
+title: "Using the CLI to Access Data"
 ---
 
-## Using the CLI to Download Data
+## Using the CLI to Access Data
 
 Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
 
