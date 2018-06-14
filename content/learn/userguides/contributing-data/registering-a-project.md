@@ -1,5 +1,5 @@
 ---
-path: "/learn/userguides/contributing-data/registerging-a-project"
+path: "/learn/userguides/contributing-data/registering-a-project"
 date: "2018-05-30"
 title: "Registering a Project"
 ---

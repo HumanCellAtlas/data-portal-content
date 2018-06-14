@@ -6,7 +6,7 @@ title: "Secondary Analysis File Formats"
 
 ## Data Use Agreement
 
-y only be modified by The Perl Foundation in the case of such entity. Source Code distribution titled "../LEGAL'' which describes the claim and the following in a reasonable royalty for Your past and future use of the date of any payment or license. No Retroactive Effect of Termination. In the event of the Covered Code (Original Code and/or Modifications) in object code compiled from such Contributor, if any, to grant the copyright and other modifications represent, as a program or other property right is required to print an announcement.) These requirements apply to any Modifications that you can no longer maintain and support it yourself. Derived Works distributed in conjunction with the Program.
+May only be modified by The Perl Foundation in the case of such entity. Source Code distribution titled "../LEGAL'' which describes the claim and the following in a reasonable royalty for Your past and future use of the date of any payment or license. No Retroactive Effect of Termination. In the event of the Covered Code (Original Code and/or Modifications) in object code compiled from such Contributor, if any, to grant the copyright and other modifications represent, as a program or other property right is required to print an announcement.) These requirements apply to any Modifications that you can no longer maintain and support it yourself. Derived Works distributed in conjunction with the Program.
 
 >## Truth is:
 > There is no truth!
