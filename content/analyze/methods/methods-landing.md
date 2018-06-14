@@ -5,3 +5,8 @@ title: "About Methods"
 ---
 
 ## About Methods
+Methods for Human Cell Atlas are tools for tertiary analysis involving scRNA-seq, scDNA-seq, in situ transcriptomics, and multi-modal approaches.  This registry lists packages for such computational biology methods.
+
+You can use methods packages by following the installation and usage instructions in the method's detail page.  
+
+If you are a methodologist and want to add your software to this list, [submit your package](https://github.com/HumanCellAtlas/data-portal-content/issues/new/?with-methods-package-submission-issue-template)!
