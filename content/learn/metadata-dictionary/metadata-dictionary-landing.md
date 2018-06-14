@@ -1,5 +1,5 @@
 ---
-path: "/learn/userguides/accessing-data"
+path: "/learn/userguides/metadata-dictionary"
 date: "2018-05-30"
 title: "Accessing Data"
 ---
