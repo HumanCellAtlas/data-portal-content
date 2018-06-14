@@ -1,3 +1,8 @@
+---
+path: "/learn/userguides/secondary-analysis"
+date: "2018-05-30"
+title: "Overview of Secondary Analysis"
+---
 ## Overview of Secondary Analysis
 
 Lorem ipsum dolor amet venmo organic DIY etsy fingerstache, banjo bespoke adaptogen kombucha post-ironic green juice. Kitsch freegan woke squid four loko literally. Tacos chartreuse ethical knausgaard, mlkshk listicle +1. Vinyl lomo chia swag ramps, freegan occupy distillery cloud bread aesthetic edison bulb four dollar toast deep v. Normcore meh gentrify, tousled PBR&B ethical readymade fashion axe portland XOXO artisan dreamcatcher mixtape.
