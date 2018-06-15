@@ -1,5 +1,5 @@
 ---
-path: "/analyze/visualization-components"
+path: "/analyze/visualization-components/visualization-components-landing"
 date: "2018-05-03"
 title: "About Visualization Components"
 ---
