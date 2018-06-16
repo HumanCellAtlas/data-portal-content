@@ -1,5 +1,5 @@
 ---
-path: "/analyze/methods/methods-landing"	
+path: "/analyze/methods/overview"	
 date: "2018-05-03"	
 title: "About Methods"
 ---
