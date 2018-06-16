@@ -1,7 +1,7 @@
 ---
-path: "/build/development-guides/building-pipelines"
+path: "/build/development-guides/testing-pipelines"
 date: "2018-05-03"
-title: "Pipeline Development Guide"
+title: "Pipeline Testing Guide"
 ---
 
 ## How do I test my pipeline in the portability service?
