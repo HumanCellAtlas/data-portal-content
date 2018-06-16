@@ -1,5 +1,5 @@
 ---
-path: "/analyze/portals/visualization-portals"
+path: "/analyze/portals/portals-landing"
 date: "2018-05-03"
 title: "About Portals"
 ---
