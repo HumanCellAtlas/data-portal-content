@@ -1,8 +1,8 @@
 ---
-path: "/analyze/portals/cell-browser"
+path: "/analyze/portals/cytoscape"
 date: "2018-05-03"
-title: "Cell Browser | Maximilian Haeussler"
-subTitle: "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare."
-githubUrl: "https://github.com/HumanCellAtlas"
+title: "Cytoscape | Cytoscape consortium"
+subTitle: "Cytoscape is an open source software platform for visualizing molecular interaction networks and biological pathways and integrating these networks with annotations, gene expression profiles and other state data. Although Cytoscape was originally designed for biological research, now it is a general platform for complex network analysis and visualization.  Cytoscape core distribution provides a basic set of features for data integration, analysis, and visualization.  Additional features are available as Apps (formerly called Plugins).  Apps are available for network and molecular profiling analyses, new layouts, additional file format support, scripting, and connection with databases.  They may be developed by anyone using the Cytoscape open API based on Java™ technology and App community development is encouraged. Most of the Apps are freely available from Cytoscape App Store.  Cytoscape is being extended through apps and core features to search, extract, visualize, and analyze data from the Human Cell Atlas, with a focus on network and pathway analysis."
+appUrl: "http://www.cytoscape.org/"
 ---
 

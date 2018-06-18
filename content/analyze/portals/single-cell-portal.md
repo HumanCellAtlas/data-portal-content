@@ -1,8 +1,8 @@
 ---
-path: "/analyze/portals/cell-browser"
+path: "/analyze/portals/single-cell-portal"
 date: "2018-05-03"
-title: "Cell Browser | Maximilian Haeussler"
-subTitle: "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare."
-githubUrl: "https://github.com/HumanCellAtlas"
+title: "Single Cell Portal | Jon Bistline, Eric Weitz, Timothy Tickle"
+subTitle: "Single Cell Portal (SCP) is a visualization portal for single cell RNA-seq data. It enables users to see summaries of studies; explore data through gene search and interactive components for t-SNE plots, violin plots, heatmaps and more; analyze data using a web UI for workflows and pipelines; and download raw data."
+appUrl: "https://portals.broadinstitute.org/single_cell"
 ---
 
