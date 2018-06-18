@@ -5,5 +5,3 @@ title: "UCSC Cell Browser | Max Haeussler"
 appUrl: "http://cells.ucsc.edu/"
 githuvUrl: "http://cells.ucsc.edu/"
 ---
-
-## Visualization Portals
