@@ -2,6 +2,7 @@
 path: "/contribute/overview/overview"
 date: "2018-05-03"
 title: "Overview"
+template: "contributeOverviewTemplate"
 linked:
     - ./email-us.md
     - ./prepare-metadata.md
