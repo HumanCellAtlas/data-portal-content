@@ -4,8 +4,13 @@ date: "2018-05-03"
 title: "Visualization Portals"
 componentName: "analyze"
 linked:
-    - ./cell-browser.md
+    - ./ucsc-cell-browser.md
     - ./cell-by-gene.md
+    - ./ucsc-xena.md
+    - ./single-cell-portal.md
+    - ./genepattern-notebook.md   
+    - ./cytoscape.md
+    - ./asap.md  
 ---
 
 ## Visualization Portals
