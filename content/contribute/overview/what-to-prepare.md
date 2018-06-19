@@ -10,4 +10,5 @@ subTitle: "What to prepare"
 > * info on your donors and samples
 > * info on experiment and protocols
 > * confirmation that data is open to release with no restrictions on use
+>
 > [Detailed instructions](/contribute/overview/overview)
