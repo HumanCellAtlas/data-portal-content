@@ -7,8 +7,8 @@ subTitle: "with a short summary of your project"
 
 ![Contact us](/_images/contact-us.png)
 
-####Email us
+#### Contact us
 
 with a short summary of your project
 
-[data-help@humancellatlas.org](mailto:data-help@humancellatlas.org)
+[Contact us](mailto:data-help@humancellatlas.org)
