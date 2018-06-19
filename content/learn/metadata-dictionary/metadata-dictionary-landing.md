@@ -14,3 +14,11 @@ Raclette air plant narwhal iceland poutine bushwick tofu twee pug. Skateboard ch
 
 ## Reductio ad Absurdum 
 Bespoke hoodie godard, distillery hexagon heirloom copper mug fixie. Irony everyday carry fixie marfa shaman trust fund. Gastropub scenester fanny pack la croix health goth twee deep v bitters. Tacos ennui shoreditch, jean shorts drinking vinegar raclette adaptogen churc
+
+`normal code`
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| `col 3 is`    | right-aligned | $1600 |
+| col 2 is      | `centered`    |   $12 |
+| zebra stripes | are neat      |    $1 |
