@@ -8,4 +8,3 @@ linked:
     - ./ideogram.md
 ---
 
-## Visualization Portals
