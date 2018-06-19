@@ -5,7 +5,7 @@ title: "Upload data"
 subTitle: "to a secure data storage area"
 ---
 
-![Upload data](../_images/placeholder.png)
+![Upload data](/_images/upload-data.png)
 
 ####Upload data
 

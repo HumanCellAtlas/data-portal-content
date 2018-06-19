@@ -5,7 +5,7 @@ title: "See and share"
 subTitle: "accessioned data  on the portal"
 ---
 
-![See and share](../_images/placeholder.png)
+![See and share](/_images/see-and-share.png)
 
 ####See and share
 

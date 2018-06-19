@@ -5,7 +5,7 @@ title: "Prepare metadata"
 subTitle: "in communication with our team"
 ---
 
-![Prepare metadata](../_images/placeholder.png)
+![Prepare metadata](/_images/prepare-metadata.png)
 
 ####Prepare metadata
 
