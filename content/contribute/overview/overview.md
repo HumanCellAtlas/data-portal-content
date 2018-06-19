@@ -4,7 +4,7 @@ date: "2018-05-03"
 title: "Overview"
 template: "contributeOverviewTemplate"
 linked:
-    - ./email-us.md
+    - ./contact-us.md
     - ./prepare-metadata.md
     - ./upload-data.md
     - ./see-and-share.md
