@@ -10,7 +10,7 @@ Lorem ipsum dolor amet venmo organic DIY etsy fingerstache, banjo bespoke adapto
 
 ### Donor Organism
 
-| -------------------------------------------------------|
-| #### Biomaterial ID | A unique ID for this biomaterial |
-| #### Biomaterial Name | A short, descriptive name for the biomaterial that need not be unique |
-| #### Biomaterial Description | A general description of the biomaterial. |
+|-------------------|--------------------------------------------------------------------------------------|
+| **Biomaterial ID** | A unique ID for this biomaterial |
+| **Biomaterial Name** | A short, descriptive name for the biomaterial that need not be unique |
+| **Biomaterial Description** | A general description of the biomaterial. |
