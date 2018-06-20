@@ -5,7 +5,7 @@ title: "Software"
 subTitle: "Software for building your own pipelines and analysis platforms"
 ---
 
-#### Services
+#### Software
 
 Software for building your own pipelines and analysis platforms
 
