@@ -5,7 +5,6 @@ title: "Portals"
 componentName: "analyze"
 linked:
     - ./ucsc-cell-browser.md
-    - ./cell-by-gene.md
     - ./ucsc-xena.md
     - ./single-cell-portal.md
     - ./genepattern-notebook.md   
