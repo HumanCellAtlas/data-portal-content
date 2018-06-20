@@ -1,5 +1,5 @@
 ---
-path: "/analyze/portals/ideogram"
+path: "/analyze/visualization-components/ideogram"
 date: "2018-05-03"
 title: "Ideogram.js | Eric Weitz"
 subTitle: "Chromosome visualization with D3.js"

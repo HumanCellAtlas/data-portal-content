@@ -1,5 +1,5 @@
 ---
-path: "/analyze/portals"
+path: "/analyze/portals/visualization-portals"
 date: "2018-05-03"
 title: "Portals"
 componentName: "analyze"

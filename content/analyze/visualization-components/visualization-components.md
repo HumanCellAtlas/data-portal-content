@@ -1,5 +1,5 @@
 ---
-path: "/analyze/visualization-components"
+path: "/analyze/visualization-components/visualization-components"
 date: "2018-05-03"
 title: "Visualization components"
 componentName: "analyze"

@@ -1,5 +1,5 @@
 ---
-path: "/analyze/methods"
+path: "/analyze/methods/methods"
 date: "2018-05-03"
 title: "Methods"
 componentName: "analyze"
