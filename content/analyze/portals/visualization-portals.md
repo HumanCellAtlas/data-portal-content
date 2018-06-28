@@ -9,7 +9,8 @@ linked:
     - ./single-cell-portal.md
     - ./genepattern-notebook.md   
     - ./cytoscape.md
-    - ./asap.md  
+    - ./asap.md
+    - ./dnastack.md
 ---
 
 ## Visualization Portals
