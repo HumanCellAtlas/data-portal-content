@@ -1,8 +1,8 @@
 ---
 path: "/learn/overview/data-use-agreement"
 date: "2018-05-03"
-title: "Secondary Analysis File Formats"
-subTitle: "Vestibulum id ligula porta felis euismod semper. Donec odio dui."
+title: "Data Use Agreement"
+subTitle: ""
 ---
 
 ## Data Use Agreement
