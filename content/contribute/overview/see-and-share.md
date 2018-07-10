@@ -9,7 +9,7 @@ subTitle: "accessioned data  on the portal"
 
 #### See and share
 
-accessioned data  on the portal
+accessioned data on the portal
 
 [Browse data](/contribute/overview/overview)
 
