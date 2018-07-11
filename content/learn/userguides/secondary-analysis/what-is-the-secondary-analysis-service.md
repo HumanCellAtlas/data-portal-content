@@ -19,21 +19,21 @@ The following are pipelines in development or production in the HCA DCP:
 
 | Pipeline Name | Data Type                                   | Description                                                                                                                            | Analysis Output                                     |
 |------------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| Smart-seq2    | Full transcript single cell transcriptomics | This pipeline currently supports the Smart-seq2 protocol as described here. Read more about the pipeline                               | Aligned BAM with tagsCounts Matrix (genes)QC Matrix |
-| Optimus       | 3’ capture single cell transcriptomics      | This pipeline currently supports our first offering for 3’ scRNA-Seq, 10X V2 library prep and processing. Read more about the pipeline. | Aligned BAM with tagsCounts Matrix (genes)QC Matrix |
+| Smart-seq2    | Full transcript single cell transcriptomics | This pipeline currently supports the Smart-seq2 protocol as described [here](https://www.nature.com/articles/nprot.2014.006). Read more about the pipeline [here](need internal link).                              | Aligned BAM with tagsCounts Matrix (genes)QC Matrix |
+| 10x v2 scRNA-seq pipeline | 3’ capture single cell transcriptomics      | This pipeline currently supports our first offering for 3’ scRNA-Seq, 10X V2 library prep and processing. [Read more](internal link) about the pipeline. | Aligned BAM with tagsCounts Matrix (genes)QC Matrix |
 
 
 ## Secondary Analysis Service Portability
-In keeping with our goal of enabling the community to analyze single cell data using the most reliable and informative approaches currently available, and to facilitate computational development, our pipelines have been constructed to be portable to environments outside of the HCA. Using the portability service, you can determine whether a workflow you’ve developed will work in the HCA, or select non-HCA environments. Additionally, you can attach an environment to the portability system to check whether an HCA pipeline works in your own system. You can read more about portability here. 
+In keeping with our goal of enabling the community to analyze single cell data using the most reliable and informative approaches currently available, and to facilitate computational development, our pipelines have been constructed to be portable to environments outside of the HCA. Using the portability service, you can determine whether a workflow you’ve developed will work in the HCA, or select non-HCA environments. Additionally, you can attach an environment to the portability system to check whether an HCA pipeline works in your own system. You can read more about portability [here](internal link). 
 
 
-## Data flow through the secondary analysis service
+## Data Flow through the Secondary Analysis Service
 
 ![Secondary Analysis Service Workflow](_images/secondary_anal_fig2.png)
 
 When data is submitted to the Ingestion Service (purple box in the figure above), it is validated for technical requirements (eg. data formats, data corruption) and then moved to the Data Storage Service (blue box), which triggers a notification to the Secondary Analysis Service Listener (first green box) that data is available for secondary analysis. Depending on the experimental method used to generate the data (found in the metadata of the submission), the appropriate analysis pipeline is selected for data processing. The Execution Service then applies Sub Workflow 1 to obtain the data file(s) from the original data bundle. The data in these files are analyzed using the appropriate pipeline (Sub Workflow 2), producing new files of analysis results which are submitted (Sub Workflow 3) back to the Ingestion Service as a secondary bundle, for validation and subsequent storage in the HCA.
 
 ## Access to pipeline outputs
-Data bundles containing outputs are publicly available and can be accessed programmatically or through the HCA Data Browser. For information about programmatic access, view the documentation for the CLI here.  To browse the data, use the data portal. Additional analysis options are accessible from the Community Tools and Applications links in the Learn section of this website.
+Data bundles containing outputs are publicly available and can be accessed programmatically or through the HCA Data Browser. For information about programmatic access, view the documentation for the CLI [here](internal link). Additional analysis options are accessible from the Anlayze section of this site.
 
 
