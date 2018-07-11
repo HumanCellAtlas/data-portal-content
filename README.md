@@ -1,16 +1,17 @@
 # HCA Data Portal Content
+This repository contains content (markdown, images, downloadable PDFs)for the HCA Data portal website at https://dev.data.humancellatlas.org
 
-This repository contains content (markdown, images, downloadable PDFs)for the HCA Data poral website. 
-The website it self is Gatsby.js site with the repository located here: https://github.com/HumanCellAtlas/data-portal
-
-The data portal itself is at: https://dev.data.humancellatlas.org
-
-
+The data portal is Gatsby.js site with the data portal repository located here: https://github.com/HumanCellAtlas/data-portal
 
 ## Content Plan
 The current content plan document is here:
-
 https://docs.google.com/document/d/1c8XdfBxMfsOoUJ6wqjOCTiIXYecgzLFFmar-oDBvPpM/edit
+
+## Content Guide
+A conent guide is "under construction" here:
+https://dev.data.humancellatlas.org/document/creating-content/example-page/
+
+
 
 
 
