@@ -15,4 +15,4 @@ Services for uploading, analyzing, and accessing data
 
 [Data Browser](/about/overview/overview)
 
-[Secondary Analysis](https://dev.data.humancellatlas.org/learn/userguides/secondary-analysis/)
+[Secondary Analysis](/learn/userguides/secondary-analysis)
