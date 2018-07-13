@@ -1,6 +1,6 @@
 ---
 path: "/build/development-guides/testing-pipelines"
-date: "2018-05-03"
+date: "2018-07-12"
 title: "Pipeline Testing Guide"
 ---
 
@@ -11,11 +11,11 @@ Currently, the portability service exists as an API that can be leveraged using 
 In order to run the test, you need the following:
 
 1. **A pipeline.** The service supports pipelines written in WDL or CWL.
-2. **Standardized data.** Standard test data to use when running the pipeline.
+2. **Input data.** Standard test data to use when running the pipeline. This should be small, allowing for the pipeline to execute quickly.
 3. **Expected output.** Expected results from executing the pipeline on the standardized data.
-4. **Checker tool.** A command-line tool for checking the pipeline’s results against the expected results. Note, a pipeline may run correctly but not produce results that are perfectly identical to the expected results depending on the stochastic nature of the underlying algorithms. This should be understood by the pipeline author and would be accounted for in the checker tool. If outputs are deterministic, this can be as simple as comparing checksums between expected and generated results.
+4. **Checker step.** A step at the end of the pipeline to verify that the pipeline produced the expected results. The portability service only checks for the success or failure of a pipeline, so if the expected results are not produced, this step should raise an error.
 
-The portability service sends the candidate pipeline and the standardized test data to one or multiple execution infrastructures, which run the pipeline in that environment and send the results back for comparison to the expected results using the checker tool provided by the pipeline developer.
+The portability service sends the candidate pipeline, the associated checker tool, and the test input data to one or multiple execution infrastructures, which run the pipeline in that environment and succeed or fail depending on whether expected outputs are returned.
 
 ## Example Pipeline Submission 
 (TBD)
