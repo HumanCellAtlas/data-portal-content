@@ -11,4 +11,4 @@ subTitle: "with a short summary of your project"
 
 with a short summary of your project
 
-[Contact us](mailto:data-help@humancellatlas.org)
+[Contact us](/contact/contact/contact-us)

@@ -11,5 +11,5 @@ subTitle: "accessioned data  on the portal"
 
 accessioned data on the portal
 
-[Browse data](/contribute/overview/overview)
+[Browse data](https://explore.dev.data.humancellatlas.org/)
 
