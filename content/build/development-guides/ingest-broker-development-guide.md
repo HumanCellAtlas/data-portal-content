@@ -1,5 +1,5 @@
 ---
-path: "/build/development-guides/ingest-broker-development-guide"
+path: "/develop/development-guides/ingest-broker-development-guide"
 date: "2018-05-03"
 title: "Ingest Broker Development Guide"
 ---

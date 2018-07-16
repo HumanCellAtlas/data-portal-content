@@ -1,5 +1,5 @@
 ---
-path: "/build/development-guides/development-guides-overview"
+path: "/develop/development-guides/development-guides-overview"
 date: "2018-05-03"
 title: "Development Guides"
 linked:
