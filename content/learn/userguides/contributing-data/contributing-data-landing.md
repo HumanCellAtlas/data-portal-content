@@ -6,6 +6,8 @@ title: "Accessing Data"
 
 ## Overview of Contributing Data
 
+**REMOVE THIS PARAGRAPH WHEN PAGE GOES LIVE:** This is the only page that will give users information about how to contribute data to the HCA at this time. 
+
 ### Who can contribute to the Human Cell Atlas
 
 Anyone with openly consented human single cell sequencing data can contribute to the Human Cell Atlas.
