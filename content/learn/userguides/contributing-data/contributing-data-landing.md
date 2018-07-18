@@ -6,12 +6,24 @@ title: "Accessing Data"
 
 ## Overview of Contributing Data
 
->####Tip
->I am a blockquote with only one paragrah
+### Who can contribute to the Human Cell Atlas
 
->I am a blockquote with no tip heading
->But I have a second paragraph
+Anyone with openly consented human single cell sequencing data can contribute to the Human Cell Atlas.
 
->####Tip
->Here is a blockquote with two paragraphs and
->This is the second one
+### When can data be contributed to the Human Cell Atlas
+
+We are currently working with pilot data contributors and are not accepting further projects. If you would like to be part of the next round of data contributors, please contact us at data-help@humancellatlas.org.
+
+### What is needed to contribute data to the Human Cell Atlas
+
+1. Sequencing data
+    - fastq formatted data files demultiplexed by sample
+    - 10X or SmartSeq2 data files (if other, please contact us)
+1. Metadata spreadsheet
+    - Please contact us for a template metadata spreadsheet
+1. Open consent to make data and metadata public
+
+### What happens when data are submitted to the Human Cell Atlas
+
+1. Something happens
+1. Something else happens
