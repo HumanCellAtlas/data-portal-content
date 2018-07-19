@@ -41,7 +41,7 @@ Common Workflow Language, or [CWL](https://www.commonwl.org/), is also widely us
 
 ### Testing and Benchmarking
 
-[Unity Benchmarking Service](https://docs.google.com/document/d/1_gxct8eVb2dXjQe3YXAFh_0R5dtYMvpc9lfhRh0JgU4/edit) (currently under construction) is designed to facilitate community development and contribution of pipelines and pipeline improvements.
+Unity Benchmarking Service, currently under construction and described [here], (https://docs.google.com/document/d/1_gxct8eVb2dXjQe3YXAFh_0R5dtYMvpc9lfhRh0JgU4/edit) is designed to facilitate community development and contribution of pipelines and pipeline improvements.
 
 [Portability Service](/learn/userguides/secondary-analysis/pipeline-portability) allows you to determine whether your pipeline works in the HCA, or in select non-HCA environments. Additionally, you can attach your environment of interest to the portability system to check whether an HCA pipeline works in that environment.
 
