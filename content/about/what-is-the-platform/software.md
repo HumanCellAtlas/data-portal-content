@@ -9,4 +9,4 @@ subTitle: "Software for building your own pipelines and analysis platforms"
 
 Software for building your own pipelines and analysis platforms
 
-[Fringilla](/about/overview/overview)
+[Develop](/develop/development-guides/development-guides-overview)

@@ -9,10 +9,10 @@ subTitle: "Services for uploading, analyzing, and accessing data"
 
 Services for uploading, analyzing, and accessing data
 
-[Ingest Service](/about/overview/overview)
+[Ingest Service](/about/what-is-the-platform/ingest-service)
 
-[Data Store](/about/overview/overview)
+[Data Store](/about/what-is-the-platform/data-store)
 
-[Data Browser](/about/overview/overview)
+[Data Browser](/about/what-is-the-platform/data-browser)
 
-[Secondary Analysis](/learn/userguides/secondary-analysis)
+[Secondary Analysis](/about/what-is-the-platform/secondary-analysis)
