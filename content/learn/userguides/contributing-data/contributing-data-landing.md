@@ -29,4 +29,12 @@ We are currently working with pilot data contributors and are not accepting furt
 
 1. Something happens
 1. Something else happens
+1. Only SS2 human data will launch an analysis pipeline
+1. Find project in the Data Browser
 1. Profit!
+
+## Remaining questions
+
+1. What should we tell people who have imaging data?
+1. What should we tell people who have non-human or non-10x/SS2 data?
+1. What should we tell people about what type of analysis/results file they can expect and when?
