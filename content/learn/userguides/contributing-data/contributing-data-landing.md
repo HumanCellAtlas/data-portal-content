@@ -24,6 +24,7 @@ We are currently working with pilot data contributors and are not accepting furt
 1. Metadata spreadsheet
     - Please contact us for a template metadata spreadsheet
 1. Open consent to make data and metadata public
+    - Fill in T&C Form
 
 ### What happens when data are submitted to the Human Cell Atlas
 
