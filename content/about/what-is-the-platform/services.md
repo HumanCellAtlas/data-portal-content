@@ -2,7 +2,7 @@
 path: "/about/overview/services"
 date: "2018-05-03"
 title: "Services"
-subTitle: "Services for uploading, analyzing, and accessing data"
+subTitle: "Services for uploading, processing, and accessing data"
 ---
 
 #### Services
