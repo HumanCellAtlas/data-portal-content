@@ -26,4 +26,4 @@ To coordinate the vast amounts of data needed to build a true human cell atlas, 
 * a flexible matrix service for dynamic data delivery
 * a multi-faceted file browsing UI enabling sharing with collaborators
 
-We invite you to use this data portal to submit your data or analyze data from other laboratories and contact us with your feedback or questions.
+We invite you to use this data portal to submit your data or access data from other laboratories and contact us with your feedback or questions.
