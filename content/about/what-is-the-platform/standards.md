@@ -9,4 +9,4 @@ subTitle: "Standards for addressing data quality to enable comparisons between d
 
 Standards for addressing data quality to enable comparisons between datasets from labs around the world
 
-[Metadata](/about/overview/overview)
+[Metadata](/learn/metadata-dictionary/metadata-dictionary)
