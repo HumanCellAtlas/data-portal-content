@@ -5,7 +5,8 @@ title: "What to expect"
 subTitle: "What to expect"
 ---
 
-#### What happens after data submission
+### What happens after data submission
+
 * analysis?
 * accessioning?
 * viewing (data browser)?

@@ -5,7 +5,7 @@ title: "What to prepare"
 subTitle: "What to prepare"
 ---
 
-#### What do you need to prepare to submit data
+### What you need to prepare to submit data
 
 * Agree to [HCA terms and conditions]() for data contribution
 * Metadata
