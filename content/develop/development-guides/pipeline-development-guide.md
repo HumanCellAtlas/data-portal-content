@@ -19,7 +19,7 @@ Our pipelines for analysis of data from Smart-seq2 and 10x v2 scRNA-seq assays a
 
 ### Workflow Language Resources
 
-Workflow Description Language, or [WDL](https://software.broadinstitute.org/wdl/), was designed by the Broad Institute as a human-readable and writable language for describing workflows and tasks. We use this language in our production sequencing pipelines. The WDL language has recently evoloved into a community-governed project called [OpenWDL](http://www.openwdl.org/ to allow the broader scientific community to guide development and adoption. 
+Workflow Description Language, or [WDL](https://software.broadinstitute.org/wdl/), was designed by the Broad Institute as a human-readable and writable language for describing workflows and tasks. We use this language in our production sequencing pipelines. The WDL language has recently evoloved into a community-governed project called [OpenWDL](http://www.openwdl.org/) to allow the broader scientific community to guide development and adoption. 
 
 One can also use Common Workflow Language, or [CWL](https://www.commonwl.org/), to develop analysis workflows and tools for data-intensive fields like genomics. See the [CWL User Guide](https://www.commonwl.org/user_guide/) for more information. CWL is also a successful community-based workflow language focused on human-readable pipeline descriptions.
 
@@ -37,7 +37,7 @@ One can also use Common Workflow Language, or [CWL](https://www.commonwl.org/), 
 
 ### Testing and Benchmarking
 
-Unity Benchmarking Service, currently under construction and described [here]((https://docs.google.com/document/d/1_gxct8eVb2dXjQe3YXAFh_0R5dtYMvpc9lfhRh0JgU4/edit), is designed to facilitate community development and contribution of pipelines and pipeline improvements.
+Unity Benchmarking Service, currently under construction and described [here](https://docs.google.com/document/d/1_gxct8eVb2dXjQe3YXAFh_0R5dtYMvpc9lfhRh0JgU4/edit), is designed to facilitate community development and contribution of pipelines and pipeline improvements.
 
 [Portability Service](/learn/userguides/secondary-analysis/pipeline-portability) allows you to determine whether your pipeline works in the HCA, or in select non-HCA environments. Conversely, it also enables you to attach your execution environment to the portability system to check whether HCA pipelines work in that environment as part of our pipeline testing process.
 
@@ -55,12 +55,12 @@ We welcome your feedback about our current pipelines and your ideas for developm
 You are also welcome to attend meetings and participate in Slack discussions about secondary analysis pipelines. Here are some details:
 
 1. Analysis Community Biweekly meetings are held every other Tuesday at 11AM, Eastern Time; view the [Agenda](https://docs.google.com/document/d/1860cE2zk2baXYefu5-WzQM_p_uTGjph6dWnehiRaFDw/edit#heading=h.rt36ocexz2z5)
-2. Join the HCA Slack channels: go to [Join Slack http://join-slack.humancellatlas.org/](https://join-hca-slack.herokuapp.com/) to obtain an invitation, and join the #secondary analysis channel.
+2. Join the HCA Slack channels: go to [Join Slack](https://join-hca-slack.herokuapp.com/) to obtain an invitation, and join the #secondary analysis channel.
 3. Attend DCP demos; contact us for the dates and times, and use [this link](https://meet.google.com/eoo-rdxp-kim) to join each meeting
 4. Coming soon:
   * Workshop on pipeline development - sign up! 
   * Forum - designed for community discussion about pipelines and analysis
 5. Points of contact for specific needs: 
-* Portability service
-* Unity
+  * Portability service (TBD)
+  * Unity (TBD)
 		
