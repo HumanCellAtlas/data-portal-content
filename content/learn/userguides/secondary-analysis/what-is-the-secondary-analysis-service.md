@@ -4,36 +4,21 @@ date: "2018-05-03"
 title: "What is the Secondary Analysis Service?"
 ---
 
-## What is Secondary Analysis?
+The guides described below are designed to help you explore the Secondary Analysis Service in more detail. This documentation is dynamic; it will be updated and expanded as single cell technologies change. We'd like to hear from you; please contact us with your questions or suggestions for improvements.
 
-Secondary analysis is the process by which a computational pipeline, designed to examine data from a specific assay, is used to analyze raw experimental data. In the HCA project, secondary analysis produces collections of quality metrics and features that can be used for further analysis. For example, secondary analysis of single cell RNA-Seq data results in aligned, QC’d reads, a matrix of gene expression, and a matrix of quality control metrics describing the data.   
+### Data Processing Workflows
+Smart-seq2 Workflow in Detail: A description of our standardized, full transcript, single cell transcriptomics pipeline.
 
-## What is the Secondary Analysis Service?
-The Secondary Analysis Service consists of analysis pipelines and execution infrastructure that move raw data through analysis, producing measurements that are ingested into the Data Storage Service for storage and download by anyone, including you! The HCA DCP stores both the submitted raw data and data resulting from secondary analysis, and each type is available for download. As new single cell technologies and analysis methods are developed and accepted by the research community, we will implement new secondary analysis pipelines and make both the pipelines and the data publically available.  
+Optimus Prime Workflow in Detail; A description of our 3' single cell transcriptomics pipeline.
 
-Secondary analysis pipelines are each bespoke to the characteristics of the data they process. These pipelines can attempt to address the quality of the measurements, detecting false positives or negatives, optimal processing (such as aligning, collapsing UMIs, or segmenting images into accurate features), and many other concerns. Please see the details about each of our pipelines and send us your feedback and suggestions!
+### Workflow Standards
+QC Metrics: Discover which quality control metrics we generate while processing the data.
 
+File Formats: We use GA4GH and *de facto* file standards as much as possible; you can read more here.
 
+### Advanced Workflow Engineering
+Pipeline Portability: The ability to run workflows in your own environment is important to us; here we describe our nascent service. Note that additional guides about the portability service can be found in the *Develop* section.
 
-The following are pipelines in development or production in the HCA DCP:
-
-| Pipeline Name | Data Type                                   | Description                                                                                                                            | Analysis Output                                     |
-|------------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| Smart-seq2    | Full transcript single cell transcriptomics | This pipeline currently supports the Smart-seq2 protocol as described [here](https://www.nature.com/articles/nprot.2014.006). Read more about the pipeline [here](need internal link).                              | Aligned BAM with tagsCounts Matrix (genes)QC Matrix |
-| 10x v2 scRNA-seq pipeline | 3’ capture single cell transcriptomics      | This pipeline currently supports our first offering for 3’ scRNA-Seq, 10X V2 library prep and processing. [Read more](internal link) about the pipeline. | Aligned BAM with tagsCounts Matrix (genes)QC Matrix |
-
-
-## Secondary Analysis Service Portability
-In keeping with our goal of enabling the community to analyze single cell data using the most reliable and informative approaches currently available, and to facilitate computational development, our pipelines have been constructed to be portable to environments outside of the HCA. Using the portability service, you can determine whether a workflow you’ve developed will work in the HCA, or select non-HCA environments. Additionally, you can attach an environment to the portability system to check whether an HCA pipeline works in your own system. You can read more about portability [here](internal link). 
-
-
-## Data Flow through the Secondary Analysis Service
-
-![Secondary Analysis Service Workflow](_images/secondary_anal_fig2.png)
-
-When data is submitted to the Ingestion Service (purple box in the figure above), it is validated for technical requirements (eg. data formats, data corruption) and then moved to the Data Storage Service (blue box), which triggers a notification to the Secondary Analysis Service Listener (first green box) that data is available for secondary analysis. Depending on the experimental method used to generate the data (found in the metadata of the submission), the appropriate analysis pipeline is selected for data processing. The Execution Service then applies Sub Workflow 1 to obtain the data file(s) from the original data bundle. The data in these files are analyzed using the appropriate pipeline (Sub Workflow 2), producing new files of analysis results which are submitted (Sub Workflow 3) back to the Ingestion Service as a secondary bundle, for validation and subsequent storage in the HCA.
-
-## Access to pipeline outputs
-Data bundles containing outputs are publicly available and can be accessed programmatically or through the HCA Data Browser. For information about programmatic access, view the documentation for the CLI [here](internal link). Additional analysis options are accessible from the Anlayze section of this site.
+Workflow Best Practices: Engineering great pipelines is a complex endeavor and we do this in an iterative manner, learning best practices as we go. If you are a developer, check out our guides on [Pipeline Development](develop/development-guides/pipeline-development-guide) and [Contributing a pipeline to the HCA DCP](develop/development-guides/contributing-a-pipeline-to-the-hca-dcp) in the *Develop* section of this site.
 
 
