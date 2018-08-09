@@ -3,8 +3,8 @@ path: "/learn/userguides/secondary-analysis/what-is-the-secondary-analysis-servi
 date: "2018-05-03"
 title: "What is the Secondary Analysis Service?"
 ---
-
-The guides described below are designed to help you explore the Secondary Analysis Service in more detail. This documentation is dynamic; it will be updated and expanded as single cell technologies change. We'd like to hear from you; please contact us with your questions or suggestions for improvements.
+## Overview of Secondary Analysis User Guides
+The guides described below are designed to help you explore the Secondary Analysis Service in detail. This documentation is dynamic and will be updated and expanded as single cell technologies change. We'd like to hear from you; please contact us with your questions or suggestions for improvements.
 
 ### Data Processing Workflows
 Smart-seq2 Workflow in Detail: A description of our standardized, full transcript, single cell transcriptomics pipeline.
