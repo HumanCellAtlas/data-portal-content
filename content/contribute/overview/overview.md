@@ -26,13 +26,6 @@ We are actively investigating standard analysis pipelines for these data types. 
 
 Ultimately many types of cellular resolution data will be needed to build the Human Cell Atlas. If you have other data types not mentioned here, please reach out to us. As our platform develops we will want to use these data to build the atlas; help you share these data with the community, and we will make it available in cloud environments for you and your collaborators to use.
 
-## What to prepare
-
-### Breadth of the data and metadata
-We aim to collect sufficient information about any experiment to enable your data to be used in building the Human Cell Atlas and for other scientists to be able to understand your dataset and reproduce the outcomes without needing to contact you to ask for more details. 
-
-We are working with scientists like you to define our metadata standards and what are the minimum requirements are to describe experiments in the Human Cell Atlas. You can see our standards in the metadata dictionary. Please contact us if you feel there is something missing or there is required information that you will not be able to supply.
-
 ## The submission process
 
 Our current submission process uses spreadsheets to collect the metadata and an upload tool to deposit the data files in our cloud infrastructure. You will be supported in the process by our data wranglers. Currently submission is a collaborative process between you and one of our wranglers. As our platform evolves, we aim to make the submission process more self-service.
@@ -57,6 +50,7 @@ The submission process is evolving and we are working to improve the systems you
 After the data has been submitted, it will be made available in our data portal. For SmartSeq2 and 10x single cell RNAseq experiments, the data will also be processed by our standard analysis pipelines. These results will be deposited in the data store alongside your raw data and will be discoverable via the data portal. Your data will also be available for use in the tertiary portals which are connected to our platform. You can get a full list of the current services that are connected to us on in our tertiary portals registry.
 
 ### Archival submission
+
 In order to support you when you publish using your data we will also submit data to community standard archives and return you the archival accessions that you need to publish the data. 
 
 Currently we are able to archive any sequencing data which is submitted to us. Our default archives for submission are the BioStudies, BioSamples, and European Nucleotide Archives based at EMBL-EBI. We are working towards supporting submission to GEO if your funding mandates submission there. Please let the data wrangler know if this is the case when you start your submission process.

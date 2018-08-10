@@ -6,11 +6,17 @@ template: ""
 linked:
 ---
 
+## What to prepare
+
+### Breadth of the data and metadata
+
+We aim to collect sufficient information about any experiment to enable your data to be used in building the Human Cell Atlas and for other scientists to be able to understand your dataset and reproduce the outcomes without needing to contact you to ask for more details. 
+
+We are working with scientists like you to define our metadata standards and what are the minimum requirements are to describe experiments in the Human Cell Atlas. You can see our standards in the metadata dictionary. Please contact us if you feel there is something missing or there is required information that you will not be able to supply.
+
 ## What to submit
 
-As the data contributor, you may need to consult with your colleagues, e.g. collaborators or the core facility personnel performing sample preparation or sequencing for you, to gather all detailed information for a successful submission.
-
-We will need you to provide:
+As the data contributor, you may need to consult with your colleagues, e.g. collaborators or the core facility personnel performing sample preparation or sequencing for you, to gather all detailed information for a successful submission. We will need you to provide:
 
 ### Metadata
 
