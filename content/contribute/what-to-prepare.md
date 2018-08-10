@@ -1,5 +1,5 @@
 ---
-path: "/contribute/what-to-prepare"
+path: "/contribute/overview/what-to-prepare"
 date: "2018-08-010"
 title: "What to prepare"
 template: ""

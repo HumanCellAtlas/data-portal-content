@@ -1,5 +1,5 @@
 ---
-path: "/contribute/terms-and-conditions"
+path: "/contribute/overview/terms-and-conditions"
 date: "2018-08-10"
 title: "Terms and conditions"
 template: ""
