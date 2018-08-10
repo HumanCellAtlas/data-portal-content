@@ -8,8 +8,6 @@ linked:
     - ./prepare-metadata.md
     - ./upload-data.md
     - ./see-and-share.md
-    - ./what-to-prepare.md
-    - ./what-to-expect.md
 ---
 
 ## What data can be submitted?
