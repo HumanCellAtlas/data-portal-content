@@ -6,12 +6,6 @@ title: "Contributing Data"
 
 ## Overview of Contributing Data
 
-**REMOVE THIS PARAGRAPH WHEN PAGE GOES LIVE:** This is the only page that will give users information about how to contribute data to the HCA at this time. 
+The Human Cell Atlas is interested in all types of cellular resolution 'omics data. If you have cellular resolution data of any type which is consented for open data release, please talk to us and we are happy to discuss if it is suitable for the atlas.
 
-### Metadata dictionary
-
-### Metadata entity model
-
-### Example spreadsheet?
-
-### Guide for filling out a spreadsheet?
+For more information about how to contribute data to the Human Cell Atlas, please see the "Contribute" section.
