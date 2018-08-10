@@ -19,3 +19,7 @@ Help improve the HCA Data Portal by giving us your feedback.  We will contact yo
 ### Register with the HCA
 
 Register with the Human Cell Atlas to find collaborators and stay up-to-date about news and events.  [Register with the HCA] (https://www.humancellatlas.org/joinHCA).
+
+### Contribute to the HCA
+
+If you have data that you’d like to add to the HCA, visit this page to learn more about contributing data.  If you’d like to contribute an analysis or visualization application, email [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org). 
