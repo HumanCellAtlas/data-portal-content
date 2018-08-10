@@ -10,15 +10,15 @@ We are constantly improving the Data Portal to be a better resource for our comm
 
 ### Email us with questions
 
-Find something that’s not working right?  Have questions about the Data Portal or the datasets? Email us at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org)to ask questions or report issues. 
+Find something that’s not working right?  Have questions about the Data Portal or the datasets? Email us at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org) to ask questions or report issues. 
 
 ### Give us feedback
 
-Help improve the HCA Data Portal by giving us your feedback.  We will contact you to ask for your thoughts about the existing Data Portal and our future ideas, via surveys or interviews. [Sign-up to share feedback] (https://docs.google.com/forms/d/e/1FAIpQLSdVAfI6ykvVoZZmbQwJCqIIBIii5h7fdvd5idKXQoUyvEwHrw/viewform). 
+Help improve the HCA Data Portal by giving us your feedback.  We will contact you to ask for your thoughts about the existing Data Portal and our future ideas, via surveys or interviews. [Sign-up to share feedback](https://docs.google.com/forms/d/e/1FAIpQLSdVAfI6ykvVoZZmbQwJCqIIBIii5h7fdvd5idKXQoUyvEwHrw/viewform). 
 
 ### Register with the HCA
 
-Register with the Human Cell Atlas to find collaborators and stay up-to-date about news and events.  [Register with the HCA] (https://www.humancellatlas.org/joinHCA).
+Register with the Human Cell Atlas to find collaborators and stay up-to-date about news and events.  [Register with the HCA](https://www.humancellatlas.org/joinHCA).
 
 ### Contribute to the HCA
 
