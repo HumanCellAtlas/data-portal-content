@@ -19,7 +19,7 @@ The HCA aims to break down barriers in data use, offering immediate and open acc
 
 We use this service as part of our testing during pipeline development so that we can be sure that pipelines developed for the HCA can be executed successfully in many environments.
 
-The HCA is a driver project of the [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org/), and the portability service helps demonstrate GA4GH APIs for executing workflows in different infrastructures. In conjunction with the GA4GH and their other driver projects we are working to develop policies, standards, and tools for genomic and health-related data sharing. We welcome community involvement and feedback; contact [GA4GH](INFO@GA4GH.ORG) or the [HCA DCP](mailto:data-help@humancellatlas.org) for more information.
+The HCA is a driver project of the [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org/), and the portability service helps demonstrate GA4GH APIs for executing workflows in different infrastructures. In conjunction with the GA4GH and their other driver projects we are working to develop policies, standards, and tools for genomic and health-related data sharing. We welcome community involvement and feedback; contact [GA4GH](https://www.ga4gh.org/) or the [HCA DCP](mailto:data-help@humancellatlas.org) for more information.
 
 ### How can I use the Portability Service?
 
