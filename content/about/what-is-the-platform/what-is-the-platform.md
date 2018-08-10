@@ -2,7 +2,7 @@
 path: "/about/what-is-the-platform/what-is-the-platform"
 date: "2018-05-03"
 title: "What is the Platform?"
-subTitle: "What we provide"
+subTitle: "Find more information about"
 componentName: "about"
 linked:
     - ./services.md
