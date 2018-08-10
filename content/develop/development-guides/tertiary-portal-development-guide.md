@@ -13,7 +13,11 @@ The Human Cell Atlas Data Coordination Platform holds much potential to support 
 
 We provide several computational solutions to leverage in building products. We have several REST APIs for programmatic inteface, an open metadata schema to leverage, cloud-native pipelines that are portable to multiple environments, and standardized domain specific methodology and visualizations. We provide a couple vignettes as examples of interacting with different aspects of the DCP. After you have made a product interacting with the DCP, please register it with the Data Portal for data hand-off or list it in our Registry.
 
-## Example Vignettes
+## Examples
+
+**Consumer Vignettes** These vignettes highlight the process of certain programmatic tasks that involve the DCP.
+
+[Consumer Vignettes](develop/development-guides/consumer-vignettes)   
 
 ## Working with Ingest
 
@@ -33,15 +37,15 @@ We provide several computational solutions to leverage in building products. We 
 
 **Consumer API** Data in the HCA data store can be accessed programmatically through the consumer API. This interface includes both a REST API end point and a CLI (python).
 
-[Consumer API Swagger]   
-[HCA DCP CLI]   
+[Consumer API Swagger](https://dss.integration.data.humancellatlas.org)   
+[HCA DCP CLI](https://hca.readthedocs.io/en/latest)   
 
 ## Leveraging Pipelines
 
 **Pipelines** Cloud-native pipelines are creataed using GA4GH workflow languages (CWL or WDL). On release, these pipelines can be found on Dockstore and during development can be found in GitHub.
 
-[Skylab]   
-[Dockstore]   
+[GitHub Repo for Pipelines (Skylab)](https://github.com/HumanCellAtlas/skylab)   
+SS2 in Dockstore (Coming soon)   
 
 ## Accessing the Matrix Service
 
