@@ -91,14 +91,3 @@ Currently we are able to archive any sequencing data which is submitted to us. O
 At the moment we will not automatically archive imaging data but we are engaged with the community to understand what are the archival best practice for biological images and then we will work to support submission to these archives.  
 
 Start the HCA submission process by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
-
-#### Data submission process
-
-1. **Communicate with an HCA DCP data wrangler** Data contributors will work closely with an HCA DCP data wrangler to assemble and finalize everything needed for a data submission. This process starts with a meeting between HCA DCP members and data contributors involved in the project a
-
-1. **Assemble metadata** Data contributors will gather, assemble, and review all metadata that is part of the data submission.
-
-1. **Submit data files** With the help of an HCA DCP data wrangler, data contributors will use the HCA CLI (command line interface) to upload data files to the cloud.
-
-1. **Confirm for publication** After an HCA DCP data wrangler has finalized the data submission, everything will be sent to the data submitter for review and confirmation. Data submitters will also be asked to agree to the HCA DCP Terms and Conditions.
-
