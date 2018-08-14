@@ -25,12 +25,13 @@ We provide several computational solutions to leverage in building products. We 
 
 [Starting point: GitHub Repository Ingest Central (ingest-central)](https://github.com/HumanCellAtlas/ingest-central)    
 [GitHub Repository for Ingest API(ingest-broker-api)](https://github.com/HumanCellAtlas/ingest-broker-api)    
+[HAL Browser for the Ingest API](http://api.ingest.dev.data.humancellatlas.org/browser/index.html)   
 
 ## Learning More About Metadata
 
 **HCA Metadata** The HCA metadata schema is a curated description of the entities and thier relationships captured in HCA data. The metadata schema is public to review on GitHub. The metadata schema is also extensible and open for changes through pull requests.
 
-[Learn More About Metadata](https://github.com/HumanCellAtlas/metadata-standards)   
+[Learn More About Metadata](https://github.com/HumanCellAtlas/metadata-schema/tree/master/docs)   
 [Github Repository for metadata schema (metadata-schema)](https://github.com/HumanCellAtlas/metadata-schema)   
 [GitHub Repository for the metadata API Library (metadata-api)](https://github.com/HumanCellAtlas/metadata-api)   
 
@@ -43,9 +44,10 @@ We provide several computational solutions to leverage in building products. We 
 
 ## Leveraging Pipelines
 
-**Pipelines** Our cloud-native pipelines are created using GA4GH workflow languages (CWL or WDL). On release, these pipelines can be found on Dockstore and during development can be found in GitHub.
+**Pipelines** Our cloud-native pipelines are created using GA4GH workflow languages (CWL or WDL). On release, these pipelines can be found on Dockstore and during development can be found in GitHub. Our pipelines are modular and one can also reuse the tasks (or tools) that comprise the pipelines; we point to both pipelines and tasks below.
 
 [GitHub Repository for Pipelines (Skylab)](https://github.com/HumanCellAtlas/skylab)   
+[Pipeline Tasks](https://github.com/HumanCellAtlas/skylab/tree/master/library/tasks)
 [Dockstore](https://dockstore.org)   
 
 ## Accessing the Matrix Service
