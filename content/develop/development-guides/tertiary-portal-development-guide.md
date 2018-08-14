@@ -47,7 +47,7 @@ We provide several computational solutions to leverage in building products. We 
 **Pipelines** Our cloud-native pipelines are created using GA4GH workflow languages (CWL or WDL). On release, these pipelines can be found on Dockstore and during development can be found in GitHub. Our pipelines are modular and one can also reuse the tasks (or tools) that comprise the pipelines; we point to both pipelines and tasks below.
 
 [GitHub Repository for Pipelines (Skylab)](https://github.com/HumanCellAtlas/skylab)   
-[Pipeline Tasks](https://github.com/HumanCellAtlas/skylab/tree/master/library/tasks)
+[Pipeline Tasks](https://github.com/HumanCellAtlas/skylab/tree/master/library/tasks)   
 [Dockstore](https://dockstore.org)   
 
 ## Accessing the Matrix Service
