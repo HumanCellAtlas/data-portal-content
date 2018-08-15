@@ -9,3 +9,10 @@ linked:
 
 ## Development Guides
 
+### Pipeline Development Guide
+
+Read about pipeline development: from resources to best practices, and how to use our portability service to test your pipeline and execution environment. We hope you will consider developing a pipeline for use in the Data Coordination Platform!
+
+### Analysis Applications Development Guide
+
+We are excited to be a part of your products and solutions. Here we point you to technical resources to support your development.
