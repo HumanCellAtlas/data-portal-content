@@ -14,4 +14,4 @@ The main uses of the data browser are to find data and then facilitate the furth
 The user interface provides a faceted view of the data in the Data Store. You can select data of interest by ticking the checkboxes on attributes of the data that interest them, such as organ type or part, process used, type of donor, characteristics of the specimen, which project the data is part of, and many more characteristics. You can also search directly for data with certain attributes by simply typing the characteristic in the search box.
 
 #### Downloading Data
-Once you have selected a set of data you can press the download button on the UI. A manifest of the selected files will be downloaded. You can download the actual data files by the using the [HCA cli](/learn/userguides/accessing-data/using-the-cli-to-access-data).
+Once you have selected a set of data you can press the download button on the UI. A manifest of the selected files will be downloaded. You can download the actual data files by the using the [HCA CLI](/learn/userguides/accessing-data/using-the-cli-to-access-data).
