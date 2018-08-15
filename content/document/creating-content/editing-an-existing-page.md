@@ -7,7 +7,7 @@ title: "Editing an Existing Page"
 # Editing an Existing Page Directly in Github
 The HCA Data Portal pages are written in [markdown](https://guides.github.com/features/mastering-markdown/) and stored in the [HumanCellAtlas/data-portal-content](https://github.com/HumanCellAtlas/data-portal-content) repository on github.
 
-## Find the Page
+## Find the Page Source in Github
 To edit an HCA Data Portal content page, first find the page in the content directory of the data-portal-content github repository, located here: https://github.com/HumanCellAtlas/data-portal-content/tree/master/content.
  
  Pages are generally in a folder structure that follows the site outline. It is possible, however, for a page to be anwhere in the conntent folder as the folder structure does not drive the site outline. 
