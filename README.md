@@ -1,4 +1,5 @@
-# Content for the HCA Data Portal http://dev.data.humancellatlas.org
+# HCA Data Portal Conent
+## http://dev.data.humancellatlas.org
 
 This repository contains mardown document content (markdown, images, downloadable PDFs) for the HCA Data portal. Please see the [HCA Data Portal repository]( https://github.com/HumanCellAtlas/data-portal) for other sources of content. 
 
