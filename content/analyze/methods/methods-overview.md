@@ -5,7 +5,7 @@ title: "About Methods"
 ---
 
 ## About Methods
-Methods for Human Cell Atlas are tools for [tertiary analysis](learn/userguides/tertiary-analysis) involving scRNA-seq, scDNA-seq, in situ transcriptomics, multi-modal and other computational biology approaches.  This registry lists packages for such methods.
+Methods for Human Cell Atlas are tools for [tertiary analysis](/learn/userguides/tertiary-analysis) involving scRNA-seq, scDNA-seq, in situ transcriptomics, multi-modal and other computational biology approaches.  This registry lists packages for such methods.
 
 You can use methods packages by following the installation and usage instructions in the method's detail page.  Portal developers can also find instructions for integrating these methods into an app on each method's detail page.
 
