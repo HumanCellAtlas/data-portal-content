@@ -2,7 +2,7 @@
 path: "/develop/development-guides/pipeline-development-guide"
 date: "2018-05-03"
 title: "Pipeline Development Guide"
-subTitle: "Best practices for using our portability service to develop and test your pipeline and execution environment."
+subTitle: "Resources and best practices, including using our portability service to test your pipeline and execution environment"
 ---
 ## Quick Start Guide for Building Analysis Pipelines
 
