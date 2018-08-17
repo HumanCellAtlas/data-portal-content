@@ -12,15 +12,15 @@ If you have questions or issues to report please email [data-help@humancellatlas
 
 #### What is the Human Cell Atlas?
 
-The HCA is a collaborative effort by an international group scientists to create a comprehensive reference map of all the cells in the human body.  The HCA Data Portal and data coordination platform are built by scientists and technologists at EMBL-EBI, the Broad, UC Santa Cruz, and the Chan Zuckerberg Initiative.  [Learn more about the HCA project here](https://www.humancellatlas.org/). 
+The HCA is a collaborative effort by an international group of scientists to create a comprehensive reference map of all the cells in the human body.  The HCA Data Portal and data coordination platform are built by scientists and technologists at EMBL-EBI, the Broad Institute, UC Santa Cruz, and the Chan Zuckerberg Initiative.  [Learn more about the HCA project here](https://www.humancellatlas.org/). 
 
 #### What kind of data is in the HCA?
 
-The HCA data will eventually accept all types of single cell data, but it currently contains single-cell RNA-sequencing data from Smart-seq2 and 10X assays.  While we are focused on curating a collection of data from healthy human specimens, as we grow, we are accepting data from a number of sources, including model organisms and organoids, and both healthy and diseased samples.  In the future, we will offer data releases that contain only healthy human samples. Stay tuned, the HCA is constantly evolving!
+The HCA data will eventually accept all types of single-cell data, but it currently contains single-cell RNA-sequencing data from Smart-seq2 and 10Xv2 assays.  While we are focused on curating a collection of data from healthy human specimens, as we grow we are accepting data from a number of sources, including model organisms and organoids, and both healthy and diseased samples.  In the future, we will offer data releases that contain only healthy human samples. Stay tuned, the HCA is constantly evolving!
 
 #### How do I get more details about projects, like protcols or publications?
 
-You can learn more about each project by visiting the Projects tab in the Explore section of the Data Portal.  We encourage all contributing projects to give a detailed description of their protocol, as well as posting their protocol details at [protocols.io](https://www.protocols.io/). Publication information, where available, is also visible on this page.
+You can learn more about each project by visiting the Projects tab in the Explore section of the Data Portal.  We encourage all contributing projects to provide a detailed description of their protocol, as well as posting their protocol details at [protocols.io](https://www.protocols.io/). Publication information, where available, is also visible on this page.
 
 #### Can I use this data for a publication?
 
@@ -28,11 +28,11 @@ Yes, data from the HCA can be used for publication.  [Learn more about our data 
 
 #### How do I cite HCA data?
 
-?
+The HCA DCP Data Portal, https://data.humancellatlas.org/, can be used as the citation for data obtained from the HCA. Alternatively, you can cite this paper: Regev A., et al. 2017. The Human Cell Atlas. Elife. Dec 5;6. pii: e27041. doi: 10.7554/eLife.27041.
 
 #### How do I visualizae or analze the data?
 
-Single-cell sequencing analysis methods are constantly changing, and there are many tools for visualizing or analyzing the data in the HCA.  Popular tools for analyzing single-cell RNA-seq data include Seurat (R) and ScanPy (Python), though many excellent tools exist. We also offer a list of community-build analysis applications under the Analyze tab on the Data Portal. [See more here].
+Single-cell sequencing analysis methods are constantly changing, and there are many tools for visualizing or analyzing the data in the HCA.  Popular tools for analyzing single-cell RNA-seq data include Seurat (R) and ScanPy (Python),though many other excellent tools exist. We also offer a list of community-build analysis applications under the Analyze tab on the Data Portal. [See more here].
 
 #### How do I make my tool compatible with HCA data and add it to the HCA Data Portal?
 
@@ -40,7 +40,7 @@ We encourage scientists and developers to contribute their own analysis and visu
 
 #### How can I get involved with the HCA?
 
-Learn how to collaborate with us and give us feedback on the [Contact] page. 
+Visit the [Contact] page to learn how to collaborate with us and to reach us with your feedback. 
 
 #### How can I reuse parts of the DCP?
 
