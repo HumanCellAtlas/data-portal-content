@@ -19,6 +19,6 @@ File Formats: We use GA4GH and *de facto* file standards as much as possible; yo
 ### Advanced Workflow Engineering
 Pipeline Portability: The ability to run workflows in your own environment is important to us; here we describe our nascent service. Note that additional guides about the portability service can be found in the *Develop* section.
 
-Workflow Best Practices: Engineering great pipelines is a complex endeavor and we do this in an iterative manner, learning best practices as we go. If you are a developer, check out our guides on [Pipeline Development](develop/development-guides/pipeline-development-guide) and [Contributing a pipeline to the HCA DCP](develop/development-guides/contributing-a-pipeline-to-the-hca-dcp) in the *Develop* section of this site.
+Workflow Best Practices: Engineering great pipelines is a complex endeavor and we do this in an iterative manner, learning best practices as we go. If you are a developer, check out our guides on [Pipeline Development](/develop/development-guides/pipeline-development-guide) and [Contributing a pipeline to the HCA DCP](/develop/development-guides/contributing-a-pipeline-to-the-hca-dcp) in the *Develop* section of this site.
 
 
