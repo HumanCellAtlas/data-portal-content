@@ -17,7 +17,7 @@ We provide several computational solutions to leverage in building products. We 
 
 **Consumer Vignettes** These vignettes highlight the process of certain programmatic tasks that involve the DCP.
 
-[Consumer Vignettes](develop/development-guides/consumer-vignettes)   
+[Consumer Vignettes](/develop/development-guides/consumer-vignettes)   
 
 ## Working with Ingest
 
@@ -61,8 +61,8 @@ Matrix service swagger - Coming Soon
 
 **HCA DCP Methods Registry** The methods registry contains domain specific computational methodology and visualization that are standardized in a way we hope enables clear communication and ease of use between the methodologists and engineers who may want to leverage the software.
 
-[Methodology Listing](analyze/methods/methods)   
-[Visualizations Listing](analyze/visualization-components/visualization-components)   
+[Methodology Listing](/analyze/methods/methods)   
+[Visualizations Listing](/analyze/visualization-components/visualization-components)   
 
 ## Registering with the Data Portal
 
