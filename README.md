@@ -7,9 +7,11 @@ This repository contains content (markdown, images, downloadable PDFs) for the [
 ## Creating Content
 Basic instructions for creating/updating content can be found at the following links:
 
+* [Overview](https://dev.data.humancellatlas.org/document/creating-content/overview)
 * [Editing an Existing Page](https://dev.data.humancellatlas.org/document/creating-content/editing-an-existing-page)
 * [Creating Links](https://dev.data.humancellatlas.org/document/creating-content/creating-links)
 * [Using Images](https://dev.data.humancellatlas.org/document/creating-content/using-images)
+* [Creating a New Page](https://dev.data.humancellatlas.org/document/creating-content/creating-a-existing-page)
 
 >The markdown douments are in the `/content` folder of this repository.
 
@@ -17,15 +19,9 @@ Basic instructions for creating/updating content can be found at the following l
 The current content plan document is here:
 https://docs.google.com/document/d/1c8XdfBxMfsOoUJ6wqjOCTiIXYecgzLFFmar-oDBvPpM/edit
 
-## Data Potal Repository
+## Getting Help
 
-The data portal is Gatsby.js site with the build scripts, configuration and custom templates here: https://github.com/HumanCellAtlas/data-portal
-
-  
-
-
-
-
+The fastest way to get conetent help is to reach out via the the [Content Team Slack Channel](slack://channel?team={T2EQJFTMJ}&id={CA53K2C3A})
 
 
 
