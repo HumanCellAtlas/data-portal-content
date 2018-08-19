@@ -13,11 +13,11 @@ Basic instructions for creating/updating content can be found at the following l
 * [Using Images](https://dev.data.humancellatlas.org/document/creating-content/using-images)
 * [Creating a New Page](https://dev.data.humancellatlas.org/document/creating-content/creating-a-existing-page)
 
->The markdown douments are in the `/content` folder of this repository.
+>The markdown douments are in the [/content](https://github.com/HumanCellAtlas/data-portal-content/tree/master/content)` folder of this repository.
 
 ## Content Plan
-The current content plan document is here:
-https://docs.google.com/document/d/1c8XdfBxMfsOoUJ6wqjOCTiIXYecgzLFFmar-oDBvPpM/edit
+Our [Content Plan](https://docs.google.com/document/d/1c8XdfBxMfsOoUJ6wqjOCTiIXYecgzLFFmar-oDBvPpM/edit) lays our our goals and plans for creating site content leading up to the initial release.
+
 
 ## Style Guide (Draft)
 Please see the draft versoin of our [Style Guide](https://docs.google.com/document/d/1xzUXnozewMhmePqYmFzfFpwoI-UdZd6ds3EFx1Cq7EQ/edit) for information relating to recommended voice, tone and terminology.
