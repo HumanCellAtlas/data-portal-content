@@ -32,7 +32,7 @@ This renders like:
 
 ![Cell Image](./_images/jumbotron-cell-mobile.png "That Cell!")
 
->TIP
+>####TIP
 >You can check if the image link is correct by using the preview link in the markdown editor.
 
 ## Controlling Image Size
