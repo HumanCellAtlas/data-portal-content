@@ -19,9 +19,13 @@ Basic instructions for creating/updating content can be found at the following l
 The current content plan document is here:
 https://docs.google.com/document/d/1c8XdfBxMfsOoUJ6wqjOCTiIXYecgzLFFmar-oDBvPpM/edit
 
+## Style Guide (Draft)
+Please see the draft versoin of our [Style Guide](https://docs.google.com/document/d/1xzUXnozewMhmePqYmFzfFpwoI-UdZd6ds3EFx1Cq7EQ/edit) for information relating to recommended voice, tone and terminology.
+
 ## Getting Help
 
-The fastest way to get conetent help is to reach out via the the [Content Team Slack Channel](slack://channel?team=T2EQJFTMJ&id=CA53K2C3A)
+The fastest way to get conetent help is to reach out via the the [Content Team Slack Channel](https://slack.com/app_redirect?channel=CA53K2C3A&team=T2EQJFTMJ)
+
 
 
 
