@@ -6,12 +6,13 @@ title: "Creating Links"
 
 # Creating Links in Markdown
 
-```
-[Link text Here] (https://url-here.org)
-
-```
 
 Markdown syntax for a hyperlink is square brackets followed by parentheses. The square brackets hold the text, the  parentheses hold the link.
+
+```
+[Link text Here] (https://link-url-here.org)
+
+```
 
 
 ## Internal Lniks
@@ -33,6 +34,8 @@ Putting this all together an internal link looks like:
 
 This renders as: [An Internal Link](/document/creating-content/editing-an-existing-page)
 
+>####Tip:
+> Don't forget the leading slash "/" in the internal link paths.
 
 
 ### Links to a Page Heading
