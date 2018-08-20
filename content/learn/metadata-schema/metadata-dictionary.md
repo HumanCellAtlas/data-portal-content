@@ -2,6 +2,7 @@
 path: "/learn/metadata-schema/metadata-dictionary"
 date: "2018-05-30"
 title: "Metadata Dictionary"
+componentName: "metadata"
 ---
 
 ## Metadata Dictionary
