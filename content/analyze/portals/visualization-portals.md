@@ -11,6 +11,7 @@ linked:
     - ./cytoscape.md
     - ./asap.md
     - ./dnastack.md
+    - ./single-cell-expression-atlas.md
 ---
 
 ## Visualization Portals
