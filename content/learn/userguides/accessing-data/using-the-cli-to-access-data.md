@@ -6,36 +6,24 @@ title: "Using the CLI to Access Data"
 
 ## Using the CLI to Access Data
 
-Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+### Installation
+:code:`pip install hca`.
 
-`youtube: https://www.youtube.com/watch?v=h1_DdQ0XHZI`
+### Usage
+The hca package installs a command-line utility :code:`hca`.
 
-###Install the HCA CLI tool in the terminal
+To see the list of commands you can use, type :code:`hca --help`.  Commands are grouped into major categories that
+roughly correspond to DCP system components, e.g. DSS, Staging Service.  To get detailed help for a particular
+command group type, e.g. :code:`hca dss --help`.
 
-```block-highlight
-$ pip install hca
-```
+### Configuration management
+The HCA CLI supports ingesting configuration from a configurable array of sources. Each source is a JSON file.
+Configuration sources that follow the first source update the configuration using recursive dictionary merging. Sources
+are enumerated in the following order (i.e., in order of increasing priority):
 
-###Get some data to upload
+- Site-wide configuration source, ``/etc/hca/config.json``
+- User configuration source, ``~/.config/hca/config.json``
+- Any sources listed in the colon-delimited variable ``HCA_CONFIG_FILE``
+- Command line options
 
-```block-highlight
-$ git clone https://github.com/HumanCellAtlas/demo-data.git
-$ cd demo-data/2017-10/SmartSeq2
-```
-
-Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur.
-
-Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur.
-
-
->####Tip
->Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum.</dd>
-
-
-<dl>
-  <dt>Note</dt>
-  <dd>Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum.</dd>
-</dl>
-
-Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur.
 
