@@ -7,15 +7,14 @@ title: "Using the CLI to Access Data"
 ## Using the CLI to Access Data
 
 ### Installation
-`pip install hca`.
+`pip install hca`
 
 ### Usage
-The hca package installs a command-line utility :code:`hca`.
+The hca package installs a command-line utility `hca`.
 
-To see the list of commands you can use, type :code:`hca --help`.  Commands are grouped into major categories that
+To see the list of commands you can use, type `hca --help`.  Commands are grouped into major categories that
 roughly correspond to DCP system components, e.g. DSS, Staging Service.  To get detailed help for a particular
-command group type, e.g.:
-`hca dss --help`.
+command group type, e.g. `hca dss --help`.
 
 ### Configuration management
 The HCA CLI supports ingesting configuration from a configurable array of sources. Each source is a JSON file.
