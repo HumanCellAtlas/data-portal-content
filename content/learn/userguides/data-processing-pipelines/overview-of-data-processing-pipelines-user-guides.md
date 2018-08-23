@@ -1,5 +1,5 @@
 ---
-path: "/learn/userguides/secondary-analysis/what-is-the-secondary-analysis-service"
+path: "/learn/userguides/data-processing-pipelines/overview-of-data-processing-pipelines-user-guides"
 date: "2018-05-03"
 title: "Overview of Data Processing Pipelines User Guides"
 ---

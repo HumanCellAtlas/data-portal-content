@@ -1,7 +1,7 @@
 ---
-path: "/learn/userguides/tertiary-analysis"
+path: "/learn/userguides/analysis-applications"
 date: "2018-05-30"
-title: "Tertiary Analysis"
+title: "Analysis Applications"
 ---
 
 ## Overview of Tertiary Analysis

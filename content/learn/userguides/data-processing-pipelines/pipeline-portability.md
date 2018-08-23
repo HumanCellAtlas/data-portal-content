@@ -1,5 +1,5 @@
 ---
-path: "/learn/userguides/secondary-analysis/pipeline-portability"
+path: "/learn/userguides/data-processing-pipelines/pipeline-portability"
 date: "2018-07-12"
 title: "Secondary Analysis Pipeline Portability"
 ---

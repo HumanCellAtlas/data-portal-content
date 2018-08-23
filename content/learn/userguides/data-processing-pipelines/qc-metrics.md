@@ -1,5 +1,5 @@
 ---
-path: "/learn/userguides/secondary-analysis/qc-mertics"
+path: "/learn/userguides/data-processing-pipelines/qc-mertics"
 date: "2018-05-03"
 title: "Secondary Analysis QC Metrics"
 ---
