@@ -46,7 +46,8 @@ At the top of the file you will see a "Front Matter" sections between the `---` 
     ---
  ```
  
- >####Tip Note that any changes to the `path:` section need a corresponding change to a `sitemap.js` file in the data-data portal repository. Please create [Github/Zenhub](https://app.zenhub.com/workspace/o/humancellatlas/data-portal-content/boards?repos=130759918) ticket for updating the stiemap.
+ >####Tip 
+ >Note that any changes to the `path:` section need a corresponding change to a `sitemap.js` file in the data-data portal repository. Please create [Github/Zenhub](https://app.zenhub.com/workspace/o/humancellatlas/data-portal-content/boards?repos=130759918) ticket for updating the stiemap.
     
  ## Create a Pull Request
  
