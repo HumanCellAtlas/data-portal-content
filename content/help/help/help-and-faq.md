@@ -30,9 +30,9 @@ Yes, data from the HCA can be used for publication.  [Learn more about our data 
 
 The HCA DCP Data Portal, https://data.humancellatlas.org/, can be used as the citation for data obtained from the HCA. Alternatively, you can cite this paper: Regev A., et al. 2017. The Human Cell Atlas. Elife. Dec 5;6. pii: e27041. doi: 10.7554/eLife.27041.
 
-#### How do I visualizae or analze the data?
+#### How do I visualize or analyze the data?
 
-Single-cell sequencing analysis methods are constantly changing, and there are many tools for visualizing or analyzing the data in the HCA.  Popular tools for analyzing single-cell RNA-seq data include Seurat (R) and ScanPy (Python),though many other excellent tools exist. We also offer a list of community-build analysis applications under the Analyze tab on the Data Portal. [See more here].
+Single-cell sequencing analysis methods are constantly changing, and there are many tools for visualizing or analyzing the data in the HCA.  Popular tools for analyzing single-cell RNA-seq data include Seurat (R) and ScanPy (Python),though many other excellent tools exist. We also offer a list of community-built analysis applications under the Analyze tab on the Data Portal. [See more here].
 
 #### How do I make my tool compatible with HCA data and add it to the HCA Data Portal?
 
