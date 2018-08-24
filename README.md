@@ -20,7 +20,7 @@ Our [Content Plan](https://docs.google.com/document/d/1c8XdfBxMfsOoUJ6wqjOCTiIXY
 
 
 ## Style Guide (Draft)
-Please see the draft versoin of our [Style Guide](https://docs.google.com/document/d/1xzUXnozewMhmePqYmFzfFpwoI-UdZd6ds3EFx1Cq7EQ/edit) for information relating to recommended voice, tone and terminology.
+Please see our [Style Guide](https://dev.data.humancellatlas.org/document/creating-content/content-style-guide) for information relating to recommended voice, tone and terminology.
 
 ## Getting Help
 
