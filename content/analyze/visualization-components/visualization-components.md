@@ -6,5 +6,6 @@ componentName: "analyze"
 linked:
     - ./anatomogram.md
     - ./ideogram.md
+    - ./morpheus.md
 ---
 
