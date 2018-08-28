@@ -8,7 +8,7 @@ title: "Secondary Analysis QC Metrics"
 
 ## Overview
 
-Here we provide the quality control metrics used to evaluate data quality for each secondary analysis pipeline. Each metric is listed along with links to the tool used to perform that particular analysis and a description of the metric. If you want to submit a QC metric for addition to a pipeline or for feedback, please contact us at data-help@humancellatlas.org.
+Here we provide the quality control metrics used to evaluate data quality for each data processing pipeline. Each metric is listed along with links to the tool used to perform that particular analysis and a description of the metric. If you want to submit a QC metric for addition to a pipeline or for feedback, please contact us at data-help@humancellatlas.org.
 
 ## Smart-seq2 Pipeline Metrics
 
