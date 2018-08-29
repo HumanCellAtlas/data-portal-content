@@ -47,7 +47,7 @@ The submission process is evolving and we are working to improve the systems you
 
 ## After submission
 
-After the data has been submitted, it will be made available in our data portal. For SmartSeq2 and 10x v2 single cell RNAseq experiments, the data will also be processed by our standard analysis pipelines. These results will be deposited in the data store alongside your raw data and will be discoverable via the data portal. Your data will also be available for use in the analysis applications that are connected to our platform. You can get a full list of the current services that are connected to us in our portals registry.
+After the data has been submitted, it will be made available in our data portal. For SmartSeq2 and 10x v2 single cell RNAseq experiments, the data will also be processed by our standard analysis pipelines. These results will be deposited in the data store alongside your raw data and will be discoverable via the data portal. Your data will also be available for use directly in the [analysis applications](https://dev.data.humancellatlas.org/analyze/methods/methods) available throught this platform. 
 
 ### Archival submission
 
