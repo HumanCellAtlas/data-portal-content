@@ -16,7 +16,7 @@ The Human Cell Atlas is interested in all types of cellular resolution 'omics da
 
 ### SmartSeq2 and 10X v2 single cell RNAseq
 
-Our standard secondary analysis pipelines can process SmartSeq2 and 10X v2 single cell RNA-Seq data. All submitted SmartSeq2 and 10X v2 experiments will be processed by our secondary analysis pipelines, and these alignment and quantification results will be made available alongside the raw data.
+Our standard [data processing pipelines](https://dev.data.humancellatlas.org/learn/userguides/data-processing-pipelines/overview-of-data-processing-pipelines-user-guides) can process SmartSeq2 and 10X v2 single cell RNA-Seq data. All submitted SmartSeq2 and 10X v2 experiments will be processed by these pipelines, and the alignment and quantification results will be made available alongside the raw data.
 
 ###Single nucleus sequencing and Image-based transcriptomics
 
@@ -47,7 +47,7 @@ The submission process is evolving and we are working to improve the systems you
 
 ## After submission
 
-After the data has been submitted, it will be made available in our data portal. For SmartSeq2 and 10x v2 single cell RNAseq experiments, the data will also be processed by our standard analysis pipelines. These results will be deposited in the data store alongside your raw data and will be discoverable via the data portal. Your data will also be available for use in the tertiary portals which are connected to our platform. You can get a full list of the current services that are connected to us on in our tertiary portals registry.
+After the data has been submitted, it will be made available in our data portal. For SmartSeq2 and 10x v2 single cell RNAseq experiments, the data will also be processed by our standard analysis pipelines. These results will be deposited in the data store alongside your raw data and will be discoverable via the data portal. Your data will also be available for use in the analysis applications that are connected to our platform. You can get a full list of the current services that are connected to us in our portals registry.
 
 ### Archival submission
 
