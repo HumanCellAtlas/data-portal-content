@@ -52,7 +52,7 @@ Containers are used to store the computational environment (all software depende
 
 We welcome your feedback about our current pipelines and your ideas for development of new pipelines. Send your thoughts via Canny (HCA Canny project?), or by contacting us directly at data-help@humancellatlas.org.
 
-You are also welcome to attend meetings and participate in Slack discussions about secondary analysis pipelines. Here are some details:
+You are also welcome to attend meetings and participate in Slack discussions about data processing pipelines. Here are some details:
 
 1. Analysis Community Biweekly meetings are held every other Tuesday at 11AM, Eastern Time; view the [Agenda](https://docs.google.com/document/d/1860cE2zk2baXYefu5-WzQM_p_uTGjph6dWnehiRaFDw/edit#heading=h.rt36ocexz2z5)
 2. Join the HCA Slack channels: go to [Join Slack](https://join-hca-slack.herokuapp.com/) to obtain an invitation, and join the #secondary analysis channel.
