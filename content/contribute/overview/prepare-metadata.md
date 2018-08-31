@@ -11,4 +11,4 @@ subTitle: "in communication with our team"
 
 in communication with our team
 
-[Read more](/contribute/overview/overview)
+[Read more](/contribute/overview/what-to-prepare)

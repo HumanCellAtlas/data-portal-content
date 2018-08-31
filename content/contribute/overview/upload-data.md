@@ -11,4 +11,4 @@ subTitle: "to a secure data storage area"
 
 to a secure data storage area
 
-[Read more](/contribute/overview/overview)
+[Read more](https://github.com/HumanCellAtlas/dcp-cli/docs/Pilot_submitters_SOP.md)
