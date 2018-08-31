@@ -30,13 +30,21 @@ There are detailed configuration instructions [here](https://hca.readthedocs.io/
 The **Explore** tab in the data portal provides an interactive data browser. Select a subset of data by checking various boxes in the Organ, Method, Donor, Specimen sections. You can see how many specimens have been seleced in the **Specimens** tab. It also gives an estimate of the size of the data set if the entire list were downloaded.
 
 #### Downloading a Data Manifest
-Once you have selected a set of data through the user interface you can press the download button on the right hand side of the page. This will not actually download the data specified by the list of specimens, but rather it will download the list itself. We call this list a manifest. The Download dialog box gives the option to fuerther refind the types of files you would like to be included in the manifest.
+Once you have selected a set of data through the user interface you can press the download button on the right hand side of the page. This will not actually download the data specified by the list of specimens, but rather it will download the list itself. We call this list a manifest. The Download dialog box gives the option to fuerther refind the types of files you would like to be included in the manifest. Select which files to include in the manifest. Be cognizant that the sizes listed are for the actual files and not the manifest itself. 
 
+Press the _Download Manifest_ button and a file called `export.tsv` will be saved to your local file system.
 
+The format of the Manifest file is a simple tab separated text file, with the first line representing the header title for each column. It is OK to remove rows for unwanted files but the header row must remain, and the columns should remain the same.
 
+Print the help for the how to ddownload the manifest of files:
 
-save the Manifest to your local file system
-Use the CLi to download the files in the manifest
+`hca dss download_manifest --help'
+
+Now execute the command to begin the download of the files listed in the `export.tsv` file:
+
+`hca dss download_manifest --manifest export.tsv --replica aws`
+
+Note that the download could take a long time depending on the number and size of files included in the Manifest file.
 
 ### Using the CLI to Access Data
 The CLI is a powerful tool that can be used to find and download data from the Data Store. There are several subsections to the `hca` tool. Data search, inspection and download are all available from the `hca dss` section. Help text is available by typing:
