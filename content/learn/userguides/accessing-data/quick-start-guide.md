@@ -6,7 +6,7 @@ title: "Quick Start Guide"
 
 
 ## Quick Start Guide
-There are several ways to access the data in the Data Store. This section briefly reviews how to find and download data using the most common methods, namely using the Data Browser, using the CLI and finally, it points to some software programs that demonstrate some programmatic access patterns. Downloading data via the Data Browser and the CLI both require that the HCA CLI has been installed first.
+There are several ways to access the data in the Data Store. This section briefly reviews how to find and download data using the most common methods, the Data Browser and the CLI, and finally, it points to some software programs that demonstrate some programmatic access patterns. Downloading data via the Data Browser and the CLI both first require installation of the HCA CLI.
 
 Data in the Data Store is organized into Data Bundles. A bundle is a group of files organized into a versioned set and tagged with a unique global identifier. One of the goals of the Data Store is to provide a structure that makes it easy to keep related files together. Bundles make it easy to keep metadata together with associated data. The versioning structure also allows for parts of a bundle to be updated. The Data Store keeps all versions of data. This way research can be pinned to a specific version of data and metadata.
 
@@ -27,7 +27,7 @@ There are detailed configuration instructions [here](https://hca.readthedocs.io/
 
 ### Using the Data Browser to Access Data
 #### Finding Data
-The **Explore** tab in the data portal provides an interactive data browser. Select a subset of data by checking various boxes in the Organ, Method, Donor, Specimen sections. You can see how many specimens have been selected in the **Specimens** tab. It also gives an estimate of the size of the data set if the entire list were downloaded.
+The **Explore** section of the data portal provides an interactive data browser. Select a subset of data by checking various boxes in the Organ, Method, Donor, Specimen sections. You can see how many specimens have been selected in the **Specimens** tab. It also gives an estimate of the size of the data set if the entire list were downloaded.
 
 #### Downloading a Data Manifest
 Once you have selected a set of data through the user interface you can press the download button on the right hand side of the page. This will not actually download the data specified by the list of specimens, but rather it will download the list itself. We call this list a manifest. The Download dialog box gives the option to further refine the types of files you would like to be included in the manifest. Select which files to include in the manifest. Be cognizant that the sizes listed are for the actual files and not the manifest itself. 
