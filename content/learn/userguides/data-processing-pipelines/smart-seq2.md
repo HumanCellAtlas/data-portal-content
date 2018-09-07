@@ -13,7 +13,7 @@ The SMART acronym, which stands for Switching Mechanism At the end of the 5’-e
 
 ## Overview of the Pipeline
 
-The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scRNA sequencing protocols. The pipeline currently comprises two modules: a quality control module, which generates post-alignment quality control metrics, and a transcriptome quantification module, which aligns reads to the genome and estimates transcript expression levels. 
+The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scRNA sequencing protocols. The pipeline currently comprises two modules: a quality control module, which generates post-alignment quality control metrics, and a transcriptome quantification module, which aligns reads to the transcriptome and estimates transcript expression levels. 
 
 
 ## Quick Start Table
@@ -23,7 +23,9 @@ The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scR
 | Overall workflow  |Quality control module and transcriptome quantification module | Code available from [Github](https://github.com/HumanCellAtlas/skylab/tree/master/pipelines/smartseq2_single_sample) |
 | Workflow language |WDL          |[openWDL](https://github.com/openwdl/wdl)|
 | Genomic reference sequence|GRCh38 human genome primary sequence|Link (external) Link (blue box)|
+|Gene Model         |Gencode    |link to gencode|
 | Aligner           |HISAT2       |[Kim, et al.,2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655817/); [HISAT2 tool](https://ccb.jhu.edu/software/hisat2/manual.shtml)|
+|QC                 |Picard |links to Picard|           
 | RSEM              |paired-end fastq files (fastq.gz) | (link to blue box file specifications)
 |Run Time           | 12 minutes  |
 
@@ -38,6 +40,7 @@ To assess the quality of the input data, this module uses a pre-constructed inde
 * [CollectAlignmentSummaryMetrics](http://broadinstitute.github.io/picard/command-line-overview.html#CollectAlignmentSummaryMetrics) - the quality of the read alignments and the proportion of reads that passed signal-to-noise threshold filters
 * [CollectRnaSeqMetrics](http://broadinstitute.github.io/picard/command-line-overview.html#CollectRnaSeqMetrics) - distribution of bases within the transcripts, as well as the median depth, ratio of 5 prime/3 prime biases, and the numbers of reads with correct or incorrect strand designation
 * [MarkDuplicates](http://broadinstitute.github.io/picard/command-line-overview.html#MarkDuplicatesWithMateCigar) - duplicate reads that originate from the same fragment of DNA are identified and tagged
+* [InsertionSize]() Add insertion here
 
 Additional metrics used by this pipeline are described in the QC metrics section of this documentation. Examples of QC file  outputs…(need demo data)
 
