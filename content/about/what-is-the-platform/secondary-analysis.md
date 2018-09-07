@@ -22,7 +22,7 @@ The following are pipelines in development or in production in this platform:
 | 10x v2 scRNA-seq pipeline | 3’ capture single cell transcriptomics      | This pipeline currently supports our first offering for 3’ scRNA-Seq, 10X V2 library prep and processing. [Read more](learn/userguides/secondary-analysis/optimus-prime-workflow-in-detail) about the pipeline. | Aligned BAM with tagsCounts Matrix (genes)QC Matrix |
 
 
-## Data Processing Pipeline Service Portability
+## Portability Service 
 In keeping with our goal of enabling the community to analyze single cell data using the most reliable and informative approaches currently available, and to facilitate computational development, our pipelines have been constructed to be portable to environments outside of the HCA. Using the Portability Service, you can determine whether a workflow you’ve developed will work in the HCA, or select non-HCA environments. Additionally, you can attach an environment to the portability system to check whether an HCA pipeline works in your own system. Read more about portability [here](/learn/userguides/secondary-analysis/pipeline-portability).
 
 ## Access to pipeline outputs
