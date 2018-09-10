@@ -23,7 +23,7 @@ As soon as the official Human Cell Atlas terms and conditions for data contribut
 
 1. It is my responsibility as a data contributor to ensure that the data are accurate and complete and to inform the Data Coordination Platform team of any updates, errors, or omissions in a timely manner. *
 
-1. It is my responsibility as a data contributor to ensure my data complies with the ethical, legal, and regulatory norms and standards of the country it was generated in, as well as applicable international norms and standards. In particular, I, as data contributor, must not include personal or confidential data unless appropriate consents and/or approvals have been obtained. *
+1. It is my responsibility as a data contributor to ensure my data complies with the ethical, legal, and regulatory norms and standards of the country in which it was generated, as well as applicable international norms and standards. In particular, I, as data contributor, must not include personal or confidential data unless appropriate consents and/or approvals have been obtained. *
 
 1. All data released by the Human Cell Atlas Data Coordination Platform will be released with an associated CC­BY license https://creativecommons.org/licenses/by/4.0/. This license allows users of the data to share, copy, and adapt the data, and obliges them to credit the data contributors when they redistribute the results. *
 
