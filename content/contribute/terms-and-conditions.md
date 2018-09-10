@@ -21,7 +21,7 @@ As soon as the official Human Cell Atlas terms and conditions for data contribut
 
 1. It is my responsibility as a data contributor to gain permission from my data collaborators in order to share their names and email addresses with the Human Cell Atlas Data Coordination Platform.
 
-1. It is my responsibility as a data contributor to ensure that the data is accurate and complete and to inform the Data Coordination Platform team of any updates, errors, or omissions in a timely manner. *
+1. It is my responsibility as a data contributor to ensure that the data are accurate and complete and to inform the Data Coordination Platform team of any updates, errors, or omissions in a timely manner. *
 
 1. It is my responsibility as a data contributor to ensure my data complies with the ethical, legal, and regulatory norms and standards of the country it was generated in, as well as applicable international norms and standards. In particular, I, as data contributor, must not include personal or confidential data unless appropriate consents and/or approvals have been obtained. *
 
@@ -30,5 +30,7 @@ As soon as the official Human Cell Atlas terms and conditions for data contribut
 1. I will be given the opportunity to read and agree to the official terms and conditions as soon as they are released. *
 
 1. Names and email addresses collected from data contributors are in compliance with this privacy policy: https://www.ebi.ac.uk/data­protection/privacy­notice/human­cell­atlas­ingest­submission
+
+* = agreement required
 
 ## To be reviewed and edited more
