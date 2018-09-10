@@ -9,3 +9,5 @@ appUrl: "https://github.com/igvteam/igv.js"
 ### igv.js | James Robinson, Douglass Turner, Helga Thorvaldsdottir, Jill Mesirov
 
 igv.js is an embeddable interactive genome visualization component based on the desktop Integrative Genomics Viewer (IGV).
+
+[![Mashup](../_images/mashup.svg)](https://github.com/eweitz/igv.js-react/blob/master/README.md#igvjs-in-react)
