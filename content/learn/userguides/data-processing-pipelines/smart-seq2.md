@@ -25,7 +25,7 @@ The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scR
 | Genomic reference sequence|GRCh38 human genome primary sequence|Link (external) Link (blue box)|
 |Gene Model         |Gencode    |link to gencode|
 | Aligner           |HISAT2       |[Kim, et al.,2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655817/); [HISAT2 tool](https://ccb.jhu.edu/software/hisat2/manual.shtml)|
-|QC                 |Picard |links to Picard|           
+|QC                 |done using Picard command line tools |[Picard Tools](https://broadinstitute.github.io/picard/) |          
 | RSEM              |paired-end fastq files (fastq.gz) | (link to blue box file specifications)
 |Run Time           | 12 minutes  |
 
