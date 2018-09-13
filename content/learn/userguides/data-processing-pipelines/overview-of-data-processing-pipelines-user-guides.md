@@ -19,6 +19,6 @@ This page is an introduction to the guides in this section, which are designed t
 ### Advanced Workflow Engineering
 [Pipeline Portability](/learn/userguides/data-processing-pipelines/pipeline-portability): The ability to run workflows in your own environment is important to us; here we describe our nascent service. Note that additional guides about the Portability Service can be found in the *Develop* section.
 
-[Workflow Best Practices](/learn/userguides/data-processing-pipelines/secondary-analsis-workflow-best-practices): Engineering great pipelines is a complex endeavor and we do this in an iterative manner, learning best practices as we go. If you are a developer, check out our guides on [Pipeline Development](/develop/development-guides/pipeline-development-guide) and [Contributing a pipeline to the HCA DCP](/develop/development-guides/contributing-a-pipeline-to-the-hca-dcp) in the *Develop* section of this site.
+
 
 
