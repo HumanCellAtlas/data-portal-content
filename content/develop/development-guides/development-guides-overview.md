@@ -3,6 +3,8 @@ path: "/develop/development-guides/development-guides-overview"
 date: "2018-05-03"
 title: "Development Guides"
 linked:
-    - ./pipeline-development-guide.md
+    - ./pipeline-processing-development-guides/overview-pipeline-processing-development-guides.md
+    - ./ingest-broker-development-guide.md
     - ./tertiary-portal-development-guide.md
+    - ./consumer-vignettes.md
 ---

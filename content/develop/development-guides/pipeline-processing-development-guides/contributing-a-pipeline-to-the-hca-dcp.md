@@ -1,5 +1,5 @@
 ---
-path: "/develop/development-guides/contributing-a-pipeline-to-the-hca-dcp"
+path: "/develop/development-guides/pipeline-processing-development-guides/contributing-a-pipeline-to-the-hca-dcp"
 date: "2018-05-03"
 title: "Contributing a Pipeline to the HCA DCP"
 ---
