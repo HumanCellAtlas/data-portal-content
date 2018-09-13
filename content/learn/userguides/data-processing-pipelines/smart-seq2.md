@@ -32,7 +32,10 @@ The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scR
 
 ## Pipeline Details
 
-Choice of appropriate reference sequences and annotations are critical for optimizing the interpretation of reads as transcriptomic features. Currently this pipeline uses the genomic reference sequence GRCh38 and the transcriptomic reference GenCode Comprehensive Gene Annotation v27. Alignment is performed using HISAT2, a fast-paced, cost-efficient tool; gene expression is quantified using the RSEM algorithm.  The overall schematic is shown below; see here for a full size figure:
+Choice of appropriate reference sequences and annotations are critical for optimizing the interpretation of reads as transcriptomic features. Currently this pipeline uses the genomic reference sequence GRCh38 and the transcriptomic reference GenCode Comprehensive Gene Annotation v27. Alignment is performed using HISAT2, a fast-paced, cost-efficient tool; gene expression is quantified using the RSEM algorithm.  The overall schematic is shown below;
+![Pipeline Image](https://github.com/HumanCellAtlas/data-portal-content/blob/master/content/learn/userguides/data-processing-pipelines/_images/pipeline_two_tracks.png!)
+
+A larger verions can be seen [here](https://raw.githubusercontent.com/wiki/HumanCellAtlas/skylab/images/pipelines/pipeline_two_tracks.png).
 
 ### Quality Control Module
 
@@ -48,4 +51,4 @@ Additional metrics used by this pipeline are described in the QC metrics section
 
 This second module uses RSEM (RNA-Seq by Expectation Maximization) to quantify abundances of the transcripts identified in the first module. RSEM uses a statistical model that accounts for the uncertainties of read mapping, as RNA-Seq reads do not always map uniquely to a single gene. Using a pre-constructed transcriptome index created from the GRCh38 and GenCode Annotation v27 reference sequences, HISAT2 aligns the test data with the transcriptome index sequence and a bam file of aligned data is generated. The RSEM program rsem-calculate-expression is then used to estimate gene/isoform expression levels, resulting in an  output file including expected_counts, TPM (Transcripts Per Million), or FPKM (Fragments Per Kilobase of transcript per Million mapped reads).
 
-### Benchmarking Tests
+
