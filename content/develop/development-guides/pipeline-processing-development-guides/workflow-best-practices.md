@@ -1,5 +1,5 @@
 ---
-path: "/learn/userguides/data-processing-pipelines/workflow-best-practices"
+path: "/develop/development-guides/pipeline-processing-development-guides/workflow-best-practices"
 date: "2018-05-03"
 title: "Best Practices for Building Data Processing Pipelines"
 ---
