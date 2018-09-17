@@ -75,6 +75,8 @@ Commonly used contractions like “don’t”, “it’s”, “isn’t”, “d
     * Visit *Explore* to view available datasets.
     * The *Census of Immune Cells* dataset contains about 530,000 cells.
     
+* Capitalize, but DON'T italicize our services, like Ingest Service, Data Store, etc.
+    
 * Spell out numbers when they begin a sentence or for the numbers zero through five, unless referring to a measurement or when comparing to other numbers.  Otherwise, use the numeral. For example: 
   * There are four main sections in the *Data Portal*.
   * These 2 visualization portalks are better suited to this use case than the other 10 on the site.
