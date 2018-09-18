@@ -1,7 +1,7 @@
 ---
-path: "/develop/development-guides/tertiary-portal-development-guide"
+path: "/develop/development-guides/analysis-applications"
 date: "2018-05-03"
-title: "Tertiary Portal Development Guide"
+title: "Analysis Applications"
 subTitle: "Technical resources to support the development and integration of your analysis applications."
 ---
 
