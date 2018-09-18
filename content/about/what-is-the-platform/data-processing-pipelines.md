@@ -1,5 +1,5 @@
 ---
-path: "/about/what-is-the-platform/secondary-analysis"
+path: "/about/what-is-the-platform/data-processing-pipelines"
 date: "2018-05-03"
 title: "Data Processing Pipeline Service"
 ---

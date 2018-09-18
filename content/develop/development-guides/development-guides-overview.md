@@ -5,6 +5,6 @@ title: "Development Guides"
 linked:
     - ./pipeline-processing-development-guides/overview-pipeline-processing-development-guides.md
     - ./ingest-broker-development-guide.md
-    - ./tertiary-portal-development-guide.md
+    - ./analysis-applications.md
     - ./consumer-vignettes.md
 ---
