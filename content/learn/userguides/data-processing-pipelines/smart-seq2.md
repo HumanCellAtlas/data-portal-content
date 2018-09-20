@@ -23,7 +23,7 @@ The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scR
 | Overall workflow  |Quality control module and transcriptome quantification module | Code available from [Github](https://github.com/HumanCellAtlas/skylab/tree/master/pipelines/smartseq2_single_sample) |
 | Workflow language |WDL          |[openWDL](https://github.com/openwdl/wdl)|
 | Genomic reference sequence|GRCh38 human genome primary sequence|Link (external) Link (blue box)|
-|Gene Model         |Gencode v27   |[Gencode](https://www.gencodegenes.org/)|
+|Gene Model         |[Gencode v27](https://www.gencodegenes.org/releases/27.html) PRI GTF and Fasta files   |[Gencode](https://www.gencodegenes.org/)|
 | Aligner           |HISAT2       |[Kim, et al.,2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655817/); [HISAT2 tool](https://ccb.jhu.edu/software/hisat2/manual.shtml)|
 |QC                 |done using Picard command line tools |[Picard Tools](https://broadinstitute.github.io/picard/) |          
 | RSEM              |paired-end fastq files (fastq.gz) | (link to blue box file specifications)
