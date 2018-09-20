@@ -1,10 +1,10 @@
 ---
 path: "/learn/userguides/data-processing-pipelines/qc-mertics"
 date: "2018-05-03"
-title: "Secondary Analysis QC Metrics"
+title: "Data Processing Pipelines QC Metrics"
 ---
 
-## Secondary Analysis QC Metrics
+## Data Processing Pipelines QC Metrics
 
 ## Overview
 
