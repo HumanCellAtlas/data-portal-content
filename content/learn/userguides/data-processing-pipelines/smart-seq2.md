@@ -23,7 +23,7 @@ The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scR
 | Overall workflow  |Quality control module and transcriptome quantification module | Code available from [Github](https://github.com/HumanCellAtlas/skylab/tree/master/pipelines/smartseq2_single_sample) |
 | Workflow language |WDL          |[openWDL](https://github.com/openwdl/wdl)|
 | Genomic reference sequence|GRCh38 human genome primary sequence|[GENCODE](https://www.gencodegenes.org/releases/27.html)|
-|Gene Model         |[GENCODE v27](https://www.gencodegenes.org/releases/27.html) PRI GTF and Fasta files   |[GENCODE](https://www.gencodegenes.org/)|
+|Gene Model         |GENCODE v27 PRI GTF and Fasta files   |[GENCODE](https://www.gencodegenes.org/releases/27.html)|
 | Aligner           |HISAT2       |[Kim, et al.,2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655817/); [HISAT2 tool](https://ccb.jhu.edu/software/hisat2/manual.shtml)|
 |QC                 |metrics determined using Picard command line tools |[Picard Tools](https://broadinstitute.github.io/picard/) |          
 | Estimation of gene expression |RSEM ([rsem-calculate-expression](http://deweylab.biostat.wisc.edu/rsem/rsem-calculate-expression.html)) is used to estimate the gene expression profile. The input of RSEM is a bam file aligned by HISAT2. | [Li and Dewey, 2011](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-323)|
