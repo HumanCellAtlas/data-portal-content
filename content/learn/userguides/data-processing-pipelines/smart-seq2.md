@@ -26,16 +26,12 @@ The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scR
 |Gene Model         |[Gencode v27](https://www.gencodegenes.org/releases/27.html) PRI GTF and Fasta files   |[Gencode](https://www.gencodegenes.org/)|
 | Aligner           |HISAT2       |[Kim, et al.,2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655817/); [HISAT2 tool](https://ccb.jhu.edu/software/hisat2/manual.shtml)|
 |QC                 |done using Picard command line tools |[Picard Tools](https://broadinstitute.github.io/picard/) |          
-| RSEM              |paired-end fastq files (fastq.gz) | (link to blue box file specifications)
-|Run Time           | 12 minutes  |
+| Estimation of gene expression |RSEM ([rsem-calculate-expression](http://deweylab.biostat.wisc.edu/rsem/rsem-calculate-expression.html)) is used to estimate the gene expression profile. The input of RSEM is a bam file aligned by HISAT2. | [Li and Dewey, 2011](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-323)|
 
 
 ## Pipeline Details
 
-Choice of appropriate reference sequences and annotations are critical for optimizing the interpretation of reads as transcriptomic features. Currently this pipeline uses the genomic reference sequence GRCh38 and the transcriptomic reference GenCode Comprehensive Gene Annotation v27. Alignment is performed using HISAT2, a fast-paced, cost-efficient tool; gene expression is quantified using the RSEM algorithm.  The overall schematic is shown below;
-![Pipeline Image](https://github.com/HumanCellAtlas/data-portal-content/blob/master/content/learn/userguides/data-processing-pipelines/_images/pipeline_two_tracks.png!)
-
-A larger verions can be seen [here](https://raw.githubusercontent.com/wiki/HumanCellAtlas/skylab/images/pipelines/pipeline_two_tracks.png).
+Choice of appropriate reference sequences and annotations are critical for optimizing the interpretation of reads as transcriptomic features. Currently this pipeline uses the genomic reference sequence GRCh38 and the transcriptomic reference GenCode Comprehensive Gene Annotation v27. Alignment is performed using HISAT2, a fast-paced, cost-efficient tool; gene expression is quantified using the RSEM algorithm.  The overall schematic is shown [here](https://raw.githubusercontent.com/wiki/HumanCellAtlas/skylab/images/pipelines/pipeline_two_tracks.png).
 
 ### Quality Control Module
 
@@ -43,7 +39,7 @@ To assess the quality of the input data, this module uses a pre-constructed inde
 * [CollectAlignmentSummaryMetrics](http://broadinstitute.github.io/picard/command-line-overview.html#CollectAlignmentSummaryMetrics) - the quality of the read alignments and the proportion of reads that passed signal-to-noise threshold filters
 * [CollectRnaSeqMetrics](http://broadinstitute.github.io/picard/command-line-overview.html#CollectRnaSeqMetrics) - distribution of bases within the transcripts, as well as the median depth, ratio of 5 prime/3 prime biases, and the numbers of reads with correct or incorrect strand designation
 * [MarkDuplicates](http://broadinstitute.github.io/picard/command-line-overview.html#MarkDuplicatesWithMateCigar) - duplicate reads that originate from the same fragment of DNA are identified and tagged
-* [InsertionSize]() Add insertion here
+* [InsertSizeMetrics](https://broadinstitute.github.io/picard/picard-metric-definitions.html#InsertSizeMetrics) - metrics about the insert size distribution of a paired-end library
 
 
 ### Transcriptome Quantification Module
