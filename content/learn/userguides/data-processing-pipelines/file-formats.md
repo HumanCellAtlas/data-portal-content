@@ -6,12 +6,22 @@ title: "Data Processing Pipelines File Formats"
 
 ## File Formats of the Data Processing Pipelines Service
 
-### Data Storage File Format
+### Matrix Download File Formats
 
-The Data Processing Pipelines Service uses the [Zarr version 2](https://zarr.readthedocs.io/en/stable/spec/v2.html) format for storage of expression matrices and their associated metadata. Basically, this format stores information in groups and arrays; where groups can contain other groups and arrays are stored chunked and compressed. The group and chunk structure is conveyed in the file names and directory structure. For information about creating and using the Zarr format see this [Zarr tutorial](https://zarr.readthedocs.io/en/stable/tutorial.html#). For information about the file structure and content of the files we generate, see [this doc](https://github.com/HumanCellAtlas/skylab/blob/6aa3a97800aab23c18cd746800b9e4073e53e810/docs/matrix_format_spec.md).
+Matrices are best downloaded through the HCA Data Portal. You can use the Portal's data browser to make a multifaceted search to dynamically generate matrices. This functionality is powered by our Expression Matrix Service (which will allow programmatic access in the future). Using the data browser, users can specify a desired file type for expression matrices during download. The following formats are currently supported: Zarr, CSV, and .loom formats.
 
-### Matrix Service Download File Formats
+The following vignettes show how to work with HCA expression matrices in several common data science environments.
 
-The Matrix Service receives requests for data through an API call using bundle UUIDs. Users can specify the desired file type for the outputs from among three choices: Zarr, CSV, and .loom formats. The Service then accesses data files from the Data Store and moves the data into the designated file type.
+Jupyter Notebook showing analysis of Smart-seq2 data in R using HCA matrices.*
+Jupyter Notebook showing analysis of Smart-seq2 data in python using HCA matrices.*
 
-The files can be used with the following applications (point to Geneviee's consumer vignettes). They can be imported into different environments using ...code.
+*Please note, these notebook vignettes are intended to show how to initiate data analysis with data from the HCA DCP and that these data are usable in common environments. The vignettes are not intended to teach analysis.
+
+
+### Matrix Data Storage File Format
+
+Internally, the Data Processing Pipelines Service uses the [Zarr version 2](https://zarr.readthedocs.io/en/stable/spec/v2.html) format for storage of expression matrices and their associated metadata. Working with Zarr formatted files is only necessary when directly accessing the data store using the HCA CLI. For most users, the Data Portal and Expression Service are better sources of matrices and provide additional file formats (besides Zarr files). 
+
+The Zarr format stores information in groups and arrays; where groups can contain other groups and arrays are stored chunked and compressed. The group and chunk structure is conveyed in the file names and directory structure. For information about creating and using the Zarr format see this [Zarr tutorial](https://zarr.readthedocs.io/en/stable/tutorial.html#). For information about the file structure and content of the files we generate, see [this doc](https://github.com/HumanCellAtlas/skylab/blob/6aa3a97800aab23c18cd746800b9e4073e53e810/docs/matrix_format_spec.md).
+
+
