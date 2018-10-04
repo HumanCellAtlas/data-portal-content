@@ -24,7 +24,7 @@ We are actively investigating standard analysis pipelines for these data types. 
 
 ### Other data types
 
-Ultimately many types of cellular resolution data will be needed to build the Human Cell Atlas. If you have other data types not mentioned here, please reach out to us. As our platform develops we will want to use these data to build the atlas; help you share these data with the community, and we will make it available in cloud environments for you and your collaborators to use.
+Ultimately many types of cellular resolution data will be needed to build the Human Cell Atlas. If you have other data types not mentioned here, please reach out to us so we can develop a plan for incorporating these data into the HCA. 
 
 ## The submission process
 
@@ -51,7 +51,7 @@ After the data has been submitted, it will be made available in our data portal.
 
 ### Archival submission
 
-In order to support you when you publish using your data we will also submit data to community standard archives and return you the archival accessions that you need to publish the data. 
+To support you in publishing your data, we will submit the data to community standard archives and return to you the archival accessions that you need for publication. 
 
 Currently we are able to archive any sequencing data which is submitted to us. Our default archives for submission are the BioStudies, BioSamples, and European Nucleotide Archives based at EMBL-EBI. We are working towards supporting submission to GEO if your funding mandates submission there. Please let the data wrangler know if this is the case when you start your submission process.
 
