@@ -20,7 +20,7 @@ The HCA data will eventually accept all types of single-cell data, but it curren
 
 #### How do I get more details about projects, like protcols or publications?
 
-You can learn more about each project by visiting the Projects tab in the *Explore* section of the *Data Portal*. We encourage all contributing projects to provide a detailed description of their protocol and post their protocol details at [protocols.io](https://www.protocols.io/). Publication information, where available, is also visible on this page.
+You can learn more about each project by visiting the Projects tab in the *Explore* section of the *Data Portal*. We encourage all contributing projects to provide a detailed description of their protocol and post their protocol details at [protocols.io](https://www.protocols.io/). Publication information, where available, is also visible on the Projects page.
 
 #### Can I use this data for a publication?
 
