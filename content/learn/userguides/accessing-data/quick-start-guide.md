@@ -11,7 +11,7 @@ There are several ways to access the data in the Data Store. This section briefl
 Data in the Data Store is organized into Data Bundles. A bundle is a group of files organized into a versioned set and tagged with a unique global identifier. One of the goals of the Data Store is to provide a structure that makes it easy to keep related files together. Bundles make it easy to keep metadata together with associated data. The versioning structure also allows for parts of a bundle to be updated. The Data Store keeps all versions of data. This way research can be pinned to a specific version of data and metadata.
 
 ### Installing the HCA CLI
-It is recommended that the CLI be run in a virtual environment to control Python library dependencies. A common utility for creating and managing vritual environment is `virtualenv`. Installation instructions for `virtualenv` can be found online. In Mac OS High Sierra, one might use:
+It is recommended that the CLI be run in a virtual environment to control Python library dependencies. A common utility for creating and managing virtual environment is `virtualenv`. Installation instructions for `virtualenv` can be found online. In Mac OS High Sierra, one might use:
 
 `sudo pip install virtualenv`
 
@@ -36,16 +36,6 @@ Press the _Download Manifest_ button and a file called `export.tsv` will be save
 
 The format of the Manifest file is a simple tab separated text file, with the first line representing the header title for each column. It is OK to remove rows for unwanted files but the header row must remain, and the columns should remain the same.
 
-Print the help for the how to ddownload the manifest of files:
-
-`hca dss download_manifest --help'
-
-Now execute the command to begin the download of the files listed in the `export.tsv` file:
-
-`hca dss download_manifest --manifest export.tsv --replica aws`
-
-Note that the download could take a long time depending on the number and size of files included in the Manifest file.
-
 ### Using the CLI to Access Data
 The CLI is a powerful tool that can be used to find and download data from the Data Store. There are several subsections to the `hca` tool. Data search, inspection and download are all available from the `hca dss` section. Help text is available by typing:
 
@@ -54,6 +44,18 @@ The CLI is a powerful tool that can be used to find and download data from the D
 Help is also available for the commands under the `dss` section. For example help on the get-bundle command can be seen by entering
 
 `hca dss get-bundle --help`
+
+Now let's try using the manifest file to download files. 
+
+Print the help for how to download the manifest of files:
+
+`hca dss download_manifest --help'
+
+Now execute the command to begin the download of the files listed in the `export.tsv` file:
+
+`hca dss download_manifest --manifest export.tsv --replica aws`
+
+Note that the download could take a long time depending on the number and size of files included in the Manifest file.
 
 #### Finding Data
 You can easily list all bundles in the Data Store by using the following Elastic Search command:
@@ -76,5 +78,5 @@ To then download that bundle from the AWS replica you would use this command:
 
     hca dss download --bundle-uuid 2f08b7cd-2e39-44f2-b7fa-d4a373266104 --version 2018-08-28T213422.136870Z --replica aws
 
-### Processing the Data
+### Using the Data
 The Data Coordination Platform (DCP) offers a number of different programatic ways to access the data. The Application Programming Interfaces (APIs) that we provide are described [here](https://dev.data.humancellatlas.org/develop/api-documentation/data-store-consumer-api). The developers of the DCP have also created a number of example programs demonstrating how to use the APIs, and they can be found [here](https://dev.data.humancellatlas.org/develop/development-guides/consumer-vignettes). These examples are designed to demonstrate basic access patterns, but they  are not intended to demonstrate any type of analysis.
