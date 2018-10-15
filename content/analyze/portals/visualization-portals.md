@@ -12,6 +12,7 @@ linked:
     - ./asap.md
     - ./dnastack.md
     - ./single-cell-expression-atlas.md
+    - ./cellxgene.md
 ---
 
 ## Visualization Portals

@@ -13,7 +13,7 @@ The SMART acronym, which stands for Switching Mechanism At the end of the 5’-e
 
 ## Overview of the Pipeline
 
-The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scRNA sequencing protocols. The pipeline currently comprises two modules: a quality control module, which generates post-alignment quality control metrics, and a transcriptome quantification module, which aligns reads to the genome and estimates transcript expression levels. 
+The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scRNA sequencing protocols. The pipeline currently comprises two modules: a quality control module, which generates post-alignment quality control metrics, and a transcriptome quantification module, which aligns reads to the transcriptome and estimates transcript expression levels. 
 
 
 ## Quick Start Table
@@ -22,27 +22,28 @@ The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scR
 |-------------------|---------------------------------------------------------------|-----------------------|
 | Overall workflow  |Quality control module and transcriptome quantification module | Code available from [Github](https://github.com/HumanCellAtlas/skylab/tree/master/pipelines/smartseq2_single_sample) |
 | Workflow language |WDL          |[openWDL](https://github.com/openwdl/wdl)|
-| Genomic reference sequence|GRCh38 human genome primary sequence|Link (external) Link (blue box)|
+| Genomic reference sequence|GRCh38 human genome primary sequence|[GENCODE](https://www.gencodegenes.org/human/release_27.html|
+|Gene Model         |GENCODE v27 PRI GTF and Fasta files   |[GENCODE](https://www.gencodegenes.org/human/release_27.html)|
 | Aligner           |HISAT2       |[Kim, et al.,2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4655817/); [HISAT2 tool](https://ccb.jhu.edu/software/hisat2/manual.shtml)|
-| RSEM              |paired-end fastq files (fastq.gz) | (link to blue box file specifications)
-|Run Time           | 12 minutes  |
+|QC                 |Metrics determined using Picard command line tools |[Picard Tools](https://broadinstitute.github.io/picard/) |          
+| Estimation of gene expression |RSEM ([rsem-calculate-expression](http://deweylab.biostat.wisc.edu/rsem/rsem-calculate-expression.html)) is used to estimate the gene expression profile. The input of RSEM is a bam file aligned by HISAT2. | [Li and Dewey, 2011](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-323)|
 
 
 ## Pipeline Details
 
-Choice of appropriate reference sequences and annotations are critical for optimizing the interpretation of reads as transcriptomic features. Currently this pipeline uses the genomic reference sequence GRCh38 and the transcriptomic reference GenCode Comprehensive Gene Annotation v27. Alignment is performed using HISAT2, a fast-paced, cost-efficient tool; gene expression is quantified using the RSEM algorithm.  The overall schematic is shown below; see here for a full size figure:
+Choice of appropriate reference sequences and annotations are critical for optimizing the interpretation of reads as transcriptomic features. Currently this pipeline uses the genomic reference sequence GRCh38 and the transcriptomic reference GenCode Comprehensive Gene Annotation v27. Alignment is performed using HISAT2, a fast-paced, cost-efficient tool; gene expression is quantified using the RSEM algorithm.  The overall schematic is shown [here](https://raw.githubusercontent.com/wiki/HumanCellAtlas/skylab/images/pipelines/pipeline_two_tracks.png).
 
 ### Quality Control Module
 
-To assess the quality of the input data, this module uses a pre-constructed index of reference sequences: GRCh38, GenCode Annotation v27, and dbSNP150 (code is [here](https://github.com/HumanCellAtlas/skylab/wiki/SmartSeq2-Pipeline-(v0.2.0))).  HISAT2 is used to perform a graph-based alignment of these index sequences to the sample data to determine the presence of non-transcript sequences and true transcript sequences, taking into account the presence of single-nucleotide polymorphisms (based on dbSNP150). The output is a bam file. Quality control measurements are then performed using [Picard tools](http://broadinstitute.github.io/picard/), command line tools used for working with high-throughput sequencing data. We run a number of these tools, but the three main modules are listed below; follow the links for a more detailed explanation of each tool:
-* [CollectAlignmentSummaryMetrics](http://broadinstitute.github.io/picard/command-line-overview.html#CollectAlignmentSummaryMetrics) - the quality of the read alignments and the proportion of reads that passed signal-to-noise threshold filters
-* [CollectRnaSeqMetrics](http://broadinstitute.github.io/picard/command-line-overview.html#CollectRnaSeqMetrics) - distribution of bases within the transcripts, as well as the median depth, ratio of 5 prime/3 prime biases, and the numbers of reads with correct or incorrect strand designation
-* [MarkDuplicates](http://broadinstitute.github.io/picard/command-line-overview.html#MarkDuplicatesWithMateCigar) - duplicate reads that originate from the same fragment of DNA are identified and tagged
+To assess the quality of the input data, this module uses a pre-constructed index of species reference information: GRCh38, GenCode Annotation v27, and dbSNP150 ([see code for more details](https://github.com/HumanCellAtlas/skylab/wiki/SmartSeq2-Pipeline-(v0.2.0))). HISAT2 is used to perform a graph-based alignment of sample data to the  reference genome to determine the presence of non-transcript sequences and true transcript sequences, taking into account the presence of single-nucleotide polymorphisms (based on dbSNP150). The output is a bam file. Quality control measurements are then calculated using [Picard tools](http://broadinstitute.github.io/picard/), command line tools used for working with high-throughput sequencing data. This pipeline uses a number of these tools, but the main modules are listed below. Follow the link for a detailed explanation of each tool; a more detailed table of our QC metrics is in the [QC Metrics](https://dev.data.humancellatlas.org/learn/userguides/data-processing-pipelines/qc-mertics) guide.
+* [CollectAlignmentSummaryMetrics](http://broadinstitute.github.io/picard/command-line-overview.html#CollectAlignmentSummaryMetrics) - The quality of the read alignments and the proportion of reads that passed signal-to-noise threshold filters.
+* [CollectRnaSeqMetrics](http://broadinstitute.github.io/picard/command-line-overview.html#CollectRnaSeqMetrics) - Distribution of bases within the transcripts, as well as the median depth, ratio of 5 prime/3 prime biases, and the numbers of reads with correct or incorrect strand designation.
+* [MarkDuplicates](http://broadinstitute.github.io/picard/command-line-overview.html#MarkDuplicatesWithMateCigar) - Duplicate reads that originate from the same fragment of DNA are identified and tagged.
+* [InsertSizeMetrics](https://broadinstitute.github.io/picard/picard-metric-definitions.html#InsertSizeMetrics) - Metrics about the insert size distribution of a paired-end library.
 
-Additional metrics used by this pipeline are described in the QC metrics section of this documentation. Examples of QC file  outputs…(need demo data)
 
 ### Transcriptome Quantification Module
 
-This second module uses RSEM (RNA-Seq by Expectation Maximization) to quantify abundances of the transcripts identified in the first module. RSEM uses a statistical model that accounts for the uncertainties of read mapping, as RNA-Seq reads do not always map uniquely to a single gene. Using a pre-constructed transcriptome index created from the GRCh38 and GenCode Annotation v27 reference sequences, HISAT2 aligns the test data with the transcriptome index sequence and a bam file of aligned data is generated. The RSEM program rsem-calculate-expression is then used to estimate gene/isoform expression levels, resulting in an  output file including expected_counts, TPM (Transcripts Per Million), or FPKM (Fragments Per Kilobase of transcript per Million mapped reads).
+This second module uses RSEM (RNA-Seq by Expectation Maximization) to quantify abundances of the transcripts identified in the first module. RSEM uses a statistical model that accounts for the uncertainties of read mapping, as RNA-Seq reads do not always map uniquely to a single gene. Using a pre-constructed transcriptome index created from GRCh38 and GenCode Annotation v27, HISAT2 aligns the test data with the reference transcriptome and a bam file of aligned data is generated. The RSEM program rsem-calculate-expression is then used to estimate gene/isoform expression levels, resulting in an  output file including expected_counts, TPM (Transcripts Per Million), or FPKM (Fragments Per Kilobase of transcript per Million mapped reads).
 
-### Benchmarking Tests
+More detailed information about this pipeline can be found [here](https://github.com/HumanCellAtlas/skylab/wiki/SmartSeq2-Pipeline-(v0.2.0)).

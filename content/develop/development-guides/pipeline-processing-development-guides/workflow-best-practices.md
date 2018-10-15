@@ -1,16 +1,16 @@
 ---
-path: "/learn/userguides/data-processing-pipelines/workflow-best-practices"
+path: "/develop/development-guides/pipeline-processing-development-guides/workflow-best-practices"
 date: "2018-05-03"
 title: "Best Practices for Building Data Processing Pipelines"
 ---
 
 # Best Practices for Building Data Processing Pipelines
 
-## Our Goals in Our Best Practices
+## Goals
 The following broad goals motivate our best practices. Here we describe them and give insight as to why these goals are important. We then explore best practices and examples to give you a sense of how to apply these goals.
 
 - The best pipelines should be automated.
-- The best pipelines should have be clearly testable.
+- The best pipelines should have be easily testable.
 - The best pipelines should be portable.
 - The best pipelines should scale to their data.
 - The best pipelines should be easy to maintain.
@@ -23,11 +23,11 @@ The following broad goals motivate our best practices. Here we describe them and
 Pipelines cannot scale to large amounts of data, or many runs, if manual steps must be performed within the pipeline. They also cannot be part of an automated system if they in fact are not automated. Manual steps will bottleneck your entire system and can require unmanageable operations. Moreover, manual steps performed by humans will vary, and will promote the production of data that can not be appropriately harmonized.
 
 - *Do*: Reduce parameterization to minimal inputs that do not vary for each input data.
-- *Do*: Update manual parameters to data-driven input.
+- *Do*: Remove the need for parameters, replacing them with data-driven settings.
 - *Do*: Offer defaults that are generally applicable for inputs that cannot be defined in a data-driven manner.
 - *Do*: Offer the ability to check the status of pipeline runs.
 - *Don’t*: Assume any file produced at any step of the pipeline is ok. Always check the status of underlying tools (Eg. check return codes).
-- *Don’t*: Keep files produced by steps of the pipeline that errored; people will accidently use them if they exist.
+- *Don’t*: Keep output files produced by steps of the pipeline that errored; people will accidently use them if they exist. (Do keep logs for debugging.)
 - *Don’t*: Delete outputs from steps that passed when the full pipeline fails, keeping them enables you to pick up where you left off.
 - *Don’t*: Use tools that are “buggy” or fragile, find alternatives or improve the tools.
   
@@ -77,7 +77,7 @@ _ *Don’t*: Put logic to run the pipeline in the same code that executes the lo
 ### Scaling Characteristics
 
 #### What do we mean by scaling characteristics?
-Scaling characteristics describe the performance of the pipeline given a certain amount of data. This is often described with Big O notation when describing algorithms. This answers the question: As the size of the data for the pipeline increases, how many additional computes are needed to process that data? One would want to avoid or improve this relationship to be linear (or better).
+Scaling characteristics describe the performance of the pipeline given a certain amount of data. This is often described with Big O notation when describing algorithms. This answers the question: As the size of the data for the pipeline increases, how many additional computes are needed to process that data? One would want to avoid algorithms or tools that scale poorly, or improve this relationship to be linear (or better).
 
 #### Why care about scalability?
 If you have poor scaling characteristics, it may take an exponential amount of time to process more data. This will eventually require unreasonable amounts of time (and money if running in the cloud) and generally reduce the applicability of the pipeline.
@@ -103,9 +103,9 @@ Software is a living document that should be easily read and understood, regardl
 #### Modularity
 Modularity enables small units of code to be independently benchmarked, validated, and exchanged. Modularity is very useful because, as science or technology changes, sections of a tool can be updated, benchmarked, and exchanged as small units, enabling more rapid updates and better adaptation to innovation. See [this doc](https://docs.google.com/document/d/1DlKdI6znEzdcuBBUnaJnS20GUb20zw4MgSgF12jfADU/edit?ts=5b6dffd9) for more about modularity and its implementation in the Optimus 10X v2 pipeline.
 
-- *Do*: Save progress between modules as they successfully complete.
+- *Do*: Save progress by creating intermediate output between modules as they successfully complete.
 - *Don’t*: Make monolithic tasks that perform many functionalities for the sake of speed.
-- *Don’t*: Break every functionality of a pipeline into a separate module.
+- *Don’t*: Break every functionality of a pipeline into a separate module. (This contrasts with not making monolithic tasks; there is an optimum between monolithic tasks and highly resolved modularity that is the goal. One can use benchmarking, the tendency for functionality to be updated, and how dependent functionalities are to get a sense of what should be separate and what can be combined.)
 
 #### Leveraging Standards
 We recommend using standard file formats and interfaces. In computational biology, [GA4GH](https://www.ga4gh.org/ga4ghtoolkit/genomicdatatoolkit/) is a great source of these standards. In cases where new formats are needed, we recommend working with a standards group like [GA4GH](https://www.ga4gh.org/) if possible.

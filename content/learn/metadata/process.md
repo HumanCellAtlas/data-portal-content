@@ -1,5 +1,5 @@
 ---
-path: "/learn/metadata-standards/metadata-dictionary/process"
+path: "/learn/metadata/metadata-dictionary/process"
 date: "2018-05-30"
 title: "Process"
 template: "metadataTemplate"

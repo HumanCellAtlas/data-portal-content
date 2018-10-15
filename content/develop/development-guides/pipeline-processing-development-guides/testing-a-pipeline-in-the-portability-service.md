@@ -1,5 +1,5 @@
 ---
-path: "/develop/development-guides/testing-pipelines"
+path: "/develop/development-guides/pipeline-processing-development-guides/testing-pipelines"
 date: "2018-07-12"
 title: "Pipeline Testing Guide"
 ---
