@@ -38,7 +38,7 @@ The format of the Manifest file is a simple tab separated text file, with the fi
 
 Print the help that explains how to download the manifest of files:
 
-`hca dss download_manifest --help'
+`hca dss download_manifest --help`
 
 Now execute the command to begin the download of the files listed in the `export.tsv` file:
 
@@ -56,10 +56,15 @@ Help is also available for the commands under the `dss` section. For example hel
 `hca dss get-bundle --help`
 
 #### Finding Data
-You can easily list all bundles in the *Data Store* by using the following Elastic Search command:
+You can easily get a list of bundles in the *Data Store* by using the following Elastic Search command:
 
-    hca dss post-search --es-query "{}" --replica=aws | less
+`hca dss post-search --es-query "{}" --replica=aws | less`
     
+Note that this will return the first page of results found with the command. Searching for all bundles in the Data Store is not very useful though. 
+
+`hca dss post-search --replica aws --es-query '{"query": {"bool": {"must": {"match": {"files.project_json.insdc_project.text": "SRP075496"}} , "must_not": { "exists": { "field": "files.analysis_file_json" }} } } }'`
+
+This command will find all the ids of the original files associated with the project `SRP075496`, and not the analysis files.
 
 #### Downloading Data
 Once you find bundles that you would like to download use the command below. (Note that this command can be scripted to iterate through a list of bundle IDs with some basic shell scripting).
