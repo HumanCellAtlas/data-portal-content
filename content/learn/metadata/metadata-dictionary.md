@@ -1,5 +1,5 @@
 ---
-path: "/learn/metadata-standards/metadata-dictionary"
+path: "/learn/metadata/metadata-dictionary"
 date: "2018-05-30"
 title: "Metadata Dictionary"
 componentName: "metadata"
