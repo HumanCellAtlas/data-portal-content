@@ -12,19 +12,19 @@ linked:
 
 ## What data can be submitted?
 
-The Human Cell Atlas is interested in all types of cellular resolution 'omics data. If you have cellular resolution data of any type which is consented for open data release, please talk to us and we are happy to discuss if it is suitable for the atlas.
+The Human Cell Atlas is interested in all types of cellular resolution 'omics data. If you have cellular resolution data of any type which is consented for open data release, we are happy to discuss whether it is suitable for the HCA.
 
 ### SmartSeq2 and 10X v2 single cell RNAseq
 
 Our standard [data processing pipelines](https://dev.data.humancellatlas.org/learn/userguides/data-processing-pipelines/overview-of-data-processing-pipelines-user-guides) can process SmartSeq2 and 10X v2 single cell RNA-Seq data. All submitted SmartSeq2 and 10X v2 experiments will be processed by these pipelines, and the alignment and quantification results will be made available alongside the raw data.
 
-###Single nucleus sequencing and Image-based transcriptomics
+### Single nucleus sequencing and image-based transcriptomics
 
-We are actively investigating standard analysis pipelines for these data types. If you are generating data like this, we are very interested to collect it and work with you to better understand these data types and how to process them.
+We are actively investigating standard analysis pipelines for single nucleus sequencing and image-based transcriptomics experiments. If you are doing these types of experiments, we are very interested to work with you to better understand the data types and how to process them.
 
 ### Other data types
 
-Ultimately many types of cellular resolution data will be needed to build the Human Cell Atlas. If you have other data types not mentioned here, please reach out to us so we can develop a plan for incorporating these data into the HCA. 
+Ultimately, many types of cellular resolution data will be needed to build the Human Cell Atlas. If you have other data types not mentioned here, please reach out to us so we can develop a plan for incorporating these data into the HCA. 
 
 ## The submission process
 
