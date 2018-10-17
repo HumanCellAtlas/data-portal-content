@@ -10,7 +10,7 @@ title: "Best Practices for Building Data Processing Pipelines"
 The following broad goals motivate our best practices. Here we describe them and give insight as to why these goals are important. We then explore best practices and examples to give you a sense of how to apply these goals.
 
 - The best pipelines should be automated.
-- The best pipelines should have be easily testable.
+- The best pipelines should be easily testable.
 - The best pipelines should be portable.
 - The best pipelines should scale to their data.
 - The best pipelines should be easy to maintain.
