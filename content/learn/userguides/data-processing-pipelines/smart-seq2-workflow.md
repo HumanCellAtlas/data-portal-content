@@ -1,7 +1,7 @@
 ---
-path: "/learn/userguides/data-processing-pipelines/smart-seq2-workflow-in-detail"
+path: "/learn/userguides/data-processing-pipelines/smart-seq2-workflow"
 date: "2018-05-03"
-title: "Smart-seq2 Workflow in Detail"
+title: "Smart-seq2 Workflow"
 ---
 
 ## Description of Smart-seq2 scRNA Sequencing
