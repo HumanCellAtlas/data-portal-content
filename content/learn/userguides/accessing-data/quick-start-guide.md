@@ -49,11 +49,11 @@ Now let's try using the manifest file to download files.
 
 Print the help for how to download the manifest of files:
 
-`hca dss download_manifest --help`
+`hca dss download-manifest --help`
 
 Now execute the command to begin the download of the files listed in the `export.tsv` file:
 
-`hca dss download_manifest --manifest export.tsv --replica aws`
+`hca dss download-manifest --manifest export.tsv --replica aws`
 
 Note that the download could take a long time depending on the number and size of files included in the Manifest file.
 
@@ -84,4 +84,4 @@ then to download that bundle from the AWS replica you would use this command:
     hca dss download --bundle-uuid 2f08b7cd-2e39-44f2-b7fa-d4a373266104 --version 2018-08-28T213422.136870Z --replica aws
 
 ### Using the Data
-The Data Coordination Platform (DCP) offers a number of different programatic ways to access the data. The Application Programming Interfaces (APIs) that we provide are described [here](https://dev.data.humancellatlas.org/develop/api-documentation/data-store-consumer-api). The developers of the DCP have also created a number of example programs demonstrating how to use the APIs, and they can be found [here](https://dev.data.humancellatlas.org/develop/development-guides/consumer-vignettes). These examples are designed to demonstrate basic access patterns, but they  are not intended to demonstrate any type of analysis.
+The Data Coordination Platform (DCP) offers a number of different programatic ways to access the data. The Application Programming Interfaces (APIs) that we provide are described [here](https://dev.data.humancellatlas.org/develop/api-documentation/data-store-consumer-api). The developers of the DCP have also created a number of example programs demonstrating how to use the APIs, and they can be found [here](https://dev.data.humancellatlas.org/develop/development-guides/consumer-vignettes). These examples are designed to demonstrate basic access patterns, but they are not intended to demonstrate any type of analysis.
