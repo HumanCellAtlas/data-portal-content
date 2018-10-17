@@ -49,11 +49,11 @@ Now let's try using the manifest file to download files.
 
 Print the help for how to download the manifest of files:
 
-`hca dss download_manifest --help`
+`hca dss download-manifest --help`
 
 Now execute the command to begin the download of the files listed in the `export.tsv` file:
 
-`hca dss download_manifest --manifest export.tsv --replica aws`
+`hca dss download-manifest --manifest export.tsv --replica aws`
 
 Note that the download could take a long time depending on the number and size of files included in the Manifest file.
 
