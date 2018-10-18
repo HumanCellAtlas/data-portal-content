@@ -20,12 +20,11 @@ We aspire to leverage commonalities in assays to enable a general computational 
 |-------------------|---------------------------------------------------------------|-----------------------|
 | Overall Workflow  |Quality control module and transcriptome quantification module | Code available from [Github](https://github.com/HumanCellAtlas/skylab/blob/master/pipelines/optimus/Optimus.wdl) |
 | Workflow Language |WDL          |[openWDL](https://github.com/openwdl/wdl)|
-| Genomic Reference Sequence|GRCh38 human genome primary sequence|Link (external) Link (blue box)|
-|Transcriptomic Reference Sequence |V27 GenCode human transcriptome |Link (external) Link (blue box)|
+| Genomic Reference Sequence|GRCh38 human genome primary sequence|[GENCODE](https://www.gencodegenes.org/human/release_27.html)|
+|Transcriptomic Reference Sequence |V27 GenCode human transcriptome |[GENCODE](https://www.gencodegenes.org/human/release_27.html)|
 | Aligner           |STAR       |[Dobin, et al.,2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/)|
 | Transcript Quantification |        |                                              |                       |
 |Data Input File Format | FASTQ      |                                              |                       |
-|Run Time               |            |                                              |                       |
 
 ## Optimus Modules Summary
 
@@ -59,16 +58,16 @@ The [STAR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/) alignment soft
 
 ## Gene Annotation
 
-The [TagGeneExon]() tool from [DropSeqTools] is used to annotate each read with the type of sequence it aligned to. These annotations include `INTERGENIC`, `INTRONIC`, and `EXONIC`, and are stored in the `XF` tag. In cases where the gene corresponds to an intron or exon, the name of the gene that overlaps the alignment is associated with the read and stored in the `GE` tag.
+The [TagGeneExon](https://github.com/HumanCellAtlas/skylab/blob/master/pipelines/optimus/Optimus.wdl) tool is used to annotate each read with the type of sequence it aligned to. These annotations include `INTERGENIC`, `INTRONIC`, and `EXONIC`, and are stored in the `XF` tag. In cases where the gene corresponds to an intron or exon, the name of the gene that overlaps the alignment is associated with the read and stored in the `GE` tag.
 
 ## Duplicate Marking
 
-Optical and PCR duplicates are marked using [`UmiAwareMarkDuplicates`]() tool. This tool corrects groups reads based on their UMI, gene, and alignment position. Future improvements will make this tool group by cell barcode as well [See this picard issue](). In groups containing more than one sequencing read, one read is selected as primary, and the rest are marked as duplicates. This tool also corrects cell barcodes using an approach modified from [Jaitin et al.](), wherein reads are subsumed into larger groups when they share the same position and gene, and the UMI is within an edit distance of 1.
+Optical and PCR duplicates are marked using the UmiAwareMarkDuplicates tool. This tool corrects groups reads based on their UMI, gene, and alignment position. Future improvements will make this tool group by cell barcode as well. In groups containing more than one sequencing read, one read is selected as primary, and the rest are marked as duplicates. This tool also corrects cell barcodes using an approach modified from [Jaitin et al.](), wherein reads are subsumed into larger groups when they share the same position and gene, and the UMI is within an edit distance of 1.
 
 ## Metrics
 
-A number of quality control tools are used to assess the quality of the data output each time this pipeline is run. For a list of the tools and information about each one please see [this page] of our documentation.
+A number of quality control tools are used to assess the quality of the data output each time this pipeline is run. For a list of the tools and information about each one please see our [QC Metrics](/learn/userguides/data-processing-pipelines/qc-mertics) page.
 
 ## Count Matrix Construction
 
-The pipeline outputs a count matrix that contains, for each cell and for each gene, the number of molecules that were observed. In practice, this equates to counting up the number of sequencing reads with 255 map quality (uniquely aligned to the genome) that are not duplicates (are the representative member of one or more alignments that share the same UMI, and therefore derive from the same molecule). The count matrix is then generated as a tab-separated file.
+The pipeline outputs a count matrix that contains, for each cell and for each gene, the number of molecules that were observed. In practice, this equates to counting up the number of sequencing reads with 255 map quality (uniquely aligned to the genome) that are not duplicates (i.e., the representative member of one or more alignments that share the same UMI, and therefore derive from the same molecule). The count matrix is then generated as a tab-separated file.
