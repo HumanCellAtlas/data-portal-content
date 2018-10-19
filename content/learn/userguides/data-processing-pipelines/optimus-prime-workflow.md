@@ -23,7 +23,7 @@ We aspire to leverage commonalities in assays to enable a general computational 
 | Genomic Reference Sequence|GRCh38 human genome primary sequence|[GENCODE](https://www.gencodegenes.org/human/release_27.html)|
 |Transcriptomic Reference Sequence |V27 GenCode human transcriptome |[GENCODE](https://www.gencodegenes.org/human/release_27.html)|
 | Aligner           |STAR       |[Dobin, et al.,2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/)|
-| Transcript Quantification |        |                                              |                       |
+| Transcript Quantification |[Sctools](https://github.com/HumanCellAtlas/sctools)        |                                              |                       |
 |Data Input File Format | FASTQ      |                                              |                       |
 
 ## Optimus Modules Summary
@@ -40,11 +40,7 @@ Although the function of the cell barcodes is to identify unique cells, several 
 
 Cell barcode correction uses as input files in BAM file format; thus the fastq files containing the raw sequence data from the sequencer must first be converted to BAM files. This is done using the FastqToUBam.wdl tool, described [here](https://software.broadinstitute.org/gatk/documentation/tooldocs/4.0.3.0/picard_sam_FastqToSam.php). The output BAM files contain sequence that is complementary to the mRNA transcript data in the fastq files and can thus be aligned to the genomic sequence in a later alignment step.
 
-The [Attach10xBarcodes](https://github.com/HumanCellAtlas/sctools) tool is then used to attach 10X barcodes found in the fastq sample to the corresponding reads in the BAM file, producing a barcoded.bam file. The tool uses as input three files:1) the original fastq file of forward reads (r1), containing the unique molecular identifier and cell barcode sequences, 2) an index fastq file which contains the Illumina sample barcodes, and 3) the unmapped bam file of reverse reads (r2), which is the alignable genomic information. The reads in these files are in the same order, and the tool works sequentially through the data, putting the barcodes found for each read of the first 2 fastq files  onto the corresponding read of the third (BAM) file.  The program returns as output a barcoded.bam file containing the reads with correct barcodes (this includes barcodes that came within one error of matching, which are corrected by this tool). These are assigned a “CB” tag. Uncorrected barcodes are preserved and given a “CR” (Cell barcode Raw) tag. During this process, barcoded reads are sorted into cell groups so that the data is divided into reads per cell chunks.
-
-The remainder of the pipeline processes these chunks in parallel.
-
-TODO: make the rest of the docs have links like this?
+The [Attach10xBarcodes](https://github.com/HumanCellAtlas/sctools) tool is then used to attach 10X barcodes found in the fastq sample to the corresponding reads in the BAM file, producing a barcoded.bam file. The tool uses as input three files:1) the original fastq file of forward reads (r1), containing the unique molecular identifier and cell barcode sequences, 2) an index fastq file which contains the Illumina sample barcodes, and 3) the unmapped bam file of reverse reads (r2), which is the alignable genomic information. The reads in these files are in the same order, and the tool works sequentially through the data, putting the barcodes found for each read of the first 2 fastq files  onto the corresponding read of the third (BAM) file.  The program returns as output a barcoded.bam file containing the reads with correct barcodes (this includes barcodes that came within one error of matching, which are corrected by this tool). These are assigned a “CB” tag. Uncorrected barcodes are preserved and given a “CR” (Cell barcode Raw) tag. During this process, barcoded reads are sorted into cell groups so that the data is divided into reads per cell chunks. The remainder of the pipeline processes these chunks in parallel.
 
 WDL: [Attach10xBarcodes.wdl](https://github.com/HumanCellAtlas/skylab/blob/master/library/tasks/Attach10xBarcodes.wdl)
 
@@ -62,7 +58,7 @@ The [TagGeneExon](https://github.com/HumanCellAtlas/skylab/blob/master/pipelines
 
 ## Duplicate Marking
 
-Optical and PCR duplicates are marked using the UmiAwareMarkDuplicates tool. This tool corrects groups reads based on their UMI, gene, and alignment position. Future improvements will make this tool group by cell barcode as well. In groups containing more than one sequencing read, one read is selected as primary, and the rest are marked as duplicates. This tool also corrects cell barcodes using an approach modified from [Jaitin et al.](), wherein reads are subsumed into larger groups when they share the same position and gene, and the UMI is within an edit distance of 1.
+Optical and PCR duplicates are marked using the [UmiAwareMarkDuplicates](https://broadinstitute.github.io/picard/command-line-overview.html#MarkDuplicates) tool. This tool corrects groups reads based on their UMI, gene, and alignment position. Future improvements will make this tool group by cell barcode as well. In groups containing more than one sequencing read, one read is selected as primary, and the rest are marked as duplicates. This tool also corrects cell barcodes using an approach modified from [Jaitin et al.](), wherein reads are subsumed into larger groups when they share the same position and gene, and the UMI is within an edit distance of 1.
 
 ## Metrics
 
