@@ -39,7 +39,61 @@ To create a new submission envelope, the client must send a HTTP POST request to
 curl -X POST \
      -H "Authorization: Bearer $AUTH_TOKEN" \
      -H "Content-type: application/json" \
-     -d {}
-     http://api.ingest.data.humancellatlas.org/submissionEnvelopes
+     -d {} \
+     http://api.ingest.dev.data.humancellatlas.org/submissionEnvelopes
+```
+
+This will return details of the new submission envelope that looks like the following:
 
 ```
+{
+  "submissionDate" : "2018-10-19T13:18:01.108Z",
+  "updateDate" : "2018-10-19T13:20:35.589Z",
+  "user" : "...",
+  "lastModifiedUser" : "anonymousUser",
+  "uuid" : {
+    "uuid" : "d2e8ccd7-6987-4b86-8eeb-188aeaf9ef7b"
+  },
+  "events" : [ ],
+  "stagingDetails" : {...},
+  "submissionState" : "Invalid",
+  "triggersAnalysis" : true,
+  "submissionErrors" : [ ],
+  "open" : true,
+  "_links" : {...}
+}
+```
+
+The `_links` property contains a map of service discoverable endpoints associated with the create submission envelope. The `self` link refers back to the submission envelope itself. Some of the links in this map also come with human readable `title`s that help describe their respective service:
+
+```
+"_links" : {
+    "self" : {
+      "href" : "http://api.ingest.dev.data.humancellatlas.org/submissionEnvelopes/5b4dec891edf300007b4b17b"
+    },
+    "submissionEnvelope" : {
+      "href" : "http://api.ingest.dev.data.humancellatlas.org/submissionEnvelopes/5b4dec891edf300007b4b17b",
+      "title" : "A single submission envelope"
+    },
+    "biomaterials" : {
+      "href" : "http://api.ingest.dev.data.humancellatlas.org/submissionEnvelopes/5b4dec891edf300007b4b17b/biomaterials"
+    },
+    "processes" : {
+      "href" : "http://api.ingest.dev.data.humancellatlas.org/submissionEnvelopes/5b4dec891edf300007b4b17b/processes"
+    },
+    "files" : {
+      "href" : "http://api.ingest.dev.data.humancellatlas.org/submissionEnvelopes/5b4dec891edf300007b4b17b/files",
+      "title" : "Access or create, within a submission envelope, a new assay"
+    },
+    "projects" : {
+      "href" : "http://api.ingest.dev.data.humancellatlas.org/submissionEnvelopes/5b4dec891edf300007b4b17b/projects",
+      "title" : "Access or create projects. Creation can only be done inside a submission envelope"
+    },
+    "protocols" : {
+      "href" : "http://api.ingest.dev.data.humancellatlas.org/submissionEnvelopes/5b4dec891edf300007b4b17b/protocols",
+      "title" : "Access or create protocols"
+    },
+}
+```
+
+As the items in the links map are structured JSON objects, to refer to the actual link, they should be extracted from the nested `href` property. For example to retrieve the link to the submission envelope itself, the property chain is `_links.self.href`.
