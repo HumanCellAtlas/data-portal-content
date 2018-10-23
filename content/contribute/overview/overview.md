@@ -32,17 +32,18 @@ The Human Cell Atlas is built with the help of and to the benefit of the scienti
 
 Once you are ready to contribute your data, you will be supported by the Human Cell Atlas data wranglers.  We currently use spreadsheets to collect the metadata and an upload tool to deposit the data files in our cloud infrastructure. 
 
+***insert icons here***
+
 <!--
-insert icons here
     - ./contact-us.md
     - ./prepare-metadata.md
     - ./upload-data.md
     - ./see-and-share.md
 -->
 
-Ready to contribute? Start the conversation by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org)
+Ready to contribute? Start the conversation by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
-<!-- we need another icon here to show the analysis process. We also need to remove the links at the bottom, but introduce this text in more- actionable way - work with Dave and Fran) -->
+<!-- we need another icon here to show the analysis process. We also need to remove the links at the bottom, but introduce this text in more actionable way - work with Dave and Fran) -->
 
 ## What to prepare
 
