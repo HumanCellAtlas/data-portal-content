@@ -33,6 +33,7 @@ If you have other data types not mentioned here, please reach out to us so we ca
 Once you are ready to contribute your data, you will be supported by the Human Cell Atlas data wranglers.  We currently use spreadsheets to collect the metadata and an upload tool to deposit the data files in our cloud infrastructure. 
 
 <!--
+insert icons here
     - ./contact-us.md
     - ./prepare-metadata.md
     - ./upload-data.md
@@ -57,18 +58,18 @@ In order to be able to process your data at cellular resolution, we will need yo
 
 Once you contribute your cellular resolution data to the Human Cell Atlas, you will be able to find it in the data portal. You will also receive:
 
-1. Analysis output, currently for human Smartseq2 and 10x V2 only
+1. Analysis output, currently for human Smartseq2 and 10X v2 only
 
-For SmartSeq2 and 10x V2 single cell RNAseq experiments, the data will also be processed by our standard analysis pipelines. The analysis output will be available to you alongside your raw data and will be discoverable via the data portal. 
+For SmartSeq2 and 10X v2 single cell RNAseq experiments, the data will also be processed by our standard analysis pipelines. The analysis outputs will be available alongside the raw data and will be discoverable in the Data Browser.
 
-Your data will also be available for use directly in the [analysis applications](https://dev.data.humancellatlas.org/analyze/methods/methods) available through the Data Portal.
+Your data will also be available for use directly in [analysis applications](https://dev.data.humancellatlas.org/analyze/methods/methods) available through the Data Portal.
 
 1. Repository accessions
 
-To support you in publishing your data, we will submit the data to community standard archives and return to you the archival accessions that you need for publication.
+To support you in publishing your data, we will submit the raw data to community standard archives and return to you the archival accessions that you need for publication.
 
 Currently we are able to archive any sequencing data which is submitted to us. Our default archives for submission are the BioStudies, BioSamples, and European Nucleotide Archives based at EMBL-EBI. We are working towards supporting submission to GEO if your funding mandates submission there. Please let the data wrangler know if this is the case when you start your submission process.
 
-At the moment we will not automatically archive imaging data but we are engaged with the community to understand what are the archival best practice for biological images and then we will work to support submission to these archives.
+At the moment we will not automatically archive imaging data. We are engaged with the community to understand what the archival best practice are for biological images, and we will work to support submission to these archives in the future.
 
 Start the HCA submission process by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
