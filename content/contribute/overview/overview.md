@@ -10,51 +10,65 @@ linked:
     - ./see-and-share.md
 ---
 
-## What data can be submitted?
+# Contribute
 
-The Human Cell Atlas is interested in all types of cellular resolution 'omics data. If you have cellular resolution data of any type which is consented for open data release, please talk to us and we are happy to discuss if it is suitable for the atlas.
+The Human Cell Atlas is built with the help of and to the benefit of the scientific community. Our team welcomes contributions of any type of data at cellular resolution, as long as it is consented for open access to the public.
 
-### SmartSeq2 and 10X single cell RNAseq
+## Supported data types
 
-Our standard secondary analysis pipelines can process SmartSeq2 and 10X single cell RNA-Seq data. All submitted SmartSeq2 and 10X experiments will be processed by our secondary analysis pipelines, and these alignment and quantification results will be made available alongside the raw data.
+1. **SmartSeq2 and 10X v2 RNA seq data**  - currently supported by our data analysis pipelines
 
-###Single nucleus sequencing and Image-based transcriptomics
+All submitted SmartSeq2 and 10X v2 experiments will be processed by our data processing pipelines, and the alignment, cell-gene matrix and quantification results will be made available in the portal alongside the raw data. 
 
-We are actively investigating standard analysis pipelines for these data types. If you are generating data like this, we are very interested to collect it and work with you to better understand these data types and how to process them.
+1. **Single nucleus sequencing or image-based transcriptomics** - data analysis pipelines under development
 
-### Other data types
+We are actively investigating standard analysis pipelines for single nucleus sequencing and several image-based transcriptomics experiments. If you are doing these types of experiments,  please reach out to us. We are interested to work together and better understand the data types and how to process them.
 
-Ultimately many types of cellular resolution data will be needed to build the Human Cell Atlas. If you have other data types not mentioned here, please reach out to us. As our platform develops we will want to use these data to build the atlas; help you share these data with the community, and we will make it available in cloud environments for you and your collaborators to use.
+1. **Other data types at cellular resolution**
 
-## The submission process
+If you have other data types not mentioned here, please reach out to us so we can develop a plan for incorporating these data into the HCA.
 
-Our current submission process uses spreadsheets to collect the metadata and an upload tool to deposit the data files in our cloud infrastructure. You will be supported in the process by our data wranglers. Currently submission is a collaborative process between you and one of our wranglers. As our platform evolves, we aim to make the submission process more self-service.
+## Data contribution process
 
-The current data submission journey looks like this:
+Once you are ready to contribute your data, you will be supported by the Human Cell Atlas data wranglers.  We currently use spreadsheets to collect the metadata and an upload tool to deposit the data files in our cloud infrastructure. 
 
-1. Talk to a data wrangler about your project and the types of samples you are collecting and experiments you are running.
-1. Be given a spreadsheet template tailored to your project so you can provide details about your project, samples, and experiments.
-1. Be given credentials in order use the Human Cell Atlas upload tool  to upload your data files to the cloud.
-1. Fill out your spreadsheet and upload your data files.
-1. Be given validation results back by the data wrangler and work with them to fix any errors that were discovered.
-1. Be given a summary of your submission to review to ensure you are happy with the data and metadata you have submitted.
-1. Agree to the HCA DCP Terms and Conditions for data sharing and reuse.
-1. The wrangler will submit the data to our data store and it will be available in our data portal.
+<!--
+    - ./contact-us.md
+    - ./prepare-metadata.md
+    - ./upload-data.md
+    - ./see-and-share.md
+-->
 
-There is also a programmatic submission route which enables more automation of the process. If you wish to investigate this submission route, please contact us.  
+Ready to contribute? Start the conversation by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org)
 
-The submission process is evolving and we are working to improve the systems you interact with and make the process more self-driven. We are keen to hear your feedback on the existing process and what features would make the submission process more straightforward for you to use. Please let us know if you have any suggestions.
+<!-- we need another icon here to show the analysis process. We also need to remove the links at the bottom, but introduce this text in more- actionable way - work with Dave and Fran) -->
 
-## After submission
+## What to prepare
 
-After the data has been submitted, it will be made available in our data portal. For SmartSeq2 and 10x single cell RNAseq experiments, the data will also be processed by our standard analysis pipelines. These results will be deposited in the data store alongside your raw data and will be discoverable via the data portal. Your data will also be available for use in the tertiary portals which are connected to our platform. You can get a full list of the current services that are connected to us on in our tertiary portals registry.
+In order to be able to process your data at cellular resolution, we will need you to have this information ready:
 
-### Archival submission
+- Unprocessed data files
+- Information on samples
+- Information on experiment and protocols
+- Summary of your project and team information
+- Confirmation that data is consented for open access
 
-In order to support you when you publish using your data we will also submit data to community standard archives and return you the archival accessions that you need to publish the data. 
+## Your data in the HCA
+
+Once you contribute your cellular resolution data to the Human Cell Atlas, you will be able to find it in the data portal. You will also receive:
+
+1. Analysis output, currently for human Smartseq2 and 10x V2 only
+
+For SmartSeq2 and 10x V2 single cell RNAseq experiments, the data will also be processed by our standard analysis pipelines. The analysis output will be available to you alongside your raw data and will be discoverable via the data portal. 
+
+Your data will also be available for use directly in the [analysis applications](https://dev.data.humancellatlas.org/analyze/methods/methods) available through the Data Portal.
+
+1. Repository accessions
+
+To support you in publishing your data, we will submit the data to community standard archives and return to you the archival accessions that you need for publication.
 
 Currently we are able to archive any sequencing data which is submitted to us. Our default archives for submission are the BioStudies, BioSamples, and European Nucleotide Archives based at EMBL-EBI. We are working towards supporting submission to GEO if your funding mandates submission there. Please let the data wrangler know if this is the case when you start your submission process.
 
-At the moment we will not automatically archive imaging data but we are engaged with the community to understand what are the archival best practice for biological images and then we will work to support submission to these archives.  
+At the moment we will not automatically archive imaging data but we are engaged with the community to understand what are the archival best practice for biological images and then we will work to support submission to these archives.
 
 Start the HCA submission process by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
