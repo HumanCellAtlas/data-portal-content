@@ -52,18 +52,18 @@ In order to be able to process your data at cellular resolution, we will need yo
 - Unprocessed data files
 - Information on samples
 - Information on experiment and protocols
-- Summary of your project and team information
+- Summary of project and team information
 - Confirmation that data is consented for open access
 
 ## Your data in the HCA
 
-Once you contribute your cellular resolution data to the Human Cell Atlas, you will be able to find it in the data portal. You will also receive:
+Once you contribute your cellular resolution data to the Human Cell Atlas, you will be able to find it in the [Data Browser](https://dev.data.humancellatlas.org/explore/projects). You will also receive:
 
 1. **Analysis output** - currently for human Smartseq2 and 10X v2 only
 
     For SmartSeq2 and 10X v2 single cell RNAseq experiments, the data will also be processed by our standard analysis pipelines. The analysis outputs will be available alongside the raw data and will be discoverable in the Data Browser.
 
-    Your data will also be available for use directly in [analysis applications](https://dev.data.humancellatlas.org/analyze/methods/methods) available through the Data Portal.
+    Your data will also be available for use directly in [analysis applications](https://dev.data.humancellatlas.org/analyze/methods/methods/) available through the Data Portal.
 
 1. **Repository accessions**
 
