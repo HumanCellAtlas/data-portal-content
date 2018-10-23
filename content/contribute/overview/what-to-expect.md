@@ -10,4 +10,4 @@ subTitle: "What to expect"
 * analysis?
 * accessioning?
 * viewing (data browser)?
-* tertiary analysis?
+* analysis applications?

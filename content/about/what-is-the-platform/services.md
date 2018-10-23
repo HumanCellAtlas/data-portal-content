@@ -15,4 +15,4 @@ Services for uploading, analyzing, and accessing data
 
 [Data Browser](/about/what-is-the-platform/data-browser)
 
-[Secondary Analysis](/about/what-is-the-platform/secondary-analysis)
+[Data Processing Pipelines](/about/what-is-the-platform/data-processing-pipelines)

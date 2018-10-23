@@ -1,5 +1,5 @@
 ---
-path: "/contribute/what-to-prepare"
+path: "/contribute/overview/what-to-prepare"
 date: "2018-08-010"
 title: "What to prepare"
 template: ""
@@ -34,7 +34,7 @@ As the data contributor, you may need to consult with your colleagues, e.g. coll
 
 If you have generated other files associated with your experiment - such as images of the sampled organ or FACS plots for your cell population - you will be able to upload these as supplementary files and associate them with your project. 
 
-Please note we will not host your secondary analysis results such as alignment or quantification files. The platform produces these using standard pipelines providing uniform results across the the datasets we host.
+Please note we will not host your results from data processing pipelines, such as alignment or quantification files. The platform produces these using standard pipelines providing uniform results across the the datasets we host.
 
 You can provide us a link to a public location for files of this type if you have deposited in another resource like GEO, ArrayExpress, or Zenodo.
 
