@@ -4,7 +4,7 @@ date: "2018-07-12"
 title: "Adding an Environment to the Portability Service"
 ---
 
-## Why add an environment to the portability service?
+## Why add an environment to the Portability Service?
 
 HCA pipelines and other user-submitted pipelines are executed in multiple environments during development and release to demonstrate their portability. This testing is beneficial in two respects:
 
@@ -14,12 +14,12 @@ HCA pipelines and other user-submitted pipelines are executed in multiple enviro
 
 ## Adding an execution environment
 
-The portability service only makes workflow execution requests using the [GA4GH WES API](https://github.com/ga4gh/workflow-execution-service-schemas). Therefore, the first step to adding an environment is to make sure that the environment implements WES (which stands for [Workflow Execution Schema](https://github.com/ga4gh/workflow-execution-service-schemas/blob/develop/README.md)). WES is a common API that helps to standardize workflow submission requests across execution engines.
+The *Portability Service* only makes workflow execution requests using the [GA4GH WES API](https://github.com/ga4gh/workflow-execution-service-schemas). Therefore, the first step to adding an environment is to make sure that the environment implements WES (which stands for [Workflow Execution Schema](https://github.com/ga4gh/workflow-execution-service-schemas/blob/develop/README.md)). WES is a common API that helps to standardize workflow submission requests across execution engines.
 
-The mechanics of adding an environment are relatively straightforward. It requires a POST request to the `/environments` endpoint with the following parameters in the request body:
+The mechanics of adding an environment are relatively straightforward. A POST request to the `/environments` endpoint is required, with the following parameters in the request body:
 
 - name: A human-readable name for the environment. This will be used for reporting results.
-- schema: Must be "WES"
-- url: The base URL for the WES endpoints provided by the environment
-- headers: An optional object with any headers that should be included in requests to the environment
-- key_values: An optional object with any key value pairs that should be included in the request to run the workflow
+- schema: Must be "WES".
+- url: The base URL for the WES endpoints provided by the environment.
+- headers: An optional object with any headers that should be included in requests to the environment.
+- key_values: An optional object with any key value pairs that should be included in the request to run the workflow.
