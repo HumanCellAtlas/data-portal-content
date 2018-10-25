@@ -5,7 +5,7 @@ title: "Overview"
 noNav: true
 ---
 
-# Contribute
+# Contributing Data to the Human Cell Atlas
 
 The Human Cell Atlas is built with the help of and to the benefit of the scientific community. Our team welcomes contributions of any type of data at cellular resolution, as long as it is consented for open access to the public.
 
