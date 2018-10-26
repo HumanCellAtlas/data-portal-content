@@ -10,7 +10,13 @@ The long-term goal of the Optimus Prime workflow is to support any 3 prime singl
 
 ## Commonalities Among Sequencing Assays
 
-The introduction of droplet-based technologies such as inDrop ([Klein, et al., 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441768/)) and Drop-seq ([Macosko, et al., 2015](https://www.sciencedirect.com/science/article/pii/S0092867415005498)) moved the throughput of a single-cell RNA sequencing experiment from hundreds, to thousands, of cells. Technology developed by [10X Genomics](https://www.10xgenomics.com/) further increased the throughput to tens or even hundreds of thousands of cells and has opened up the possibility of creating datasets for millions of cells. Common trends among many of the single cell transcriptomics high-throughput technologies is that they comprise 1) the use of microfluidics to capture individual cells in oil droplets containing barcoded beads and enzymes, 2) short read 3’ single-strand DNA sequencing, and 3) use of a unique molecular identifier (UMI) as well as a cell barcode to tag each transcript as a unique molecule from a particular cell. The bead-specific barcodes and UMIs are encoded on sequencing primers that also contain polyT tracts to enable binding of the primers to polyA+ mRNA transcripts. After lysing cells, mRNA transcripts bind to the polyT tracts in the primer and transcripts are reverse transcribed to generate barcoded cDNA. Note that all cDNA molecules from a single cell have the same barcode, but they have different UMIs. Thus every transcript that is captured from an individual cell can be mapped to its cognate cell and also counted as a single transcript, correcting for PCR bias. cDNAs are pooled for amplification and construction of libraries to facilitate 3’ DNA sequencing.
+The introduction of droplet-based technologies such as inDrop ([Klein, et al., 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441768/)) and Drop-seq ([Macosko, et al., 2015](https://www.sciencedirect.com/science/article/pii/S0092867415005498)) moved the throughput of a single-cell RNA sequencing experiment from hundreds, to thousands, of cells. Technology developed by [10X Genomics](https://www.10xgenomics.com/) further increased throughput to tens or even hundreds of thousands of cells and has opened up the possibility of creating datasets for millions of cells. Common among many of the single cell transcriptomics high-throughput technologies is the use of:
+
+* microfluidics, which captures individual cells in oil droplets containing barcoded beads and enzymes
+* short read 3’ single-strand DNA sequencing 
+* a unique molecular identifier (UMI) as well as a cell barcode to tag each transcript as a unique molecule from a particular cell 
+
+The bead-specific barcodes and UMIs are encoded on sequencing primers that also contain polyT tracts to enable binding of the primers to polyA+ mRNA transcripts. After lysing cells, mRNA transcripts bind to the polyT tracts in the primer and transcripts are reverse transcribed to generate barcoded cDNA. Note that all cDNA molecules from a single cell have the same barcode, but they have different UMIs. Thus every transcript that is captured from an individual cell can be mapped to its cognate cell and also counted as a single transcript, correcting for PCR bias. cDNAs are pooled for amplification and construction of libraries to facilitate 3’ DNA sequencing.
 
 We aspire to leverage commonalities in assays to enable a general computational workflow for processing many single cell transcriptomics modalities. While there will be some differences between assays that will have to be specifically addressed in the workflows, the many common steps will be leveraged into a general workflow.
 
@@ -28,7 +34,7 @@ We aspire to leverage commonalities in assays to enable a general computational 
 
 ## Optimus Modules Summary
 
-Here we describe the modules of Optimus Prime; feel free to review [the code](https://github.com/HumanCellAtlas/skylab/blob/master/pipelines/optimus/Optimus.wdl), which is available from Github.
+Here we describe the modules of Optimus Prime; feel free to review [the code](https://github.com/HumanCellAtlas/skylab/blob/master/pipelines/optimus/Optimus.wdl), available from Github.
 
 In total, the workflow corrects cell barcodes and Unique Molecular Identifiers (UMIs), aligns reads, marks duplicates, and returns data as alignments in BAM file format and as counts in sparse matrix exchange format. Input data is augmented with QC metrics derived during the processing steps. Rather than remove reads determined by the pipeline to be of lesser quality, all reads are kept with their associated QC metrics and incorporated into the output files. Thus, for example, reads that do not align with genes are not removed. This design, which differs from many pipelines currently available, enables use of the entire dataset by those who may want to use alternative filtering or leverage the data for methodological development associated with the data processing.
 
@@ -56,9 +62,23 @@ The [STAR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/) alignment soft
 
 The [TagGeneExon](https://github.com/HumanCellAtlas/skylab/blob/master/pipelines/optimus/Optimus.wdl) tool is used to annotate each read with the type of sequence it aligned to. These annotations include `INTERGENIC`, `INTRONIC`, and `EXONIC`, and are stored in the `XF` tag. In cases where the gene corresponds to an intron or exon, the name of the gene that overlaps the alignment is associated with the read and stored in the `GE` tag.
 
+WDL: [TagGeneExon](https://github.com/HumanCellAtlas/skylab/blob/master/pipelines/optimus/Optimus.wdl)
+
+Docker:
+
+Key Library:
+
+
 ## Duplicate Marking
 
 Optical and PCR duplicates are marked using the [UmiAwareMarkDuplicates](https://broadinstitute.github.io/picard/command-line-overview.html#MarkDuplicates) tool. This tool corrects groups reads based on their UMI, gene, and alignment position. Future improvements will make this tool group by cell barcode as well. In groups containing more than one sequencing read, one read is selected as primary, and the rest are marked as duplicates. This tool also corrects cell barcodes using an approach modified from [Jaitin et al.](), wherein reads are subsumed into larger groups when they share the same position and gene, and the UMI is within an edit distance of 1.
+
+WDL: 
+
+Docker:
+
+Key Library:
+
 
 ## Metrics
 
