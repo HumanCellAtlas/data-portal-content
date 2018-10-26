@@ -33,8 +33,11 @@ returns an embedded `_links` JSON map that contains links to important API endpo
 
 ### Submission Process
 
+In general, the following steps define the ingestion process through the Ingest platform:
+
 1. [Create submission envelope](#step1)
 1. [Add metadata to the submission envelope](#step2)
+1. [Submit the envelope](#step3)
 
 #### <a name="step1"></a>Create Submission Envelope
 
@@ -165,7 +168,7 @@ curl -X POST \
   }'
 ```
 
-#### <a name="step3"></a> Submission
+#### <a name="step3"></a> Submit the Envelope
 
 The final step in brokering data through the Ingest platform is to submit the envelope to the central data store. This can be done by issuing a HTTP PUT request to the `submit` endpoint of the submission envelope:
 
