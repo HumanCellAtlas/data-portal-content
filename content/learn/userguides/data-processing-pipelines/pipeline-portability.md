@@ -25,7 +25,7 @@ The HCA is a driver project of the [Global Alliance for Genomics and Health (GA4
 
 The Portability Service enables you to:
 1. Submit pipelines to the service to check if they can run in different environments. This step can be incorporated into your continuous integration plan.
-2. Attach your environment to the *Portability Service* to receive submitted pipelines and confirm they run in your environment.
+2. Attach your environment to the Portability Service to receive submitted pipelines and confirm they run in your environment.
 
 ### Portability Service Execution Environments
 * [dxWDL](https://github.com/dnanexus/dxWDL) on [DNAnexus](https://www.dnanexus.com/)
