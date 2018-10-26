@@ -4,7 +4,7 @@ date: "2018-05-03"
 title: "Optimus Prime Workflow"
 ---
 
-## Introduction to the Workflow
+## Introduction to the Optimus Prime Workflow
 
 The long-term goal of the Optimus Prime workflow is to support any 3 prime single cell transcriptomics assay selected by the HCA project. Using the correct modularity, we hope to grow a generic pipeline that has specific modules to address differences in assays, while leveraging common code where steps of the assays are the same. We offer this as a community resource for community development and improvement. The first assay this workflow will support is the [10X Single Cell Expression (v2) assay](https://www.10xgenomics.com/solutions/single-cell).
 
