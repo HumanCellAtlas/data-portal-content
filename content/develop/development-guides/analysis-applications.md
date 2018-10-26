@@ -21,7 +21,7 @@ We provide several computational solutions to use in building products. We have 
 
 ## Working with Ingest
 
-**Ingest API** The *Ingest Service* provides a programmatic API for submitting data. This may be useful, for example, for LIMs integration solutions. This does require authentication and would require contacting the ingest team.
+**Ingest API** The Ingest Service provides a programmatic API for submitting data. This may be useful, for example, for LIMs integration solutions. This does require authentication and would require contacting the ingest team.
 
 [Starting point: GitHub Repository Ingest Central (ingest-central)](https://github.com/HumanCellAtlas/ingest-central)    
 [GitHub Repository for Ingest API(ingest-broker-api)](https://github.com/HumanCellAtlas/ingest-broker-api)    
@@ -52,7 +52,7 @@ We provide several computational solutions to use in building products. We have 
 
 ## Accessing the Matrix Service
 
-**Matrix Service API** The *Matrix Service* enables the ability to create matrices from underlying data in the DCP. The *Matrix Service* currently exposes a REST API endpoint. This can be given a manifest of files to combine, that can be polled until the service generates the requested matrix for download.
+**Matrix Service API** The Matrix Service enables the ability to create matrices from underlying data in the DCP. The Matrix Service currently exposes a REST API endpoint. This can be given a manifest of files to combine, that can be polled until the service generates the requested matrix for download.
 
 Matrix Service Description - Coming Soon    
 Matrix Service swagger - Coming Soon   
