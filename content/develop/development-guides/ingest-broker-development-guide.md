@@ -135,3 +135,32 @@ curl -X POST \
 ```
 
 The example metadata content in this document may be out of date. The updated metadata schema can be found in [schema.humancellatlas.org](https://schema.humancellatlas.org/~).
+
+##### Files Endpoint
+
+For most of the metadata types, adding metadata is mostly a matter of sending a HTTP POST to the proper endpoints as shown previously for the biomaterial. For the file endpoint, however, the system requires the file name to be provided in the endpoint path. For example, if metadata on a file named `R1.fastq.gz` is to be added to the envelope, the endpoint would be:
+
+    http://api.ingest.data.humancellatlas.org/submissionEnvelopes/5b4dec891edf300007b4b17b/files/R1.fastq.gz
+
+
+The cUrl command to add file to a submission envelope will look like the following:
+
+```
+curl -X POST \
+  http://api.ingest.data.humancellatlas.org/submissionEnvelopes/5b4dec891edf300007b4b17b/files/R1.fastq.gz \
+  -H 'content-type: application/json' \
+  -d '{
+    "describedBy" : "https://schema.humancellatlas.org/type/file/6.5.2/sequence_file",
+    "schema_version" : "6.5.2",
+    "schema_type" : "file",
+    "file_core" : {
+      "file_name" : "R1.fastq.gz",
+      "file_format" : "fastq.gz",
+      "describedBy" : "https://schema.humancellatlas.org/core/file/5.0.0/file_core",
+      "schema_version" : "5.2.4"
+    },
+    "read_index" : "read1",
+    "lane_index" : 1,
+    "read_length" : 187
+  }'
+```
