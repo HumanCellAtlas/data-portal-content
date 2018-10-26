@@ -164,3 +164,13 @@ curl -X POST \
     "read_length" : 187
   }'
 ```
+
+#### <a name="step3"></a> Submission
+
+The final step in brokering data through the Ingest platform is to submit the envelope to the central data store. This can be done by issuing a HTTP PUT request to the `submit` endpoint of the submission envelope:
+
+```
+curl -X PUT \
+  http://api.ingest.data.humancellatlas.org/submissionEnvelopes/5b4dec891edf300007b4b17b/submit
+  -H 'content-type: application/json'
+```
