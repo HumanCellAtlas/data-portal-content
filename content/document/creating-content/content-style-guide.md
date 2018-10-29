@@ -76,6 +76,8 @@ Commonly used contractions like “don’t”, “it’s”, “isn’t”, “d
     * The *Census of Immune Cells* dataset contains about 530,000 cells.
     
 * Capitalize, but DON'T italicize our services, like Ingest Service, Data Store, etc.
+
+* Capitalize the words in titles, for example: Use Title Caps, not Use title caps
     
 * Spell out numbers when they begin a sentence or for the numbers zero through five, unless referring to a measurement or when comparing to other numbers.  Otherwise, use the numeral. For example: 
   * There are four main sections in the *Data Portal*.
@@ -86,6 +88,9 @@ Commonly used contractions like “don’t”, “it’s”, “isn’t”, “d
 * When referring to a file type, use all uppercase (e.g., PDF, TXT, or "Download the TXT file on this page."). When referring to a specific file, use all lowercase (e.g., brain.pdf).
 
 * Each sentence, even a sentence fragment, should start with a capital letter and end with a period.
+
+* Keep paragraph size to 3-4 sentences OR LESS. Add subheadings to break up longer paragraphs, for ease of reading on the web. This page is a great example of using subheadings: https://dev.data.humancellatlas.org/about/what-is-the-platform/ingest-service
+ 
 
 ### How to refer to users and team members
 * While our team’s name is officially, the “Data Coordination Platform team” or DCP team, this overly technical to surface to Data Portal users.  Instead, refer to the DCP team as “the HCA Portal team”.

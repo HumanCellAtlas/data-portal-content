@@ -37,7 +37,7 @@ One can also use Common Workflow Language, or [CWL](https://www.commonwl.org/), 
 
 ### Testing and Benchmarking
 
-Unity Benchmarking Service, currently under construction and described [here](https://docs.google.com/document/d/1_gxct8eVb2dXjQe3YXAFh_0R5dtYMvpc9lfhRh0JgU4/edit), is designed to facilitate community development and contribution of pipelines and pipeline improvements.
+[Unity Benchmarking Service](https://unity.broadinstitute.org/), currently under construction and described [here](https://docs.google.com/document/d/1_gxct8eVb2dXjQe3YXAFh_0R5dtYMvpc9lfhRh0JgU4/edit), is designed to facilitate community development and contribution of pipelines and pipeline improvements.
 
 [Portability Service](https://dev.data.humancellatlas.org/learn/userguides/data-processing-pipelines/pipeline-portability) allows you to determine whether your pipeline works in the HCA, or in select non-HCA environments. Conversely, it also enables you to attach your execution environment to the portability system to check whether HCA pipelines work in that environment as part of our pipeline testing process.
 
@@ -50,17 +50,10 @@ Containers are used to store the computational environment (all software depende
 
 ## Getting Involved in Pipeline Development
 
-We welcome your feedback about our current pipelines and your ideas for development of new pipelines. Send your thoughts via Canny (HCA Canny project?), or by contacting us directly at data-help@humancellatlas.org.
+We welcome your feedback about our current pipelines and your ideas for development of new pipelines. Send your thoughts by contacting us directly at data-help@humancellatlas.org.
 
 You are also welcome to attend meetings and participate in Slack discussions about data processing pipelines. Here are some details:
 
 1. Analysis Community Biweekly meetings are held every other Tuesday at 11AM, Eastern Time; view the [Agenda](https://docs.google.com/document/d/1860cE2zk2baXYefu5-WzQM_p_uTGjph6dWnehiRaFDw/edit#heading=h.rt36ocexz2z5)
 2. Join the HCA Slack channels: go to [Join Slack](https://join-hca-slack.herokuapp.com/) to obtain an invitation, and join the #secondary analysis channel.
 3. Attend DCP demos; contact us for the dates and times, and use [this link](https://meet.google.com/eoo-rdxp-kim) to join each meeting
-4. Coming soon:
-  * Workshop on pipeline development - sign up! 
-  * Forum - designed for community discussion about pipelines and analysis
-5. Points of contact for specific needs: 
-  * Portability service (TBD)
-  * Unity (TBD)
-		

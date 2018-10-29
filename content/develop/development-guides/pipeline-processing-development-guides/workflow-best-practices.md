@@ -61,17 +61,17 @@ _Impact._ Pipelines will have greatest impact when they can be leveraged in mult
   
 _Maintainability._ Over the long term, it is easier to maintain pipelines that can be run in multiple environments. Portability avoids being tied to specific infrastructure and enables ease of deployment to development environments.
 
-Within the scope of the HCA, to ensure that others will be able to use your pipeline, avoid building in assumptions about environments and infrastructures in which it will run. We provide a portability service to test whether your pipeline can run in a variety of execution environments, including those used by the HCA and others. Portability is discussed in more detail in the *Learn* section; [contact us](data-help@humancellatlas.org) to use the service.
+Within the scope of the HCA, to ensure that others will be able to use your pipeline, avoid building in assumptions about environments and infrastructures in which it will run. We provide a portability service to test whether your pipeline can run in a variety of execution environments, including those used by the HCA and others. Portability is discussed in more detail in the *Learn* section; [contact us](mailto:data-help@humancellatlas.org) to use the service.
 
 #### Configurability for running on different technical infrastructures.
 Code should not change to enable a pipeline to run on a different technical architecture; this change in execution environment should be configurable outside of the pipeline code.
 
 - *DO*: Use a workflow language that allows a separation between the code that executes the data processing logic and the logic to run the pipeline on an infrastructure. [WDL](https://software.broadinstitute.org/wdl/documentation) and [CWL](https://www.commonwl.org/user_guide/rec-practices) languages have this feature.
-_ *Don’t*: Put logic to run the pipeline in the same code that executes the logic to process the data.
+- *Don’t*: Put logic to run the pipeline in the same code that executes the logic to process the data.
 
 #### Separation between the environment, the execution of the pipeline, and the pipeline itself.
 - *Do*: Use a containerization technology, such as [Docker](https://www.docker.com/), to execute software.
-- *Do*: Incorporate into your testing the execution of the pipeline in multiple execution environments; see, for example: [HCA DCP portability service](learn/userguides/data-processing-pipelines/pipeline-portability).
+- *Do*: Incorporate into your testing the execution of the pipeline in multiple execution environments; see, for example: [HCA DCP portability service](/learn/userguides/data-processing-pipelines/pipeline-portability).
 - *Don’t*: Put environmental paths in software tools or the workflow language. When they must exist they belong in the configuration or (if they refer to the execution environment) in the container’s build instructions (Eg. Dockerfile).
 
 ### Scaling Characteristics
