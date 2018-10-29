@@ -16,9 +16,9 @@ The Human Cell Atlas is built with the help of and to the benefit of the scienti
 
 ## Supported data types
 
-1. **SmartSeq2 and 10X v2 RNA seq data**  - currently supported by our data analysis pipelines
+1. **Smart-seq2 and 10X v2 RNA seq data**  - currently supported by our data analysis pipelines
 
-    All submitted SmartSeq2 and 10X v2 experiments will be processed by our data processing pipelines, and the alignment, cell-gene matrix and quantification results will be made available in the portal alongside the raw data. 
+    All submitted Smart-seq2 and 10X v2 experiments will be processed by our data processing pipelines, and the alignment, cell-gene matrix and quantification results will be made available in the portal alongside the raw data. 
 
 1. **Single nucleus sequencing or image-based transcriptomics** - data analysis pipelines under development
 
@@ -59,9 +59,9 @@ In order to be able to process your data at cellular resolution, we will need yo
 
 Once you contribute your cellular resolution data to the Human Cell Atlas, you will be able to find it in the [Data Browser](https://dev.data.humancellatlas.org/explore/projects). You will also receive:
 
-1. **Analysis output** - currently for human Smartseq2 and 10X v2 only
+1. **Analysis output** - currently for human Smart-seq2 and 10X v2 only
 
-    For SmartSeq2 and 10X v2 single cell RNAseq experiments, the data will also be processed by our standard analysis pipelines. The analysis outputs will be available alongside the raw data and will be discoverable in the Data Browser.
+    For Smart-seq2 and 10X v2 single cell RNAseq experiments, the data will also be processed by our standard analysis pipelines. The analysis outputs will be available alongside the raw data and will be discoverable in the Data Browser.
 
     Your data will also be available for use directly in [analysis applications](https://dev.data.humancellatlas.org/analyze/methods/methods/) available through the Data Portal.
 
