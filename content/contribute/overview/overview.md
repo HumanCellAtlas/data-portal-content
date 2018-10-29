@@ -11,13 +11,13 @@ The Human Cell Atlas is built with the help of and to the benefit of the scienti
 
 ## Supported data types
 
-1. **Smart-seq2 and 10X v2 RNA-seq data**  - currently supported by our data analysis pipelines
+1. **Smart-seq2 and 10X v2 RNA-seq data**  - currently supported by our data processing pipelines
 
     Data from Smart-seq2 and 10X v2 experiments will be analyzed by our processing pipelines. Alignment and quantification results will be made available in the Data Portal alongside raw data. 
 
-1. **Single nucleus sequencing or image-based transcriptomics** - data analysis pipelines under development
+1. **Single nucleus sequencing or image-based transcriptomics** - data processing pipelines under development
 
-    We are actively investigating standard analysis pipelines for single nucleus sequencing and several image-based transcriptomics experiments. If you are doing these types of experiments, please reach out to us. We are interested in working together to better understand these data types and how to process them.
+    We are actively investigating standard processing pipelines for single nucleus sequencing and several image-based transcriptomics experiments. If you are doing these types of experiments, please reach out to us. We are interested in working together to better understand these data types and how to process them.
 
 1. **Other data types at cellular resolution**
 
@@ -56,7 +56,7 @@ Once you contribute your cellular resolution data to the Human Cell Atlas, you w
 
 1. **Analysis output** - currently for human Smart-seq2 and 10X v2 only
 
-    For Smart-seq2 and 10X v2 single cell RNA-seq experiments, the data will also be processed by our standard analysis pipelines. The analysis outputs will be available alongside the raw data and will be discoverable in the Data Browser.
+    For Smart-seq2 and 10X v2 single cell RNA-seq experiments, the data will be processed by our standard processing pipelines. The analysis outputs will be available alongside the raw data and will be discoverable in the Data Browser.
 
     Your data will also be available for use directly in [analysis applications](https://dev.data.humancellatlas.org/analyze/methods/methods/) available through the Data Portal.
 
