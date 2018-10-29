@@ -19,7 +19,7 @@ The Human Cell Atlas is built with the help of and for the benefit of the scient
 
     We are actively investigating standard processing pipelines for single nucleus sequencing and several image-based transcriptomics experiments. If you are doing these types of experiments, please reach out to us. We are interested in working together to better understand these data types and how to process them.
 
-1. **Other cellular resolution data types**
+1. **Other cellular resolution data**
 
     If you have other data types not mentioned here, please reach out to us so we can develop a plan for incorporating these data into the HCA.
 
