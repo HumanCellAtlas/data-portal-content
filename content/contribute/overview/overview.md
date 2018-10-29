@@ -18,11 +18,11 @@ The Human Cell Atlas is built with the help of and to the benefit of the scienti
 
 1. **Smart-seq2 and 10X v2 RNA-seq data**  - currently supported by our data analysis pipelines
 
-    Submitted Smart-seq2 and 10X v2 experiments will be processed by our data processing pipelines, and the alignment, cell-gene matrix and quantification results will be made available in the portal alongside the raw data. 
+    Data from Smart-seq2 and 10X v2 experiments will be analyzed by our processing pipelines. Alignment and quantification results will be made available in the Data Portal alongside raw data. 
 
 1. **Single nucleus sequencing or image-based transcriptomics** - data analysis pipelines under development
 
-    We are actively investigating standard analysis pipelines for single nucleus sequencing and several image-based transcriptomics experiments. If you are doing these types of experiments,  please reach out to us. We are interested to work together and better understand the data types and how to process them.
+    We are actively investigating standard analysis pipelines for single nucleus sequencing and several image-based transcriptomics experiments. If you are doing these types of experiments, please reach out to us. We are interested in working together to better understand these data types and how to process them.
 
 1. **Other data types at cellular resolution**
 
@@ -30,7 +30,7 @@ The Human Cell Atlas is built with the help of and to the benefit of the scienti
 
 ## Data contribution process
 
-Once you are ready to contribute your data, you will be supported by the Human Cell Atlas data wranglers.  We currently use spreadsheets to collect the metadata and an upload tool to deposit the data files in our cloud infrastructure. 
+Once you are ready to contribute your data, you will be supported by the Human Cell Atlas data wranglers. We currently use spreadsheets to collect the metadata and an upload tool to deposit the data files in our cloud infrastructure. 
 
 <!--
 insert icons here
