@@ -69,8 +69,8 @@ Once submitted to the Human Cell Atlas, your data will be searchable in the [Dat
 
     To support publishing your research, we will submit raw data to community standard archives and return the archival accessions that you need for publication.
 
-    Currently we are able to archive projects, samples, and sequencing data in the BioStudies, BioSamples, and European Nucleotide Archives (ENA) based at EMBL-EBI. We are working towards supporting submission to the NCBI Gene Expression Omnibus (GEO) if your funding mandates submission there. Please let a data wrangler know if this is the case when you start your submission process.
+    Currently we are able to archive projects, samples, and sequencing data in BioStudies, BioSamples, and the European Nucleotide Archives (ENA), respectively. We are working towards supporting submission to the NCBI Gene Expression Omnibus (GEO) if your funding mandates submission there. Please let a data wrangler know if this is the case when you start your submission process.
 
-    At the moment we will not automatically archive imaging data. We are engaged with the community to understand what the archival best practice are for biological images, and we will work to support submission to these archives in the future.
+    At the moment we will not automatically archive imaging data. We are engaged with the community to understand what the archival best practices are for biological images, and we will work to support submission to these archives in the future.
 
 Start the HCA submission process by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
