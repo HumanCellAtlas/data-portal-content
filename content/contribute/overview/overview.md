@@ -42,7 +42,7 @@ Ready to contribute? Start the conversation by emailing [data-help@humancellatla
 
 ## What to prepare
 
-In order to be able to process your data at cellular resolution, we will need you to have this information ready:
+In order to process you cellular resolution data, we will request the following information:
 
 - Unprocessed data files
 - Information on samples
