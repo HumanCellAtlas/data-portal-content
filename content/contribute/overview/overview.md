@@ -13,7 +13,7 @@ The Human Cell Atlas is built with the help of and to the benefit of the scienti
 
 1. **Single-cell Smart-seq2 and 10X v2 RNA-seq data**  - currently supported by our data processing pipelines
 
-    Data from Smart-seq2 and 10X v2 experiments will be analyzed by our processing pipelines. Alignment and quantification results will be made available in the Data Portal alongside raw data. 
+    Data from Smart-seq2 and 10X v2 experiments will be analyzed by our processing pipelines. Alignment and quantification results will be made available in the Data Browser alongside raw data. 
 
 1. **Single nucleus sequencing and image-based transcriptomics data** - data processing pipelines under development
 
@@ -52,19 +52,19 @@ In order to process you cellular resolution data, we will request the following 
 
 ## Your data in the HCA
 
-Once you contribute your cellular resolution data to the Human Cell Atlas, you will be able to find it in the [Data Browser](https://dev.data.humancellatlas.org/explore/projects). You will also receive:
+Once submitted to the Human Cell Atlas, your data will be searchable in the [Data Browser](https://dev.data.humancellatlas.org/explore/projects). You will also receive:
 
-1. **Analysis output** - currently for human Smart-seq2 and 10X v2
+1. **Analysis results** - currently for human Smart-seq2 and 10X v2
 
-    For Smart-seq2 and 10X v2 single-cell RNA-seq experiments, the data will be processed by our standard processing pipelines. The analysis outputs will be available alongside the raw data and will be discoverable in the Data Browser.
+    For Smart-seq2 and 10X v2 single-cell RNA-seq experiments, data will be processed by our standard processing pipelines. Alignment and quantification results will be made available in the Data Browser alongside raw data.
 
     Your data will also be available for use directly in [analysis applications](https://dev.data.humancellatlas.org/analyze/methods/methods/) available through the Data Portal.
 
 1. **Repository accessions**
 
-    To support you in publishing your data, we will submit the raw data to community standard archives and return to you the archival accessions that you need for publication.
+    To support publishing your research, we will submit raw data to community standard archives and return the archival accessions that you need for publication.
 
-    Currently we are able to archive any sequencing data which is submitted to us. Our default archives for submission are the BioStudies, BioSamples, and European Nucleotide Archives based at EMBL-EBI. We are working towards supporting submission to GEO if your funding mandates submission there. Please let the data wrangler know if this is the case when you start your submission process.
+    Currently we are able to archive projects, samples, and sequencing data in the BioStudies, BioSamples, and European Nucleotide Archives (ENA) based at EMBL-EBI. We are working towards supporting submission to the NCBI Gene Expression Omnibus (GEO) if your funding mandates submission there. Please let a data wrangler know if this is the case when you start your submission process.
 
     At the moment we will not automatically archive imaging data. We are engaged with the community to understand what the archival best practice are for biological images, and we will work to support submission to these archives in the future.
 
