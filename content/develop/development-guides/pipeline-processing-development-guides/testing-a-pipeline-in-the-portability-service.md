@@ -17,8 +17,8 @@ In order to run the test, you need the following:
 
 The Portability Service sends the candidate pipeline, the associated checker tool, and the test input data to one or multiple execution infrastructures, which run the pipeline in that environment and succeed or fail depending on whether expected outputs are returned.
 
-## Example Pipeline Submission 
-(TBD)
+Please [contact us](mailto:data-help@humancellatlas.org) for more information about how to get started. 
+
 ## Best practices in pipeline development
 
 As we learn more about portability it is important to share that knowledge with others. We are currently defining our best practices; please check back with us.
