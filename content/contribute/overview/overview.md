@@ -13,7 +13,7 @@ The Human Cell Atlas is built with the help of and to the benefit of the scienti
 
 1. **Smart-seq2 and 10X v2 RNA-seq data**  - currently supported by our data analysis pipelines
 
-    All submitted Smart-seq2 and 10X v2 experiments will be processed by our data processing pipelines, and the alignment, cell-gene matrix and quantification results will be made available in the portal alongside the raw data. 
+    Submitted Smart-seq2 and 10X v2 experiments will be processed by our data processing pipelines, and the alignment, cell-gene matrix and quantification results will be made available in the portal alongside the raw data. 
 
 1. **Single nucleus sequencing or image-based transcriptomics** - data analysis pipelines under development
 
