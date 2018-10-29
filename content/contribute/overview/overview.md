@@ -7,15 +7,15 @@ noNav: true
 
 # Contributing Data to the Human Cell Atlas
 
-The Human Cell Atlas is built with the help of and to the benefit of the scientific community. Our team welcomes contributions of any type of data at cellular resolution, as long as it is consented for open access to the public.
+The Human Cell Atlas is built with the help of and for the benefit of the scientific community. Our team welcomes contributions of raw data at cellular resolution, as long as it is consented for open access to the public.
 
 ## Supported data types
 
-1. **Single-cell Smart-seq2 and 10X v2 RNA-seq data**  - currently supported by our data processing pipelines
+1. **Single-cell Smart-seq2 and 10X v2 RNA-seq data**
 
-    Data from Smart-seq2 and 10X v2 experiments will be analyzed by our processing pipelines. Alignment and quantification results will be made available in the Data Browser alongside raw data. 
+    Data from Smart-seq2 and 10X v2 experiments will be analyzed by our [processing pipelines](/learn/userguides/data-processing-pipelines/overview-of-data-processing-pipelines-user-guides). Alignment and quantification results will be made available in the Data Browser alongside raw data. 
 
-1. **Single nucleus sequencing and image-based transcriptomics data** - data processing pipelines under development
+1. **Single nucleus sequencing and image-based transcriptomics data**
 
     We are actively investigating standard processing pipelines for single nucleus sequencing and several image-based transcriptomics experiments. If you are doing these types of experiments, please reach out to us. We are interested in working together to better understand these data types and how to process them.
 
