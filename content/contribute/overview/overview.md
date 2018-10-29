@@ -57,7 +57,7 @@ In order to process you cellular resolution data, we will request the following 
 
 Once submitted to the Human Cell Atlas, your data will be searchable in the [Data Browser](https://dev.data.humancellatlas.org/explore/projects). You will also receive:
 
-1. **Analysis results** - currently for human Smart-seq2 and 10X v2
+1. **Analysis results**
 
     For Smart-seq2 and 10X v2 single-cell RNA-seq experiments, data will be processed by our standard processing pipelines. Alignment and quantification results will be made available in the Data Browser alongside raw data.
 
