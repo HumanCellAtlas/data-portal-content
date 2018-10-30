@@ -9,7 +9,7 @@ noNav: true
 
 The Human Cell Atlas is built with the help of and for the benefit of the scientific community. Our team welcomes contributions of raw data at cellular resolution, as long as it is consented for open access to the public.
 
-## Supported data types
+## Supported Data Types
 
 1. **Single-cell Smart-seq2 and 10X v2 RNA-seq data**
 
@@ -23,22 +23,13 @@ The Human Cell Atlas is built with the help of and for the benefit of the scient
 
     If you have other data types not mentioned here, please reach out to us so we can develop a plan for incorporating these data into the HCA.
 
-## Data contribution process
+## Data Contribution Process
 
 Once you are ready to contribute your data, you will be supported by the Human Cell Atlas data wranglers. We currently use spreadsheets to collect the metadata and an upload tool to transfer the data files to our cloud infrastructure. 
 
-<!--
-insert icons here
+![contribute](_images/contribute.png)
 
-    - ./contact-us.md
-    - ./prepare-metadata.md
-    - ./upload-data.md
-    - ./see-and-share.md
--->
-
-Ready to contribute? Start the conversation by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
-
-## What to prepare
+## What to Prepare
 
 In order to process you cellular resolution data, we will request the following information:
 
@@ -48,17 +39,17 @@ In order to process you cellular resolution data, we will request the following 
 - Summary of project and team information
 - Confirmation that data is consented for open access
 
-## Your data in the HCA
+## Your Data in the HCA
 
-Once submitted to the Human Cell Atlas, your data will be searchable in the [Data Browser](/explore/projects). You will also receive:
+Once submitted to the Human Cell Atlas, your data will be searchable in the [Data Browser](https://dev.data.humancellatlas.org/explore/projects). You will also receive:
 
-1. **Analysis results**
+1. **Analysis Results**
 
     For Smart-seq2 and 10X v2 single-cell RNA-seq experiments, data will be processed by our standard [processing pipelines](/learn/userguides/data-processing-pipelines/overview-of-data-processing-pipelines-user-guides). Alignment and quantification results will be made available in the Data Browser alongside raw data.
 
-    Your data will also be available for use directly in [analysis applications](/analyze/methods/methods/) available through the Data Portal.
+    Your data will also be available for use directly in [analysis applications](https://dev.data.humancellatlas.org/analyze/methods/methods/) available through the Data Portal.
 
-1. **Repository accessions**
+1. **Repository Accessions**
 
     To support publishing your research, we will submit raw data to community standard archives and return the archival accessions that you need for publication.
 
@@ -66,4 +57,5 @@ Once submitted to the Human Cell Atlas, your data will be searchable in the [Dat
 
     At the moment we will not automatically archive imaging data. We are engaged with the community to understand what the archival best practices are for biological images, and we will work to support submission to these archives in the future.
 
-Start the HCA submission process by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
+> #### Start the Process
+> Start the HCA submission process by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
