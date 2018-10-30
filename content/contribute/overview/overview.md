@@ -60,5 +60,5 @@ Once submitted to the Human Cell Atlas, your data will be searchable in the [Dat
     At the moment we will not automatically archive imaging data. We are engaged with the community to understand what the archival best practices are for biological images, and we will work to support submission to these archives in the future.
 
 > #### Start the Process
-> Start the HCA submission process by emailing
+> Start the HCA submission process by emailing\
 > [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
