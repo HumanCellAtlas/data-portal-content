@@ -31,7 +31,7 @@ Once you are ready to contribute your data, you will be supported by the Human C
 
 ## What to Prepare
 
-In order to process you cellular resolution data, we will request the following information:
+In order to process your cellular resolution data, we will request the following information:
 
 - Unprocessed data files
 - Information on samples
