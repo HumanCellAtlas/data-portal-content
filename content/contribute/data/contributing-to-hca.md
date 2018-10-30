@@ -30,6 +30,8 @@ Once you are ready to contribute your data, you will be supported by the Human C
 
 > Ready to contribute? Start the conversation by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
+> Ready to contribute? Start the conversation by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
+
 ## What to Prepare
 
 In order to process your cellular resolution data, we will request the following information:
