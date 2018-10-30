@@ -27,14 +27,7 @@ The Human Cell Atlas is built with the help of and to the benefit of the scienti
 
 Once you are ready to contribute your data, you will be supported by the Human Cell Atlas data wranglers.  We currently use spreadsheets to collect the metadata and an upload tool to deposit the data files in our cloud infrastructure. 
 
-<!--
-insert icons here
-
-    - ./contact-us.md
-    - ./prepare-metadata.md
-    - ./upload-data.md
-    - ./see-and-share.md
--->
+![contribute](_images/contribute.png)
 
 Ready to contribute? Start the conversation by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
@@ -68,4 +61,5 @@ Once you contribute your cellular resolution data to the Human Cell Atlas, you w
 
     At the moment we will not automatically archive imaging data. We are engaged with the community to understand what the archival best practice are for biological images, and we will work to support submission to these archives in the future.
 
-Start the HCA submission process by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
+> #### Start the Process
+> Start the HCA submission process by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
