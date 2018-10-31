@@ -6,19 +6,6 @@ title: "Contact Us"
 
 ## Contact Us
 
-```
-i am code inside a three
-```
-
-`
-i am inside a one
-`
-
-i am inline code `here is code` inline.
-
-> i am blockquote\
-> with another line
-
 We are constantly improving the Data Portal to be a better resource for our community.  Get involved to give us feedback, ask questions, and learn about the newest updates to the HCA Data Portal.  
 
 ### Email us with questions
