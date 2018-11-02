@@ -24,9 +24,9 @@ The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scR
 |`QualityYieldMetrics`| [CollectMultipleMetrics](https://broadinstitute.github.io/picard/command-line-overview.html#CollectMultipleMetrics) |[Metrics Definitions](https://broadinstitute.github.io/picard/picard-metric-definitions.html#CollectQualityYieldMetrics.QualityYieldMetrics) |
 |`SequencingArtifactMetrics`| [CollectMultipleMetrics](https://broadinstitute.github.io/picard/command-line-overview.html#CollectMultipleMetrics) |[Metrics Definitions](https://broadinstitute.github.io/picard/picard-metric-definitions.html#ErrorSummaryMetrics) |
 
-## Optimus Prime 10x V2
+## Optimus Prime 10x V2 (Coming Soon)
 
-This pipeline, described [here](https://dev.data.humancellatlas.org/learn/userguides/data-processing-pipelines/optimus-prime-workflow-in-detail), processes genomic data generated from the [10x Genomics](https://www.10xgenomics.com/solutions/single-cell/) 3 prime v2 assay.  The metrics below are detected using Single Cell Tools ([sctools](https://github.com/HumanCellAtlas/sctools)).
+This pipeline, in development, processes genomic data generated from the [10x Genomics](https://www.10xgenomics.com/solutions/single-cell/) 3 prime v2 assay.  The metrics below are detected using Single Cell Tools ([sctools](https://github.com/HumanCellAtlas/sctools)).
 
 | Cell Metrics                      | Program            |Details                 |
 |-----------------------------------|--------------------|------------------------|
