@@ -101,7 +101,7 @@ Software is a living document that should be easily read and understood, regardl
 - *Don’t*: Write a large amount of documentation that does not live beside or within the code itself (it will become out of date).
 
 #### Modularity
-Modularity enables small units of code to be independently benchmarked, validated, and exchanged. Modularity is very useful because, as science or technology changes, sections of a tool can be updated, benchmarked, and exchanged as small units, enabling more rapid updates and better adaptation to innovation. See [this doc](https://docs.google.com/document/d/1DlKdI6znEzdcuBBUnaJnS20GUb20zw4MgSgF12jfADU/edit?ts=5b6dffd9) for more about modularity and its implementation in the Optimus 10X v2 pipeline.
+Modularity enables small units of code to be independently benchmarked, validated, and exchanged. Modularity is very useful because, as science or technology changes, sections of a tool can be updated, benchmarked, and exchanged as small units, enabling more rapid updates and better adaptation to innovation. See [this doc](https://docs.google.com/document/d/1DlKdI6znEzdcuBBUnaJnS20GUb20zw4MgSgF12jfADU/edit?ts=5b6dffd9) for more about modularity and its implementation in the Optimus 10X v2 pipeline, currently in development.
 
 - *Do*: Save progress by creating intermediate output between modules as they successfully complete.
 - *Don’t*: Make monolithic tasks that perform many functionalities for the sake of speed.
