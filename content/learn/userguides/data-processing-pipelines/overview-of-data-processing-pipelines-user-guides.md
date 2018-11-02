@@ -9,7 +9,7 @@ This page is an introduction to the guides in this section, which are designed t
 ### Data Processing Workflows
 [Smart-seq2 Workflow](/learn/userguides/data-processing-pipelines/smart-seq2-workflow): A description of our standardized, full transcript, single cell transcriptomics pipeline for Smart-seq2 data.
 
-[Optimus Prime Workflow](/learn/userguides/data-processing-pipelines/optimus-prime-workflow): A description of our 3' single cell transcriptomics pipeline.
+Coming Soon - Optimus Prime Workflow: A description of our 3' single cell transcriptomics pipeline.
 
 ### Workflow Standards
 [QC Metrics](/learn/userguides/data-processing-pipelines/qc-mertics): Discover which quality control metrics we generate while processing the data.
