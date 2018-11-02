@@ -19,7 +19,7 @@ The following are pipelines in development or in production in this platform:
 | Pipeline Name | Data Type                                   | Description                                                                                                                            | Analysis Output                                     |
 |------------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | Smart-seq2    | Full transcript single cell transcriptomics | This pipeline currently supports the Smart-seq2 protocol as described [here](https://www.nature.com/articles/nprot.2014.006). Read more about the pipeline [here](/learn/userguides/data-processing-pipelines/smart-seq2-workflow).                              | Aligned BAM with tagsCounts Matrix (genes)QC Matrix |
-| 10x v2 scRNA-seq pipeline | 3’ capture single cell transcriptomics      | This pipeline currently supports our first offering for 3’ scRNA-Seq, 10X V2 library prep and processing. [Read more](/learn/userguides/data-processing-pipelines/optimus-prime-workflow) about the pipeline. | Aligned BAM with tagsCounts Matrix (genes)QC Matrix |
+| 10x v2 scRNA-seq pipeline | 3’ capture single cell transcriptomics      | This pipeline, in development, supports our first offering for 3’ scRNA-Seq, 10X V2 library prep and processing. | Aligned BAM with tagsCounts Matrix (genes)QC Matrix |
 
 
 ## Portability Service 
