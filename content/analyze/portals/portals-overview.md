@@ -5,7 +5,7 @@ title: "About Portals"
 ---
 
 ## About Portals
-Portals for Human Cell Atlas are applications that enable analysis in a graphical user interface.  They provide a human-friendly UI in a web or native app to search, explore and analyze biological data.  
+Portals for the Human Cell Atlas are applications that enable analysis in a graphical user interface.  They provide a human-friendly UI in a web or native app to search, explore and analyze biological data.  
 
 [Start analyzing Human Cell Atlas data](/analyze/portals/visualization-portals) today!  Simply click the "View" button beside a portal summary to navigate.  You can also seamlessly load your dataset of interest by clicking the "Use with HCA Data" link for enabled portals.
 
