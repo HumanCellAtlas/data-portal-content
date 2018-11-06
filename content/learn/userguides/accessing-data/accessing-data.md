@@ -5,7 +5,7 @@ title: "Accessing Data"
 ---
 
 ## Overview of Accessing Data
-There are several ways of accessing data in the *Data Store*. Some methods are better suited to computational biologists while some are targeted at researchers. Both types of users need to be able to locate data of interest first. Once the data is located they will want to 
+There are several ways of accessing data in the *Data Store*. Some methods are better suited to computational biologists while some are targeted at researchers. Both types of users need to be able to locate data of interest first. 
 
 ### How to find data
 The simplest way to find data of interest is by using the Data Browser, which is accessed via the *Explore* tab in the portal. Another method is to use the HCA command line interface (CLI) to search for data. Using the browser is much more intuitive but searches via the CLI can be much more powerful. A third method of finding data is by writing Python scripts that search the data directly from a software program. 
