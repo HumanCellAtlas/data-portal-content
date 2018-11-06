@@ -2,7 +2,7 @@
 
 This repository contains content (markdown, images, downloadable PDFs) for the [HCA Data portal]( http://dev.data.humancellatlas.org). Please see the [HCA Data Portal repository]( https://github.com/HumanCellAtlas/data-portal) for other sources of content. 
 
-## Style Guide (Draft)
+## Style Guide
 Please see our [Style Guide](https://dev.data.humancellatlas.org/document/creating-content/content-style-guide) for information relating to recommended voice, tone and terminology.
 
 ## Markdown Guide
