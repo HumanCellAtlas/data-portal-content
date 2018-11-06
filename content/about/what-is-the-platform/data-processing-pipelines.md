@@ -5,7 +5,7 @@ title: "Data Processing Pipeline Service"
 ---
 
 ## What is Data Processing?
-In the HCA DCP, data processing refers to the use of a computational pipeline, designed to examine data from a specific assay, to analyze raw experimental data. Data processing of HCA data produces collections of quality metrics and features that can be used for further analysis. For example, the processing of single cell RNA-Seq data produces aligned, QC’d reads, a matrix of gene expression, and a matrix of quality control metrics describing the data.   
+In the HCA DCP, data processing refers to the use of a computational pipeline, designed to analyze raw experimental data from a specific assay. Data processing of HCA data produces collections of quality metrics and features that can be used for further analysis. For example, the processing of single cell RNA-Seq data produces aligned, QC’d reads, a matrix of gene expression, and a matrix of quality control metrics describing the data.   
 
 ## What is the Data Processing Pipeline Service?
 The Data Processing Pipeline Service consists of analysis pipelines and execution infrastructure that move raw data through analysis, producing measurements that are ingested into the Data Store for storage and download by anyone, including you! The HCA DCP stores both the submitted raw data and data resulting from data processing, and each type is available for download. As new single cell technologies and analysis methods are developed and accepted by the research community, we will implement new data processing pipelines and make both the pipelines and the data publically available.
