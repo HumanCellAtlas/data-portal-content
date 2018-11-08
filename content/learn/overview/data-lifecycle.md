@@ -15,9 +15,9 @@ Here we describe the general process of data flow through the components of the 
 
 ### Data Ingest ###
 
-Data flow begins with the ingestion of raw experimental data and associated metadata describing the submission. Currently this ingest process is supported by HCA data wranglers, an interactive UI, and programmatic access. As the project grows we will automate and simplify the submission process as much as possible. 
+Data flow begins with the ingestion of raw experimental data and its associated metadata. Currently this ingest process is supported by HCA data wranglers, an interactive UI, and programmatic access. As the project grows we will automate and simplify the process as much as possible. 
 
-Following submission, the data and metadata are validated. Data files are checked to make sure they are in the correct file format and are not empty or corrupt. Metadata is validated against a schema to make sure that required information has been supplied using the appropriate controlled language. Once validation is complete, data and metadata are automatically stored in the HCA DCP *Data Store*.
+Following ingest, the data and metadata are validated. Data files are checked to make sure they are in the correct file format and are not empty or corrupt. Metadata is validated against a schema to make sure that required information has been supplied using the appropriate controlled language. Once validation is complete, data and metadata are automatically stored in the HCA DCP *Data Store*.
 
 ### Data Store ###
 The *Data Store* is a cloud-native space for storage that leverages multiple cloud platforms. Currently, all data in the *Data Store* is stored in Amazon Web Services (AWS) and synchronized with Google Cloud Platform (GCP), ensuring that the data is accessible in each environment. Once data is stored in the *Data Store* it is available to anyone.
