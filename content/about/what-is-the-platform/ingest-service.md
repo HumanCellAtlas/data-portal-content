@@ -14,7 +14,7 @@ Biomolecular data are received as structured spreadsheets from data contributors
 
 #### Upload Service
 
-An important part of the data ingestion stage is the upload of biomolecular data files that form the core of the Human Cell Atlas. Data files are initially stored through the *Upload Service* before they are transferred to the central Data Store.
+An important part of the data ingestion stage is the upload of biomolecular data files that form the core of the Human Cell Atlas. Data files are initially stored through the Upload Service before they are transferred to the central Data Store.
 
 ### Validate
 
