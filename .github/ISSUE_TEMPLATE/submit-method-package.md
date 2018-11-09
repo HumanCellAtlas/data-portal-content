@@ -18,10 +18,9 @@ Required:
 - Code repository URL: (_e.g. https://github.com/yourusername/yourpackagename_)
 - Upstream registry URL: (_e.g. https://bioconductor.org/packages/release/bioc/html/slingshot.html_)
 - Method-ready Docker image URL:
-- Downloadable test data URL:
+- Downloadable test data URL: (_reference test data set, reference outputs_)
 - Basic command line usage example:
 - Command to validate installation:
-- downloadable test data [reference test data set, reference output(s)]
 - 2-3 sentence description: (_Content may be truncated, e.g. to 150 chararacters, on listing page.  Full description will appear in details page._)
 
 Optional:
