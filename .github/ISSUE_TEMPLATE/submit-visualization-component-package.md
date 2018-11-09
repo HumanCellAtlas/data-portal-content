@@ -15,10 +15,10 @@ Required:
 - Contact email: 
 - Who to attribute: 
 - Language: 
-- GitHub repository URL: (_e.g. https://github.com/yourusername/yourpackagename_)
+- Code repository URL: (_e.g. https://github.com/yourusername/yourpackagename_)
 - NPM registry URL: (_e.g. https://bioconductor.org/packages/release/bioc/html/slingshot.html_)
 - NPM package provides ES6 export?: [ ] (_fill in as [x] to indicate your package provides an ES6 export_)
-- 2-3 sentence description:
+- 2-3 sentence description: (_Content may be truncated, e.g. to 150 chararacters, on listing page.  Full description will appear in details page._)
 
 Optional:
 - Build badge URL: (_e.g. https://travis-ci.org/eweitz/ideogram.svg?branch=master)_
