@@ -15,10 +15,16 @@ Required:
 - Contact email: 
 - Who to attribute: 
 - Language: 
-- GitHub repository URL: (_e.g. https://github.com/yourusername/yourpackagename_)
+- Code repository URL: (_e.g. https://github.com/yourusername/yourpackagename_)
 - Upstream registry URL: (_e.g. https://bioconductor.org/packages/release/bioc/html/slingshot.html_)
-- 2-3 sentence description:
+- Method-ready Docker image URL:
+- Downloadable test data URL:
+- Basic command line usage example:
+- Command to validate installation:
+- downloadable test data [reference test data set, reference output(s)]
+- 2-3 sentence description: (_Content may be truncated, e.g. to 150 chararacters, on listing page.  Full description will appear in details page._)
 
 Optional:
 - Build badge URL: (_e.g. https://travis-ci.org/kstreet13/slingshot.svg?branch=master)_
 - Coverage badge URL: (_e.g. https://img.shields.io/codecov/c/github/kstreet13/slingshot/master.svg_)
+- Load logo or screenshot (_Attach to this GitHub issue._)
