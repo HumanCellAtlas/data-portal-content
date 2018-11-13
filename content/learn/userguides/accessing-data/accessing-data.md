@@ -12,7 +12,7 @@ The simplest way to find data of interest is by using the Data Browser, which is
 
 The [Quick Start Guide](https://dev.data.humancellatlas.org/learn/userguides/accessing-data/quick-start-guide) shows how to download data via either the Browser (in *Explore*) or via the CLI. It also includes some pointers to other tools that can be used once the data of interest has been identified.
 
-The Using the Data Browser to Access Data section describes how to download selected subsections of data.
+The section "Using the Data Browser to Access Data" (in the Quick Start Guide) describes how to download selected subsections of data.
 
 The [Using the CLI to Access Data](https://dev.data.humancellatlas.org/learn/userguides/accessing-data/using-the-cli-to-access-data) section details how to use each of the commands available in the Data Store CLI.
 
