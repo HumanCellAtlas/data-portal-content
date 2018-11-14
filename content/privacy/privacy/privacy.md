@@ -8,7 +8,7 @@ noNav: true
 ## Privacy Notice for Human Cell Atlas Data Portal Public Website
 
 This Privacy Notice explains what personal data is collected by the specific service you are requesting, for what purposes, how it is processed, and how we keep it secure.
-Note that this service collects personal data directly provided by the user, and also collects personal data from users that is provided by other organisations.
+Note that this service collects personal data directly provided by the user, and also collects personal data from users that is provided by other organizations.
 
 ### 1. Who controls your personal data and how to contact us?
 
@@ -68,16 +68,16 @@ If support (without logging in) is requested by users of the service we also col
 
 - Name
 - Email address
-- Organisation
-- Organisational affiliation
+- organization
+- organizational affiliation
 - Date and time when a support request is sent
 
 If users login to the service we also collect:
 
 - Name
 - Email address
-- Organisation
-- Organisational affiliation
+- organization
+- organizational affiliation
 - Website avatar
 - Authorisation refresh and access tokens
 
@@ -92,14 +92,14 @@ The data controller will use your personal data for the following purposes:
 The personal data will be disclosed to:
 
 - Authorised staff in the data controller’s institutions acting on behalf of the Human Cell Atlas Project.
-- The Zendesk Service providers which HCA relies on to provide the service (see Zendesk’s GDPR compliance statement).
+- The Zendesk Service providers which HCA relies on to provide the service (see [Zendesk’s GDPR compliance statement](https://www.zendesk.com/company/customers-partners/eu-data-protection/)).
 
-### 5. Will your personal data be transferred to third countries (i.e. countries not part of EU/EEA) and/or international organisations?
+### 5. Will your personal data be transferred to third countries (i.e. countries not part of EU/EEA) and/or international organizations?
 
-Personal data is transferred to the following organisation based in third countries and that provide the service on behalf of the Human Cell Atlas Project:
+Personal data is transferred to the following organization based in third countries and that provide the service on behalf of the Human Cell Atlas Project:
 
 >Chan Zuckerberg Initiative\
->555 University Ave, Palo Alto, CA 94301, United States
+>900 Middlefield Road, Redwood City, CA 94063, United States\
 
 >UC Santa Cruz\
 >1156 High Street, Santa Cruz, CA 95064, United States
@@ -111,7 +111,7 @@ Personal data is transferred to the following organisation based in third countr
 >Zendesk Global HQ\
 >1019 Market St, San Francisco, CA 94103, United States
 
-There are no personal data transfers to international organisations. However, EMBL as a joint controller of this service is an international organisation. Further details on EMBL’s data protection principles are accessible [here](https://www.embl.de/aboutus/administration/legal-services/data-protection/index.html).
+There are no personal data transfers to international organizations. However, EMBL as a joint controller of this service is an international organization. Further details on EMBL’s data protection principles are accessible [here](https://www.embl.de/aboutus/administration/legal-services/data-protection/index.html).
 
 ### 6. How long do we keep your personal data?
 
