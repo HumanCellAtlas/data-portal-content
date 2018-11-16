@@ -28,6 +28,10 @@ Just like a person, the *Data Portal* should have a cohesive voice, but can have
 As users navigate our site, or interact with us via Zendesk or email, may have different needs, and the tone of the content should adapt to fit those needs. The tone of API documentation might be different than the tone of the help page, for example. 
 
 ## General Rules
+### Language
+
+The language of the Data Portal is **US English**, consistent with the language of the HCA website.
+
 ### Acronyms and Abbreviations
 
 * Before using an acronym or abbreviation, first ask - does this term need to be shortened? Is there a simpler word that could be used?
