@@ -79,7 +79,7 @@ If users login to the service we also collect:
 - organization
 - organizational affiliation
 - Website avatar
-- Authorisation refresh and access tokens
+- Authorization refresh and access tokens
 
 The data controller will use your personal data for the following purposes:
 
@@ -91,7 +91,7 @@ The data controller will use your personal data for the following purposes:
 
 The personal data will be disclosed to:
 
-- Authorised staff in the data controller’s institutions acting on behalf of the Human Cell Atlas Project.
+- Authorized staff in the data controller’s institutions acting on behalf of the Human Cell Atlas Project.
 - The Zendesk Service providers which HCA relies on to provide the service (see [Zendesk’s GDPR compliance statement](https://www.zendesk.com/company/customers-partners/eu-data-protection/)).
 
 ### 5. Will your personal data be transferred to third countries (i.e. countries not part of EU/EEA) and/or international organizations?
