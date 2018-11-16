@@ -24,6 +24,7 @@ The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scR
 
 | Pipeline Features | Description | Source |
 |-------------------|---------------------------------------------------------------|-----------------------|
+|Assay Type |paired-end plate-based Smart-seq2 |
 | Overall workflow  |Quality control module and transcriptome quantification module | Code available from [Github](https://github.com/HumanCellAtlas/skylab/tree/master/pipelines/smartseq2_single_sample) |
 | Workflow language |WDL          |[openWDL](https://github.com/openwdl/wdl)|
 | Genomic reference sequence|GRCh38 human genome primary sequence|[GENCODE](https://www.gencodegenes.org/human/release_27.html)|
