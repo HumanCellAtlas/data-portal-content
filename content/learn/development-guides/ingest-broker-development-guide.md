@@ -1,5 +1,5 @@
 ---
-path: "/develop/development-guides/ingest-broker-development-guide"
+path: "/learn/development-guides/ingest-broker-development-guide"
 date: "2018-05-03"
 title: "Ingest Broker Development Guide"
 subTitle: "General guidelines for developing brokers for the Ingest API."

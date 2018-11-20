@@ -1,5 +1,5 @@
 ---
-path: "/about/what-is-the-platform/ingest-service"
+path: "/about/platform/dcp/ingest-service"
 date: "2018-05-03"
 title: "Ingest Service"
 ---

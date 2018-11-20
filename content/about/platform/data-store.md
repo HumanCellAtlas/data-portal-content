@@ -1,5 +1,5 @@
 ---
-path: "/about/what-is-the-platform/data-store"
+path: "/about/platform/dcp/data-store"
 date: "2018-05-03"
 title: "Data Store"
 ---

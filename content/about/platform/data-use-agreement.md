@@ -1,5 +1,5 @@
 ---
-path: "/learn/overview/data-use-agreement"
+path: "/about/platform/data-use-agreement"
 date: "2018-05-03"
 title: "Data Use Agreement"
 subTitle: ""
