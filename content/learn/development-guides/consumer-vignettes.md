@@ -1,5 +1,5 @@
 ---
-path: "/develop/development-guides/consumer-vignettes"
+path: "/learn/development-guides/consumer-vignettes"
 date: "2018-08-14"
 title: "Consumer Vignettes"
 subTitle: "All HCA DCP software has an associated GitHub repository that will include more detailed technical documentation of the software."

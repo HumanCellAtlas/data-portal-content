@@ -1,5 +1,5 @@
 ---
-path: "/develop/development-guides/analysis-applications"
+path: "/learn/development-guides/analysis-applications"
 date: "2018-05-03"
 title: "Analysis Applications"
 subTitle: "Technical resources to support the development and integration of your analysis applications."
@@ -17,7 +17,7 @@ We provide several computational solutions to use in building products. We have 
 
 **Consumer Vignettes** These vignettes highlight the process of certain programmatic tasks that involve the DCP.
 
-[Consumer Vignettes](/develop/development-guides/consumer-vignettes)   
+[Consumer Vignettes](/learn/development-guides/consumer-vignettes)
 
 ## Working with Ingest
 

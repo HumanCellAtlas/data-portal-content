@@ -1,5 +1,5 @@
 ---
-path: "/about/what-is-the-platform/data-browser"
+path: "/about/platform/dcp/data-browser"
 date: "2018-05-03"
 title: "Data Browser"
 ---

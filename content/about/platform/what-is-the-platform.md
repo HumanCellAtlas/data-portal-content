@@ -1,5 +1,5 @@
 ---
-path: "/about/what-is-the-platform/what-is-the-platform"
+path: "/about/platform/dcp"
 date: "2018-05-03"
 title: "What is the Platform?"
 subTitle: "Find more information about"

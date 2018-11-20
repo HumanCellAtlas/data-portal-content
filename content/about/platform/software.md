@@ -1,5 +1,5 @@
 ---
-path: "/about/overview/software"
+path: "/about/platform/software"
 date: "2018-05-03"
 title: "Software"
 subTitle: "Software for building your own pipelines and analysis platforms"
@@ -9,4 +9,4 @@ subTitle: "Software for building your own pipelines and analysis platforms"
 
 Software for building your own pipelines and analysis platforms
 
-[Develop](/develop/development-guides/development-guides-overview)
+[Develop](/learn/development-guides/ingest-broker-development-guide)
