@@ -22,5 +22,5 @@ Once the data are processed, they are validated to check if they conform to the 
 
 ### Assemble
 
-All validated data are then transmitted to the Data Store. The Ingest Service prepares the data received from the contributors so that they can searched, browsed, analysed, etc. through the Data Portal.
+All validated data are then transmitted to the Data Store. The Ingest Service prepares the data received from the contributors so that they can searched, browsed, analyzed, etc. through the Data Portal.
 
