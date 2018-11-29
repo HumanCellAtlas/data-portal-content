@@ -10,6 +10,8 @@ If you have questions or issues to report please email [data-help@humancellatlas
 
 ### FAQs
 
+### Data availability and use guidelines
+
 #### What is the Human Cell Atlas?
 
 The HCA is a collaborative effort by an international group of scientists to create a comprehensive reference map of all the cells in the human body. The HCA *Data Portal* and Data Coordination Platform are built by scientists and technologists at EMBL-EBI, the Broad Institute, UC Santa Cruz, and the Chan Zuckerberg Initiative. [Learn more about the HCA project here](https://www.humancellatlas.org/). 
@@ -24,19 +26,26 @@ You can learn more about each project by visiting the Projects tab in the *Explo
 
 #### Can I use this data for a publication?
 
-Yes, data from the HCA can be used for publication.  Learn more about our [data use agreement](https://dev.data.humancellatlas.org/contribute/overview/terms-and-conditions). 
+Yes, data from the HCA can be used for publication.  Learn more about our [data use agreement](https://prod.data.humancellatlas.org/contribute/overview/terms-and-conditions). 
 
 #### How do I cite HCA data?
 
 The URL for the HCA DCP *Data Portal*, https://data.humancellatlas.org/, can be used as the citation for data obtained from the HCA. Alternatively, you can cite: Regev A., et al. 2017. The Human Cell Atlas. Elife. Dec 5;6. pii: e27041. doi: 10.7554/eLife.27041.
 
-#### How do I visualize or analyze the data?
+### Data access, analysis, and development help
+
+#### How do I access the data in the HCA? 
+
+The user guides in the *Learn* section of the data portal contain detailed information about [how to access the data](https://prod.data.humancellatlas.org/learn).  
+We have also created a series of [data consumer vignettes](https://github.com/HumanCellAtlas/data-consumer-vignettes), which give examples of how others have accessed and used the data from the HCA.
+
+#### How do I visualize or analyze the data in the HCA?
 
 Single-cell sequencing analysis methods are constantly changing, and there are many tools for visualizing or analyzing the data in the HCA. Popular tools for analyzing single-cell RNA-seq data include Seurat (R) and ScanPy (Python),though many other excellent tools exist. We offer a list of community-built analysis applications in the *Analyze* section on the *Data Portal*.
 
 #### How do I make my tool compatible with HCA data and add it to the HCA Data Portal?
 
-We encourage scientists and developers to contribute their own analysis and visualization applications and data processing pipelines to the HCA.  You can learn more about how to do this in the *Develop* section of the *Data Portal*.
+We encourage scientists and developers to contribute their own analysis and visualization applications and data processing pipelines to the HCA.  You can learn more about how to do this in the *Learn* section of the *Data Portal*.
 
 #### How can I get involved with the HCA?
 
@@ -44,6 +53,6 @@ Visit the *Contact* page to learn how to collaborate with us and to reach us wit
 
 #### How can I reuse parts of the DCP?
 
-One of our goals is to make the HCA data coordination platform code open and reusable to the community.  For now, contact us at data-help@humancellatlas.org with questions about reusing our code.  Stay tuned for more information about reusing code in the *Develop* section of the *Data Portal*. 
+One of our goals is to make the HCA data coordination platform code open and reusable to the community.  For now, contact us at data-help@humancellatlas.org with questions about reusing our code.  Stay tuned for more information about reusing code in the *Learn* section of the *Data Portal*. 
 
 
