@@ -6,9 +6,11 @@ title: "Quick Start Guide"
 
 
 ## Quick Start Guide
-There are several ways to access the data in the Data Store. This section briefly reviews how to find and download data using the most common methods, the Data Browser and the CLI, and finally, it points to some software programs that demonstrate some programmatic access patterns. Downloading data via the Data Browser and the CLI both first require installation of the HCA CLI.
+There are several ways to access the data in the Data Store. This section briefly reviews how to find and download data using the most common methods, the Data Browser and the CLI, and finally, it points to some software programs that demonstrate some programmatic access patterns. Downloading data via the Data Browser and the CLI both first require installation of the HCA CLI.  
 
 Data in the *Data Store* is organized into data bundles. A bundle is a group of files organized into a versioned set and tagged with a unique global identifier. One of the goals of the *Data Store* is to provide a structure that makes it easy to keep related files together. Bundles make it easy to keep metadata together with associated data. The versioning structure also allows for parts of a bundle to be updated. The *Data Store* keeps all versions of data. This way research can be pinned to a specific version of data and metadata.
+
+Some examples of how others have accessed and used the HCA data can be seen in these [consumer vignettes](https://dev.data.humancellatlas.org/learn/development-guides/consumer-vignettes).
 
 ### Installing the HCA CLI
 It is recommended that the CLI be run in a virtual environment to control Python library dependencies. A common utility for creating and managing virtual environment is `virtualenv`. Installation instructions for `virtualenv` can be found online. In Mac OS High Sierra, one might use:
@@ -84,4 +86,4 @@ then to download that bundle from the AWS replica you would use this command:
     hca dss download --bundle-uuid 2f08b7cd-2e39-44f2-b7fa-d4a373266104 --version 2018-08-28T213422.136870Z --replica aws
 
 ### Using the Data
-The Data Coordination Platform (DCP) offers a number of different programatic ways to access the data. The Application Programming Interfaces (APIs) that we provide are described [here](https://dev.data.humancellatlas.org/develop/api-documentation/data-store-consumer-api). The developers of the DCP have also created a number of example programs demonstrating how to use the APIs, and they can be found [here](https://dev.data.humancellatlas.org/learn/development-guides/consumer-vignettes). These examples are designed to demonstrate basic access patterns, but they are not intended to demonstrate any type of analysis.
+The Data Coordination Platform (DCP) offers a number of different programatic ways to access the data. The Application Programming Interfaces (APIs) that we provide are described [in the API documentation](https://dev.data.humancellatlas.org/develop/api-documentation/data-store-consumer-api). The developers of the DCP have also created a number of example programs demonstrating how to use the APIs, and they can be found [in the consumer vignettes](https://dev.data.humancellatlas.org/learn/development-guides/consumer-vignettes). These examples are designed to demonstrate basic access patterns, but they are not intended to demonstrate any type of analysis.
