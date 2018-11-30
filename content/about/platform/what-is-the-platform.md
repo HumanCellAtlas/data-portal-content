@@ -18,4 +18,4 @@ This platform has been constructed by a consortium of scientists, engineers, and
 
 As new technologies emerge, the DCP will develop pipelines and data formats to process the new data types to deliver meaningful results for analysis. The components that comprise the DCP platform and the  pipelines run in the platform are all modular, enabling their use in diverse environments outside the DCP with HCA or non-HCA datasets.
 
-We invite you to use this data portal to submit your data or access data from other laboratories and contact us with your feedback or questions.
+We invite you to use this data portal to submit your data or access data from other laboratories. Please contact us with your feedback or questions.
