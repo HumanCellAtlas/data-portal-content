@@ -1,5 +1,5 @@
 ---
-path: "/learn/userguides/accessing-data/using-the-cli-to-access-data"
+path: "/learn/userguides/using-the-cli-to-access-data"
 date: "2018-05-30"
 title: "Using the CLI to Access Data"
 ---

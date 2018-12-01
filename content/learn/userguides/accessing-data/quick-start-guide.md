@@ -1,5 +1,5 @@
 ---
-path: "/learn/userguides/accessing-data/quick-start-guide"
+path: "/learn/userguides/quick-start-guide"
 date: "2018-05-30"
 title: "Quick Start Guide"
 ---
