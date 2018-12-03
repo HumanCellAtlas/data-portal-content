@@ -6,7 +6,7 @@ about: Create or update a portal listing
 
 Thank you for submitting a portal to the HCA DCP Methods Registry!
 
-To expedite your portal's addition to https://data.humancellatlas.org/analyze/portals,
+To expedite your portal's addition to https://prod.data.humancellatlas.org/analyze/portals,
 please provide the following package metadata.
 
 Required:
