@@ -57,9 +57,9 @@ We provide several computational solutions to use in building products. We have 
 Matrix Service Description - Coming Soon    
 Matrix Service swagger - Coming Soon   
 
-## Finding Modules for Your Solution
+## Finding Packages for Your Solution
 
-**HCA DCP Methods Registry** The Methods Registry contains domain-specific computational methodology and visualization components that are standardized in a way we hope enables clear communication and ease of use between the methodologists and engineers.
+**HCA DCP Methods Registry** The Methods Registry contains domain-specific computational methodology and visualization component packages that are standardized in a way we hope enables clear communication and ease of use between the methodologists and engineers.
 
 [Methodology Listing](/analyze/methods/methods)   
 [Visualization Component Listing](/analyze/visualization-components)   
@@ -71,7 +71,7 @@ Matrix Service swagger - Coming Soon
 Hand-off Description - Coming Soon   
 Register for the Hand-off - Coming Soon  
 
-## List Your Solution in the Registry
+## Listing Your Solution in the Registry
 
 Please list your solution with the registry so our community of scientists knows about it and can easily find it.
 
