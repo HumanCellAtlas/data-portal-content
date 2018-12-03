@@ -9,4 +9,4 @@ Portals for the Human Cell Atlas are applications that enable analysis in a grap
 
 [Start analyzing Human Cell Atlas data](/analyze) today!  Simply click the "View" button beside a portal summary to navigate.  You can also seamlessly load your dataset of interest by clicking the "Use with HCA Data" link for enabled portals.
 
-If you are a portal developer and want to add your software to this list, [submit your app](https://github.com/HumanCellAtlas/data-portal-content/issues/new/?with-portals-app-submission-issue-template)!
+If you are a portal developer and want to add your software to this list, [submit your app](https://github.com/HumanCellAtlas/data-portal-content/issues/new/?template=submit-portal.md)!
