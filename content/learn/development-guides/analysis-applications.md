@@ -59,10 +59,10 @@ Matrix Service swagger - Coming Soon
 
 ## Finding Modules for your Solution
 
-**HCA DCP Methods Registry** The [Methods Registry](https://dev.data.humancellatlas.org/analyze/methods/about) contains domain specific computational methodology and visualization that are standardized in a way we hope enables clear communication and ease of use between the methodologists and engineers.
+**HCA DCP Methods Registry** The Methods Registry contains domain-specific computational methodology and visualization components that are standardized in a way we hope enables clear communication and ease of use between the methodologists and engineers.
 
 [Methodology Listing](/analyze/methods/methods)   
-[Visualizations Listing](/analyze/visualization-components/visualization-components)   
+[Visualization Component Listing](/analyze/visualization-components)   
 
 ## Registering with the Data Portal
 
@@ -75,4 +75,6 @@ Register for the Hand-off - Coming Soon
 
 Please list your solution with the registry so our community of scientists knows about it and can easily find it.
 
-Instructions - Coming Soon   
+[Submit a Portal](https://github.com/HumanCellAtlas/data-portal-content/issues/new?template=submit-portal)
+[Submit a Methodology](https://github.com/HumanCellAtlas/data-portal-content/issues/new?template=submit-method)
+[Submit a Visualization Component](https://github.com/HumanCellAtlas/data-portal-content/issues/new?template=submit-visualization-component)
