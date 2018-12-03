@@ -15,15 +15,15 @@ Required:
 - Contact email: 
 - Who to attribute: 
 - Language: 
-- Code repository URL: (_e.g. https://github.com/yourusername/yourpackagename_)
-- Upstream registry URL: (_e.g. https://bioconductor.org/packages/release/bioc/html/slingshot.html_)
+- Code repository URL: (e.g. https://github.com/yourusername/yourpackagename)
+- Upstream registry URL: (e.g. https://bioconductor.org/packages/release/bioc/html/slingshot.html)
 - Method-ready Docker image URL:
-- Downloadable test data URL: (_reference test data set, reference outputs_)
+- Downloadable test data URL: (reference test data set, reference outputs)
 - Basic command line usage example:
 - Command to validate installation:
-- 2-3 sentence description: (_Content may be truncated, e.g. to 150 chararacters, on listing page.  Full description will appear in details page._)
+- 2-3 sentence description: (Content may be truncated, e.g. to 150 chararacters, on listing page.  Full description will appear in details page.)
 
 Optional:
-- Build badge URL: (_e.g. https://travis-ci.org/kstreet13/slingshot.svg?branch=master)_
-- Coverage badge URL: (_e.g. https://img.shields.io/codecov/c/github/kstreet13/slingshot/master.svg_)
-- Load logo or screenshot (_Attach to this GitHub issue._)
+- Build badge URL: (e.g. https://travis-ci.org/kstreet13/slingshot.svg?branch=master)
+- Coverage badge URL: (e.g. https://img.shields.io/codecov/c/github/kstreet13/slingshot/master.svg)
+- Load logo or screenshot (Attach to this GitHub issue.)
