@@ -1,6 +1,6 @@
 ---
 name: Submit method package
-about: Form to submit a new or updated method package
+about: Create or update a computational methodology package
 
 ---
 
@@ -26,4 +26,4 @@ Required:
 Optional:
 - Build badge URL: (e.g. https://travis-ci.org/kstreet13/slingshot.svg?branch=master)
 - Coverage badge URL: (e.g. https://img.shields.io/codecov/c/github/kstreet13/slingshot/master.svg)
-- Load logo or screenshot (Attach to this GitHub issue.)
+- Logo or screenshot (Attach to this GitHub issue.)

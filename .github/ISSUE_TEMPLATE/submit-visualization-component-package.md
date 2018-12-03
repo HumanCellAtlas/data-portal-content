@@ -1,6 +1,6 @@
 ---
 name: Submit visualization component package
-about: Form to submit a new or updated visualization component package
+about: Create or update a visualization component package
 
 ---
 
@@ -24,3 +24,4 @@ Optional:
 - Build badge URL: (e.g. https://travis-ci.org/eweitz/ideogram.svg?branch=master)
 - Coverage badge URL: (e.g. https://coveralls.io/repos/github/eweitz/ideogram/badge.svg)
 - HCA mashup URL: (e.g. https://github.com/eweitz/ideogram/blob/master/examples/react/README.md#ideogram-in-react)
+- Logo or screenshot: (Attach to this GitHub issue.)
