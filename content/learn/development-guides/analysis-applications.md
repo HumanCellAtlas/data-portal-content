@@ -57,7 +57,7 @@ We provide several computational solutions to use in building products. We have 
 Matrix Service Description - Coming Soon    
 Matrix Service swagger - Coming Soon   
 
-## Finding Modules for your Solution
+## Finding Modules for Your Solution
 
 **HCA DCP Methods Registry** The Methods Registry contains domain-specific computational methodology and visualization components that are standardized in a way we hope enables clear communication and ease of use between the methodologists and engineers.
 
@@ -75,6 +75,6 @@ Register for the Hand-off - Coming Soon
 
 Please list your solution with the registry so our community of scientists knows about it and can easily find it.
 
-[Submit a Portal](https://github.com/HumanCellAtlas/data-portal-content/issues/new?template=submit-portal)
-[Submit a Methodology](https://github.com/HumanCellAtlas/data-portal-content/issues/new?template=submit-method)
-[Submit a Visualization Component](https://github.com/HumanCellAtlas/data-portal-content/issues/new?template=submit-visualization-component)
+[Submit a Portal](https://github.com/HumanCellAtlas/data-portal-content/issues/new?template=submit-portal)    
+[Submit a Methodology](https://github.com/HumanCellAtlas/data-portal-content/issues/new?template=submit-method)     
+[Submit a Visualization Component](https://github.com/HumanCellAtlas/data-portal-content/issues/new?template=submit-visualization-component)     
