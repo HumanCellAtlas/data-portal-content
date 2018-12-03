@@ -15,12 +15,12 @@ Required:
 - Contact email: 
 - Who to attribute: 
 - Language: 
-- Code repository URL: (_e.g. https://github.com/yourusername/yourpackagename_)
-- NPM registry URL: (_e.g. https://bioconductor.org/packages/release/bioc/html/slingshot.html_)
-- NPM package provides ES6 export?: [ ] (_fill in as [x] to indicate your package provides an ES6 export_)
-- 2-3 sentence description: (_Content may be truncated, e.g. to 150 chararacters, on listing page.  Full description will appear in details page._)
+- Code repository URL: (e.g. https://github.com/yourusername/yourpackagename)
+- NPM registry URL: (e.g. https://www.npmjs.com/package/ideogram)
+- NPM package provides ES6 export?: [ ] (fill in as [x] to indicate your package provides an ES6 export)
+- 2-3 sentence description: (Content may be truncated, e.g. to 150 chararacters, on listing page.  Full description will appear in details page.)
 
 Optional:
-- Build badge URL: (_e.g. https://travis-ci.org/eweitz/ideogram.svg?branch=master)_
-- Coverage badge URL: (_e.g. https://coveralls.io/repos/github/eweitz/ideogram/badge.svg_)
-- HCA mashup URL: (_e.g. https://github.com/eweitz/ideogram/blob/master/examples/react/README.md#ideogram-in-react_)
+- Build badge URL: (e.g. https://travis-ci.org/eweitz/ideogram.svg?branch=master)
+- Coverage badge URL: (e.g. https://coveralls.io/repos/github/eweitz/ideogram/badge.svg)
+- HCA mashup URL: (e.g. https://github.com/eweitz/ideogram/blob/master/examples/react/README.md#ideogram-in-react)
