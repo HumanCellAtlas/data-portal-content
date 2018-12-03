@@ -48,7 +48,7 @@ Once submitted to the Human Cell Atlas, your data will be searchable in the [Dat
 
     For Smart-seq2 and 10X v2 single-cell RNA-seq experiments, data will be processed by our standard [processing pipelines](/learn/userguides/data-processing-pipelines/overview-of-data-processing-pipelines-user-guides). Alignment and quantification results will be made available in the Data Browser alongside raw data.
 
-    Your data will also be available for use directly in [analysis applications](/analyze/methods/methods/) available through the Data Portal.
+    Your data will also be available for use directly in [analysis applications](/analyze/methods) available through the Data Portal.
 
 1. **Repository Accessions**
 
