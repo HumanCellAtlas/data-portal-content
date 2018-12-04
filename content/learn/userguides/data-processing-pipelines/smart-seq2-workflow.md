@@ -17,7 +17,7 @@ The SMART acronym, which stands for Switching Mechanism At the end of the 5’-e
 
 ## Overview of the Pipeline
 
-The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scRNA sequencing protocols. The pipeline currently comprises two modules: a quality control module, which generates post-alignment quality control metrics, and a transcriptome quantification module, which aligns reads to the transcriptome and estimates transcript expression levels. 
+The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scRNA sequencing protocols. The pipeline is comprised of two modules: a quality control module, which generates post-alignment quality control metrics, and a transcriptome quantification module, which aligns reads to the transcriptome and estimates transcript expression levels. 
 
 
 ## Quick Start Table
@@ -25,7 +25,7 @@ The Smart-seq2 pipeline processes data generated from plate-based Smart-seq2 scR
 | Pipeline Features | Description | Source |
 |-------------------|---------------------------------------------------------------|-----------------------|
 |Assay Type |paired-end plate-based Smart-seq2 |
-| Overall workflow  |Quality control module and transcriptome quantification module | Code available from [Github](https://github.com/HumanCellAtlas/skylab/tree/master/pipelines/smartseq2_single_sample) |
+| Overall workflow  |Quality control module and transcriptome quantification module | [Code available from Github](https://github.com/HumanCellAtlas/skylab/tree/master/pipelines/smartseq2_single_sample) |
 | Workflow language |WDL          |[openWDL](https://github.com/openwdl/wdl)|
 | Genomic reference sequence|GRCh38 human genome primary sequence|[GENCODE](https://www.gencodegenes.org/human/release_27.html)|
 |Gene Model         |GENCODE v27 PRI GTF and Fasta files   |[GENCODE](https://www.gencodegenes.org/human/release_27.html)|
