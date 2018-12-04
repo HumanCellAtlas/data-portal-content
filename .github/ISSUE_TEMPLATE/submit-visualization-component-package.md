@@ -6,7 +6,7 @@ about: Create or update a visualization component package
 
 Thank you for submitting a visualization component package to the HCA DCP Methods Registry!
 
-To expedite your package's addition to https://prod.data.humancellatlas.org/analyze/methods,
+To expedite your package's addition to https://prod.data.humancellatlas.org/analyze/visualization-components,
 please provide the following package metadata.
 
 Required:
