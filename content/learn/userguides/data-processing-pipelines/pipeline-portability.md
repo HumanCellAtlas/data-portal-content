@@ -8,7 +8,7 @@ title: "Data Processing Pipeline Portability"
 
 ### What do we mean by portability?
 
-When developing a pipeline, it can be easy to build in assumptions about the environment and infrastructure in which it will run. This makes is difficult for others to use or modify the pipeline. One goal of the Human Cell Atlas (HCA) is to create data processing pipelines that can be run by many investigators, not just within the Data Coordination Platform (DCP); we refer to this goal as data processing pipeline portability.
+When developing a pipeline, it can be easy to build in assumptions about the environment and infrastructure in which it will run; these assumptions make it difficult for others to use or modify the pipeline. One goal of the Human Cell Atlas (HCA) is to create data processing pipelines that can be run by many investigators, not just within the Data Coordination Platform (DCP); we refer to this goal as data processing pipeline portability.
 
 ### Introduction
 
@@ -17,7 +17,7 @@ The HCA aims to break down barriers in data use, offering immediate and open acc
 1. measures whether HCA workflows can run in a variety of environments outside of the DCP (local, grid-based, and cloud-based environments). 
 2. enables others to extend the service so pipelines can be regularly tested for portability in additional execution environments beyond what we specify. 
 
-We use this service as part of our testing during pipeline development to ensure that pipelines developed for the HCA can be executed successfully in many environments.
+We use this Portability Service as part of our testing during pipeline development to ensure that pipelines developed for the HCA can be executed successfully in many environments.
 
 The HCA is a driver project of the [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org/), and the Portability Service helps demonstrate GA4GH APIs for executing workflows in different infrastructures. In conjunction with the GA4GH and their other driver projects we are working to develop policies, standards, and tools for genomic and health-related data sharing. We welcome community involvement and feedback; contact [GA4GH](https://www.ga4gh.org/) or the [HCA DCP](mailto:data-help@humancellatlas.org) for more information.
 
