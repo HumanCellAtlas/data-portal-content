@@ -10,7 +10,7 @@ title: "Data Processing Pipelines File Formats"
 
 Matrices are best downloaded through the HCA *Data Portal*. You can use the portal's Data Browser to make a multifaceted search to dynamically generate matrices. This functionality is powered by our Expression Matrix Service (which will allow programmatic access in the future). Using the Data Browser, users can specify a desired file type for expression matrices during download. The following formats are currently supported: Zarr, CSV, and .loom formats.
 
-The following vignettes show how to work with HCA expression matrices in several common data science environments. Please note that these notebook vignettes are intended to show how to initiate data analysis with data from the HCA DCP and that these data are usable in common environments. The vignettes are not intended to teach analysis.
+We are creating the following vignettes to demonstrate working with HCA expression matrices in several common data science environments. Please note that these notebook vignettes are intended to show how to initiate data analysis with data from the HCA DCP and that these data are usable in common environments. The vignettes are not intended to teach analysis.
 
 * Jupyter Notebook showing analysis of Smart-seq2 data in R using HCA matrices.
 * [Jupyter Notebook](https://github.com/HumanCellAtlas/data-consumer-vignettes/blob/master/tasks/Download%20Expression%20Matrix%20for%20Scanpy/Download%20SmartSeq2%20Expression%20Matrix%20as%20Input%20to%20Scanpy.ipynb) showing analysis of Smart-seq2 data in python using HCA matrices.
