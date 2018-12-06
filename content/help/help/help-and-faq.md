@@ -20,6 +20,12 @@ The HCA is a collaborative effort by an international group of scientists to cre
 
 The HCA data will eventually accept all types of single-cell data, but it currently contains single-cell RNA-sequencing data from Smart-seq2 and 10X v2 assays. While we are focused on curating a collection of data from healthy human specimens, as we grow we are accepting data from a number of sources, including model organisms and organoids, and both healthy and diseased samples. In the future, we will offer data releases that contain only healthy human samples. Stay tuned, the HCA is constantly evolving!
 
+Currently, both Smart-seq2 and 10X v2 processed data can be downloaded as expression matrices from individual cell data using the CLI. The matrices for 10x data are per channel. 
+
+In addition, an expression matrix containing the combined Smart-Seq2 data from all the cells of a particular project can also be obtained by requesting an expression matrix in the Data Browser.  
+
+Note that these matrices contain Gencode IDs, rather than gene name symbols. Please contact us if you need help converting Gencode IDs to gene names.
+
 #### How do I get more details about projects, like protcols or publications?
 
 You can learn more about each project by visiting the Projects tab in the *Explore* section of the *Data Portal*. We encourage all contributing projects to provide a detailed description of their protocol and post their protocol details at [protocols.io](https://www.protocols.io/). Publication information, where available, is also visible on the Projects page.
