@@ -38,7 +38,7 @@ Install Python 3.6 using instructions found on line. Make sure that the basic co
 
 `python --version`
 
-The pip3 installer should come with Python 3.6. Verify this by running:
+The `pip3` installer should come with Python 3.6. Make sure that your path includes the Scripts sub-dir so that you will have access to the `pip3` program. Verify access after modifying the path by running:
 
 `pip3 --version`
 
@@ -52,7 +52,7 @@ Now create a virtual environment
 
 Now move into the virtual environment
 
-`venv/Scripts/activate.bat`
+`venv\Scripts\activate.bat`
 
 Now install the HCA command line interface:
 
