@@ -21,7 +21,7 @@ We provide several computational solutions to use in building products. We have 
 
 ## Working with Ingest
 
-**Ingest API** The Ingest Service provides a programmatic API for submitting data. This may be useful, for example, for LIMs integration solutions. This does require authentication and would require contacting the ingest team.
+**Ingest API** The Ingest Service provides a programmatic API for submitting data. This may be useful, for example, for LIMs integration solutions. This does require authentication and would require contacting the ingest team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
 [Starting point: GitHub Repository Ingest Central (ingest-central)](https://github.com/HumanCellAtlas/ingest-central)    
 [GitHub Repository for Ingest API(ingest-broker-api)](https://github.com/HumanCellAtlas/ingest-broker-api)    
