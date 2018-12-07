@@ -7,4 +7,5 @@ linked:
     - ./sc3.md
     - ./slingshot.md
     - ./scmap.md
+    - ./stream.md
 ---
