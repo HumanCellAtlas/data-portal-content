@@ -38,7 +38,7 @@ Install Python 3.6 using instructions found on line. Make sure that the basic co
 
 `python --version`
 
-The pip3 installer should coume with Python 3.6. Verify this by running:
+The pip3 installer should come with Python 3.6. Verify this by running:
 
 `pip3 --version`
 
