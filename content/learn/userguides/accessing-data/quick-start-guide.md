@@ -12,7 +12,7 @@ Data in the Data Store is organized into data bundles. A bundle is a group of fi
 
 Some examples of how others have accessed and used the HCA data can be seen in these [consumer vignettes](https://dev.data.humancellatlas.org/learn/development-guides/consumer-vignettes).
 
-### Installing the HCA CLI
+### Installing the HCA CLI for Mac OS
 It is recommended that the CLI be run in a virtual environment to control Python library dependencies. A common utility for creating and managing virtual environment is `virtualenv`. Installation instructions for `virtualenv` can be found online. In Mac OS High Sierra, one might use:
 
 `sudo pip install virtualenv`
@@ -25,9 +25,47 @@ Now install the HCA command line interface:
 
 `pip install hca`
 
-There are detailed configuration instructions [here](https://hca.readthedocs.io/en/latest/) as well as basic instructions for using each of the available CLI commands.
+Now verify that the `hca` program has been installed:
+
+`hca --version`
+
+There are detailed configuration instructions for using `hca` [here](https://hca.readthedocs.io/en/latest/) as well as basic instructions for using each of the available CLI commands.
+
+### Installing the HCA CLI for Windows 10
+It is recommended that the CLI be run in a virtual environment to control Python library dependencies. A common utility for creating and managing virtual environment is `virtualenv`. 
+
+Install Python 3.6 using instructions found on line. Make sure that the basic configuration is correct by running a quick version check on Python:
+
+`python --version`
+
+The `pip3` installer should come with Python 3.6. Make sure that your path includes the Scripts sub-dir so that you will have access to the `pip3` program. Verify access after modifying the path by running:
+
+`pip3 --version`
+
+Now install virtualenv
+
+`pip3 install virtualenv`
+
+Now create a virtual environment
+
+`virtualenv venv`
+
+Now move into the virtual environment
+
+`venv\Scripts\activate.bat`
+
+Now install the HCA command line interface:
+
+`pip3 install hca`
+
+Now verify that the `hca` program has been installed:
+
+`hca --version`
+
+There are detailed configuration instructions for using `hca` [here](https://hca.readthedocs.io/en/latest/) as well as basic instructions for using each of the available CLI commands.
 
 ### Using the Data Browser to Access Data
+
 #### Finding Data
 The *Explore* section of the data portal provides an interactive data browser. Select a subset of data by checking various boxes in the Organ, Method, Donor, Specimen sections. You can see how many specimens have been selected in the Specimens tab. It also gives an estimate of the size of the data set if the entire list were downloaded.
 
