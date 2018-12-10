@@ -12,7 +12,7 @@ Basic instructions for creating/updating content can be found at the following l
 * [Editing an Existing Page](https://dev.data.humancellatlas.org/document/creating-content/editing-an-existing-page)
 * [Creating Links](https://dev.data.humancellatlas.org/document/creating-content/creating-links)
 * [Using Images](https://dev.data.humancellatlas.org/document/creating-content/using-images)
-* [Creating a New Page](https://dev.data.humancellatlas.org/document/creating-content/creating-a-existing-page)
+* [Creating a New Page](https://dev.data.humancellatlas.org/document/creating-content/creating-a-new-page)
 
 >The markdown douments are in the [/content](https://github.com/HumanCellAtlas/data-portal-content/tree/master/content)` folder of this repository.
 
