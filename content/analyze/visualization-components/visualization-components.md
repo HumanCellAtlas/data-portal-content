@@ -11,8 +11,8 @@ linked:
 ---
 
 
-## Visualization Components
-The HCA Visualization Components Registry lists JavaScript modules that enable analysis through interactive data exploration on the web.  
+## Visualization Packages
+The HCA Visualization Package Registry lists JavaScript modules that enable analysis through interactive data exploration on the web.  
 
  These solutions are not built by the HCA DCP implementation team but are solutions we foster and support. 
 

@@ -16,10 +16,10 @@ linked:
 ---
 
 
-## Visualization Portals
+## Analysis Portals
 
 
-The HCA Visualization Portal Registry lists portals that provide a human-friendly UI in a web or native app to search, explore and analyze biological data.  
+The HCA Analysis Portal Registry lists portals that provide a human-friendly UI in a web or native app to search, explore and analyze biological data.  
 
 These solutions are not built by the HCA DCP implementation team but are solutions we foster and support.   
 

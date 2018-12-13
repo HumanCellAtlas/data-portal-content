@@ -10,8 +10,8 @@ linked:
     - ./stream.md
 ---
 
-##  Methods
-The HCA Methods Registry lists tools for performing analyses involving scRNA-seq, scDNA-seq, in situ transcriptomics, multi-modal and other computational biology approaches. 
+##  Methods Packages
+The HCA Methods Package Registry lists tools for performing analyses involving scRNA-seq, scDNA-seq, in situ transcriptomics, multi-modal and other computational biology approaches. 
 
 These solutions are not built by the HCA DCP implementation team but are solutions we foster and support. 
 
