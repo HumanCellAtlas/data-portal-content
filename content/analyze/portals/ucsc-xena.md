@@ -2,7 +2,7 @@
 path: "/analyze/portals/ucsc-xena"
 date: "2018-05-03"
 title: "UCSC Xena | Brian Craft, Mary Goldman, Jingchun Zhu, David Haussler"
-appUrl: "https://xena.ucsc.edu"
+appUrl: "https://singlecell.xenahubs.net"
 githubUrl: "http://xena.ucsc.edu"
 ---
 
