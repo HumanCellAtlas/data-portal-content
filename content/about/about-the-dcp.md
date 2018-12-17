@@ -1,9 +1,7 @@
 ---
 path: "/about/platform/dcp"
 date: "2018-05-03"
-title: "What is the Platform?"
-componentName: "about"
-
+title: "About the Data Coordination Platform (DCP)"
 ---
 
 ## About the Data Coordination Platform (DCP)
