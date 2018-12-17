@@ -11,11 +11,10 @@ linked:
 ---
 
 ##  Methods Packages
-The HCA Methods Package Registry lists tools for performing analyses involving scRNA-seq, scDNA-seq, in situ transcriptomics, multi-modal and other computational biology approaches. 
+Methods packages listed below are tools for performing analyses involving scRNA-seq, scDNA-seq, in situ transcriptomics, multi-modal and other computational biology approaches. 
 
-These solutions are not built by the HCA DCP implementation team but are solutions we foster and support. 
+These solutions are built by third parties, and fostered by the HCA DCP.
 
-You can use these methods packages by following the installation and usage instructions in the method's detail page.  Portal developers can also find instructions for integrating these methods into an app on each method's detail page.
 
 > #### Submit Your Method
->If you are a methodologist and would like to add your software to this list, [please submit your method](https://github.com/HumanCellAtlas/data-portal-content/issues/new/?template=submit-method-package.md).
+>[Submit your method](https://github.com/HumanCellAtlas/data-portal-content/issues/new/?template=submit-method-package.md)
