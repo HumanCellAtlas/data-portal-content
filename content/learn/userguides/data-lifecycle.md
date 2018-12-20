@@ -17,9 +17,6 @@ Here we describe the general process of data flow through the components of the 
 
 Data flow begins with the ingestion of raw experimental data files and associated metadata. Currently, the ingest process is supported by HCA data wranglers, an interactive UI, and a REST API. The Ingestion Service processes, validates, and assembles biomolecular data and metadata before pushing them to the central Data Store, where all HCA data are stored. 
 
-#### Data Validation
-Following ingest, the data and metadata are validated. Data files are checked to make sure they are in the correct file format and are not empty or corrupt. Metadata is validated against a schema to make sure that required information has been supplied using the appropriate controlled language. Once validation is complete, data and metadata are automatically stored in the HCA DCP Data Store.
-
 #### Upload and Processing
 
 Data contributors provide metadata for a dataset as structured spreadsheets. Metadata spreadsheets are processed into a standard format and then validated to enable interoperability between all datasets in the HCA.
