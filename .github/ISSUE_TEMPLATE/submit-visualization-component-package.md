@@ -14,7 +14,6 @@ Required:
 - Contact name: 
 - Contact email: 
 - Who to attribute: 
-- Language: 
 - Code repository URL: (e.g. https://github.com/yourusername/yourpackagename)
 - NPM registry URL: (e.g. https://www.npmjs.com/package/ideogram)
 - NPM package provides ES6 export?: [ ] (fill in as [x] to indicate your package provides an ES6 export)
