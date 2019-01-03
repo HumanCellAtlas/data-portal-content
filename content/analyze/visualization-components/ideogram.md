@@ -2,8 +2,14 @@
 path: "/analyze/visualization-components/ideogram"
 date: "2018-05-03"
 title: "Ideogram.js | Eric Weitz"
+contactName: "Eric Weitz"
+contactEmail: "eric.m.weitz@gmail.com"
 githubUrl: "https://github.com/eweitz/ideogram"
 appUrl: "https://github.com/eweitz/ideogram"
+npmUrl: "https://www.npmjs.com/package/ideogram"
+buildUrl: "https://travis-ci.org/eweitz/ideogram"
+coverageUrl: "https://coveralls.io/github/eweitz/ideogram"
+mashupUrl: "https://github.com/eweitz/ideogram/blob/master/examples/react/README.md#ideogram-in-react"
 ---
 
 ### Ideogram.js | Eric Weitz
