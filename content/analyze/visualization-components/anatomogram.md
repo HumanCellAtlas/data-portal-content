@@ -2,8 +2,17 @@
 path: "/analyze/visualization-components/anatomogram"
 date: "2018-05-03"
 title: "Anatomogram | Alfonso Muñoz-Pomer Fuentes"
+contactName: "Irene Papatheodorou"
+contactEmail: "irenep@ebi.ac.uk"
 githubUrl: "https://github.com/ebi-gene-expression-group/anatomogram"
 appUrl: "https://github.com/ebi-gene-expression-group/anatomogram"
+description: "An interactive component to display an anatomical view of an organism. Selected species support alternative views depending on their specific anatomical features (e.g. male, female and brain in mouse and human, flower and full plant in rice). It uses SVGs where shapes representing organism parts are annotated with ontology accessions that are the IDs the component uses to receive and send events through callbacks."
+buildUrl: "https://travis-ci.org/ebi-gene-expression-group/anatomogram"
+coverageUrl: "https://coveralls.io/github/ebi-gene-expression-group/anatomogram?branch=master"
+screenshot: ""
+mashupUrl: ""
+activePortalUsageUrl: ""
+
 ---
 
 ### Anatomogram | Alfonso Muñoz-Pomer Fuentes
