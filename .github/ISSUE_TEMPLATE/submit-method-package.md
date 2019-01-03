@@ -26,4 +26,5 @@ Required:
 Optional:
 - Build badge URL: (e.g. https://travis-ci.org/kstreet13/slingshot.svg?branch=master)
 - Coverage badge URL: (e.g. https://img.shields.io/codecov/c/github/kstreet13/slingshot/master.svg)
-- Logo or screenshot (Attach to this GitHub issue.)
+- Logo or screenshot: (Attach to this GitHub issue.)
+- URL to implementation of this tool in an active portal:
