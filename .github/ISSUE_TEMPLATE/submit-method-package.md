@@ -14,10 +14,10 @@ Required:
 - Contact name: 
 - Contact email: 
 - Who to attribute: 
-- Language: 
-- Code repository URL: (e.g. https://github.com/yourusername/yourpackagename)
-- Upstream registry URL: (e.g. https://bioconductor.org/packages/release/bioc/html/slingshot.html)
 - Method-ready Docker image URL:
+- Code repository URL: (e.g. https://github.com/yourusername/yourpackagename)
+- Language: 
+- Upstream registry URL: (e.g. https://bioconductor.org/packages/release/bioc/html/slingshot.html)
 - Downloadable test data URL: (reference test data set, reference outputs)
 - Basic command line usage example:
 - Command to validate installation:
@@ -27,4 +27,5 @@ Optional:
 - Build badge URL: (e.g. https://travis-ci.org/kstreet13/slingshot.svg?branch=master)
 - Coverage badge URL: (e.g. https://img.shields.io/codecov/c/github/kstreet13/slingshot/master.svg)
 - Logo or screenshot: (Attach to this GitHub issue.)
-- URL to implementation of this tool in an active portal:
+- Implementation of this tool in an active portal: URL
+- Benchmark dataset: URL
