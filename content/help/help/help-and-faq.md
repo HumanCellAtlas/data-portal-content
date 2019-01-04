@@ -18,7 +18,7 @@ The HCA is a collaborative effort by an international group of scientists to cre
 
 #### What kind of data is in the HCA?
 
-The HCA data will eventually accept all types of single-cell data, but it currently contains single-cell RNA-sequencing data from Smart-seq2 and 10X v2 assays. While we are focused on curating a collection of data from healthy human specimens, as we grow we are accepting data from a number of sources, including model organisms and organoids, and both healthy and diseased samples. In the future, we will offer data releases that contain only healthy human samples. Stay tuned, the HCA is constantly evolving!
+The HCA data will eventually accept all types of single-cell data, but it currently contains single-cell RNA-sequencing data from Smart-seq2 and 10X v2 assays. While we are focused on curating a collection of data from healthy human specimens, as we grow we are accepting data from a number of sources, including model organisms and organoids, and both healthy and diseased samples. Stay tuned, the HCA is constantly evolving!
 
 Currently, both Smart-seq2 and 10X v2 processed data can be downloaded as expression matrices from individual cell data using the CLI. The matrices for 10x data are per channel. 
 
@@ -32,7 +32,7 @@ You can learn more about each project by visiting the Projects tab in the *Explo
 
 #### Can I use this data for a publication?
 
-Yes, data from the HCA can be used for publication.  Learn more about our [data use agreement](https://prod.data.humancellatlas.org/contribute/overview/terms-and-conditions). 
+Yes, data from the HCA can be used for publication.  Learn more about our [data use agreement](https://prod.data.humancellatlas.org/learn/userguides/data-use-agreement). 
 
 #### How do I cite HCA data?
 
