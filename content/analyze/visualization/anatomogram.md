@@ -1,5 +1,5 @@
 ---
-path: "/analyze/visualization-components/anatomogram"
+path: "/analyze/visualization/anatomogram"
 date: "2018-05-03"
 title: "Anatomogram | Alfonso Muñoz-Pomer Fuentes"
 contactName: "Irene Papatheodorou"

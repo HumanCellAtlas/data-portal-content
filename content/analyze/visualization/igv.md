@@ -1,5 +1,5 @@
 ---
-path: "/analyze/visualization-components/igv"
+path: "/analyze/visualization/igv"
 date: "2018-05-03"
 title: "igv.js | James Robinson, Douglass Turner, Helga Thorvaldsdottir, Jill Mesirov"
 contactName: "IGV team"
