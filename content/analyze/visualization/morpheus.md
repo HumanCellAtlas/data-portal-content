@@ -1,5 +1,5 @@
 ---
-path: "/analyze/visualization-components/morpheus"
+path: "/analyze/visualization/morpheus"
 date: "2018-05-03"
 title: "Morpheus | Joshua Gould"
 contactName: "Joshua Gould"

@@ -1,5 +1,5 @@
 ---
-path: "/analyze/visualization-components/ideogram"
+path: "/analyze/visualization/ideogram"
 date: "2018-05-03"
 title: "Ideogram.js | Eric Weitz"
 contactName: "Eric Weitz"
