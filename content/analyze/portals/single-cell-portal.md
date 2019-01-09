@@ -1,7 +1,7 @@
 ---
 path: "/analyze/portals/single-cell-portal"
 date: "2018-05-03"
-title: "Single Cell Portal | Eric Weitz, Jean Chang, Vicky Horst"
+title: "Single Cell Portal | Jon Bistline, Eric Weitz, Jean Chang, Vicky Horst, Timothy Tickle"
 appUrl: "https://portals.broadinstitute.org/single_cell"
 githubUrl: "https://portals.broadinstitute.org/single_cell"
 ---
