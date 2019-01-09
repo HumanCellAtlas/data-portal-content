@@ -1,12 +1,13 @@
 ---
-path: "/analyze/portals/cytoscape"
+path: "/analyze/portals/analysis-portals/cytoscape"
 date: "2018-05-03"
-title: "Cytoscape | Cytoscape consortium"
+title: "Cytoscape"
+author: "Cytoscape consortium"
+description: "Cytoscape is an open source software platform for visualizing molecular interaction networks and biological pathways."
 appUrl: "http://www.cytoscape.org/"
 githubUrl: "http://www.cytoscape.org/"
+componentName: "analysisDetail"
 ---
-
-### Cytoscape | Cytoscape consortium
 
 Cytoscape is an open source software platform for visualizing molecular interaction networks and biological pathways and integrating these networks with annotations, gene expression profiles and other state data.  Although Cytoscape was originally designed for biological research, now it is a general platform for complex network analysis and visualization.
 
