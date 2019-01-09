@@ -21,5 +21,4 @@ Analysis portals listed below provide a human-friendly UI in a web or native app
 
 These solutions are built by third parties, and fostered by the HCA DCP.
 
->#### Want to contribute?
->[Submit your portal](https://github.com/HumanCellAtlas/data-portal-content/issues/new/?template=submit-portal.md)
+>Are you developing a portal that can consume HCA data? Please submit it for inclusion to the registry [here](https://github.com/HumanCellAtlas/data-portal-content/issues/new/?template=submit-portal.md).
