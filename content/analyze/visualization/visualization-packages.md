@@ -16,4 +16,4 @@ Visualization packages listed below are JavaScript modules that enable analysis 
 
 These solutions are built by third parties, and fostered by the HCA DCP.
 
->Are you developing a portal that can consume HCA data? Please submit it for inclusion to the registry [here](https://github.com/HumanCellAtlas/data-portal-content/issues/new/?template=submit-visualization-component-package.md).
+>Are you developing a package that can consume HCA data? Please submit it for inclusion to the registry [here](https://github.com/HumanCellAtlas/data-portal-content/issues/new/?template=submit-visualization-component-package.md).

@@ -16,4 +16,4 @@ Methods packages listed below are tools for performing analyses involving scRNA-
 
 These solutions are built by third parties, and fostered by the HCA DCP.
 
->Are you developing a portal that can consume HCA data? Please submit it for inclusion to the registry [here](https://github.com/HumanCellAtlas/data-portal-content/issues/new/?template=submit-method-package.md).
+>Are you developing a package that can consume HCA data? Please submit it for inclusion to the registry [here](https://github.com/HumanCellAtlas/data-portal-content/issues/new/?template=submit-method-package.md).
