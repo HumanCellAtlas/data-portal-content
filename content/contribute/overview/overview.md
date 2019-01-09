@@ -12,11 +12,11 @@ The Human Cell Atlas is built with the help of and for the benefit of the scient
 
 1. **Single-cell Smart-seq2 and 10X v2 RNA-seq data**
 
-    Data from Smart-seq2 and 10X v2 experiments will be analyzed by our [processing pipelines](/learn/userguides/data-processing-pipelines/overview-of-data-processing-pipelines-user-guides). Alignment and quantification results will be made available in the Data Browser alongside raw data. 
+    Data from paired-end plate-based Smart-seq2 and 10X v2 assays will be analyzed by our [processing pipelines](/learn/userguides/data-processing-pipelines/overview-of-data-processing-pipelines-user-guides). Alignment and quantification results will be made available in the Data Browser alongside raw data. 
 
 1. **Single nucleus sequencing and image-based transcriptomics data**
 
-    We are actively investigating standard processing pipelines for single nucleus sequencing and several image-based transcriptomics experiments. If you are doing these types of experiments, please reach out to us. We are interested in working together to better understand these data types and how to process them.
+    We are actively investigating standard processing pipelines for single nucleus sequencing and image-based transcriptomics assays. If you are doing these types of experiments, please reach out to us. We are interested in working with the community to understand these data types and how to process them.
 
 1. **Other cellular resolution data**
 
