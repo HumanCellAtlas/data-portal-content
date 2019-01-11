@@ -88,6 +88,8 @@ The data controller will use your personal data for the following purposes:
 
 ### 4. Who will have access to your personal data?
 
+Google Analytics, which HCA relies on to analyze service usage (see <https://www.google.com/analytics/terms/us.html>). To learn more about how to opt out of Google’s use of cookies as part of its Analytics services, you may visit Google’s [Ads Settings](https://adssettings.google.com/authenticated). You will be able to prevent your data from being used by Google Analytics by installing Google’s opt-out browser add-on from the [Google Analytics Opt-out Page](https://tools.google.com/dlpage/gaoptout).
+
 The personal data will be disclosed to:
 
 - Authorized staff in the data controller’s institutions acting on behalf of the Human Cell Atlas Project.
