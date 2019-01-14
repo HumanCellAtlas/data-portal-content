@@ -6,7 +6,7 @@ title: "Data Processing Pipeline Portability"
 
 ## Data Processing Pipeline Portability
 
-### What do we mean by portability?
+### What is Portability?
 
 When developing a pipeline, it can be easy to build in assumptions about the environment and infrastructure in which it will run; these assumptions make it difficult for others to use or modify the pipeline. One goal of the Human Cell Atlas (HCA) is to create data processing pipelines that can be run by many investigators, not just within the Data Coordination Platform (DCP); we refer to this goal as data processing pipeline portability.
 
@@ -21,7 +21,7 @@ We use this Portability Service as part of our testing during pipeline developme
 
 The HCA is a driver project of the [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org/), and the Portability Service helps demonstrate GA4GH APIs for executing workflows in different infrastructures. In conjunction with the GA4GH and their other driver projects we are working to develop policies, standards, and tools for genomic and health-related data sharing. We welcome community involvement and feedback; contact [GA4GH](https://www.ga4gh.org/) or the [HCA DCP](mailto:data-help@humancellatlas.org) for more information.
 
-### How can I use the Portability Service?
+### Uses of the Portability Service
 
 The Portability Service enables you to:
 1. Submit pipelines to the service to check if they can run in different environments. This step can be incorporated into your continuous integration plan.
@@ -32,6 +32,6 @@ The Portability Service enables you to:
 * [Cromwell](https://github.com/broadinstitute/cromwell) with a local, Linux backend
 * More coming!
 
-### How do I submit a pipeline to the Portability Service?
+### Submitting a Pipeline
 
 HCA pipelines are automatically submitted to this service as a part of our development process. If you are interested in submitting a pipeline to the Portability Service, please contact us (data-help@humancellatlas.org).
