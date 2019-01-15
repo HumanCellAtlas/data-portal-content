@@ -14,13 +14,12 @@ componentName: "analysisDetail"
 
 Anatomogram is an interactive component to display an anatomical view of an organism. Selected species support alternative views depending on their specific anatomical features (e.g. male, female and brain in mouse and human, flower and full plant in rice). It uses SVGs where shapes representing organism parts are annotated with ontology accessions that are the IDs the component uses to receive and send events through callbacks.
 
-# Install
-`npm install anatomogram`
-
-# Visualize
 <a href="https://gxa.github.io/anatomogram-demo" target="_blank">
   <img src="../_images/visualization/anatomogram.png" width=300/>
 </a>
+
+# Install
+`npm install anatomogram`
 
 # Contact
 Irene Papatheodorou (<a href="mailto://irenep@ebi.ac.uk">irenep@ebi.ac.uk</a>)
