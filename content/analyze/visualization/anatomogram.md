@@ -9,11 +9,10 @@ description: "Anatomogram component for Expression Atlas heatmap."
 componentName: "analysisDetail"
 ---
 
-
 [![Build Status](https://travis-ci.org/ebi-gene-expression-group/anatomogram.svg?branch=master)](https://travis-ci.org/ebi-gene-expression-group/anatomogram)
 [![Coverage Status](https://coveralls.io/repos/github/ebi-gene-expression-group/anatomogram/badge.svg?branch=master)](https://coveralls.io/github/ebi-gene-expression-group/anatomogram?branch=master)
 
-An interactive component to display an anatomical view of an organism. Selected species support alternative views depending on their specific anatomical features (e.g. male, female and brain in mouse and human, flower and full plant in rice). It uses SVGs where shapes representing organism parts are annotated with ontology accessions that are the IDs the component uses to receive and send events through callbacks.
+Anatomogram is an interactive component to display an anatomical view of an organism. Selected species support alternative views depending on their specific anatomical features (e.g. male, female and brain in mouse and human, flower and full plant in rice). It uses SVGs where shapes representing organism parts are annotated with ontology accessions that are the IDs the component uses to receive and send events through callbacks.
 
 # Install
 `npm install anatomogram`
