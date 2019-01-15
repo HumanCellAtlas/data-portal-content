@@ -22,5 +22,8 @@ Morpheus is versatile matrix visualization and analysis software. View your data
 # Install
 `npm install morpheus-app`
 
+# Integrate
+Learn how to use Morpheus in your portal by exploring a [minimal example of Morpheus in React](https://github.com/eweitz/morpheus.js-react/blob/master/README.md#morpheusjs-in-react).
+
 # Contact
 Joshua Gould (<a href="mailto://morpheus@broadinstitute.org">morpheus@broadinstitute.org</a>)
