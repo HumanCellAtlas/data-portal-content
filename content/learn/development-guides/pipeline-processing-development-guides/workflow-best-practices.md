@@ -4,9 +4,9 @@ date: "2018-05-03"
 title: "Best Practices for Building Data Processing Pipelines"
 ---
 
-# Best Practices for Building Data Processing Pipelines
+## Best Practices for Building Data Processing Pipelines
 
-## Goals
+### Goals
 The following broad goals motivate our best practices. Here we describe them and give insight as to why these goals are important. We then explore best practices and examples to give you a sense of how to apply these goals.
 
 - The best pipelines should be automated.
@@ -16,7 +16,7 @@ The following broad goals motivate our best practices. Here we describe them and
 - The best pipelines should be easy to maintain.
   
 ### Automation
-#### What do we mean by automation?
+#### What is Automation?
   Automation refers to the ability of a pipeline to run, end-to-end, without human intervention.
   
 #### Why do we care about automation? 
