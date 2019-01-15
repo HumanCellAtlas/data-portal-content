@@ -21,5 +21,8 @@ igv.js is an embeddable interactive genome visualization component based on the 
 # Install
 `npm install igv`
 
+# Integrate
+Learn how to use igv.js in your portal by exploring a [minimal example of igv.js in React](https://github.com/eweitz/igv.js-react/blob/master/README.md#igvjs-in-react).
+
 # Contact
 IGV team (<a href="mailto://igv-team@broadinstitute.org">igv-team@broadinstitute.org</a>)
