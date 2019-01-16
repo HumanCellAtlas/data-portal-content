@@ -6,8 +6,8 @@ componentName: "analyze"
 linked:
     - ./anatomogram.md
     - ./ideogram.md
-    - ./morpheus.md
     - ./igv.md
+    - ./morpheus.md
 ---
 
 ## Visualization Packages
