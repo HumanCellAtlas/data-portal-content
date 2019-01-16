@@ -18,7 +18,7 @@ linked:
 
 ## Analysis Portals
 
-Analysis portals listed below provide a human-friendly UI in a web or native app to search and explore biological data.
+Analysis portals listed below provide a human-friendly UI in a web or native app to search and explore biological data.  Portals sometimes include packages for analysis [methods](/analyze/methods) and biological [visualizations](/analyze/visualization), and integrate data from Human Cell Atlas.
 
 These solutions are built by third parties, and fostered by the HCA DCP.
 
