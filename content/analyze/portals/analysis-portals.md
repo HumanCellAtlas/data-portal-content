@@ -4,16 +4,16 @@ date: "2018-05-03"
 title: "Analysis Portals"
 componentName: "analyze"
 linked:
+    - ./asap.md
+    - ./bioturing-browser.md
+    - ./cellxgene.md
+    - ./cytoscape.md
+    - ./dnastack.md
+    - ./genepattern-notebook.md   
+    - ./single-cell-expression-atlas.md
+    - ./single-cell-portal.md
     - ./ucsc-cell-browser.md
     - ./ucsc-xena.md
-    - ./single-cell-portal.md
-    - ./genepattern-notebook.md   
-    - ./cytoscape.md
-    - ./asap.md
-    - ./dnastack.md
-    - ./single-cell-expression-atlas.md
-    - ./cellxgene.md
-    - ./bioturing-browser.md
 ---
 
 ## Analysis Portals
