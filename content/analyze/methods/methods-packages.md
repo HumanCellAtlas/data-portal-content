@@ -5,8 +5,8 @@ title: "Methods Packages"
 componentName: "analyze"
 linked:
     - ./sc3.md
-    - ./slingshot.md
     - ./scmap.md
+    - ./slingshot.md
     - ./stream.md
 ---
 
