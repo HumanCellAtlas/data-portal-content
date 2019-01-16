@@ -72,7 +72,8 @@ The *Explore* section of the data portal provides an interactive data browser. S
 #### Downloading a Data Manifest
 Once you have selected data through the user interface, click the Download button on the right hand side of the page to download the list of data sets (note that the actual data specified by the list is NOT downloaded in this step). We call this list a manifest. The Download dialog box gives you the option to further refine the types of files you would like to be included in the manifest. Select which files to include in the manifest. Be cognizant that the sizes listed are for the actual files and not the manifest itself. 
 
-Press the Download Manifest button and a file called `export.tsv` will be saved to your local file system.
+Press the Download Manifest button and a file called `<uuid>.tsv` will be saved to your local file system. Note that the 
+file name will use a UUID to avoid overwriting previous downloads.
 
 The format of the manifest file is a simple tab separated text file, with the first line representing the header title for each column. It is OK to remove rows for unwanted files but the header row must remain, and the columns should remain the same.
 
@@ -91,9 +92,9 @@ Print the help for how to download the manifest of files:
 
 `hca dss download-manifest --help`
 
-Now execute the command to begin the download of the files listed in the `export.tsv` file:
+Now execute the command to begin the download of the files listed in the `<uuid>.tsv` file. 
 
-`hca dss download-manifest --manifest export.tsv --replica aws`
+`hca dss download-manifest --manifest <uuid>.tsv --replica aws`
 
 Note that the download could take a long time depending on the number and size of files included in the manifest file.
 
