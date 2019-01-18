@@ -7,7 +7,7 @@ about: Create or update a computational methodology package
 Thank you for submitting a method package to the HCA DCP Methods Registry!
 
 To expedite your package's addition to https://prod.data.humancellatlas.org/analyze/methods,
-please provide the following package metadata.  You can edit this information later by clicking "Improve this page" at the bottom of your package's detail page ([example](https://prod.data.humancellatlas.org/analyze/methods/sc3)).
+please provide the following package metadata.  You can easily edit this information later by clicking "Improve this page" at the bottom of your package's detail page ([example](https://prod.data.humancellatlas.org/analyze/methods/sc3)).
 
 Required:
 - Tool title: 
