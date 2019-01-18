@@ -27,7 +27,7 @@ Optional:
 - Long description: (will appear on detail page)
 - Build badge URL: (e.g. https://travis-ci.org/kstreet13/slingshot.svg?branch=master)
 - Coverage badge URL: (e.g. https://img.shields.io/codecov/c/github/kstreet13/slingshot/master.svg)
-- Logo: (Attach to this GitHub issue.)
-- Screenshot: (Attach to this GitHub issue.)
+- Logo: (attach to this GitHub issue)
+- Screenshot: (attach to this GitHub issue)
 - Implementation of this tool in an active portal: URL
 - Benchmark dataset: URL
