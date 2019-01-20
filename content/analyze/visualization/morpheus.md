@@ -14,16 +14,13 @@ componentName: "analysisDetail"
 
 Morpheus is versatile matrix visualization and analysis software. View your dataset as a heat map, then explore the interactive tools in Morpheus. Cluster, create new annotations, search, filter, sort, display charts, and more.
 
-<a href="https://software.broadinstitute.org/morpheus/" target="_blank">
-  <img src="../_images/visualization/morpheus.png" width=800/>
-</a>
+[![Morpheus](../_images/visualization/morpheus.png)](https://software.broadinstitute.org/morpheus)
 
-
-# Install
+## Install
 `npm install morpheus-app`
 
-# Integrate
+## Integrate
 Learn how to use Morpheus in your portal by exploring a [minimal example of Morpheus in React](https://github.com/eweitz/morpheus.js-react/blob/master/README.md#morpheusjs-in-react).
 
-# Contact
+## Contact
 Joshua Gould (<a href="mailto://morpheus@broadinstitute.org">morpheus@broadinstitute.org</a>)
