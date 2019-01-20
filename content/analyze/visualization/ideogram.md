@@ -19,16 +19,14 @@ Ideogram supports drawing and animating genome-wide datasets for [human](https:/
 
 Ideogram can be embedded as a [reusable component](https://github.com/eweitz/ideogram#usage) in any web page or application, and leverages D3.js and SVG to achieve fast, crisp client-side rendering. You can also integrate Ideogram with JavaScript frameworks like [Angular](https://github.com/eweitz/ideogram/tree/master/examples/angular), [React](https://github.com/eweitz/ideogram/tree/master/examples/react), and [Vue](https://github.com/eweitz/ideogram/tree/master/examples/vue), as well as data science platforms like [R](https://github.com/eweitz/ideogram/tree/master/examples/r) and [Jupyter Notebook](https://github.com/eweitz/ideogram/tree/master/examples/jupyter).
 
-<a href="https://eweitz.github.io/ideogram/annotations-histogram" target="_blank">
-  <img src="../_images/visualization/ideogram.png" width=800/>
-</a>
+[![Ideogram](../_images/visualization/ideogram.png)](https://eweitz.github.io/ideogram/annotations-histogram)
 
-# Install
+## Install
 `npm install ideogram`
 
-# Integrate
+## Integrate
 Learn how to use Ideogram.js in your portal by exploring a minimal example of [Ideogram.js in React](https://github.com/eweitz/ideogram/blob/master/examples/react/README.md#ideogram-in-react).
 
-# Contact
-Eric Weitz (<a href="mailto://eric.m.weitz@gmail.com">eric.m.weitz@gmail.com</a>)
+## Contact
+Eric Weitz ([eric.m.weitz@gmail.com](mailto://eric.m.weitz@gmail.com))
 
