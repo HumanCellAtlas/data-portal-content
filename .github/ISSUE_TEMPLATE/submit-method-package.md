@@ -16,6 +16,7 @@ Required:
 - Who to attribute: 
 - Method-ready Docker image URL:
 - Code repository URL: (e.g. https://github.com/yourusername/yourpackagename)
+- Affirm code is free and open source with license available in code repository: [ ] (fill in as [x] to affirm)
 - Language: 
 - Upstream registry URL: (e.g. https://bioconductor.org/packages/release/bioc/html/slingshot.html)
 - Test data location: (reference test data set, reference outputs)
