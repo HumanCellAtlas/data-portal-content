@@ -10,10 +10,10 @@ componentName: "analysisDetail"
 ---
 
 [Single Cell Portal](https://portals.broadinstitute.org/single_cell) (SCP) is a cloud-based, scalable web application that is organized by studies with downloadable raw data, aiming to accelerate reproducible single-cell research through:
-* enabling scientists to transform complex data into actionable insights through interactive visualizations, such as plots showing cell clusters, three dimensional trajectories, gene expression within and across studies, genome browsers to explore read level evidence, chromosomal rearrangements and more;
-* extending single cell genomics analysis to any scientist by providing curated pipelines and analysis;
-* centralizing downloadable data, visualizations, and analysis to enable reproducible analysis;
-* providing easy and secure sharing mechanisms to support all stages of scientific inquiry.
+1. enabling scientists to transform complex data into actionable insights through interactive visualizations, such as plots showing cell clusters, three dimensional trajectories, gene expression within and across studies, genome browsers to explore read level evidence, chromosomal rearrangements and more;
+2. extending single cell genomics analysis to any scientist by providing curated pipelines and analysis;
+3. centralizing downloadable data, visualizations, and analysis to enable reproducible analysis;
+4. providing easy and secure sharing mechanisms to support all stages of scientific inquiry.
 
 <a href="https://portals.broadinstitute.org/single_cell" target="_blank">
   <img src="../_images/portals/single-cell-portal.png" width=800/>
