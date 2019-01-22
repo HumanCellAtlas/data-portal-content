@@ -15,6 +15,7 @@ Required:
 - Contact email: 
 - Who to attribute: 
 - Code repository URL: (e.g. https://github.com/yourusername/yourpackagename)
+- Affirm code is free and open source with license available in code repository: [ ] (fill in as [x] to affirm)
 - NPM package name: (e.g. "ideogram" if listed at https://www.npmjs.com/package/ideogram)
 - NPM package provides ES6 export?: [ ] (fill in as [x] to indicate your package provides an ES6 export)
 - Short description: (<= 200 characters, will appear on list page)
