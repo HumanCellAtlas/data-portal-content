@@ -18,3 +18,6 @@ componentName: "analysisDetail"
 <a href="https://portals.broadinstitute.org/single_cell" target="_blank">
   <img src="../_images/portals/single-cell-portal.png" width=800/>
 </a>
+
+# Contact
+Single Cell Portal team (<a href="mailto://single_cell_portal@broadinstitute.org">single_cell_portal@broadinstitute.org</a>)
