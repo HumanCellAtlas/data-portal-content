@@ -15,3 +15,5 @@ componentName: "analysisDetail"
   <img src="../_images/portals/asap.png" width=800/>
 </a>
 
+# Contact
+Vincent Gardeux (<a href="mailto:Vincent.Gardeux@epfl.ch">Vincent.Gardeux@epfl.ch</a>), Fabrice David (<a href="Fabrice.David@epfl.ch">Fabrice.David@epfl.ch</a>)
