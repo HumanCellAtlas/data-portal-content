@@ -16,5 +16,5 @@ componentName: "analysisDetail"
 * providing easy and secure sharing mechanisms to support all stages of scientific inquiry.
 
 <a href="https://portals.broadinstitute.org/single_cell" target="_blank">
-  <img src="../_images/portals/single_cell_portal.png" width=800/>
+  <img src="../_images/portals/single-cell-portal.png" width=800/>
 </a>
