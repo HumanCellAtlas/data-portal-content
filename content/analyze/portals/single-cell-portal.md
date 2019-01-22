@@ -3,10 +3,18 @@ path: "/analyze/portals/analysis-portals/single-cell-portal"
 date: "2018-05-03"
 title: "Single Cell Portal"
 author: "Jon Bistline, Eric Weitz, Jean Chang, Vicky Horst, Timothy Tickle"
-description: "Single Cell Portal (SCP) is a visualization portal for single cell RNA-seq data."
+description: "Single Cell Portal (SCP) provides interactive visualizations, easy-to-run cloud scalable workflows and analyses, and secure sharing permissions that support all stages of scientific inquiry."
 appUrl: "https://portals.broadinstitute.org/single_cell"
 githubUrl: "https://portals.broadinstitute.org/single_cell"
 componentName: "analysisDetail"
 ---
 
-Single Cell Portal (SCP) is a visualization portal for single cell RNA-seq data. It enables users to see summaries of studies; explore data through gene search and interactive components for t-SNE plots, violin plots, heatmaps and more; analyze data using a web UI for workflows and pipelines; and download raw data.
+Single Cell Portal (SCP) is a cloud-based, scalable web application that is organized by studies with downloadable raw data, aiming to accelerate reproducible single-cell research through:
+* enabling scientists to transform complex data into actionable insights through interactive visualizations, such as plots showing cell clusters, three dimensional trajectories, gene expression within and across studies, genome browsers to explore read level evidence, chromosomal rearrangements and more;
+* extending single cell genomics analysis to any scientist by providing curated pipelines and analysis;
+* centralizing downloadable data, visualizations, and analysis to enable reproducible analysis;
+* providing easy and secure sharing mechanisms to support all stages of scientific inquiry.
+
+<a href="https://asap.epfl.ch/" target="_blank">
+  <img src="../_images/portals/single_cell_portal.png" width=800/>
+</a>
