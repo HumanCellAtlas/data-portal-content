@@ -15,6 +15,6 @@ Single Cell Portal (SCP) is a cloud-based, scalable web application that is orga
 * centralizing downloadable data, visualizations, and analysis to enable reproducible analysis;
 * providing easy and secure sharing mechanisms to support all stages of scientific inquiry.
 
-<a href="https://asap.epfl.ch/" target="_blank">
+<a href="https://portals.broadinstitute.org/single_cell" target="_blank">
   <img src="../_images/portals/single_cell_portal.png" width=800/>
 </a>
