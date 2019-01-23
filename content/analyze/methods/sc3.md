@@ -13,13 +13,12 @@ componentName: "analysisDetail"
 
 [SC3](http://bioconductor.org/packages/SC3) is an unsupervised clustering method for scRNA-seq data. SC3 also estimates the number of clusters and it provides features to aid the biological interpretation of the clusters.
 
-# Usage
+# Use
 
 docker pull command pending
 
-``docker run -v `pwd`:/sc3_data -w /sc3_data --rm sc3 Rscript /software/scripts/run_sc3.R --input="deng-reads.rds" --cell_labels ``
+``docker run -v `pwd`:/sc3_data -w /sc3_data --rm sc3 Rscript /software/scripts/run_sc3.R --input="``[deng-reads.rds](https://github.com/hemberg-lab/scRNA.seq.course/raw/master/deng/deng-reads.rds)``" --cell_labels ``
 
-[test data](https://github.com/hemberg-lab/scRNA.seq.course/raw/master/deng/deng-reads.rds)
 
 # Validate 
 ``docker run -v `pwd`:/sc3_data -w /sc3_data --rm sc3 Rscript /software/scripts/run_sc3.R --validate --val_type="reference"``

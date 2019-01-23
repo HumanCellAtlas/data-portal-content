@@ -11,14 +11,14 @@ componentName: "analysisDetail"
 
 [STREAM](https://bioconda.github.io/recipes/stream/README.html) is an interactive computational pipeline for reconstructing complex cellular developmental trajectories from sc-qPCR, scRNA-seq or scATAC-seq data.
 
-# Usage
+# Use
 
 `docker pull quay.io/biocontainers/stream:0.3.2--py35r351h26a2512_1`
 
 `docker run  -v $PWD:/data -w /data  pinellolab/stream STREAM -m data_Guo.tsv.gz -l cell_label.tsv.gz -c cell_label_color.tsv.gz -s all`
 
 # Validate
-validateCommand: ""
+validation command line pending
 
 
 # Integrate
