@@ -12,7 +12,7 @@ componentName: "analysisDetail"
 [Single Cell Expression Atlas](https://www.ebi.ac.uk/gxa/sc/home) supports research in single cell transcriptomics. The Atlas annotates publicly available single cell RNA-Seq experiments with ontology identifiers and re-analyses them using standardised pipelines available through iRAP, our RNA-Seq analysis toolkit. The browser enables visualisation of clusters of cells, their annotations and supports searches for gene expression within and across studies.
 
 <a href="https://www.ebi.ac.uk/gxa/sc/home" target="_blank">
-  <img src="../_images/portals/single-cell-expression-atlas.png" width=400/>
+  <img src="../_images/portals/single-cell-expression-atlas.png" width=200/>
 </a>
 
 # Contact
