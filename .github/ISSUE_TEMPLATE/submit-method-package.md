@@ -20,7 +20,7 @@ Required:
 - Language: 
 - Upstream registry URL: (e.g. https://bioconductor.org/packages/release/bioc/html/slingshot.html)
 - Test data location: (reference test data set, reference outputs)
-- Basic command line usage example:
+- Basic command line usage: (description of use case and example)
 - Command to validate installation:
 - Short description: (<= 200 characters, will appear on list page)
 
