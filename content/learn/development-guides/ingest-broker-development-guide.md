@@ -7,7 +7,7 @@ subTitle: "General guidelines for developing brokers for the Ingest API."
 
 # Ingest Broker Development Guide
 
-We envisage that Brokers will expose those parts of the Ingest API that it makes sense for a Submitter to call directly (e.g. data file upload). Brokers may therefore expose REST API functions to perform:
+We envisage that Brokers will expose those parts of the Ingest API for which it makes sense for a Submitter to call directly (e.g. data file upload). Brokers may therefore expose REST API functions to perform:
 
 * List / view Metadata Schemas.
 * Start / submit / cancel a submission.
@@ -16,7 +16,7 @@ We envisage that Brokers will expose those parts of the Ingest API that it makes
 
 ## Data Submission Broker
 
-All data that are made available for the Human Cell Atlas first go through the process of ingestion through the Ingest API. Submission brokers take care of storing, processing, and (if needed) converting submissions to ensure that data are interoperable. A submission refers to a collection of scientific files and the metadata about them, contributed to the HCA by scientific teams around the world.
+All data that are made available for the Human Cell Atlas first go through the process of ingestion through the Ingest API. Submission brokers take care of storing, processing, and, if needed, converting submissions to ensure that data are interoperable. A submission refers to a collection of scientific files and the metadata about them contributed to the HCA by scientific teams around the world.
 
 ### Authentication
 
@@ -25,7 +25,7 @@ In order to use the services through the API, the client must first obtain an au
 
 ### API Discovery
 
-The Ingest API is mainly hypermedia driven using Hypermedia as the Engine of Application State (HATEOAS). As such, querying the API origin at, say, `http://api.ingest.data.humancellatlas.org`, for example,
+The Ingest API is mainly hypermedia driven using Hypermedia as the Engine of Application State (HATEOAS). For example, querying the API origin at `http://api.ingest.data.humancellatlas.org`:
 
     curl -H "Accept: application/json" http://api.ingest.data.humancellatlas.org
 
@@ -33,7 +33,7 @@ returns an embedded `_links` JSON map that contains links to important API endpo
 
 ### Submission Process
 
-In general, the following steps define the ingestion process through the Ingest platform:
+The following steps define the ingestion process through the Ingest platform:
 
 1. [Create submission envelope](#step1)
 1. [Add metadata to the submission envelope](#step2)
@@ -41,7 +41,7 @@ In general, the following steps define the ingestion process through the Ingest 
 
 #### <a name="step1"></a>Create Submission Envelope
 
-To create a new submission envelope, the client must send a HTTP POST request to the submission endpoint with an empty JSON.
+To create a new submission envelope the client must send a HTTP POST request to the submission endpoint with an empty JSON.
 
 ```
 curl -X POST \
@@ -109,9 +109,9 @@ As the items in the links map are structured JSON objects, to refer to the actua
 
 #### <a name="step2"></a>Add Metadata to a Submission Envelope
 
-Once the submission envelope is ready, metadata can be added to it through the respective endpoints for the particular type of metadata. The sample links shown previously in the submission creation section demonstrate this. Sending a HTTP GET request to any of the links will return a list of metadata of the given type. For example if a GET request is sent to the `http://api.ingest.data.humancellatlas.org/submissionEnvelopes/5b4dec891edf300007b4b17b/biomaterials`, a list of biomaterial metadata contained in the submission envelope `5b4dec891edf300007b4b17b` will be returned.
+Once the submission envelope is ready, metadata can be added to it through the respective endpoints for the particular type of metadata. The sample links shown previously in the submission creation section demonstrate this. Sending a HTTP GET request to any of the links will return a list of metadata of the given type. For example, if a GET request is sent to the `http://api.ingest.data.humancellatlas.org/submissionEnvelopes/5b4dec891edf300007b4b17b/biomaterials`, a list of biomaterial metadata contained in the submission envelope `5b4dec891edf300007b4b17b` will be returned.
 
-To add metadata to the submission envelope, the client must send a HTTP POST request to the endpoint with the metadata content in JSON format. For example, to add biomaterial metadata to the endpoint above, the following cUrl command can be executed:
+To add metadata to the submission envelope, the client must send a HTTP POST request to the endpoint with the metadata content in JSON format. For example, to add biomaterial metadata to the endpoint above, the following curl command can be executed:
 
 ```
 curl -X POST \
