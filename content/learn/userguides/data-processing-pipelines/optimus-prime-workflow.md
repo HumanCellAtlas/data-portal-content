@@ -39,13 +39,21 @@ Here we describe the modules of Optimus Prime; [the code](https://github.com/Hum
 
 In total, the workflow corrects cell barcodes and Unique Molecular Identifiers (UMIs), aligns reads, marks duplicates, and returns data as alignments in BAM file format and as counts in sparse matrix exchange format. Input data is augmented with QC metrics derived during the processing steps. Rather than remove reads determined by the pipeline to be of lesser quality, all reads are kept with their associated QC metrics and incorporated into the output files. Thus, for example, reads that do not align with genes are not removed. This design, which differs from many pipelines currently available, enables use of the entire dataset by those who may want to use alternative filtering or leverage the data for methodological development associated with the data processing.
 
-![Optimus Workflow](_images/optimus_workflow.png)
+(add information about outputs)
+
+![Optimus Workflow](_images/optimus_workflow.png) (To be replaced with an updated figure)
 
 ## Cell Barcode Correction
 
 Although the function of the cell barcodes is to identify unique cells, several barcode errors can arise, such as incorporation of the barcode into contaminating DNA or sequencing and PCR errors. Therefore it can be challenging to distinguish unique cells from artifactual appearances of the barcode. The first step of this pipeline is to correct for cell barcode errors.
 
 Cell barcode correction uses as input files in BAM file format; thus the fastq files containing the raw sequence data from the sequencer must first be converted to BAM files. This is done using the FastqToUBam.wdl tool, described [here](https://software.broadinstitute.org/gatk/documentation/tooldocs/4.0.3.0/picard_sam_FastqToSam.php). The output BAM files contain sequence that is complementary to the mRNA transcript data in the fastq files and can thus be aligned to the genomic sequence in a later alignment step.
+
+WDL: [FastqToUBam.wdl](https://github.com/HumanCellAtlas/skylab/blob/master/library/tasks/FastqToUBam.wdl)
+
+Docker: secondary-analysis-picard:v0.2.2-2.10.10
+
+Underlying command: picard FastqToSam
 
 The [Attach10xBarcodes](https://github.com/HumanCellAtlas/sctools) tool is then used to attach 10X barcodes found in the fastq sample to the corresponding reads in the BAM file, producing a barcoded.bam file. The tool uses as input three files: 
 1) the original fastq file of forward reads (r1), containing the unique molecular identifier and cell barcode sequences 
@@ -56,19 +64,19 @@ The reads in these files are in the same order, and the tool works sequentially 
 
 WDL: [Attach10xBarcodes.wdl](https://github.com/HumanCellAtlas/skylab/blob/master/library/tasks/Attach10xBarcodes.wdl)
 
-Docker: [Python3-scientific](https://github.com/HumanCellAtlas/skylab/blob/master/docker/python3-scientific/Dockerfile)
+Docker: secondary-analysis-sctools:v0.3.2
 
-Key Library: [Sctools](https://github.com/HumanCellAtlas/sctools)
+Underlying command: sctools.platform:TenXV2.attach_barcode
 
 ## Alignment
 
 The [STAR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/) alignment software is used to map the reads to the GRCh38 human genome primary assembly reference. STAR (Spliced Transcripts Alignment to a Reference) is widely-used for RNA-seq alignment and identifies the best matching location(s) on the reference for each sequencing read.
 
-WDL:
+WDL: [StarAlignBamSingleEnd.wdl](https://github.com/HumanCellAtlas/skylab/blob/master/library/tasks/StarAlignBamSingleEnd.wdl)
 
-Docker:
+Docker: quay.io/humancellatlas/secondary-analysis-star:v0.2.2-2.5.3a-40ead6e
 
-Key Library:
+Underlying command: STAR
 
 
 ## Gene Annotation
