@@ -15,9 +15,10 @@ componentName: "analysisDetail"
   <img src="../_images/methods/stream_logo.png" width=200 align="right">
 </a>
 
-[![STREAM](../_images/methods/stream_screenshot.png)](http://stream.pinellolab.org/)
 
 [STREAM](https://bioconda.github.io/recipes/stream/README.html) is an interactive computational pipeline for reconstructing complex cellular developmental trajectories from sc-qPCR, scRNA-seq or scATAC-seq data.
+
+[![STREAM](../_images/methods/stream_screenshot.png)](http://stream.pinellolab.org/)
 
 # Use
 
