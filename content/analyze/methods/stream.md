@@ -15,12 +15,14 @@ componentName: "analysisDetail"
   <img src="../_images/methods/stream_logo.png" width=200 align="right">
 </a>
 
+[![STREAM](../_images/methods/stream_screenshot.png)](http://stream.pinellolab.org/)
+
 [STREAM](https://bioconda.github.io/recipes/stream/README.html) is an interactive computational pipeline for reconstructing complex cellular developmental trajectories from sc-qPCR, scRNA-seq or scATAC-seq data.
 
 # Use
 
 
-`docker pull pinellolab/stream`
+`docker pull pinellolab/stream:0.3.2`
 
 ### Test data
 
@@ -42,16 +44,18 @@ Input files must be located in the directory where the docker container will be 
 
  `docker run  -v ${PWD}:/data -w /data  pinellolab/stream --new`[ data_perturbation.tsv.gz ](https://www.dropbox.com/sh/n8qq4m7w17i6b07/AAAEZCnFl-EoAyGutCuzuyLGa/Olsson_2016/data_perturbation.tsv.gz?dl=1)`--new_l `[ cell_perturbation_label.tsv.gz ](https://www.dropbox.com/sh/n8qq4m7w17i6b07/AABb5KU4S7GLtZM8NhVRErsqa/Olsson_2016/cell_perturbation_label_color.tsv.gz?dl=1)` --new_c `[ cell_perturbation_label_color.tsv.gz ](https://www.dropbox.com/sh/n8qq4m7w17i6b07/AACVyTQDrmQHtuQhUqyG0ngCa/Olsson_2016/cell_perturbation_label.tsv.gz?dl=1)
 
-### Trajectory inference (scATAC-seq data)
+### Trajectory inference (scATAC-seq data) using precomputed z-score file
 
-`docker run  -v ${PWD}:/data -w /data  pinellolab/stream --atac --atac_counts `[ count_file.tsv.gz ](https://www.dropbox.com/sh/n8qq4m7w17i6b07/AADLjVwHSII5klgjy_oEGjNsa/Buenrostro_2018/count_file.tsv.gz?dl=1) `--atac_samples`[ sample_file.tsv.gz ](https://www.dropbox.com/sh/n8qq4m7w17i6b07/AADEVxZGT1-0e5D31o_NIxv-a/Buenrostro_2018/sample_file.tsv.gz?dl=1) `--atac_regions `[ region_file.bed.gz ](https://www.dropbox.com/sh/n8qq4m7w17i6b07/AAAnNaOw6L1v7BsKmdy38cqUa/Buenrostro_2018/region_file.bed.gz?dl=1) `-l` [ cell_label.tsv.gz ](https://www.dropbox.com/sh/n8qq4m7w17i6b07/AACHsOfkrmOSF59RyjprdzD6a/Buenrostro_2018/cell_label.tsv.gz?dl=1) `-c`[ cell_label_color.tsv.gz ](https://www.dropbox.com/sh/n8qq4m7w17i6b07/AABny8uO3UknufsUtlOKQsyma/Buenrostro_2018/cell_label_color.tsv.gz?dl=1) `--lle_components 4`
+`docker run  -v ${PWD}:/data -w /data  pinellolab/stream --atac -m `[ zscore.tsv.gz ](https://www.dropbox.com/sh/n8qq4m7w17i6b07/AACkxwaEVVZ4IkxJG1ADxfZ2a/Buenrostro_2018/zscore.tsv.gz?dl=1) `--atac_samples`[ sample_file.tsv.gz ](https://www.dropbox.com/sh/n8qq4m7w17i6b07/AADEVxZGT1-0e5D31o_NIxv-a/Buenrostro_2018/sample_file.tsv.gz?dl=1) `--atac_regions `[ region_file.bed.gz ](https://www.dropbox.com/sh/n8qq4m7w17i6b07/AAAnNaOw6L1v7BsKmdy38cqUa/Buenrostro_2018/region_file.bed.gz?dl=1) `-l` [ cell_label.tsv.gz ](https://www.dropbox.com/sh/n8qq4m7w17i6b07/AACHsOfkrmOSF59RyjprdzD6a/Buenrostro_2018/cell_label.tsv.gz?dl=1) `-c`[ cell_label_color.tsv.gz ](https://www.dropbox.com/sh/n8qq4m7w17i6b07/AABny8uO3UknufsUtlOKQsyma/Buenrostro_2018/cell_label_color.tsv.gz?dl=1) `--lle_components 4`
 
 
-# Validate
+# Validate 
+Run the following code to confirm that the docker container implemented in your environment generates output that matches reference output provided for this method:
 
 
 `docker run --entrypoint stream_run_test pinellolab/stream`
 
+This validation test includes marker gene detction and will take ~15m to finish.
 
 # Integrate
 View STREAM in its [production portal](http://stream.pinellolab.org/).
