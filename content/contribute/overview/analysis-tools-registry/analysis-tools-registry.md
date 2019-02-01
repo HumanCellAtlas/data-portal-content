@@ -5,7 +5,9 @@ title: "Contributing to the Analysis Tools Registry"
 ---
 
 ## Contributing to the Analysis Tools Registry
-The Methods Registry (https://prod.data.humancellatlas.org/analyze) lists portals, methods packages, and visualization packages.  Computational biologists submit packages for use by software engineers in portal development. [Methods Registry standards](https://docs.google.com/document/d/1ANt1KB-EwmGoyHa94gP8J5vT0rr_bkhCVGJ13ZDj4i4/edit#heading=h.rnoqrzly5ze3) promote software best practices and help facilitate ease of package deployment by non-biologists (e.g. software engineers) and non-computational biologists. The package details pages provide software engineers with information (basic command line usage, code repository location, etc.) and resources (Docker image URL, contact name and email etc.) to support rapid incorporation of these packages into web portals.
+The Analysis Tools Registry (https://prod.data.humancellatlas.org/analyze) lists portals, methods packages, and visualization packages.  Computational biologists submit packages for use by software engineers in portal development. [Methods Registry standards](https://docs.google.com/document/d/1ANt1KB-EwmGoyHa94gP8J5vT0rr_bkhCVGJ13ZDj4i4/edit#heading=h.rnoqrzly5ze3) promote software best practices and help facilitate ease of package deployment by non-biologists (e.g. software engineers) and non-computational biologists.
+
+The package details pages provide software engineers with information (basic command line usage, code repository location, etc.) and resources (Docker image URL, contact name and email etc.) to support rapid incorporation of these packages into web portals.
 
 ### Submission forms
 Methods and visualizations are submitted using GitHub. Use these links to access the submission forms.
