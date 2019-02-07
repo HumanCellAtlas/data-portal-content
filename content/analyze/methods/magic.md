@@ -13,9 +13,10 @@ componentName: "analysisDetail"
 Markov Affinity-based Graph Imputation of Cells ([MAGIC](https://pypi.org/project/magic-impute/)) is an algorithm for denoising and imputation of single cells applied to single-cell RNA sequencing data, as described in Van Dijk D et al. (2018), Recovering Gene Interactions from Single-Cell Data Using Data Diffusion, Cell https://www.cell.com/cell/abstract/S0092-8674(18)30724-4.
 
 # Use
-Here we download a csv file containing raw scRNA-seq counts, preprocess it by filtering cells with less than 2000 counts, library size normalize and then apply a square root transform before running MAGIC, and save the result to magic_output.csv in your current working directory.
 
 `docker pull scottgigante/magic:release-1.1`
+
+Here we download a csv file containing raw scRNA-seq counts, preprocess it by filtering cells with less than 2000 counts, library size normalize and then apply a square root transform before running MAGIC, then save the result to magic_output.csv in your current working directory.
 
 `docker run -v ${PWD}:/data --rm scottgigante/magic:release-1.1 --filename `[ https://github.com/KrishnaswamyLab/MAGIC/raw/master/data/HMLE_TGFb_day_8_10.csv.gz ](https://github.com/KrishnaswamyLab/MAGIC/raw/master/data/HMLE_TGFb_day_8_10.csv.gz)` --min-library-size 2000 --normalize --transform sqrt --knn 5 --decay 15 --all-genes  --output /data/magic_output.csv`
 
