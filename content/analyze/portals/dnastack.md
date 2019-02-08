@@ -8,4 +8,11 @@ githubUrl: "https://www.dnastack.com"
 componentName: "analysisDetail"
 ---
 
-Cloud platform for bioinformatics based on open standards like Workflow Description Language and Common Workflow Language.
+[DNAstack](https://www.dnastack.com) is a cloud platform for bioinformatics based on open standards like Workflow Description Language and Common Workflow Language.
+
+<a href="https://www.dnastack.com" target="_blank">
+  <img src="../_images/portals/dnastack.png" width=800/>
+</a>
+
+# Contact
+<a href="mailto:info@dnastack.com">info@dnastack.com</a>
