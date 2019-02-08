@@ -5,7 +5,7 @@ title: "Contributing to the Analysis Tools Registry"
 ---
 
 ## Contributing to the Analysis Tools Registry
-The Analysis Tools Registry (https://prod.data.humancellatlas.org/analyze) lists portals, methods packages, and visualization packages.  Computational biologists submit packages for use by software engineers in portal development. [Methods Registry standards](https://docs.google.com/document/d/1ANt1KB-EwmGoyHa94gP8J5vT0rr_bkhCVGJ13ZDj4i4/edit#heading=h.rnoqrzly5ze3) promote software best practices and help facilitate ease of package deployment by non-biologists (e.g. software engineers) and non-computational biologists.
+The Analysis Tools Registry (https://prod.data.humancellatlas.org/analyze) lists portals, methods packages, and visualization packages.  Computational biologists submit packages for use by software engineers in portal development. [Analysis Tools Registry standards](https://dev.data.humancellatlas.org/contribute/registry-standards) promote software best practices and help facilitate ease of package deployment by non-biologists (e.g. software engineers) and non-computational biologists.
 
 The package details pages provide software engineers with information (basic command line usage, code repository location, etc.) and resources (Docker image URL, contact name and email etc.) to support rapid incorporation of these packages into web portals.
 
@@ -37,7 +37,7 @@ Below, we provide details about the information requested in the forms.
     - Source code must be under source control in a public repository (we recommend [GitHub](https://guides.github.com/activities/hello-world/))
     - Affirm in submission that license is available in the code repository.
     - Example Code repository URL: https\://github.com/pinellolab/STREAM/
-- Upstream registry URL (e.g. https://bioconductor.org/packages/release/bioc/html/slingshot.html)
+- Upstream registry URL
     - Packages must be published in at least one upstream registry used by their respective implementation language; e.g. Bioconda for Python, Bioconductor for R, or npm for JavaScript.
     - Example Upstream registry URL: https\://bioconda.github.io/recipes/stream/README.html
 - 2-3 sentence description of package
@@ -47,16 +47,16 @@ Below, we provide details about the information requested in the forms.
 ### Optional fields for methods and visualizations
 - Build badge URL
     - Packages should execute automated tests upon every push to their default branch (e.g. master) on GitHub using a continuous integration service.  Such services include [Travis CI](https://docs.travis-ci.com/user/tutorial/) or [Circle CI](https://circleci.com/docs/2.0/first-steps/), which report whether the package build passes its own tests.
-Example Build badge URL: https\://travis-ci.org/pinellolab/STREAM.svg
+    - Example Build badge URL: https\://travis-ci.org/pinellolab/STREAM.svg
 - Coverage badge URL
     - Packages should measure the code coverage of their automated tests using services like [Coveralls](https://docs.coveralls.io/) or [Codecov](https://docs.codecov.io/docs), which report the percentage of lines of code, conditional branches, and other metrics covered by tests.
     - Example Coverage badge URL: https\://coveralls.io/github/ebi-gene-expression-group/anatomogram?branch=master
 - Logo: (Attach to the GitHub issue / submission form.)
-    - We will store the logo local to Methods Registry to ensure availability
+    - We will store the logo local to Analysis Tools Registry to ensure availability
     - Attach image file or provide URL to image file
-    - Example Logo (URL): https\://github.com/pinellolab/STREAM/blob/stream_python2/STREAM/static/stream_logo.png
+    - Example Logo (URL): https\://github.com/pinellolab/STREAM/blob/stream\_python2/STREAM/static/stream\_logo.png
 - Screenshot: (Attach to the GitHub issue / submission form.)
-    - We will store the screenshot local to Methods Registry to ensure availability
+    - We will store the screenshot local to Analysis Tools Registry to ensure availability
     - Attach screenshot file or URL to screenshot
     - Example Screenshot (URL): https\://github.com/pinellolab/STREAM/blob/stream_python2/STREAM/static/images/Figure1.png
 - Implementation of this package in active portals: URL(s)
@@ -88,18 +88,18 @@ Method-specific required fields:
 
         Trajectory inference (transcriptomic data) with marker gene exploration\
         Perform trajectory inference analysis on single cell transcriptomic data then detect DE (differentially expressed) genes, transition genes, and leaf genes\
-        docker run -v ${PWD}:/data -w /data pinellolab/stream -m data_Nestorowa.tsv.gz -l cell_label.tsv.gz -c cell_label_color.tsv.gz --DE --TG --LG
+        docker run -v ${PWD}:/data -w /data pinellolab/stream -m data\_Nestorowa.tsv.gz -l cell\_label.tsv.gz -c cell\_label\_color.tsv.gz --DE --TG --LG
 
         Feature mapping\
         Reuse a previously inferred principal graph as reference to map new cells
 
-        docker run -v ${PWD}:/data -w /data pinellolab/stream -m data_Olsson.tsv.gz -l cell_label.tsv.gz -c cell_label_color.tsv.gz --lle_components 4 --EPG_shift
+        docker run -v ${PWD}:/data -w /data pinellolab/stream -m data\_Olsson.tsv.gz -l cell\_label.tsv.gz -c cell\_label\_color.tsv.gz --lle_components 4 --EPG_shift
 
-        docker run -v ${PWD}:/data -w /data pinellolab/stream --new data_perturbation.tsv.gz --new_l cell_perturbation_label.tsv.gz --new_c cell_perturbation_label_color.tsv.gz
+        docker run -v ${PWD}:/data -w /data pinellolab/stream --new data\_perturbation.tsv.gz --new\_l cell\_perturbation\_label.tsv.gz --new\_c cell\_perturbation\_label\_color.tsv.gz
 
         Trajectory inference (scATAC-seq data) using precomputed z-score file\
         Reconstructs trajectories and pseudotime from epigenomic data\
-        docker run -v ${PWD}:/data -w /data pinellolab/stream --atac -m zscore.tsv.gz --atac_samples sample_file.tsv.gz --atac_regions region_file.bed.gz -l cell_label.tsv.gz -c cell_label_color.tsv.gz --lle_components 4
+        docker run -v ${PWD}:/data -w /data pinellolab/stream --atac -m zscore.tsv.gz --atac\_samples sample\_file.tsv.gz --atac\_regions region_file.bed.gz -l cell\_label.tsv.gz -c cell\_label\_color.tsv.gz --lle\_components 4
 
 - Command(s) to validate installation
     - Please provide a call of the methodology using the test data to verify that the program ran to completion and the output is valid.
@@ -109,14 +109,15 @@ Method-specific required fields:
         - compares the locally generated result with the reference output(s)
         - indicates whether the locally generated result is valid
         - indicates success/failure of validation programmatically (to facilitated automated deployment/testing)
-    - Example Command to validate installation: docker run --entrypoint stream_run_test pinellolab/stream
+    - Example Command to validate installation: docker run --entrypoint stream\_run\_test pinellolab/stream
 
 ### Visualization component-specific optional fields:
 - URL to implementation of this package in an active portal:
     - Please provide a URL to a simple page demoing the visualization.
     - In our examples we use “Mashups”, see example here https://github.com/eweitz/igv.js-react/blob/master/README.md#igvjs-in-react
 
-Packages submitted in collaboration with a methodologist with separate maintenance of supporting scripts should provide parallel information for "methodologist" and "maintainer" for the following fields:
+###Packages submitted in collaboration with a methodologist 
+with separate maintenance of supporting scripts should provide parallel information for "methodologist" and "maintainer" for the following fields:
 - Contact name
 - Contact email
 - Who to attribute
