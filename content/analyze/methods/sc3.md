@@ -21,7 +21,7 @@ docker pull command pending
 
 
 # Validate 
-``docker run -v `pwd`:/sc3_data -w /sc3_data --rm sc3 Rscript /software/scripts/run_sc3.R --validate --val_type="reference"``
+``docker run -v `pwd`:/sc3_data -w /sc3_data --rm sc3 Rscript /software/scripts/run_sc3.R --validate``
 
 # Contact
 Martin Hemberg (<a href="mailto://mh26@sanger.ac.uk">mh26@sanger.ac.uk</a>)
