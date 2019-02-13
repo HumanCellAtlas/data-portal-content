@@ -13,6 +13,10 @@ Data in the Data Store is organized into data bundles. A bundle is a group of fi
 Some examples of how others have accessed and used the HCA data can be seen in these [consumer vignettes](https://dev.data.humancellatlas.org/learn/development-guides/consumer-vignettes).
 
 ### Installing the HCA CLI for Mac OS
+Install Python 3.6 using instructions found on line. Make sure that the basic configuration is correct by running a quick version check on Python:
+
+python --version
+
 It is recommended that the CLI be run in a virtual environment to control Python library dependencies. A common utility for creating and managing virtual environment is `virtualenv`. Installation instructions for `virtualenv` can be found online. In Mac OS High Sierra, one might use:
 
 `sudo pip install virtualenv`
