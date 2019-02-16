@@ -32,7 +32,7 @@ Packages must have at least brief documentation on how developers can install an
 #### Provide Testing Data
 Packages must provide a small data set that successfully runs (aka. toy data) in a reasonably short amount of time, so that developers can verify their local deployments work as expected. Packages should provide a way to validate new instantiations of the method. Validation uses methodologist-provided reference output file(s) for comparison with the results from a new docker instance running the method on methodologist-provided test data. Package documentation may also provide links to synthetic or real data for testing in realistic scenarios.  Methods and visualization vignettes should (but are not required to) use Human Cell Atlas data.
 
-### Recommended Dtandards
+### Recommended Standards
 The recommended standards in this section are encouraged, but not required, by the Registry.
 
 #### Use Continuous Integration
