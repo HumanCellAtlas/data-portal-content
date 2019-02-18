@@ -116,7 +116,7 @@ Below, we provide details about the information requested in the forms.
     - Please provide a URL to a simple page with a visualization demo.
     - In our examples we use “Mashups”, see example here https://github.com/eweitz/igv.js-react/blob/master/README.md#igvjs-in-react
 
-###Packages submitted in collaboration with a methodologist 
+### Packages submitted in collaboration with a methodologist 
 with separate maintenance of supporting scripts should provide parallel information for "methodologist" and "maintainer" for the following fields:
 - Contact name
 - Contact email
