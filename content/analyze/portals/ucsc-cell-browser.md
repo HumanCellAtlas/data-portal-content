@@ -16,4 +16,4 @@ componentName: "analysisDetail"
 </a>
 
 # Contact
-Max Haeussler <a href="mailto:max@soe.ucsc.edu">max@soe.ucsc.edu</a>
+Max Haeussler (<a href="mailto:max@soe.ucsc.edu">max@soe.ucsc.edu</a>)

@@ -16,5 +16,5 @@ componentName: "analysisDetail"
 </a>
 
 # Contact
-Public Forum: <a href="mailto:ucsc-cancer-genomics-browser@googlegroups.com">ucsc-cancer-genomics-browser@googlegroups.com</a>
+Public Forum: <a href="mailto:ucsc-cancer-genomics-browser@googlegroups.com">ucsc-cancer-genomics-browser@googlegroups.com</a>  
 Private Mailing list: <a href="mailto:genome-cancer@soe.ucsc.edu">genome-cancer@soe.ucsc.edu</a>
