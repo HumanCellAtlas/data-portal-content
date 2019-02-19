@@ -23,7 +23,7 @@ We provide several computational solutions to use in building products. We have 
 
 ## Learning More About Metadata
 
-**HCA Metadata** The [HCA metadata schema](https://dev.data.humancellatlas.org/learn/metadata/structure) is a curated description of the entities and thier relationships captured in HCA data. The metadata schema is public for review on GitHub. The metadata schema is also extensible and open for changes through pull requests.
+**HCA Metadata** The [HCA metadata standard](https://dev.data.humancellatlas.org/learn/metadata/metadata-dictionary) is a curated description of the entities and thier relationships captured in HCA data. The metadata schema is public for review on GitHub. The metadata schema is also extensible and open for changes through pull requests.
 
 [Learn More About Metadata](https://github.com/HumanCellAtlas/metadata-schema/tree/master/docs)   
 [Github Repository for metadata schema (metadata-schema)](https://github.com/HumanCellAtlas/metadata-schema)   
