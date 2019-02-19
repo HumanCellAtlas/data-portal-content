@@ -12,4 +12,18 @@ componentName: "analysisDetail"
 [![Build Status](https://travis-ci.org/kstreet13/slingshot.svg?branch=master)](https://travis-ci.org/kstreet13/slingshot)
 [![Coverage Status](https://img.shields.io/codecov/c/github/kstreet13/slingshot/master.svg)](https://codecov.io/github/kstreet13/slingshot)
 
-Slingshot provides functions for inferring continuous, branching lineage structures in low-dimensional data. Designed to model developmental trajectories in single-cell RNA sequencing data, Slingshot can also serve as a component in an analysis pipeline after dimensionality reduction and clustering. It is flexible enough to handle arbitrarily many branching events and allows for the incorporation of prior knowledge through supervised graph construction.
+[Slingshot](https://www.bioconductor.org/packages/devel/bioc/html/slingshot.html ) provides functions for inferring continuous, branching lineage structures in low-dimensional data. Designed to model developmental trajectories in single-cell RNA sequencing data, Slingshot can also serve as a component in an analysis pipeline after dimensionality reduction and clustering. It is flexible enough to handle arbitrarily many branching events and allows for the incorporation of prior knowledge through supervised graph construction.
+
+# Use
+
+docker pull command pending
+
+usage command pending
+
+# Validate
+
+Validation command pending
+
+
+# Contact
+Kelly Street (<a href="mailto://street.kelly@gmail.com">street.kelly@gmail.com</a>)

@@ -9,4 +9,11 @@ githubUrl: "http://cells.ucsc.edu/"
 componentName: "analysisDetail"
 ---
 
-UCSC Cell Browser is a software tool for single cell RNA expression, a 2D viewer that shows cells as a dimensionality reduction plot with the expression data overlaid. The viewer allows a visual comparison of large single-cell datasets in 2D, overlaying metadata, marker gene levels and cell clustering information. This is be useful when comparing single cell layout (dimensionality reduction) methods and batch correction methods.
+[UCSC Cell Browser](http://cells.ucsc.edu/) is a software tool for single cell RNA expression, a 2D viewer that shows cells as a dimensionality reduction plot with the expression data overlaid. The viewer allows a visual comparison of large single-cell datasets in 2D, overlaying metadata, marker gene levels and cell clustering information. This is be useful when comparing single cell layout (dimensionality reduction) methods and batch correction methods.
+
+<a href="http://cells.ucsc.edu/" target="_blank">
+  <img src="../_images/portals/ucsc-cell-browser.png" width=800/>
+</a>
+
+# Contact
+Max Haeussler (<a href="mailto:max@soe.ucsc.edu">max@soe.ucsc.edu</a>)
