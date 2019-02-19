@@ -13,12 +13,6 @@ The Human Cell Atlas Data Coordination Platform holds much potential to support 
 
 We provide several computational solutions to use in building products. We have several REST APIs for programmatic interface, an open metadata schema to leverage, cloud-native pipelines that are portable to multiple environments, and standardized domain specific methodology and visualizations. We provide a growing collection of vignettes as examples of interacting with different aspects of the DCP. After you have made a product interacting with the DCP, please register it with the Data Portal for data hand-off, or list it in our Registry.
 
-## Examples
-
-**Consumer Vignettes** These vignettes highlight the process of certain programmatic tasks that involve the DCP.
-
-[Consumer Vignettes](/learn/development-guides/consumer-vignettes)
-
 ## Working with Ingest
 
 **Ingest API** The Ingest Service provides a programmatic API for submitting data. This may be useful, for example, for LIMs integration solutions. This does require authentication and would require contacting the ingest team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
