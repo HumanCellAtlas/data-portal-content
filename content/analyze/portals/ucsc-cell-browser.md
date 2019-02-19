@@ -16,4 +16,4 @@ componentName: "analysisDetail"
 </a>
 
 # Contact
-ucsc-cancer-genomics-browser@googlegroups.com <a href="mailto:cells@ucsc.edu">cells@ucsc.edu</a>
+Max Haeussler <a href="mailto:max@soe.ucsc.edu">max@soe.ucsc.edu</a>

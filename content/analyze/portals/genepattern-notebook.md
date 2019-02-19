@@ -16,4 +16,4 @@ componentName: "analysisDetail"
 </a>
 
 # Contact
-<a href="mailto:genepattern-team@broadinstitute.org">genepattern-team@broadinstitute.org</a>
+Genepattern Team <a href="mailto:genepattern-team@broadinstitute.org">genepattern-team@broadinstitute.org</a>
