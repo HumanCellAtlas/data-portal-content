@@ -4,6 +4,8 @@ date: "2018-05-03"
 title: "Methods Packages"
 componentName: "analyze"
 linked:
+    - ./magic.md
+    - ./phate.md
     - ./sc3.md
     - ./scmap.md
     - ./slingshot.md
