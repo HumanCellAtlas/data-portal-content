@@ -11,8 +11,6 @@ The Human Cell Atlas Data Coordination Platform aims to support and encourage ce
 
 We provide several REST APIs for programmatic interface, an open metadata standard, cloud-native pipelines that are portable to multiple environments, and standardized domain-specific analysis and visualization packages. To provide guidance, a growing collection of vignettes is available showing how to interact with different DCP components and how to use packages available in the Data Portal. 
 
-Anyone who has developed their own analysis or visualization package that interacts with the DCP is highly encouraged to register it with the Data Portal for data hand-off or list it in the Methods Registry.
-
 ## Working with the Ingestion Service
 
 The Ingestion Service provides a programmatic API for submitting data to the HCA DCP. The Ingest API could be used, for example, for enabling integration with existing LIMS software. Using the Ingest API requires authentication and contacting the Ingestion Service team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
@@ -52,24 +50,24 @@ The Matrix Service enables the creation of matrices from underlying processed da
 Matrix Service Description - Coming Soon    
 Matrix Service swagger - Coming Soon   
 
-## Finding Packages for Your Solution
+## Finding Registered Analysis Tools
 
-The HCA DCP Methods Registry contains domain-specific computational analysis and visualization packages that are standardized in a way we hope enables clear communication and ease of use between the methodologists and engineers.
+The HCA DCP Analysis Tools Registry contains domain-specific computational analysis and visualization packages that are standardized to enable clear communication and ease of use. Anyone who has developed their own analysis or visualization tool that interacts with the DCP is highly encouraged to register it with the Data Portal for data hand-off or list it in the Analysis Tools Registry.
 
-[Methodology Listing](/analyze/methods/methods)   
-[Visualization Component Listing](/analyze/visualization-components)   
+[Methods Packages Listing](https://prod.data.humancellatlas.org/analyze/methods)   
+[Visualization Packages Listing](https://prod.data.humancellatlas.org/analyze/visualization)   
 
-## Registering with the Data Portal
+## Registering Your Tool with the Data Portal
 
-**Portal hand-off** The Data Portal will soon provide the ability for portals and other solutions to "register" with the Data Portal. Registration enables users to move from the Data Portal to the registered product as they explore data, which is an excellent way to integrate with the DCP.
+The Data Portal will soon provide the ability for analysis or visualization tools to be registered with the HCA DCP. Registration will enable users to easily move data from the DCP to the registered tool in order to facilitate scientific exploration of the data and answer interesting biological and computational questions.
 
 Hand-off Description - Coming Soon   
 Register for the Hand-off - Coming Soon
 If you are interested, please email us to be placed on an alpha user list.
 
-## Listing Your Solution in the Registry
+## Listing Your Tool in the Analysis Tools Registry
 
-Please list your solution with the registry so our community of scientists knows about it and can easily find it.
+If an analysis or visualization tool is not ready to be integrated with the HCA DCP, it can still be listed in the Analysis Tools Registry so that the scientific community can easily find it.
 
 [Submit a Portal](https://github.com/HumanCellAtlas/data-portal-content/issues/new?template=submit-portal)    
 [Submit a Methodology](https://github.com/HumanCellAtlas/data-portal-content/issues/new?template=submit-method)     
