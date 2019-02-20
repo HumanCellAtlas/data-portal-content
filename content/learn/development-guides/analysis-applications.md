@@ -54,6 +54,7 @@ Matrix Service swagger - Coming Soon
 
 The HCA DCP Analysis Tools Registry contains domain-specific computational analysis and visualization packages that are standardized to enable clear communication and ease of use. Anyone who has developed their own analysis or visualization tool that interacts with the DCP is highly encouraged to register it with the Data Portal for data hand-off or list it in the Analysis Tools Registry.
 
+[Analysis Portals Listing](https://dev.data.humancellatlas.org/analyze)
 [Methods Packages Listing](https://prod.data.humancellatlas.org/analyze/methods)   
 [Visualization Packages Listing](https://prod.data.humancellatlas.org/analyze/visualization)   
 
