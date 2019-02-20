@@ -22,7 +22,7 @@ The Ingestion Service provides a programmatic API for submitting data to the HCA
 [GitHub Repository: Ingest API (ingest-broker-api)](https://github.com/HumanCellAtlas/ingest-broker-api)   
 [HAL Browser for the Ingest API](http://api.ingest.dev.data.humancellatlas.org/browser/index.html)   
 
-## Learning About Metadata
+## Learning about Metadata
 
 The [HCA metadata standard](https://dev.data.humancellatlas.org/learn/metadata/structure) is the common set of guidelines the HCA uses to describe samples, protocols, and files associated with projects. The metadata standard is expressed as JSON schemas representing the submitted entities, their associated fields, and the relationships between them. The HCA is committed to evolving the metadata standards based on the needs of the scientific community, so everyone is welcome to suggest metadata updates by creating GitHub issues or emailing the metadata team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
@@ -32,7 +32,7 @@ The [HCA metadata standard](https://dev.data.humancellatlas.org/learn/metadata/s
 
 ## Accessing the Data Store
 
-**Consumer API** Data in the HCA *Data Store* can be accessed programmatically through the consumer API. This interface includes both a REST API end point and a CLI (python).
+Data in the HCA Data Store can be accessed programmatically through the consumer API. This interface includes both a REST API end point and a CLI (python).
 
 [Consumer API Swagger](https://dss.integration.data.humancellatlas.org)   
 [HCA DCP CLI](https://hca.readthedocs.io/en/latest)   
