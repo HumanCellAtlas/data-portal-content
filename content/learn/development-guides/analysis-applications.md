@@ -24,11 +24,11 @@ The Ingestion Service provides a programmatic API for submitting data to the HCA
 
 ## Learning About Metadata
 
-**HCA Metadata** The [HCA metadata standard](https://dev.data.humancellatlas.org/learn/metadata/metadata-dictionary) is a curated description of the entities and thier relationships captured in HCA data. The metadata schema is public for review on GitHub. The metadata schema is also extensible and open for changes through pull requests.
+The [HCA metadata standard](https://dev.data.humancellatlas.org/learn/metadata/structure) is the common set of guidelines the HCA uses to describe samples, protocols, and files associated with projects. The metadata standard is expressed as JSON schemas representing the submitted entities, their associated fields, and the relationships between them. The HCA is committed to evolving the metadata standards based on the needs of the scientific community, so everyone is welcome to suggest metadata updates by creating GitHub issues or emailing the metadata team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
-[Learn More About Metadata](https://github.com/HumanCellAtlas/metadata-schema/tree/master/docs)   
-[Github Repository for metadata schema (metadata-schema)](https://github.com/HumanCellAtlas/metadata-schema)   
-[GitHub Repository for the metadata API Library (metadata-api)](https://github.com/HumanCellAtlas/metadata-api)   
+[Metadata Dictionary](https://dev.data.humancellatlas.org/learn/metadata/metadata-dictionary)   
+[Github Repository: metadata schema (metadata-schema)](https://github.com/HumanCellAtlas/metadata-schema)   
+[GitHub Repository: metadata API library (metadata-api)](https://github.com/HumanCellAtlas/metadata-api)   
 
 ## Accessing the Data Store
 
