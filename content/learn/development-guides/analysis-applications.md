@@ -37,11 +37,11 @@ Data in the HCA Data Store can be accessed programmatically through the consumer
 [Consumer API Swagger](https://dss.integration.data.humancellatlas.org)   
 [HCA DCP CLI](https://hca.readthedocs.io/en/latest)   
 
-## Leveraging Pipelines
+## Leveraging Data Processing Pipelines
 
-**Pipelines** Our cloud-native pipelines are created using GA4GH workflow languages (CWL or WDL). On release, these pipelines can be found on Dockstore and during development can be found in GitHub. Our pipelines are modular and one can also reuse the tasks (or tools) that comprise the pipelines; we point to both pipelines and tasks below.
+The HCA DCP cloud-native data processing pipelines are created using GA4GH workflow languages (CWL or WDL). On release, these pipelines can be found on Dockstore, and during development they can be found in GitHub. The pipelines are modular, and anyone can reuse the tasks or tools that comprise them.
 
-[GitHub Repository for Pipelines (Skylab)](https://github.com/HumanCellAtlas/skylab)   
+[GitHub Repository: Pipelines (Skylab)](https://github.com/HumanCellAtlas/skylab)   
 [Pipeline Tasks](https://github.com/HumanCellAtlas/skylab/tree/master/library/tasks)   
 [Dockstore](https://dockstore.org)   
 
