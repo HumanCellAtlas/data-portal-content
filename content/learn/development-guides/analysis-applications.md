@@ -13,15 +13,16 @@ We provide several REST APIs for programmatic interface, an open metadata standa
 
 Anyone who has developed their own analysis or visualization package that interacts with the DCP is highly encouraged to register it with the Data Portal for data hand-off or list it in the Methods Registry.
 
-## Working with Ingest
+## Working with the Ingestion Service
 
-**Ingest API** The Ingest Service provides a programmatic API for submitting data. This may be useful, for example, for LIMs integration solutions. This does require authentication and would require contacting the ingest team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
+**Ingest API** The Ingestion Service provides a programmatic API for submitting data to the HCA DCP. The Ingest API may be useful, for example, for enabling integration with existing LIMS software. Using the Ingest API requires authentication and contacting the Ingestion Service team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
-[Starting point: GitHub Repository Ingest Central (ingest-central)](https://github.com/HumanCellAtlas/ingest-central)    
-[GitHub Repository for Ingest API(ingest-broker-api)](https://github.com/HumanCellAtlas/ingest-broker-api)    
+[Ingest Broker Development Guide](https://prod.data.humancellatlas.org/learn/development-guides/ingest-broker-development-guide)
+[GitHub Repository Ingest Central (ingest-central)](https://github.com/HumanCellAtlas/ingest-central) (a good starting point)
+[GitHub Repository for Ingest API (ingest-broker-api)](https://github.com/HumanCellAtlas/ingest-broker-api)
 [HAL Browser for the Ingest API](http://api.ingest.dev.data.humancellatlas.org/browser/index.html)   
 
-## Learning More About Metadata
+## Learning About Metadata
 
 **HCA Metadata** The [HCA metadata standard](https://dev.data.humancellatlas.org/learn/metadata/metadata-dictionary) is a curated description of the entities and thier relationships captured in HCA data. The metadata schema is public for review on GitHub. The metadata schema is also extensible and open for changes through pull requests.
 
