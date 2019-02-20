@@ -5,7 +5,7 @@ title: "Introduction"
 subTitle: "Technical resources to support the development and integration of analysis applications."
 ---
 
-# Creating Solutions using the DCP
+# Supporting development and integration of applications
 
 The Human Cell Atlas Data Coordination Platform aims to support and encourage cellular resolution research in a variety of biological and computational areas. This page highlights available resources for enabling these areas of scientific exploration.
 
