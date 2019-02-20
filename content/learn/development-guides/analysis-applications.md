@@ -1,8 +1,8 @@
 ---
 path: "/learn/development-guides/analysis-applications"
 date: "2018-05-03"
-title: "Analysis Applications"
-subTitle: "Technical resources to support the development and integration of your analysis applications."
+title: "Introduction"
+subTitle: "Technical resources to support the development and integration of analysis applications."
 ---
 
 # Creating Solutions using the DCP
@@ -54,7 +54,7 @@ Matrix Service swagger - Coming Soon
 
 ## Finding Packages for Your Solution
 
-**HCA DCP Methods Registry** The Methods Registry contains domain-specific computational methodology and visualization component packages that are standardized in a way we hope enables clear communication and ease of use between the methodologists and engineers.
+The HCA DCP Methods Registry contains domain-specific computational analysis and visualization packages that are standardized in a way we hope enables clear communication and ease of use between the methodologists and engineers.
 
 [Methodology Listing](/analyze/methods/methods)   
 [Visualization Component Listing](/analyze/visualization-components)   
