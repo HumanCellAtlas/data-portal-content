@@ -7,7 +7,7 @@ subTitle: "Technical resources to support the development and integration of you
 
 # Creating Solutions using the DCP
 
-The Human Cell Atlas Data Coordination Platform holds much potential to support and enrich solutions for single cell genomics. This page highlights resources you can leverage to enable your creativity.
+The Human Cell Atlas Data Coordination Platform holds much potential to support and encourage cellular resolution research in a variety of biological and computational areas. This page highlights available resources for enabling all areas of scientific exploration.
 
 ## General Description
 
