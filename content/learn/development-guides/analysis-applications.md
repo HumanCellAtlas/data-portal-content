@@ -7,11 +7,11 @@ subTitle: "Technical resources to support the development and integration of you
 
 # Creating Solutions using the DCP
 
-The Human Cell Atlas Data Coordination Platform holds much potential to support and encourage cellular resolution research in a variety of biological and computational areas. This page highlights available resources for enabling all areas of scientific exploration.
+The Human Cell Atlas Data Coordination Platform aims to support and encourage cellular resolution research in a variety of biological and computational areas. This page highlights available resources for enabling these areas of scientific exploration.
 
-## General Description
+We provide several REST APIs for programmatic interface, an open metadata standard, cloud-native pipelines that are portable to multiple environments, and standardized domain-specific analysis and visualization packages. To provide guidance, a growing collection of vignettes is available showing how to interact with different DCP components and how to use packages available in the Data Portal. 
 
-We provide several computational solutions to use in building products. We have several REST APIs for programmatic interface, an open metadata schema to leverage, cloud-native pipelines that are portable to multiple environments, and standardized domain specific methodology and visualizations. We provide a growing collection of vignettes as examples of interacting with different aspects of the DCP. After you have made a product interacting with the DCP, please register it with the Data Portal for data hand-off, or list it in our Registry.
+Anyone who has developed their own analysis or visualization package that interacts with the DCP is highly encouraged to register it with the Data Portal for data hand-off or list it in the Methods Registry.
 
 ## Working with Ingest
 
