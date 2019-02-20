@@ -15,11 +15,11 @@ Anyone who has developed their own analysis or visualization package that intera
 
 ## Working with the Ingestion Service
 
-**Ingest API** The Ingestion Service provides a programmatic API for submitting data to the HCA DCP. The Ingest API may be useful, for example, for enabling integration with existing LIMS software. Using the Ingest API requires authentication and contacting the Ingestion Service team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
+The Ingestion Service provides a programmatic API for submitting data to the HCA DCP. The Ingest API could be used, for example, for enabling integration with existing LIMS software. Using the Ingest API requires authentication and contacting the Ingestion Service team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
-[Ingest Broker Development Guide](https://prod.data.humancellatlas.org/learn/development-guides/ingest-broker-development-guide)
-[GitHub Repository Ingest Central (ingest-central)](https://github.com/HumanCellAtlas/ingest-central) (a good starting point)
-[GitHub Repository for Ingest API (ingest-broker-api)](https://github.com/HumanCellAtlas/ingest-broker-api)
+[Ingest Broker Development Guide](https://prod.data.humancellatlas.org/learn/development-guides/ingest-broker-development-guide)   
+[GitHub Repository: Ingest Central (ingest-central)](https://github.com/HumanCellAtlas/ingest-central) (a good starting point)   
+[GitHub Repository: Ingest API (ingest-broker-api)](https://github.com/HumanCellAtlas/ingest-broker-api)   
 [HAL Browser for the Ingest API](http://api.ingest.dev.data.humancellatlas.org/browser/index.html)   
 
 ## Learning About Metadata
