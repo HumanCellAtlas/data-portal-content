@@ -47,7 +47,7 @@ The HCA DCP cloud-native data processing pipelines are created using GA4GH workf
 
 ## Accessing the Matrix Service
 
-**Matrix Service API** The Matrix Service enables the ability to create matrices from underlying data in the DCP. The Matrix Service currently exposes a REST API endpoint. This can be given a manifest of files to combine, that can be polled until the service generates the requested matrix for download.
+The Matrix Service enables the creation of matrices from underlying processed data in the HCA DCP. The Matrix Service currently exposes a REST API endpoint. This interface can be given a manifest of files to combine which can be polled until the service generates the requested matrix for download.
 
 Matrix Service Description - Coming Soon    
 Matrix Service swagger - Coming Soon   
