@@ -4,6 +4,8 @@ date: "2018-05-03"
 title: "Methods Packages"
 componentName: "analyze"
 linked:
+    - ./magic.md
+    - ./phate.md
     - ./sc3.md
     - ./scmap.md
     - ./slingshot.md
@@ -12,7 +14,7 @@ linked:
 
 ##  Methods Packages
 
-Methods packages listed below are tools for performing analyses involving scRNA-seq, scDNA-seq, in situ transcriptomics, multi-modal and other computational biology approaches.
+Methods packages listed below are tools for performing analyses involving computational biology approaches for analyzing single cell data. Method software is pre-installed in container images. Registry methods can be called programmatically for easy integration into portals. These methods provide domain-specific ways to analyze biological data produced by Human Cell Atlas.
 
 These solutions are built by third parties, and fostered by the HCA DCP.
 
