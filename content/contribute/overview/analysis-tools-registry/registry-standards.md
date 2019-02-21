@@ -6,7 +6,6 @@ title: "Registry Standards"
 
 ## Analysis Tools Registry Standards Overview
 
-### Introduction
 The following standards of the HCA DCP Analysis Tools Registry ensure reusability and ease deployment of methods and visualizations for analyses of Human Cell Atlas datasets for portals and others.  The primary audience for this document is developers of packages for methods and visualizations.
 
 Standards listed below are required or optional.  Packages must conform to all required standards to be listed in the Analysis Tools Registry.  Packages should conform to all recommended standards to enhance their registry entry.
