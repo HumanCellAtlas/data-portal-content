@@ -15,16 +15,16 @@ We provide several REST APIs for programmatic interface, an open metadata standa
 
 The Ingestion Service provides a programmatic API for submitting data to the HCA DCP. The Ingest API could be used, for example, for enabling integration with existing LIMS software. Using the Ingest API requires authentication and contacting the Ingestion Service team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
-[Ingest Broker Development Guide](https://prod.data.humancellatlas.org/learn/development-guides/ingest-broker-development-guide)   
+[Ingest Broker Development Guide](/learn/development-guides/ingest-broker-development-guide)   
 [GitHub Repository: Ingest Central (ingest-central)](https://github.com/HumanCellAtlas/ingest-central) (a good starting point)   
 [GitHub Repository: Ingest API (ingest-broker-api)](https://github.com/HumanCellAtlas/ingest-broker-api)   
 [HAL Browser for the Ingest API](http://api.ingest.dev.data.humancellatlas.org/browser/index.html)   
 
 ## Learning about Metadata
 
-The [HCA metadata standard](https://dev.data.humancellatlas.org/learn/metadata/structure) is the common set of guidelines the HCA uses to describe samples, protocols, and files associated with projects. The metadata standard is expressed as JSON schemas representing the submitted entities, their associated fields, and the relationships between them. The HCA is committed to evolving the metadata standards based on the needs of the scientific community, so everyone is welcome to suggest metadata updates by creating GitHub issues or emailing the metadata team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
+The [HCA metadata standard](/learn/metadata/structure) is the common set of guidelines the HCA uses to describe samples, protocols, and files associated with projects. The metadata standard is expressed as JSON schemas representing the submitted entities, their associated fields, and the relationships between them. The HCA is committed to evolving the metadata standards based on the needs of the scientific community, so everyone is welcome to suggest metadata updates by creating GitHub issues or emailing the metadata team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
-[Metadata Dictionary](https://dev.data.humancellatlas.org/learn/metadata/metadata-dictionary)   
+[Metadata Dictionary](/learn/metadata/metadata-dictionary)   
 [Github Repository: metadata schema (metadata-schema)](https://github.com/HumanCellAtlas/metadata-schema)   
 [GitHub Repository: metadata API library (metadata-api)](https://github.com/HumanCellAtlas/metadata-api)   
 
@@ -54,9 +54,9 @@ Matrix Service swagger - Coming Soon
 
 The HCA DCP Analysis Tools Registry contains domain-specific computational analysis and visualization packages that are standardized to enable clear communication and ease of use. Anyone who has developed their own analysis or visualization tool that interacts with the DCP is highly encouraged to register it with the Data Portal for data hand-off or list it in the Analysis Tools Registry.
 
-[Analysis Portals Listing](https://dev.data.humancellatlas.org/analyze)
-[Methods Packages Listing](https://prod.data.humancellatlas.org/analyze/methods)   
-[Visualization Packages Listing](https://prod.data.humancellatlas.org/analyze/visualization)   
+[Analysis Portals Listing](/analyze)
+[Methods Packages Listing](/analyze/methods)   
+[Visualization Packages Listing](/analyze/visualization)   
 
 ## Registering a Tool with the Data Portal
 
