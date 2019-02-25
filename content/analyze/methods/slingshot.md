@@ -16,13 +16,21 @@ componentName: "analysisDetail"
 
 # Use
 
-docker pull command pending
+`docker pull quay.io/kstreet13/slingshot-docker:<version>`
+
+### Slingshot with SingleCellExperiment object as rds file 
+
+`docker run -v ${PWD}:/data -w /data --rm -it quay.io/kstreet13/slingshot-docker:<version> Rscript /software/scripts/run_slingshot.R --input=`[slingshot_input.rds ](https://github.com/kstreet13/slingshot-docker/raw/master/data/slingshot_input.rds)`  --input-type=rds --reduced-dim=zinbwave`
+
+### Slingshot with expression matrix and cluster labels as tab delimited files  
+
+`docker run -v ${PWD}:/data -w /data --rm -it quay.io/kstreet13/slingshot-docker:<version> Rscript /software/scripts/run_slingshot.R --input=`[rd.tsv ](https://github.com/kstreet13/slingshot-docker/raw/master/data/rd.tsv)` --cluster-labels=`[cl.tsv ](https://github.com/kstreet13/slingshot-docker/raw/master/data/cl.tsv)` --input-type=matrix`
 
 usage command pending
 
 # Validate
 
-Validation command pending
+`docker run -v ${PWD}:/data -w /data --rm -it quay.io/kstreet13/slingshot-docker:<version> Rscript /software/scripts/run_slingshot.R  --validate`
 
 
 # Contact
