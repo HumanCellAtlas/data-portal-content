@@ -5,7 +5,8 @@ title: "Single-cell consensus clustering (SC3)"
 author: "Martin Hemberg"
 description: "SC3 is an unsupervised clustering method for scRNA-seq data."
 githubUrl: "https://github.com/hemberg-lab/SC3"
-appUrl: "https://github.com/hemberg-lab/SC3"
+appUrl: "http://bioconductor.org/packages/SC3"
+upstreamRegistryUrl: "http://bioconductor.org/packages/SC3"
 componentName: "analysisDetail"
 ---
 

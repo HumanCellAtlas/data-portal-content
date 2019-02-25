@@ -6,6 +6,7 @@ author: "Kevin Moon, David van Dijk, Scott Gigante, Smita Krishnaswamy"
 description: "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories."
 githubUrl: "https://github.com/KrishnaswamyLab/PHATE/"
 appUrl: "https://pypi.org/project/phate/"
+upstreamRegistryUrl: "https://pypi.org/project/phate/"
 componentName: "analysisDetail"
 ---
 [![Build Status](https://travis-ci.com/KrishnaswamyLab/PHATE.svg?branch=master)](https://travis-ci.com/KrishnaswamyLab/PHATE#)
