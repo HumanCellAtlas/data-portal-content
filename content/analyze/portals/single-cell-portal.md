@@ -20,4 +20,4 @@ componentName: "analysisDetail"
 </a>
 
 # Contact
-Single Cell Portal team (<a href="mailto://scp-support@broadinstitute.zendesk.com">scp-support@broadinstitute.zendesk.com</a>)
+Single Cell Portal team (<a href="mailto://single_cell_portal@broadinstitute.org">single_cell_portal@broadinstitute.org</a>)
