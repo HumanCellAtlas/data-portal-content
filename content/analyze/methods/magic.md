@@ -6,6 +6,7 @@ author: "David van Dijk, Kevin Moon, Scott Gigante, Daniel Dager, Guy Wolf, Smit
 description: "Markov Affinity-based Graph Imputation of Cells (MAGIC) is an algorithm for denoising and imputation of single cells applied to single-cell RNA sequencing data"
 githubUrl: "https://github.com/KrishnaswamyLab/MAGIC/"
 appUrl: "https://pypi.org/project/magic-impute/"
+upstreamRegistryUrl: "https://pypi.org/project/magic-impute/"
 componentName: "analysisDetail"
 ---
 [![Build Status](https://travis-ci.com/KrishnaswamyLab/MAGIC.svg?branch=master)](https://travis-ci.com/KrishnaswamyLab/MAGIC#)
