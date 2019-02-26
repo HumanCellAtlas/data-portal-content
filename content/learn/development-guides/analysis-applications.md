@@ -66,10 +66,11 @@ Matrix Service swagger - Coming Soon
 
 ## Registering with the Data Portal
 
-**Portal hand-off** The Data Portal provides the ability for portals and other solutions to "register" with the Data Portal. Registration enables users to move from the Data Portal to the registered product as they explore data, which is an excellent way to integrate with the DCP.
+**Portal hand-off** The Data Portal will soon provide the ability for portals and other solutions to "register" with the Data Portal. Registration enables users to move from the Data Portal to the registered product as they explore data, which is an excellent way to integrate with the DCP.
 
 Hand-off Description - Coming Soon   
-Register for the Hand-off - Coming Soon  
+Register for the Hand-off - Coming Soon
+If you are interested, please email us to be placed on an alpha user list.
 
 ## Listing Your Solution in the Registry
 
