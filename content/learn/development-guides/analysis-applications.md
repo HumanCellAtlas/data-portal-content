@@ -67,4 +67,4 @@ Register for the Hand-off - Coming Soon
 
 ## Listing a Tool in the Analysis Tools Registry
 
-Please list your solution with the registry so our community of scientists knows about it and can easily find it. See [these instructions](/contribute/analysis-tools-registry) to submit a portal, methodology, or visualization component
+Please list your tool with the registry so the scientific community can easily find it. See [these instructions](/contribute/analysis-tools-registry) to submit a portal, methodology, or visualization component.
