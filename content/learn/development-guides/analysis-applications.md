@@ -13,7 +13,7 @@ We provide several REST APIs for programmatic interface, an open metadata standa
 
 ## Working with the Ingestion Service
 
-The Ingestion Service provides a programmatic API for submitting data to the HCA DCP. The Ingest API could be used, for example, for enabling integration with existing LIMS software. Using the Ingest API requires authentication and contacting the Ingestion Service team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
+The Ingestion Service provides a programmatic API for submitting data to the HCA DCP. The Ingest API could be used, for example, to enable integration with existing LIMS software. Using the Ingest API requires authentication and contacting the Ingestion Service team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
 [Ingest Broker Development Guide](https://prod.data.humancellatlas.org/learn/development-guides/ingest-broker-development-guide)   
 [GitHub Repository: Ingest Central (ingest-central)](https://github.com/HumanCellAtlas/ingest-central) (a good starting point)   
@@ -22,11 +22,13 @@ The Ingestion Service provides a programmatic API for submitting data to the HCA
 
 ## Learning about Metadata
 
-The [HCA metadata standard](https://dev.data.humancellatlas.org/learn/metadata/structure) is the common set of guidelines the HCA uses to describe samples, protocols, and files associated with projects. The metadata standard is expressed as JSON schemas representing the submitted entities, their associated fields, and the relationships between them. The HCA is committed to evolving the metadata standards based on the needs of the scientific community, so everyone is welcome to suggest metadata updates by creating GitHub issues or emailing the metadata team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
-[Metadata Dictionary](https://dev.data.humancellatlas.org/learn/metadata/metadata-dictionary)   
+The [HCA metadata standard](/learn/metadata/structure) is the common set of guidelines the HCA uses to describe samples, protocols, and files associated with projects. The metadata standard is expressed as JSON schemas representing the submitted entities, their associated fields, and the relationships between them. The HCA is committed to evolving the metadata standards based on the needs of the scientific community, so everyone is welcome to suggest metadata updates by creating a [GitHub issue](https://github.com/HumanCellAtlas/metadata-schema/issues/new?labels=content&template=schema_update.md) or emailing the metadata team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
+
+[Metadata Dictionary](/learn/metadata/metadata-dictionary)   
 [Github Repository: metadata schema (metadata-schema)](https://github.com/HumanCellAtlas/metadata-schema)   
 [GitHub Repository: metadata API library (metadata-api)](https://github.com/HumanCellAtlas/metadata-api)   
+
 
 ## Accessing the Data Store
 
@@ -48,7 +50,7 @@ The HCA DCP cloud-native data processing pipelines are created using GA4GH workf
 The Matrix Service enables the creation of matrices from underlying processed data in the HCA DCP. The Matrix Service currently exposes a REST API endpoint. This interface can be given a manifest of files to combine which can be polled until the service generates the requested matrix for download.
 
 Matrix Service Description - Coming Soon    
-Matrix Service swagger - Coming Soon   
+Matrix Service Swagger - Coming Soon   
 
 ## Finding Registered Analysis Tools
 
@@ -58,7 +60,7 @@ The HCA DCP Analysis Tools Registry contains domain-specific computational analy
 [Methods Packages Listing](https://prod.data.humancellatlas.org/analyze/methods)   
 [Visualization Packages Listing](https://prod.data.humancellatlas.org/analyze/visualization)   
 
-## Registering a Tool with the Data Portal
+## Registering a Tool with the Data Portal for Data Hand-Off
 
 The Data Portal will soon provide the ability for analysis or visualization tools to be registered with the HCA DCP. Registration will enable users to easily move data from the DCP to the registered tool in order to facilitate scientific exploration of the data and answer interesting biological and computational questions.
 
