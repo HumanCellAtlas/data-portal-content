@@ -6,6 +6,7 @@ author: "Huidong Chen, Luca Pinello"
 description: "STREAM is an interactive computational pipeline for reconstructing complex cellular developmental trajectories from sc-qPCR, scRNA-seq or scATAC-seq data."
 githubUrl: "https://github.com/pinellolab/STREAM/"
 appUrl: " http://stream.pinellolab.org/"
+upstreamRegistryUrl: "https://bioconda.github.io/recipes/stream/README.html"
 componentName: "analysisDetail"
 ---
 

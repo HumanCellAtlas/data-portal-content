@@ -5,11 +5,33 @@ title: "Slingshot"
 author: "Kelly Street, Davide Risso, Diya Das, Sandrine Dudoit, Koen Van den Berge, and Robrecht Cannoodt"
 description: "Slingshot provides functions for inferring continuous, branching lineage structures in low-dimensional data."
 githubUrl: "https://github.com/kstreet13/slingshot"
-appUrl: "https://www.bioconductor.org/packages/devel/bioc/html/slingshot.html "
+appUrl: "http://bioconductor.org/packages/slingshot"
+upstreamRegistryUrl: "http://bioconductor.org/packages/slingshot"
 componentName: "analysisDetail"
 ---
 
 [![Build Status](https://travis-ci.org/kstreet13/slingshot.svg?branch=master)](https://travis-ci.org/kstreet13/slingshot)
 [![Coverage Status](https://img.shields.io/codecov/c/github/kstreet13/slingshot/master.svg)](https://codecov.io/github/kstreet13/slingshot)
 
-Slingshot provides functions for inferring continuous, branching lineage structures in low-dimensional data. Designed to model developmental trajectories in single-cell RNA sequencing data, Slingshot can also serve as a component in an analysis pipeline after dimensionality reduction and clustering. It is flexible enough to handle arbitrarily many branching events and allows for the incorporation of prior knowledge through supervised graph construction.
+[Slingshot](http://bioconductor.org/packages/slingshot ) provides functions for inferring continuous, branching lineage structures in low-dimensional data. Designed to model developmental trajectories in single-cell RNA sequencing data, Slingshot can also serve as a component in an analysis pipeline after dimensionality reduction and clustering. It is flexible enough to handle arbitrarily many branching events and allows for the incorporation of prior knowledge through supervised graph construction.
+
+# Use
+
+`docker pull quay.io/kstreet13/slingshot-docker:1.1.2`
+
+### Slingshot with SingleCellExperiment object as rds file 
+
+`docker run -v ${PWD}:/data -w /data --rm -it quay.io/kstreet13/slingshot-docker:1.1.2 Rscript /software/scripts/run_slingshot.R --input=`[slingshot_input.rds ](https://github.com/kstreet13/slingshot-docker/raw/master/data/slingshot_input.rds)`  --input-type=rds --reduced-dim=zinbwave`
+
+### Slingshot with expression matrix and cluster labels as tab delimited files  
+
+`docker run -v ${PWD}:/data -w /data --rm -it quay.io/kstreet13/slingshot-docker:1.1.2 Rscript /software/scripts/run_slingshot.R --input=`[rd.tsv ](https://github.com/kstreet13/slingshot-docker/raw/master/data/rd.tsv)` --cluster-labels=`[cl.tsv ](https://github.com/kstreet13/slingshot-docker/raw/master/data/cl.tsv)` --input-type=matrix`
+
+
+# Validate
+
+`docker run -v ${PWD}:/data -w /data --rm -it quay.io/kstreet13/slingshot-docker:1.1.2 Rscript /software/scripts/run_slingshot.R  --validate`
+
+
+# Contact
+Kelly Street (<a href="mailto://street.kelly@gmail.com">street.kelly@gmail.com</a>)

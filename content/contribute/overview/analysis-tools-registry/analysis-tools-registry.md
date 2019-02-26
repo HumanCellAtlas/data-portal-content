@@ -38,7 +38,8 @@ Below, we provide details about the information requested in the forms.
     - Affirm in submission that license is available in the code repository.
     - Example Code repository URL: https\://github.com/pinellolab/STREAM/
 - Upstream registry URL
-    - Packages must be published in at least one upstream registry used by their respective implementation language; e.g. Bioconda for Python, Bioconductor for R, or npm for JavaScript.
+    - Packages must be submitted to or published in at least one upstream registry used by their respective implementation language; e.g. Bioconda for Python, Bioconductor for R, or npm for JavaScript.
+    - For packages in review for publication in an upstream registry, please provide a placeholder of the form "Submitted to `<registry>` on `<date>`". Submissions with upstream registry URL placeholders will be reviewed quarterly.
     - Example Upstream registry URL: https\://bioconda.github.io/recipes/stream/README.html
 - 2-3 sentence description of package
     - Content may be truncated, e.g. to 150 characters, on summary listing page; the full description will appear in details page.
