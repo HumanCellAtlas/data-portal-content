@@ -30,9 +30,9 @@ The [HCA metadata standard](/learn/metadata/structure) is the common set of guid
 [GitHub Repository: metadata API library (metadata-api)](https://github.com/HumanCellAtlas/metadata-api)   
 
 
-## Accessing the Data Store
+## Accessing the Data Storage Service
 
-Data in the HCA Data Store can be accessed programmatically through the consumer API. This interface includes both a REST API end point and a CLI (python).
+Data in the HCA Data Storage Service can be accessed programmatically through the consumer API. This interface includes both a REST API end point and a CLI (python).
 
 [Consumer API Swagger](https://dss.integration.data.humancellatlas.org)   
 [HCA DCP CLI](https://hca.readthedocs.io/en/latest)   
@@ -60,7 +60,7 @@ The HCA DCP Analysis Tools Registry contains domain-specific computational analy
 [Methods Packages Listing](https://prod.data.humancellatlas.org/analyze/methods)   
 [Visualization Packages Listing](https://prod.data.humancellatlas.org/analyze/visualization)   
 
-## Registering a Tool with the Data Portal for Data Hand-Off
+## Registering a Tool for Data Hand-Off
 
 The Data Portal will soon provide the ability for analysis or visualization tools to be registered with the HCA DCP. Registration will enable users to easily move data from the DCP to the registered tool in order to facilitate scientific exploration of the data and answer interesting biological and computational questions.
 
