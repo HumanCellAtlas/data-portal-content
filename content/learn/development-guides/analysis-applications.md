@@ -67,8 +67,4 @@ Register for the Hand-off - Coming Soon
 
 ## Listing a Tool in the Analysis Tools Registry
 
-If an analysis or visualization tool is not ready to be integrated with the HCA DCP through registration, it can still be listed in the Analysis Tools Registry so that the scientific community can find it.
-
-[Submit a Portal](https://github.com/HumanCellAtlas/data-portal-content/issues/new?template=submit-portal)    
-[Submit a Methodology](https://github.com/HumanCellAtlas/data-portal-content/issues/new?template=submit-method)     
-[Submit a Visualization Component](https://github.com/HumanCellAtlas/data-portal-content/issues/new?template=submit-visualization-component)     
+Please list your solution with the registry so our community of scientists knows about it and can easily find it. See [these instructions](/contribute/analysis-tools-registry) to submit a portal, methodology, or visualization component
