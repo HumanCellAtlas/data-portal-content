@@ -15,17 +15,17 @@ componentName: "analysisDetail"
 
 # Use
 
-`docker pull scottgigante/phate:release-1.1`
+```docker pull scottgigante/phate:release-1.1```
 
 Here we download a csv file containing raw scRNA-seq counts, preprocess it by filtering cells with less than 2000 counts, library size normalize and then apply a square root transform before running PHATE, then save the low-dimensional embedding results to phate_output.csv in your current working directory.
 
-`docker run -v ${PWD}:/data --rm scottgigante/phate:release-1.1 --filename `[ https://github.com/KrishnaswamyLab/MAGIC/raw/master/data/HMLE_TGFb_day_8_10.csv.gz ](https://github.com/KrishnaswamyLab/MAGIC/raw/master/data/HMLE_TGFb_day_8_10.csv.gz)` --min-library-size 2000 --normalize --transform sqrt --knn 5 --decay 15 --output /data/phate_output.csv`
+```docker run -v ${PWD}:/data --rm scottgigante/phate:release-1.1 --filename https://github.com/KrishnaswamyLab/MAGIC/raw/master/data/HMLE_TGFb_day_8_10.csv.gz --min-library-size 2000 --normalize --transform sqrt --knn 5 --decay 15 --output /data/phate_output.csv```
 
 
 # Validate 
 Run this command to confirm your container produces correct reference output:
 
-`docker run --rm scottgigante/phate:release-1.1 --validate`
+```docker run --rm scottgigante/phate:release-1.1 --validate```
 
 # Contact
 Scott Gigante (<a href="mailto://scott.gigante@yale.edu">scott.gigante@yale.edu</a>)
