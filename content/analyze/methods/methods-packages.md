@@ -7,7 +7,6 @@ linked:
     - ./magic.md
     - ./phate.md
     - ./sc3.md
-    - ./scmap.md
     - ./slingshot.md
     - ./stream.md
 ---
