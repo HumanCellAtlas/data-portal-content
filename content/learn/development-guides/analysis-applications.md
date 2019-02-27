@@ -58,7 +58,7 @@ The HCA DCP Analysis Tools Registry contains domain-specific computational analy
 [Methods Packages Listing](/analyze/methods)   
 [Visualization Packages Listing](/analyze/visualization)   
 
-## Registering a Tool for Data Hand-Off
+## Registering Tools for Data Hand-Off
 
 The Data Portal provides the ability for analysis or visualization tools to be registered with the HCA DCP. Registration enables users to easily move data from the DCP to the registered tool in order to facilitate scientific exploration of the data and answer interesting biological and computational questions.
 
@@ -67,6 +67,6 @@ Register for the Hand-off - Coming Soon
 
 If you are interested in being an alpha user of the Data Hand-off feature, please email us.
 
-## Listing a Tool in the Analysis Tools Registry
+## Listing Tools in the Analysis Tools Registry
 
 Please list your tool with the registry so the scientific community can easily find it. See [these instructions](/contribute/analysis-tools-registry) to submit a portal, methodology, or visualization component.
