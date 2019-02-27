@@ -67,7 +67,8 @@ The Data Portal will soon provide the ability for analysis or visualization tool
 
 Hand-off Description - Coming Soon   
 Register for the Hand-off - Coming Soon
-If you are interested, please email us to be placed on an alpha user list.
+
+If you are interested in being an alpha user of the Data Hand-off feature, please email us at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
 ## Listing Tools in the Analysis Tools Registry
 
