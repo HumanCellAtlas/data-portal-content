@@ -18,7 +18,7 @@ please provide the following package metadata.  You can easily edit this informa
 - Code repository URL: (e.g. https://github.com/yourusername/yourpackagename)
 - Affirm code is free and open source with license available in code repository: [ ] (fill in as [x] to affirm)
 - Language: 
-- Upstream registry URL: (e.g. https://bioconductor.org/packages/release/bioc/html/slingshot.html)
+- Upstream registry URL: (URL or placeholder for upstream registry submission)
 - Test data location: (reference test data set, reference outputs)
 - Basic command line usage: (description of use case and example)
 - Command to validate installation:
