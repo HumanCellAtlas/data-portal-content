@@ -4,12 +4,12 @@ about: Create or update a computational methodology package
 
 ---
 
-Thank you for submitting a method package to the HCA DCP Methods Registry!
+Thank you for submitting a method package to the HCA DCP Analysis Tools Registry!
 
 To expedite your package's addition to https://prod.data.humancellatlas.org/analyze/methods,
-please provide the following package metadata.  You can easily edit this information later by clicking "Improve this page" at the bottom of your package's detail page ([example](https://prod.data.humancellatlas.org/analyze/methods/sc3)).
+please provide the following package metadata.  You can easily edit this information later by clicking "Improve this page" at the bottom of your package's detail page ([example](https://prod.data.humancellatlas.org/analyze/methods/stream)).
 
-Required:
+[Required](https://prod.data.humancellatlas.org/contribute/analysis-tools-registry#package-submission-field-details):
 - Tool title: 
 - Contact name: 
 - Contact email: 
@@ -24,7 +24,7 @@ Required:
 - Command to validate installation:
 - Short description: (<= 200 characters, will appear on list page)
 
-Optional:
+[Optional](https://prod.data.humancellatlas.org/contribute/analysis-tools-registry#optional-fields-for-methods-and-visualizations):
 - Long description: (will appear on detail page)
 - Build badge URL: (e.g. https://travis-ci.org/kstreet13/slingshot.svg?branch=master)
 - Coverage badge URL: (e.g. https://img.shields.io/codecov/c/github/kstreet13/slingshot/master.svg)
