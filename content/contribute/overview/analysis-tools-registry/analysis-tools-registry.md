@@ -65,7 +65,7 @@ Below, we provide details about the information requested in the forms.
     - Specific URLs directly showcasing the method in use would be ideal but not required.
     - Example URL: http\://stream.pinellolab.org
 
-#### Method-specific required fields
+#### Method-Specific Required Fields
 - Method-ready Docker image:
     - Containerized images allow consistent deployment of packages by bundling OS requirements, necessary dependencies and configurations so portal developers can rapidly incorporate a package while bypassing the need to build unfamiliar software.
     - Images should be tagged with method version so the docker pull command requests a versioned image compatible with the example command line(s) and validation commands provided below.
@@ -117,8 +117,8 @@ Below, we provide details about the information requested in the forms.
     - Please provide a URL to a simple page with a visualization demo.
     - In our examples we use “Mashups”, see example here https://github.com/eweitz/igv.js-react/blob/master/README.md#igvjs-in-react
 
-### Packages submitted in collaboration with a methodologist 
-with separate maintenance of supporting scripts should provide parallel information for "methodologist" and "maintainer" for the following fields:
+### Packages Submitted in Collaboration with a Methodologist 
+with separate maintenance of supporting scripts should provide parallel information for "methodologist" and "accessibility maintainer" for the following fields:
 - Contact name
 - Contact email
 - Who to attribute
@@ -130,7 +130,7 @@ with separate maintenance of supporting scripts should provide parallel informat
 
 For such collaborative submissions the long description may be used to describe the relationship between the supporting scripts and the listed package.
 
-### How to Update your Package Entry
+### How to Update Your Package Entry
 Package information may be updated by creating a GitHub pull request:
 - From the package details page, click "Improve this page"
 - Edit the page content to reflect your updates
