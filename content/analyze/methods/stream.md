@@ -43,7 +43,7 @@ Perform trajectory inference analysis on single cell transcriptomic data then de
 
 ```cd Nestorowa_2016```
 
-```docker run -v ${PWD}:/data -w /data pinellolab/stream:0.3.2 -m  data_Nestorowa.tsv.gz -l cell_label.tsv.gz -c cell_label_color.tsv.gz --DE --TG --LG `
+```docker run -v ${PWD}:/data -w /data pinellolab/stream:0.3.2 -m  data_Nestorowa.tsv.gz -l cell_label.tsv.gz -c cell_label_color.tsv.gz --DE --TG --LG ```
 
 
 ### How to run feature mapping

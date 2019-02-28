@@ -19,13 +19,13 @@ componentName: "analysisDetail"
 
 ```docker pull quay.io/kstreet13/slingshot-docker:1.1.2```
 
-### Slingshot with SingleCellExperiment object as rds file 
+### How to run Slingshot with SingleCellExperiment object as rds file 
 
 ```curl -L -o slingshot_input.rds https://github.com/kstreet13/slingshot-docker/raw/master/data/slingshot_input.rds```
 
 ```docker run -v ${PWD}:/data -w /data --rm -it quay.io/kstreet13/slingshot-docker:1.1.2 Rscript /software/scripts/run_slingshot.R --input=slingshot_input.rds --input-type=rds --reduced-dim=zinbwave```
 
-### Slingshot with expression matrix and cluster labels as tab delimited files  
+### How to run Slingshot with expression matrix and cluster labels as tab delimited files  
 
 ```curl -L -o rd.tsv https://github.com/kstreet13/slingshot-docker/raw/master/data/rd.tsv```
 
