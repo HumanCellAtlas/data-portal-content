@@ -17,26 +17,40 @@ componentName: "analysisDetail"
 
 # Use
 
-```docker pull quay.io/kstreet13/slingshot-docker:1.1.2```
+```
+docker pull quay.io/kstreet13/slingshot-docker:1.1.2
+```
 
 ### How to run Slingshot with SingleCellExperiment object as rds file 
 
-```curl -L -o slingshot_input.rds https://github.com/kstreet13/slingshot-docker/raw/master/data/slingshot_input.rds```
+```
+curl -L -o slingshot_input.rds https://github.com/kstreet13/slingshot-docker/raw/master/data/slingshot_input.rds
+```
 
-```docker run -v ${PWD}:/data -w /data --rm -it quay.io/kstreet13/slingshot-docker:1.1.2 Rscript /software/scripts/run_slingshot.R --input=slingshot_input.rds --input-type=rds --reduced-dim=zinbwave```
+```
+docker run -v ${PWD}:/data -w /data --rm -it quay.io/kstreet13/slingshot-docker:1.1.2 Rscript /software/scripts/run_slingshot.R --input=slingshot_input.rds --input-type=rds --reduced-dim=zinbwave
+```
 
 ### How to run Slingshot with expression matrix and cluster labels as tab delimited files  
 
-```curl -L -o rd.tsv https://github.com/kstreet13/slingshot-docker/raw/master/data/rd.tsv```
+```
+curl -L -o rd.tsv https://github.com/kstreet13/slingshot-docker/raw/master/data/rd.tsv
+```
 
-```curl -L -o cl.tsv https://github.com/kstreet13/slingshot-docker/raw/master/data/cl.tsv```
+```
+curl -L -o cl.tsv https://github.com/kstreet13/slingshot-docker/raw/master/data/cl.tsv
+```
 
-```docker run -v ${PWD}:/data -w /data --rm -it quay.io/kstreet13/slingshot-docker:1.1.2 Rscript /software/scripts/run_slingshot.R --input= rd.tsv --cluster-labels=cl.tsv --input-type=matrix```
+```
+docker run -v ${PWD}:/data -w /data --rm -it quay.io/kstreet13/slingshot-docker:1.1.2 Rscript /software/scripts/run_slingshot.R --input= rd.tsv --cluster-labels=cl.tsv --input-type=matrix
+```
 
 
 # Validate
 
-```docker run -v ${PWD}:/data -w /data --rm -it quay.io/kstreet13/slingshot-docker:1.1.2 Rscript /software/scripts/run_slingshot.R  --validate```
+```
+docker run -v ${PWD}:/data -w /data --rm -it quay.io/kstreet13/slingshot-docker:1.1.2 Rscript /software/scripts/run_slingshot.R  --validate
+```
 
 
 # Contact
