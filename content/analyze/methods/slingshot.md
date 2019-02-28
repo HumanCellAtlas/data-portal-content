@@ -47,6 +47,7 @@ docker run -v ${PWD}:/data -w /data --rm -it quay.io/kstreet13/slingshot-docker:
 
 
 # Validate
+Run this command to confirm your container produces correct reference output: 
 
 ```
 docker run -v ${PWD}:/data -w /data --rm -it quay.io/kstreet13/slingshot-docker:1.1.2 Rscript /software/scripts/run_slingshot.R  --validate
