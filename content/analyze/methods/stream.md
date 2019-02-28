@@ -30,7 +30,7 @@ componentName: "analysisDetail"
 docker pull pinellolab/stream:0.3.2
 ```
 
-### Download test data  
+### Download test data (optional) 
 
 ```
 curl -L -o testData.zip https://www.dropbox.com/sh/n8qq4m7w17i6b07/AAAro_qY_-q5VBDC1sZg-LE5a?dl=0?dl=1
