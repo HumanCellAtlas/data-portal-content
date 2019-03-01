@@ -5,68 +5,11 @@ title: "Quick Start Guide"
 ---
 
 
-## Quick Start Guide
-There are several ways to access the data in the Data Store. This section briefly reviews how to find and download data using the most common methods, the Data Browser and the CLI, and finally, it points to some software programs that demonstrate some programmatic access patterns. Downloading data via the Data Browser and the CLI both first require installation of the HCA CLI.  
+## Accessing HCA Data and Metadata
+There are several ways to access the data in the Data Store. This section briefly reviews how to find and download data and associated metadata using the most common methods, the Data Browser and the CLI, and finally, it points to some software programs that demonstrate some programmatic access patterns. 
 
-Data in the Data Store is organized into data bundles. A bundle is a group of files organized into a versioned set and tagged with a unique global identifier. One of the goals of the Data Store is to provide a structure that makes it easy to keep related files together. Bundles make it easy to keep metadata together with associated data. The versioning structure also allows for parts of a bundle to be updated. The Data Store keeps all versions of data. This way research can be pinned to a specific version of data and metadata.
+Downloading data via the Data Browser and the CLI both first require [installation of the HCA CLI](/learn/userguides/installing-the-hca-cli).  
 
-Some examples of how others have accessed and used the HCA data can be seen in these [consumer vignettes](https://dev.data.humancellatlas.org/learn/development-guides/consumer-vignettes).
-
-### Installing the HCA CLI for Mac OS
-Install Python 3.6 using instructions found on line. Make sure that the basic configuration is correct by running a quick version check on Python:
-
-python --version
-
-It is recommended that the CLI be run in a virtual environment to control Python library dependencies. A common utility for creating and managing virtual environment is `virtualenv`. Installation instructions for `virtualenv` can be found online. In Mac OS High Sierra, one might use:
-
-`sudo pip install virtualenv`
-
-`virtualenv venv`
-
-`source venv/bin/activate`
-
-Now install the HCA command line interface:
-
-`pip install hca`
-
-Now verify that the `hca` program has been installed:
-
-`hca --version`
-
-There are detailed configuration instructions for using `hca` [here](https://hca.readthedocs.io/en/latest/) as well as basic instructions for using each of the available CLI commands.
-
-### Installing the HCA CLI for Windows 10
-It is recommended that the CLI be run in a virtual environment to control Python library dependencies. A common utility for creating and managing virtual environment is `virtualenv`. 
-
-Install Python 3.6 using instructions found on line. Make sure that the basic configuration is correct by running a quick version check on Python:
-
-`python --version`
-
-The `pip3` installer should come with Python 3.6. Make sure that your path includes the Scripts sub-dir so that you will have access to the `pip3` program. Verify access after modifying the path by running:
-
-`pip3 --version`
-
-Now install virtualenv
-
-`pip3 install virtualenv`
-
-Now create a virtual environment
-
-`virtualenv venv`
-
-Now move into the virtual environment
-
-`venv\Scripts\activate.bat`
-
-Now install the HCA command line interface:
-
-`pip3 install hca`
-
-Now verify that the `hca` program has been installed:
-
-`hca --version`
-
-There are detailed configuration instructions for using `hca` [here](https://hca.readthedocs.io/en/latest/) as well as basic instructions for using each of the available CLI commands.
 
 ### Using the Data Browser to Access Data
 
@@ -81,7 +24,7 @@ file name will use a UUID to avoid overwriting previous downloads.
 
 The format of the manifest file is a simple tab separated text file, with the first line representing the header title for each column. It is OK to remove rows for unwanted files but the header row must remain, and the columns should remain the same.
 
-### Using the CLI to Access Data
+#### Using the CLI to Download Files Listed in the Manifest
 The CLI is a powerful tool that can be used to find and download data from the Data Store. There are several subsections to the `hca` tool. Data search, inspection and download are all available from the `hca dss` section. Help text is available by typing:
 
 `hca dss --help`
