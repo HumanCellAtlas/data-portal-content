@@ -54,15 +54,16 @@ For the Broad Institute as data controller, contact details are:
 
 We request your consent to process your personal data. If you do not consent to us processing your personal data, we will not be able to provide you access to the service or we will only provide you a subset of functionalities available within the service.
 
-### 3. What personal data is collected from users of the service? How do we use this personal data?
+### 3. What data types are collected from users of the service and how do we use this data?
 
-We collect the following personal data from users of the service:
+We collect the following data from users of the service, some of which may be personal data:
 
 - IP address
 - Client operating system
 - Browser version
 - Date and time of a visit to the service website
 - Statistics on web pages visited
+- Referrer header
 
 If support (without logging in) is requested by users of the service we also collect:
 
@@ -89,12 +90,14 @@ The data controller will use your personal data for the following purposes:
 
 ### 4. Who will have access to your personal data?
 
-Google Analytics, which HCA relies on to analyze service usage (see <https://www.google.com/analytics/terms/us.html>). To learn more about how to opt out of Google’s use of cookies as part of its Analytics services, you may visit Google’s [Ads Settings](https://adssettings.google.com/authenticated). You will be able to prevent your data from being used by Google Analytics by installing Google’s opt-out browser add-on from the [Google Analytics Opt-out Page](https://tools.google.com/dlpage/gaoptout).
-
 The personal data will be disclosed to:
 
 - Authorized staff in the data controller’s institutions acting on behalf of the Human Cell Atlas Project.
-- The Zendesk Service providers which HCA relies on to provide the service (see [Zendesk’s GDPR compliance statement](https://www.zendesk.com/company/customers-partners/eu-data-protection/)).
+
+The data controller will also rely on certain data processors to support the service and some of these processors will also be able to access the data listed above. A few non-exhaustive examples are listed below:
+
+- Google Analytics, which HCA relies on to analyze service usage (see https://www.google.com/analytics/terms/us.html). To learn more about how to opt out of Google’s use of cookies as part of its Analytics services, you may visit Google’s [Ads Settings](https://adssettings.google.com/authenticated). You will be able to prevent your data from being used by Google Analytics by installing Google’s opt-out browser add-on from the [Google Analytics Opt-out Page](https://tools.google.com/dlpage/gaoptout).
+- Zendesk, which HCA relies on to manage and respond to help requests. More information about Zendesk can be found at their [GDPR compliance statement](https://www.zendesk.com/company/customers-partners/eu-data-protection).
 
 ### 5. Will your personal data be transferred to third countries (i.e. countries not part of EU/EEA) and/or international organizations?
 
