@@ -31,7 +31,8 @@ The Portability Service enables you to:
 * [dxWDL](https://github.com/dnanexus/dxWDL) on [DNAnexus](https://www.dnanexus.com/)
 * [Cromwell](https://github.com/broadinstitute/cromwell) with a local, Linux backend
 * More coming!
+* For information on adding an execution environment, visit [this page](/learn/development-guides/pipeline-processing-development-guides/adding-an-environment-to-the-portability-service).
 
 ### Submitting a Pipeline
 
-HCA pipelines are automatically submitted to this service as a part of our development process. If you are interested in submitting a pipeline to the Portability Service, please contact us (data-help@humancellatlas.org).
+HCA pipelines are automatically submitted to this service as a part of our development process. If you are interested in submitting a pipeline to the Portability Service, please contact us at data-help@humancellatlas.org.
