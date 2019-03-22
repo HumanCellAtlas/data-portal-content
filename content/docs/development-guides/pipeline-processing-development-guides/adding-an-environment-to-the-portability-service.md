@@ -1,5 +1,5 @@
 ---
-path: "/intro/development-guides/pipeline-processing-development-guides/adding-an-environment-to-the-portability-service"
+path: "/docs/development-guides/pipeline-processing-development-guides/adding-an-environment-to-the-portability-service"
 date: "2018-07-12"
 title: "Adding an Environment to the Portability Service"
 ---

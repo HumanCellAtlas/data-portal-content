@@ -1,5 +1,5 @@
 ---
-path: "/intro/api-documentation/matrix-service-api"
+path: "/docs/api-documentation/matrix-service-api"
 date: "2019-02-28"
 title: "Matrix Service API"
 ---
