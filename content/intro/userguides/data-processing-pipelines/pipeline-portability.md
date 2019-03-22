@@ -31,7 +31,7 @@ The Portability Service enables you to:
 * [dxWDL](https://github.com/dnanexus/dxWDL) on [DNAnexus](https://www.dnanexus.com/)
 * [Cromwell](https://github.com/broadinstitute/cromwell) with a local, Linux backend
 * More coming!
-* For information on adding an execution environment, visit [this page](/intro/development-guides/pipeline-processing-development-guides/adding-an-environment-to-the-portability-service).
+* For information on adding an execution environment, visit [this page](/docs/development-guides/pipeline-processing-development-guides/adding-an-environment-to-the-portability-service).
 
 ### Submitting a Pipeline
 
