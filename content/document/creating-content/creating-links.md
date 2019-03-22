@@ -19,7 +19,7 @@ Markdown syntax for a hyperlink is square brackets followed by parentheses. The 
 
 For internal links (links to other data portal pages) we need to follow a few rules:
 
-1. Use the "relative path" to the page omitting the protocol and domain name. For example use `/document/creating-content/creating-links` insstead of `https://dev.data.humancellatlas.org`. 
+1. Use the "relative path" to the page omitting the protocol and domain name. For example use `/document/creating-content/creating-links` instead of `https://dev.data.humancellatlas.org`.
 1. For the link address use the `path` of the page in the site regardless of the location of the file in the repository.
 1. Do not use the `.md` suffix. 
 1. Don't forget to start the path with a forward slash: `/`.
