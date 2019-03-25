@@ -96,7 +96,7 @@ The personal data will be disclosed to:
 
 The data controller will also rely on certain data processors to support the service and some of these processors will also be able to access the data listed above. A few non-exhaustive examples are listed below:
 
-- Google Analytics, which HCA relies on to analyze service usage (see https://www.google.com/analytics/terms/us.html). To learn more about how to opt out of Google’s use of cookies as part of its Analytics services, you may visit Google’s [Ads Settings](https://adssettings.google.com/authenticated). You will be able to prevent your data from being used by Google Analytics by installing Google’s opt-out browser add-on from the [Google Analytics Opt-out Page](https://tools.google.com/dlpage/gaoptout).
+- Google Analytics, which HCA relies on to analyze service usage (see https://www.google.com/analytics/terms/us.html). To learn more about how to opt out of Google’s use of cookies as part of its Analytics services, you may visit Google’s [Ads Settings](https://adssettings.google.com/authenticated). You will be able to prevent your browsing data from being used by Google Analytics by installing Google’s opt-out browser add-on from the [Google Analytics Opt-out Page](https://tools.google.com/dlpage/gaoptout).
 - Zendesk, which HCA relies on to manage and respond to help requests. More information about Zendesk can be found at their [GDPR compliance statement](https://www.zendesk.com/company/customers-partners/eu-data-protection).
 
 ### 5. Will your personal data be transferred to third countries (i.e. countries not part of EU/EEA) and/or international organizations?
