@@ -97,8 +97,8 @@ The pipeline outputs a count matrix that contains, for each cell barcode and for
 ## Pipeline Output Files
 
 Outputs of the pipeline include:
-1. count matrix
-2. a unified, sorted BAM file 
-3. cell metadata, including cell metrics
-4. gene metadata, including gene metrics
+1. Raw count matrix
+2. Unfiltered, sorted BAM file (BamTags are used to tag reads that could be filtered downstream)
+3. Cell metadata, including cell metrics
+4. Gene metadata, including gene metrics
 
