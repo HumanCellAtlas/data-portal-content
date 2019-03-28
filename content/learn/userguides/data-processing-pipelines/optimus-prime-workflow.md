@@ -1,7 +1,7 @@
 ---
 path: "/learn/userguides/data-processing-pipelines/optimus-prime-workflow"
 date: "2018-05-03"
-title: "Optimus Prime"
+title: "Optimus"
 ---
 
 ## Introduction to the Optimus Workflow
