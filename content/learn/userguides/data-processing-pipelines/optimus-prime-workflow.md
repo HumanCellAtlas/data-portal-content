@@ -4,7 +4,7 @@ date: "2018-05-03"
 title: "Optimus Prime"
 ---
 
-## Introduction to the Optimus Prime Workflow
+## Introduction to the Optimus Workflow
 
 The long-term goal of the Optimus workflow is to support any 3 prime single cell transcriptomics assay selected by the HCA project. Using the correct modularity, we hope to grow a generic pipeline that has specific modules to address differences in assays, while leveraging common code where steps of the assays are the same. We offer this as a community resource for community development and improvement. The first assay this workflow supports is the [10X v2 (and v3) gene expression assay](https://www.10xgenomics.com/solutions/single-cell/).
 
@@ -17,8 +17,6 @@ The introduction of droplet-based technologies such as inDrop ([Klein, et al., 2
 * a unique molecular identifier (UMI) as well as a cell barcode to tag each transcript as a unique molecule from a particular cell 
 
 The bead-specific barcodes and UMIs are encoded on sequencing primers that also contain polyT tracts to enable binding of the primers to polyA+ mRNA transcripts. After lysing cells, mRNA transcripts bind to the polyT tracts in the primer and transcripts are reverse transcribed to generate barcoded cDNA. Note that all cDNA molecules from a single cell have the same barcode, but they have different UMIs. Thus every transcript that is captured from an individual cell can be mapped to its cognate cell and also counted as a single transcript, correcting for PCR bias. cDNAs are pooled for amplification and construction of libraries to facilitate 3’ DNA sequencing.
-
-We aspire to leverage commonalities in assays to enable a general computational workflow for processing many single cell transcriptomics modalities. While there will be some differences between assays that will have to be specifically addressed in the workflows, the many common steps will be leveraged into a general workflow.
 
 ## Quick Start Table
 
