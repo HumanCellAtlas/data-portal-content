@@ -32,7 +32,7 @@ You can learn more about each project by visiting the Projects tab in the *Explo
 
 #### Can I use this data for a publication?
 
-Yes, data from the HCA can be used for publication.  Learn more about our [data use agreement](/intro/userguides/data-use-agreement).
+Yes, data from the HCA can be used for publication.  Learn more about our [data use agreement](/getting-started/userguides/data-use-agreement).
 
 #### How do I cite HCA data?
 
