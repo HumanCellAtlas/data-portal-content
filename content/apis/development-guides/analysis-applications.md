@@ -1,5 +1,5 @@
 ---
-path: "/apis/development-guides/analysis-applications"
+path: "/apis/api-documentation/analysis-applications"
 date: "2018-05-03"
 title: "Introduction"
 subTitle: "Technical resources to support the development and integration of analysis applications."
