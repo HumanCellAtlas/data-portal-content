@@ -5,7 +5,16 @@ title: "Ingest Broker Development Guide"
 subTitle: "General guidelines for developing brokers for the Ingest API."
 ---
 
-# Ingest Broker Development Guide
+## Ingest API
+
+The Ingestion Service provides a programmatic API for submitting data to the HCA DCP. The Ingest API could be used, for example, to enable integration with existing LIMS software. Using the Ingest API requires authentication and contacting the Ingestion Service team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
+
+### Resources
+GitHub Repository: [Ingest Central (ingest-central)](https://github.com/HumanCellAtlas/ingest-central)    
+GitHub Repository: [Ingest API (ingest-broker-api)](https://github.com/HumanCellAtlas/ingest-broker-api)   
+[HAL Browser for the Ingest API](http://api.ingest.dev.data.humancellatlas.org/browser/index.html)   
+
+# Ingest Broker Development
 
 We envisage that Brokers will expose those parts of the Ingest API for which it makes sense for a Submitter to call directly (e.g. data file upload). Brokers may therefore expose REST API functions to perform:
 
