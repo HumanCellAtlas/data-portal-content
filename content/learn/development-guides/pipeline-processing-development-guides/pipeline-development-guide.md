@@ -15,7 +15,7 @@ The building blocks of a robust analytical pipeline include:
 
 Here we highlight resources we have successfully used for pipeline building. There are many more resources in the community and this list is not meant to be exhaustive; we simply offer it as a starting guide based on our experience.
 
-Our pipelines for analysis of data from Smart-seq2 and 10x v2 scRNA-seq assays are in the Github [Skylab repository](https://github.com/HumanCellAtlas/skylab/tree/master/pipelines). They are also found in [Dockstore](https://dockstore.org/), an open platform that stores docker-based pipelines written in [WDL](https://dockstore.org/workflows/github.com/HumanCellAtlas/skylab/HCA_SmartSeq2:dockstore?tab=info) or CWL. 
+Our pipelines for analysis of data from Smart-seq2 and 10x v2 scRNA-seq assays are in the Github [Skylab repository](https://github.com/HumanCellAtlas/skylab/tree/master/pipelines). They are also found in [Dockstore](https://dockstore.org/), an open platform that stores docker-based pipelines written in [WDL](https://dockstore.org/workflows/github.com/HumanCellAtlas/skylab/HCA_SmartSeq2:dockstore?tab=info) or [CWL](https://www.commonwl.org/). 
 
 ### Workflow Language Resources
 
