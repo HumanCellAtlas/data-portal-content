@@ -1,6 +1,6 @@
 ---
 path: "/contribute/overview/what-to-prepare"
-date: "2018-08-010"
+date: "2018-08-10"
 title: "What to prepare"
 ---
 
