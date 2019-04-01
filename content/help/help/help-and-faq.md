@@ -42,7 +42,7 @@ The URL for the HCA DCP *Data Portal*, https://data.humancellatlas.org/, can be 
 
 #### How do I access the data in the HCA? 
 
-The user guides in the *Intro* section of the data portal contain detailed information about [how to access the data](/intro).
+The user guides in the *Intro* section of the data portal contain detailed information about [how to access the data](/guides).
 We have also created a series of [data consumer vignettes](https://github.com/HumanCellAtlas/data-consumer-vignettes), which give examples of how others have accessed and used the data from the HCA.
 
 #### How do I visualize or analyze the data in the HCA?

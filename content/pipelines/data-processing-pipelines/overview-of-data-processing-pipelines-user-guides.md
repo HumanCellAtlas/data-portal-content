@@ -23,7 +23,7 @@ The following are pipelines in development or in production in this platform:
 In keeping with our goal of enabling the community to analyze single-cell data using the most reliable and informative approaches currently available, and to facilitate computational development, our pipelines have been constructed to be portable to environments outside of the HCA. Using the Portability Service, you can determine whether a workflow you’ve developed will work in the HCA, or select non-HCA environments. Additionally, you can attach an environment to the portability system to check whether an HCA pipeline works in your own system. Read more about portability [here](/pipelines/hca-pipelines/data-processing-pipelines/pipeline-portability).
 
 ### Access to Pipeline Outputs
-Data bundles containing outputs are publicly available and can be accessed programmatically or through the HCA Data Browser. For information about programmatic access, view the documentation for the CLI [here](/learn/userguides/installing-the-hca-cli).
+Data bundles containing outputs are publicly available and can be accessed programmatically or through the HCA Data Browser. For information about programmatic access, view the documentation for the CLI [here](/guides/installing-the-hca-cli).
 
 
 

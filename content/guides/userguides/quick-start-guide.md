@@ -1,5 +1,5 @@
 ---
-path: "/getting-started/userguides/quick-start-guide"
+path: "/guides/userguides/quick-start-guide"
 date: "2018-05-30"
 title: "Quick Start Guide"
 ---
@@ -8,7 +8,7 @@ title: "Quick Start Guide"
 ## Accessing HCA Data and Metadata
 There are several ways to access the data in the Data Store. This section briefly reviews how to find and download data and associated metadata using the most common methods, the Data Browser and the CLI, and finally, it points to some software programs that demonstrate some programmatic access patterns. 
 
-Downloading data via the Data Browser and the CLI both first require [installation of the HCA CLI](/getting-started/userguides/installing-the-hca-cli).
+Downloading data via the Data Browser and the CLI both first require [installation of the HCA CLI](/guides/installing-the-hca-cli).
 
 
 ### Using the Data Browser to Access Data
@@ -72,4 +72,4 @@ then to download that bundle from the AWS replica you would use this command:
     hca dss download --bundle-uuid 2f08b7cd-2e39-44f2-b7fa-d4a373266104 --version 2018-08-28T213422.136870Z --replica aws
 
 ### Using the Data
-The Data Coordination Platform (DCP) offers a number of different programatic ways to access the data. The Application Programming Interfaces (APIs) that we provide are described [in the API documentation](/apis/api-documentation/data-store-consumer-api/). The developers of the DCP have also created a number of example programs demonstrating how to use the APIs, and they can be found [in the consumer vignettes](/getting-started/userguides/consumer-vignettes). These examples are designed to demonstrate basic access patterns, but they are not intended to demonstrate any type of analysis.
+The Data Coordination Platform (DCP) offers a number of different programatic ways to access the data. The Application Programming Interfaces (APIs) that we provide are described [in the API documentation](/apis). The developers of the DCP have also created a number of example programs demonstrating how to use the APIs, and they can be found [in the consumer vignettes](/guides/consumer-vignettes). These examples are designed to demonstrate basic access patterns, but they are not intended to demonstrate any type of analysis.
