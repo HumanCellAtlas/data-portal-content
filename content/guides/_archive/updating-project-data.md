@@ -1,5 +1,5 @@
 ---
-path: "/getting-started/userguides/contributing-data/updating-project-data"
+path: "/guides/userguides/contributing-data/updating-project-data"
 date: "2018-05-30"
 title: "Updating Project Data"
 ---

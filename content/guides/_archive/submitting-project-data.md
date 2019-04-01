@@ -1,5 +1,5 @@
 ---
-path: "/getting-started/userguides/contributing-data/submitting-project-data"
+path: "/guides/userguides/contributing-data/submitting-project-data"
 date: "2018-05-30"
 title: "Submitting Project Data"
 ---
