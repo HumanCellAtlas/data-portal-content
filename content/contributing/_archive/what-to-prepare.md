@@ -1,5 +1,5 @@
 ---
-path: "/contribute/overview/what-to-prepare"
+path: "/contributing/data/what-to-prepare"
 date: "2018-05-03"
 title: "What to prepare"
 subTitle: "What to prepare"

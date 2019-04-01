@@ -1,5 +1,5 @@
 ---
-path: "/pipelines/hca-pipelines/data-processing-pipelines/overview-of-data-processing-pipelines-user-guides"
+path: "/pipelines/hca-pipelines/data-processing-pipelines/data-processing-pipelines-user-guides"
 date: "2018-05-03"
 title: "Overview of Data Processing Pipelines"
 ---
