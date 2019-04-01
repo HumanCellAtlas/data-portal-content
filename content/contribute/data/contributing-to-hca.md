@@ -1,5 +1,5 @@
 ---
-path: "/contributing/data/contributing-to-hca"
+path: "/contribute/data/contributing-to-hca"
 date: "2018-05-03"
 title: "Overview"
 ---

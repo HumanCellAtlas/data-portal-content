@@ -11,4 +11,4 @@ This platform has been constructed by a consortium of scientists, engineers, and
 
 The HCA DCP wouldn't be possible without community involvement. The easiest way to get involved is by helping us with feedback and testing. Learn more on the [Contact](/contact) page.
   
-We also encourage you to contribute your data or analysis portals and methods. Learn more on the [Contributing](/contributing) page.
+We also encourage you to contribute your data or analysis portals and methods. Learn more on the [Contribute](/contribute) page.

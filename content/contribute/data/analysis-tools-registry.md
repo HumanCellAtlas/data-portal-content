@@ -1,11 +1,11 @@
 ---
-path: "/contributing/data/analysis-tools-registry"
+path: "/contribute/data/analysis-tools-registry"
 date: "2019-02-01"
 title: "Contributing to the Analysis Tools Registry"
 ---
 
 ## Contributing to the Analysis Tools Registry
-The [Analysis Tools Registry](/analyze) lists portals, methods packages, and visualization packages.  Computational biologists submit packages for use by software engineers in portal development. [Analysis Tools Registry standards](/contributing/analysis-tools-registry/registry-standards) promote software best practices and help facilitate ease of package deployment by non-biologists (e.g. software engineers) and non-computational biologists.
+The [Analysis Tools Registry](/analyze) lists portals, methods packages, and visualization packages.  Computational biologists submit packages for use by software engineers in portal development. [Analysis Tools Registry standards](/contribute/analysis-tools-registry/registry-standards) promote software best practices and help facilitate ease of package deployment by non-biologists (e.g. software engineers) and non-computational biologists.
 
 The package details pages provide software engineers with information (basic command line usage, code repository location, etc.) and resources (Docker image URL, contact name and email etc.) to support rapid incorporation of these packages into web portals.
 
