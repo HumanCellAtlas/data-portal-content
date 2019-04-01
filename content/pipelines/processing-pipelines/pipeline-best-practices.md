@@ -1,5 +1,5 @@
 ---
-path: "/pipelines/community-pipelines/processing-pipelines/workflow-best-practices"
+path: "/pipelines/community-pipelines/processing-pipelines/pipeline-best-practices"
 date: "2018-05-03"
 title: "Best Practices for Building Data Processing Pipelines"
 ---
@@ -61,7 +61,7 @@ _Impact._ Pipelines will have greatest impact when they can be leveraged in mult
   
 _Maintainability._ Over the long term, it is easier to maintain pipelines that can be run in multiple environments. Portability avoids being tied to specific infrastructure and enables ease of deployment to development environments.
 
-Within the scope of the HCA, to ensure that others will be able to use your pipeline, avoid building in assumptions about environments and infrastructures in which it will run. We provide a portability service to test whether your pipeline can run in a variety of execution environments, including those used by the HCA and others. Portability is discussed in more detail in the *Intro* section; [contact us](mailto:data-help@humancellatlas.org) to use the service.
+Within the scope of the HCA, to ensure that others will be able to use your pipeline, avoid building in assumptions about environments and infrastructures in which it will run. We provide a portability service to test whether your pipeline can run in a variety of execution environments, including those used by the HCA and others. Portability is discussed in more detail in the *Guides* section; [contact us](mailto:data-help@humancellatlas.org) to use the service.
 
 #### Configurability for running on different technical infrastructures.
 Code should not change to enable a pipeline to run on a different technical architecture; this change in execution environment should be configurable outside of the pipeline code.
