@@ -1,5 +1,5 @@
 ---
-path: "/contributing/data/contributing-a-pipeline-to-the-hca-dcp"
+path: "/contribute/data/contributing-a-pipeline-to-the-hca-dcp"
 date: "2018-05-03"
 title: "Contributing a Pipeline to the HCA DCP"
 ---

@@ -1,5 +1,5 @@
 ---
-path: "/contributing/data/contributing-vignettes"
+path: "/contribute/data/contributing-vignettes"
 date: "2019-02-21"
 title: "Contributing Vignettes"
 ---
