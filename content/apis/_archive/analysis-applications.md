@@ -72,4 +72,4 @@ If you are interested in being an alpha user of the Data Hand-off feature, pleas
 
 ## Listing Tools in the Analysis Tools Registry
 
-Please list your tool with the registry so the scientific community can easily find it. See [these instructions](/contribute/analysis-tools-registry) to submit a portal, methodology, or visualization component.
+Please list your tool with the registry so the scientific community can easily find it. See [these instructions](/contributing/analysis-tools-registry) to submit a portal, methodology, or visualization component.

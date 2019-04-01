@@ -1,5 +1,5 @@
 ---
-path: "/pipelines/hca-pipelines/data-processing-pipelines/qc-mertics"
+path: "/pipelines/hca-pipelines/data-processing-pipelines/qc-metrics"
 date: "2018-05-03"
 title: "Data Processing Pipelines QC Metrics"
 ---

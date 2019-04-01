@@ -1,5 +1,5 @@
 ---
-path: "/contribute/overview/overview"
+path: "/contributing/data/contributing-to-hca"
 date: "2018-05-03"
 title: "Overview"
 ---
@@ -12,7 +12,7 @@ The Human Cell Atlas is built with the help of and for the benefit of the scient
 
 1. **Single-cell Smart-seq2 and 10X v2 RNA-seq data**
 
-    Data from paired-end plate-based Smart-seq2 and 10X v2 assays will be analyzed by our [processing pipelines](/learn/userguides/data-processing-pipelines/overview-of-data-processing-pipelines-user-guides). Alignment and quantification results will be made available in the Data Browser alongside raw data. 
+    Data from paired-end plate-based Smart-seq2 and 10X v2 assays will be analyzed by our [processing pipelines](/pipelines). Alignment and quantification results will be made available in the Data Browser alongside raw data.
 
 1. **Single nucleus sequencing and image-based transcriptomics data**
 
@@ -26,7 +26,7 @@ The Human Cell Atlas is built with the help of and for the benefit of the scient
 
 Once you are ready to contribute your data, you will be supported by the Human Cell Atlas data wranglers. We currently use spreadsheets to collect the metadata and an upload tool to transfer the data files to our cloud infrastructure. 
 
-![contribute](_images/contribute.png)
+![contribute](../_images/contribute.png)
 
 > Ready to contribute? Start the conversation by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
@@ -46,7 +46,7 @@ Once submitted to the Human Cell Atlas, your data will be searchable in the [Dat
 
 1. **Analysis Results**
 
-    For Smart-seq2 and 10X v2 single-cell RNA-seq experiments, data will be processed by our standard [processing pipelines](/learn/userguides/data-processing-pipelines/overview-of-data-processing-pipelines-user-guides). Alignment and quantification results will be made available in the Data Browser alongside raw data.
+    For Smart-seq2 and 10X v2 single-cell RNA-seq experiments, data will be processed by our standard [processing pipelines](/pipelines). Alignment and quantification results will be made available in the Data Browser alongside raw data.
 
     Your data will also be available for use directly in [analysis applications](/analyze/methods) available through the Data Portal.
 

@@ -1,5 +1,5 @@
 ---
-path: "/contribute/overview/what-to-expect"
+path: "/contributing/data/what-to-expect"
 date: "2018-05-03"
 title: "What to expect"
 subTitle: "What to expect"

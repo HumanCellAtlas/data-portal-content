@@ -1,5 +1,5 @@
 ---
-path: "/contribute/overview/analysis-tools-registry/registry-standards"
+path: "/contributing/data/analysis-tools-registry/registry-standards"
 date: "2019-02-01"
 title: "Registry Standards"
 ---
