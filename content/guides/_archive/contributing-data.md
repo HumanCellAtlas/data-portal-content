@@ -1,5 +1,5 @@
 ---
-path: "/getting-started/userguides/contributing-data"
+path: "/guides/userguides/contributing-data"
 date: "2018-05-30"
 title: "Contributing Data"
 ---

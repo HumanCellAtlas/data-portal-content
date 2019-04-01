@@ -1,5 +1,5 @@
 ---
-path: "/getting-started/userguides/analysis-applications"
+path: "/guides/userguides/analysis-applications"
 date: "2018-05-30"
 title: "Analysis Applications"
 ---

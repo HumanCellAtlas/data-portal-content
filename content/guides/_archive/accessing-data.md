@@ -1,5 +1,5 @@
 ---
-path: "/getting-started/userguides/accessing-data"
+path: "/guides/userguides/accessing-data"
 date: "2018-05-30"
 title: "Accessing Data"
 ---
