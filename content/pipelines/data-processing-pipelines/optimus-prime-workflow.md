@@ -6,11 +6,11 @@ title: "Optimus"
 
 ## Introduction to the Optimus Workflow
 
-The long-term goal of the Optimus workflow is to support any 3 prime single cell transcriptomics assay selected by the HCA project. Using the correct modularity, we hope to grow a generic pipeline that has specific modules to address differences in assays, while leveraging common code where steps of the assays are the same. We offer this as a community resource for community development and improvement. The first assay this workflow supports is the [10X v2 (and v3) gene expression assay](https://www.10xgenomics.com/solutions/single-cell/).
+The long-term goal of the Optimus workflow is to support any 3 prime single cell transcriptomics assay selected by the HCA project. Using the correct modularity, we hope to grow a generic pipeline that has specific modules to address differences in assays, while leveraging common code where steps of the assays are the same. We offer this as a community resource for community development and improvement. The first assay this workflow supports is the [10x v2 (and v3) gene expression assay](https://www.10xgenomics.com/solutions/single-cell/).
 
 ## Commonalities Among Sequencing Assays
 
-The introduction of droplet-based technologies such as inDrop ([Klein, et al., 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441768/)) and Drop-seq ([Macosko, et al., 2015](https://www.sciencedirect.com/science/article/pii/S0092867415005498)) moved the throughput of a single-cell RNA sequencing experiment from hundreds to thousands of cells. Technology developed by [10X Genomics](https://www.10xgenomics.com) further increased throughput to hundreds of thousands of cells and has opened up the possibility of creating datasets for millions of cells. Common among many of the single cell transcriptomics high-throughput technologies is the use of:
+The introduction of droplet-based technologies such as inDrop ([Klein, et al., 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4441768/)) and Drop-seq ([Macosko, et al., 2015](https://www.sciencedirect.com/science/article/pii/S0092867415005498)) moved the throughput of a single-cell RNA sequencing experiment from hundreds to thousands of cells. Technology developed by [10x Genomics](https://www.10xgenomics.com) further increased throughput to hundreds of thousands of cells and has opened up the possibility of creating datasets for millions of cells. Common among many of the single cell transcriptomics high-throughput technologies is the use of:
 
 * microfluidics, which captures individual cells in oil droplets containing barcoded beads and enzymes
 * short read 3’ single-strand DNA sequencing 
@@ -22,7 +22,7 @@ The bead-specific barcodes and UMIs are encoded on sequencing primers that also 
 
 | Pipeline Features | Description | Source |
 |-------------------|---------------------------------------------------------------|-----------------------|
-|Assay Type | 10X Single Cell Expression (v2, v3) |[10X Genomics](https://www.10xgenomics.com)
+|Assay Type | 10x Single Cell Expression (v2, v3) |[10x Genomics](https://www.10xgenomics.com)
 | Overall Workflow  |Quality control module and transcriptome quantification module | Code available from [Github](https://github.com/HumanCellAtlas/skylab/blob/master/pipelines/optimus/Optimus.wdl) |
 | Workflow Language |WDL          |[openWDL](https://github.com/openwdl/wdl)|
 | Genomic Reference Sequence|GRCh38 human genome primary sequence|[GENCODE](https://www.gencodegenes.org/human/release_27.html)|
