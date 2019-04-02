@@ -16,7 +16,7 @@ The following are pipelines in development or in production in this platform:
 
 | Pipeline Name | Data Type                                   | Description                                                                                                                            | Analysis Output                                     |
 |------------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| Smart-seq2    | Full transcript single-cell transcriptomics | This pipeline currently supports the Smart-seq2 protocol as described [here](https://www.nature.com/articles/nprot.2014.006). Read more about the pipeline [here](/pipelines/hca-pipelines/data-processing-pipelines/smart-seq2-workflow).                              | Aligned BAM with tagsCounts Matrix (genes); QC Matrix |
+| Smart-seq2    | Full transcript single-cell transcriptomics, paired-end plate-based | This pipeline currently supports the Smart-seq2 protocol as described [here](https://www.nature.com/articles/nprot.2014.006). Read more about the pipeline [here](/pipelines/hca-pipelines/data-processing-pipelines/smart-seq2-workflow).                              | Aligned BAM with tagsCounts Matrix (genes); QC Matrix |
 | Optimus | 3’ capture single-cell transcriptomics      | This pipeline supports 3’ scRNA-Seq data from the 10x v2 (and v3) assay | Aligned BAM with tagsCounts Matrix (genes); QC Matrix |
 
 ### Portability Service 
