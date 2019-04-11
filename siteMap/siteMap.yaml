@@ -73,6 +73,9 @@
           key: "/analyze/methods/methods-packages"
           path: "/analyze/methods"
           secondaryLinks:
+            - name: "InferCNV"
+              key: "/analyze/methods/methods-packages/infer"
+              path: "/analyze/methods/infer"
             - name: "MAGIC"
               key: "/analyze/methods/methods-packages/magic"
               path: "/analyze/methods/magic"
