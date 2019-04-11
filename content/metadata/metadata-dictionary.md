@@ -1,5 +1,5 @@
 ---
-path: "/metadata/metadata/metadata-dictionary"
+path: "/metadata/dictionary/metadata-dictionary"
 date: "2018-05-30"
 title: "Metadata Dictionary"
 componentName: "metadata"
