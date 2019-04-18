@@ -1,5 +1,5 @@
 ---
-path: "/pipelines/hca-pipelines/data-processing-pipelines/optimus-prime-workflow"
+path: "/pipelines/hca-pipelines/data-processing-pipelines/optimus-workflow"
 date: "2018-05-03"
 title: "Optimus"
 ---
