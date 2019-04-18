@@ -1,5 +1,5 @@
 ---
-path: "/pipelines/community-pipelines/processing-pipelines/pipeline-best-practices"
+path: "/pipelines/pipeline-development/processing-pipelines/pipeline-best-practices"
 date: "2018-05-03"
 title: "Best Practices for Building Data Processing Pipelines"
 ---

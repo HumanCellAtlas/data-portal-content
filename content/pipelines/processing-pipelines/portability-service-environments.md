@@ -1,5 +1,5 @@
 ---
-path: "/pipelines/community-pipelines/processing-pipelines/portability-service-environments"
+path: "/pipelines/pipeline-development/processing-pipelines/portability-service-environments"
 date: "2018-07-12"
 title: "Adding an Environment to the Portability Service"
 ---

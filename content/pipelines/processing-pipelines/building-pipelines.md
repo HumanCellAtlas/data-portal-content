@@ -1,5 +1,5 @@
 ---
-path: "/pipelines/community-pipelines/processing-pipelines/building-pipelines"
+path: "/pipelines/pipeline-development/processing-pipelines/building-pipelines"
 date: "2018-05-03"
 title: "Pipeline Development Guide"
 subTitle: "Resources and best practices, including using our portability service to test your pipeline and execution environment"
