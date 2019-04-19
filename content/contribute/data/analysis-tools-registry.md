@@ -7,17 +7,19 @@ title: "Contributing to the Analysis Tools Registry"
 ## Contributing to the Analysis Tools Registry
 The [Analysis Tools Registry](/analyze) lists portals, methods packages, and visualization packages.  Computational biologists submit packages for use by software engineers in portal development. [Analysis Tools Registry standards](/contribute/analysis-tools-registry/registry-standards) promote software best practices and help facilitate ease of package deployment by non-biologists (e.g. software engineers) and non-computational biologists.
 
-The package details pages provide software engineers with information (basic command line usage, code repository location, etc.) and resources (Docker image URL, contact name and email etc.) to support rapid incorporation of these packages into web portals.
-
 ### Submission Forms
-Methods and visualizations are submitted using GitHub. Use these links to access the submission forms.
+Submissions are contributed via GitHub - use these links to access the submission forms:
 
+[Portal submission](https://github.com/HumanCellAtlas/data-portal-content/issues/new/?template=submit-portal.md)\
 [Methods package submission](https://github.com/HumanCellAtlas/data-portal-content/issues/new/?template=submit-method-package.md)\
 [Visualization package submission](https://github.com/HumanCellAtlas/data-portal-content/issues/new/?template=submit-visualization-component-package.md)
 
-Below, we provide details about the information requested in the forms.
+Below, we provide details about the information requested in the methods and visualizations submission forms.
 
 ### Package Submission Field Details
+
+The package details pages provide software engineers with information (basic command line usage, code repository location, etc.) and resources (Docker image URL, contact name and email etc.) to support rapid incorporation of these packages into web portals.
+
 #### Required Submission Fields for Methods and Visualizations
 - Package title
     - Name of method or visualization
