@@ -22,4 +22,4 @@ Analysis portals listed below provide a human-friendly UI in a web or native app
 
 These solutions are built by third parties, and fostered by the HCA DCP.
 
->Are you developing a portal that can consume HCA data? Please submit it for inclusion to the registry [here](/contribute/analysis-tools-registry).
+>Are you developing a portal that can consume HCA data? Please [submit it](/contribute/analysis-tools-registry) for inclusion in the registry.
