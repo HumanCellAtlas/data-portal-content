@@ -28,6 +28,10 @@ Just like a person, the *Data Portal* should have a cohesive voice, but can have
 As users navigate our site, or interact with us via Zendesk or email, may have different needs, and the tone of the content should adapt to fit those needs. The tone of API documentation might be different than the tone of the help page, for example. 
 
 ## General Rules
+### Language
+
+The language of the Data Portal is **US English**, consistent with the language of the HCA website.
+
 ### Acronyms and Abbreviations
 
 * Before using an acronym or abbreviation, first ask - does this term need to be shortened? Is there a simpler word that could be used?
@@ -89,7 +93,10 @@ Commonly used contractions like “don’t”, “it’s”, “isn’t”, “d
 
 * Each sentence, even a sentence fragment, should start with a capital letter and end with a period.
 
-* Keep paragraph size to 3-4 sentences OR LESS. Add subheadings to break up longer paragraphs, for ease of reading on the web. This page is a great example of using subheadings: https://dev.data.humancellatlas.org/about/what-is-the-platform/ingest-service
+* Keep paragraph size to 3-4 sentences OR LESS. Add subheadings to break up longer paragraphs, for ease of reading on the web. This page is a great example of using subheadings: https://dev.data.humancellatlas.org/about/platform/dcp/ingest-service
+
+### Graphics and Color
+* Make sure that the colors in your graphics are color-blind friendly.  There are many helpful articles online about choosing the best colors; for example, [How to Optimize Charts For Color Blind Readers Using Color Blind Friendly Palettes](https://venngage.com/blog/color-blind-friendly-palette/)
  
 
 ### How to refer to users and team members
