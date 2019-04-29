@@ -44,10 +44,10 @@ Learn more about what to expect and how to prepare for the data submission proce
 
 Once submitted to the Human Cell Atlas, the data will be: 
  
-- Searchable in the [HCA Data Browser](/explore/projects).
-- Processed by the [Data processing pipelines](/pipelines) to produce alignment results that will be available in the Data Browser.
-- Available through the Matrix Service to produce quantification results.
-- Accessioned in standard archives.
+- Searchable in the [HCA Data Browser](/explore/projects)
+- Processed by the [Data processing pipelines](/pipelines) to produce alignment results
+- Available through the Matrix Service to produce quantification results
+- Accessioned in standard archives
 
 Learn more about what results will be available for different data types [here](/contribute/data/contributing-data-processing-results.md).
 
