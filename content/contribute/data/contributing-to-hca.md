@@ -20,7 +20,7 @@ Each of the five criteria have the following statuses:
 - **Amber**: We are happy to discuss the value of your dataset to the HCA.
 - **Red**: We are not collecting these data at the moment, but we would like to learn more about it.
 
-Learn more about the data suitability criteria [here](/contribute/data/tbd.md).
+Learn more about the data suitability criteria [here](/contribute/data/contributing-data-suitability.md).
 
 ## Data Submission Process
 
