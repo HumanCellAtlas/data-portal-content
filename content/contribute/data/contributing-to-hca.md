@@ -49,7 +49,7 @@ Once submitted to the Human Cell Atlas, the data will be:
 - Available through the Matrix Service to produce quantification results.
 - Accessioned in standard archives.
 
-Learn more about what results will be available for different data types [here](/contribute/data/tbd.md).
+Learn more about what results will be available for different data types [here](/contribute/data/contributing-data-processing-results.md).
 
 1. **Analysis Results**
 
