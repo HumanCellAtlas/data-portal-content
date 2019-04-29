@@ -4,35 +4,29 @@ date: "2018-05-03"
 title: "Overview"
 ---
 
-# Contributing Data to the Human Cell Atlas
+# Help build the Human Cell Atlas - submit data
 
 The Human Cell Atlas is built with the help of and for the benefit of the scientific community. Our team welcomes contributions of raw data at cellular resolution, as long as it is consented for open access to the public.
 
-## Supported Data Types
+## Data Suitability
 
-1. **Single-cell Smart-seq2 and 10X v2 RNA-seq data**
+At the moment, the HCA considers five criteria to assess the suitability of a dataset for building the Atlas.
 
-    Data from paired-end plate-based Smart-seq2 and 10X v2 assays will be analyzed by our [processing pipelines](/pipelines). Alignment and quantification results will be made available in the Data Browser alongside raw data.
+![contribute](../_images/suitability_graph.png)
 
-1. **Single nucleus sequencing and image-based transcriptomics data**
+Each of the five criteria have the following statuses:
 
-    We are actively investigating standard processing pipelines for single nucleus sequencing and image-based transcriptomics assays. If you are doing these types of experiments, please reach out to us. We are interested in working with the community to understand these data types and how to process them.
+- **Green**: We are happy to receive your dataset.
+- **Amber**: We are happy to discuss the value of your dataset to the HCA.
+- **Red**: We are not collecting these data at the moment, but we would like to learn more about it.
 
-1. **Other cellular resolution data**
+Learn more about the data suitability criteria [here](/contribute/data/tbd.md).
 
-    If you have other data types not mentioned here, please reach out to us so we can develop a plan for incorporating these data into the HCA.
+## Data Submission Process
 
-## Data Contribution Process
-
-Once you are ready to contribute your data, you will be supported by the Human Cell Atlas data wranglers. We currently use spreadsheets to collect the metadata and an upload tool to transfer the data files to our cloud infrastructure. 
+Once you are ready to submit your data, you will be supported by the Human Cell Atlas data wranglers. We currently use spreadsheets to collect metadata and a command-line tool to transfer the data files to our cloud infrastructure. 
 
 ![contribute](../_images/contribute.png)
-
-> Ready to contribute? Start the conversation by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
-
-> Ready to contribute? Start the conversation by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
-
-## What to Prepare
 
 In order to process your cellular resolution data, we will request the following information:
 
@@ -42,9 +36,20 @@ In order to process your cellular resolution data, we will request the following
 - Summary of project and team information
 - Confirmation that data is consented for open access
 
-## Your Data in the HCA
+Learn more about what to expect and how to prepare for the data submission process [here](/contribute/data/tbd.md).
 
-Once submitted to the Human Cell Atlas, your data will be searchable in the [Data Browser](/explore/projects). You will also receive:
+> Ready to contribute? Start the conversation by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
+
+## Data Processing and Results
+
+Once submitted to the Human Cell Atlas, the data will be: 
+ 
+- Searchable in the [HCA Data Browser](/explore/projects).
+- Processed by the [Data processing pipelines](/pipelines) to produce alignment results that will be available in the Data Browser.
+- Available through the Matrix Service to produce quantification results.
+- Accessioned in standard archives.
+
+Learn more about what results will be available for different data types [here](/contribute/data/tbd.md).
 
 1. **Analysis Results**
 
