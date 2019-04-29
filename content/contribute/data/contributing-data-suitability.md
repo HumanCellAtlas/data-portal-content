@@ -10,7 +10,7 @@ The first phase of the HCA will profile tens of millions of human cells, isolate
 
 Currently, the HCA considers five criteria to assess the suitability of a dataset for building the Atlas. 
 
-![contribute](../_images/suitability_graph.png)
+![contribute](../_images/data-suitability.png)
 
 Each of the five criteria have the following statuses:
 
