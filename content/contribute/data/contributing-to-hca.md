@@ -12,7 +12,7 @@ The Human Cell Atlas is built with the help of and for the benefit of the scient
 
 At the moment, the HCA considers five criteria to assess the suitability of a dataset for building the Atlas.
 
-![contribute](../_images/suitability_graph.png)
+![contribute](/contribute/_images/suitability_graph.png)
 
 Each of the five criteria have the following statuses:
 
@@ -26,7 +26,7 @@ Learn more about the data suitability criteria [here](/contribute/data/contribut
 
 Once you are ready to submit your data, you will be supported by the Human Cell Atlas data wranglers. We currently use spreadsheets to collect metadata and a command-line tool to transfer the data files to our cloud infrastructure. 
 
-![contribute](../_images/contribute.png)
+![contribute](/contribute/_images/contribute.png)
 
 In order to process your cellular resolution data, we will request the following information:
 
@@ -36,7 +36,7 @@ In order to process your cellular resolution data, we will request the following
 - Summary of project and team information
 - Confirmation that data is consented for open access
 
-Learn more about what to expect and how to prepare for the data submission process [here](/contribute/data/tbd.md).
+Learn more about what to expect and how to prepare for the data submission process [here](/contribute/data/contributing-expect-prepare.md).
 
 > Ready to contribute? Start the conversation by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
@@ -51,20 +51,7 @@ Once submitted to the Human Cell Atlas, the data will be:
 
 Learn more about what results will be available for different data types [here](/contribute/data/contributing-data-processing-results.md).
 
-1. **Analysis Results**
-
-    For Smart-seq2 and 10X v2 single-cell RNA-seq experiments, data will be processed by our standard [processing pipelines](/pipelines). Alignment and quantification results will be made available in the Data Browser alongside raw data.
-
-    Your data will also be available for use directly in [analysis applications](/analyze/methods) available through the Data Portal.
-
-1. **Repository Accessions**
-
-    To support publishing your research, we will submit raw data to community standard archives and return the archival accessions that you need for publication.
-
-    Currently we are able to archive projects, samples, and sequencing data in BioStudies, BioSamples, and the European Nucleotide Archives (ENA), respectively. We are working towards supporting submission to the NCBI Gene Expression Omnibus (GEO) if your funding mandates submission there. Please let a data wrangler know if this is the case when you start your submission process.
-
-    At the moment we will not automatically archive imaging data. We are engaged with the community to understand what the archival best practices are for biological images, and we will work to support submission to these archives in the future.
-
 > #### Start the Process
+
 > Start the HCA submission process by emailing\
 > [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
