@@ -18,7 +18,7 @@ In order to process your cellular resolution data, we will request the following
 - Summary of project and team information
 - Confirmation that data is consented for open access
 
-Learn more about what to expect and how to prepare for the data submission process [here](/contribute/data/contributing-expect-prepare.md).
+Learn more about how to prepare for the data submission process [here](/contribute/data/contributing-expect-prepare.md).
 
 > Ready to contribute? Start the conversation by emailing [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
