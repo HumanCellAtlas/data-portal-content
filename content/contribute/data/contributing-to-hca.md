@@ -12,7 +12,7 @@ The Human Cell Atlas is built with the help of and for the benefit of the scient
 
 At the moment, the HCA considers five criteria to assess the suitability of a dataset for building the Atlas.
 
-![contribute](/contribute/_images/suitability_graph.png)
+![contribute](/contribute/_images/data-suitability.png)
 
 Each of the five criteria have the following statuses:
 
