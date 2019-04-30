@@ -18,7 +18,7 @@ Some submitted data will be processed by our standard [data processing pipelines
 
 ## Available through the Matrix Service
 
-Available through the Matrix Service to produce quantification results.
+Data that is processed by our standard pipelines will also be available through the Matrix Service to produce quantification results aggregated by project.
 
 ## Accessioned in standard archives
 
