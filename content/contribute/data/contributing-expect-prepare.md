@@ -1,5 +1,5 @@
 ---
-path: "/contribute/data/contributing-expect-prepare"
+path: "/contribute/data/contributing-to-hca/contributing-expect-prepare"
 date: "2019-04-29"
 title: "Data Submission Process"
 ---
@@ -8,7 +8,7 @@ title: "Data Submission Process"
 
 Once you are ready to submit your data, you will be supported by the Human Cell Atlas data wranglers. We currently use spreadsheets to collect metadata and a command-line tool to transfer the data files to our cloud infrastructure. 
 
-![contribute](/contribute/_images/contribute.png)
+![contribute](../_images/contribute.png)
 
 In order to process your cellular resolution data, we will request the following information:
 

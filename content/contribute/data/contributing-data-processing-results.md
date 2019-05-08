@@ -1,5 +1,5 @@
 ---
-path: "/contribute/data/contributing-data-processing-results"
+path: "/contribute/data/contributing-to-hca/contributing-data-processing-results"
 date: "2019-04-29"
 title: "Data Processing and Results"
 ---
