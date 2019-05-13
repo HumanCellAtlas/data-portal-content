@@ -12,7 +12,7 @@ Once submitted to the Human Cell Atlas, your data will be processed and made ava
 
 Your raw data and metadata will be searchable in the [HCA Data Browser](/explore/projects) immediately after submission.
 
-## Processed by the data processing pipelines
+## Processed by the Data Processing Pipelines
 
 Some submitted data will be processed by our standard [data processing pipelines](/pipelines). Currently, we have pipelines for processing human, single cell RNA-seq data produced by standard Smart-seq2 and 10X 3' v2 protocols. These pipelines will be automatically run immediately after submission, and the alignment results will be made available in the HCA Data Browser alongside the raw data.
 
