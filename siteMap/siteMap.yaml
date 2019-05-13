@@ -210,6 +210,10 @@
         - name: "Data Consumer Vignettes"
           key: "/guides/userguides/consumer-vignettes"
           path: "/guides/consumer-vignettes"
+          secondaryLinks:
+            - name: "Japan Science Meeting Tutorial"
+              key: "/guides/userguides/consumer-vignettes/japan-science-meeting-tutorial"
+              path: "/guides/consumer-vignettes/japan-science-meeting-tutorial"
         - name: "HCA Data Lifecycle"
           key: "/guides/userguides/data-lifecycle"
           path: "/guides/data-lifecycle"
