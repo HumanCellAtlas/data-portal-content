@@ -38,7 +38,7 @@ The HCA intends to collect, process, and share data that comprehensively represe
 
 ### Data Processing Pipeline Support
 
-The HCA currently *supports* processing of human 10x 3' v2 and paired-end Smart-seq2 scRNA-seq data. We are currently working to establish processing pipelines for single nuclei RNA sequencing and image-based transcriptomics data as well as for mouse data. We are happy to accept datasets and subsets of datasets that we cannot currently analyze to help us build and prioritize future pipelines.
+The HCA currently *supports* processing of human 10x 3' v2 and paired-end Smart-seq2 scRNA-seq data. We are currently working to establish processing pipelines for droplet-based single nuclei RNA-seq, single end Smart-seq2 scRNA-seq, 10x 3' v3 scRNA-seq, support for mouse data for 10x 3' and Smart-seq2 scRNA-seq, and image-based transcriptomics data. We are happy to accept datasets and subsets of datasets that we cannot currently analyze to help us build and prioritize future pipelines.
 
 ## Policy Changes
 
