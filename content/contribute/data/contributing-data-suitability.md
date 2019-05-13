@@ -1,5 +1,5 @@
 ---
-path: "/contribute/data/contributing-data-suitability"
+path: "/contribute/data/contributing-to-hca/contributing-data-suitability"
 date: "2019-04-29"
 title: "Data Suitability"
 ---
