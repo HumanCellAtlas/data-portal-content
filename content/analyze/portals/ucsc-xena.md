@@ -5,7 +5,7 @@ title: "UCSC Xena"
 author: "Brian Craft, Mary Goldman, Jingchun Zhu, David Haussler"
 description: "UCSC Xena is an online exploration tool for multi-omic functional genomics data and associated meta-data and annotations."
 appUrl: "https://singlecell.xenahubs.net"
-githubUrl: "https://github.com/ucscXena"
+githubUrl: "https://singlecell.xenahubs.net"
 componentName: "analysisDetail"
 ---
 
@@ -15,10 +15,13 @@ componentName: "analysisDetail"
   <img src="../_images/portals/ucsc-xena.png" width=800/>
 </a>
 
-# Contact
-<a href="mailto:ucsc-cancer-genomics-browser@googlegroups.com">ucsc-cancer-genomics-browser@googlegroups.com</a> 
+# Source code
+<a href="https://github.com/ucscXena">https://github.com/ucscXena</a>
 
+# Contact
+<a href="mailto:ucsc-cancer-genomics-browser@googlegroups.com">ucsc-cancer-genomics-browser@googlegroups.com</a>
 
 <a href="mailto:genome-cancer@soe.ucsc.edu">genome-cancer@soe.ucsc.edu</a>
 
 <a href="https://twitter.com/UCSCXena">Follow @UCSCXena</a>
+
