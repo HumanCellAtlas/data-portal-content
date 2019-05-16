@@ -15,6 +15,8 @@ This work leverages data from the study [Single-Cell Analysis of Human Pancreas 
 
 ### Step - Performing a Search in the Data Explorer
 
+![Performing a Search in the Data Explorer](./_images/screen1.png "That Cell!")
+
 ### Step - Downloading the Expression Matrix
 
 ### Step - Launching the Notebook
