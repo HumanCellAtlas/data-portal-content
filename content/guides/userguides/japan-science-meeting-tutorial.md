@@ -5,8 +5,8 @@ title: "Japan Science Meeting Tutorial"
 subTitle: ""
 ---
 
-## Japan Science Meeting Tutorial
-
+## Accessing HCA Data in a Jupyter Notebook
+ 
 This tutorial will walk you through the process of finding data in the HCA Data
 Explorer, generating a data matrix in loom format, and then loading these data
 into scanpy and briefly exploring.
