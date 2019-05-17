@@ -1,5 +1,5 @@
 ---
-path: "/guides/userguides/consumer-vignettes/japan-science-meeting-tutorial"
+path: "/guides/userguides/consumer-vignettes/accessing-hca-data-in-a-jupyter-notebook"
 date: "2019-05-14"
 title: "Japan Science Meeting Tutorial"
 subTitle: ""
