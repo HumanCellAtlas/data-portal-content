@@ -13,7 +13,9 @@ componentName: "analysisDetail"
 
 The primary visualization is Xena's Visual Spreadsheet. Analogous to an office spreadsheet, it is a visual representation of a data grid where each column is a slice of genomic data (e.g. a gene or a set of genes' expression, inferred cell type, cell location), and each row is a single cell.
 
-Researchers interactively query the HCA data and build their spreadsheet, enabling the discovery of patterns and correlations in gene expression, across multiple genes and cell annotations. Researchers can also dynamically create cell groups based on any genomic data already on the spreadsheet, filer and compare cell groups using Xena Charts and statitical analysis. Live visualizations can be saved as Xena Bookmarks, to access the same view again later or be shared with colleagues.
+Researchers interactively query the HCA data and build their spreadsheet, enabling the discovery of patterns and correlations in gene expression, across multiple genes and cell annotations.
+
+Researchers can also dynamically create cell groups based on any genomic data already on the spreadsheet, filer and compare cell groups using Xena Charts and statitical analysis. Live visualizations can be saved as Xena Bookmarks, to access the same view again later or be shared with colleagues.
 
 <a href="https://singlecell.xenahubs.net" target="_blank">
   <img src="../_images/portals/ucsc-xena.png" width=800/>
