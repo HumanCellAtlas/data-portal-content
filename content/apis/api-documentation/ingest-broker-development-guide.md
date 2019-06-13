@@ -44,11 +44,11 @@ returns an embedded `_links` JSON map that contains links to important API endpo
 
 The following steps define the ingestion process through the Ingest platform:
 
-1. [Create submission envelope](#step1)
-1. [Add metadata to the submission envelope](#step2)
-1. [Submit the envelope](#step3)
+1. [Create submission envelope](#create-submission-envelope)
+2. [Add metadata to the submission envelope](#add-metadata-to-a-submission-envelope)
+3. [Submit the envelope](#submit-the-envelope)
 
-#### <a name="step1"></a>Create Submission Envelope
+#### Create Submission Envelope
 
 To create a new submission envelope the client must send a HTTP POST request to the submission endpoint with an empty JSON.
 
@@ -116,7 +116,7 @@ The `_links` property contains a map of service discoverable endpoints associate
 
 As the items in the links map are structured JSON objects, to refer to the actual link, they should be extracted from the nested `href` property. For example to retrieve the link to the submission envelope itself, the property chain is `_links.self.href`.
 
-#### <a name="step2"></a>Add Metadata to a Submission Envelope
+#### Add Metadata to a Submission Envelope
 
 Once the submission envelope is ready, metadata can be added to it through the respective endpoints for the particular type of metadata. The sample links shown previously in the submission creation section demonstrate this. Sending a HTTP GET request to any of the links will return a list of metadata of the given type. For example, if a GET request is sent to the `http://api.ingest.data.humancellatlas.org/submissionEnvelopes/5b4dec891edf300007b4b17b/biomaterials`, a list of biomaterial metadata contained in the submission envelope `5b4dec891edf300007b4b17b` will be returned.
 
@@ -177,7 +177,7 @@ curl -X POST \
   }'
 ```
 
-#### <a name="step3"></a> Submit the Envelope
+#### Submit the Envelope
 
 The final step in brokering data through the Ingest platform is to submit the envelope to the central data store. This can be done by issuing a HTTP PUT request to the `submit` endpoint of the submission envelope:
 
