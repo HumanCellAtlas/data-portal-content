@@ -2,6 +2,7 @@
 path: "/about/platform/dcp"
 date: "2018-05-03"
 title: "About the Data Coordination Platform"
+draft: false
 ---
 ## About the Data Coordination Platform
 
