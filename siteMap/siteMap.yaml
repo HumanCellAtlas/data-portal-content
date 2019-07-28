@@ -211,9 +211,12 @@
     - name: ""
       key: "userguides"
       primaryLinks:
+        - name: "Exploring Projects"
+          key: "/guides/userguides/exploring-projects"
+          path: "/guides"
         - name: "Accessing HCA Data and Metadata"
           key: "/guides/userguides/quick-start-guide"
-          path: "/guides"
+          path: "/guides/quick-start-guide"
         - name: "Installing the HCA CLI"
           key: "/guides/userguides/installing-the-hca-cli"
           path: "/guides/installing-the-hca-cli"
