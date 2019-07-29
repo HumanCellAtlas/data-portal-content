@@ -16,7 +16,7 @@ Projects are a basic unit of data organization in the HCA Data Coordination Plat
   1. the  [sequencing](/metadata/dictionary/protocol/sequencing/sequencing_protocol)  methods used
   1. details about the [project](/metadata/dictionary/project/project) contributors and their institutions
  
-[Metadata](/metadata/dictionary/process/analysis/analysis_process)  about any [analysis](/pipelines) run by the HCA DCP is also added to the project during project ingest.
+[Metadata](/metadata/dictionary/process/analysis/analysis_process)  about any [analysis](/pipelines) performed by the HCA DCP is also added to the project during project ingest.
 
 ### Finding a Project of Interest
 
