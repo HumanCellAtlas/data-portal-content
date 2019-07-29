@@ -4,7 +4,7 @@ date: "2018-05-03"
 title: "Contributing a Pipeline to the HCA DCP"
 ---
 
-## Contributing a Pipeline to the HCA DCP
+# Contributing a Pipeline to the HCA DCP
 
 Data modalities to be analyzed in the HCA DCP Green Box are chosen by the Data Coordination Platform Governance Group (DCPGG). Pipelines for these modalities are included for use in the HCA DCP after they have been evaluated and approved by the HCA Analysis Working Group. The evaluation includes portability testing of the candidate pipeline using the [Portability Service](/pipelines/hca-pipelines/data-processing-pipelines/pipeline-portability).
  

@@ -6,7 +6,6 @@ title: "Creating Links"
 
 # Creating Links in Markdown
 
-
 Markdown syntax for a hyperlink is square brackets followed by parentheses. The square brackets hold the text, the  parentheses hold the link.
 
 ```
@@ -57,8 +56,6 @@ Then use the path to create a link like so:
 This renders like:
 
 [An Internal Link to a Section Heading](/document/creating-content/editing-an-existing-page#editpreview-the-markdown)
-
-
 
 ## External Links
 

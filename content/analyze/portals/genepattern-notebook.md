@@ -11,9 +11,7 @@ componentName: "analysisDetail"
 
 [GenePattern Notebook](http://www.genepattern-notebook.org) integrates the popular Jupyter Notebook platform, which interleaves text, graphics, and code, with the hundreds of genomic analyses available in the GenePattern platform, providing a workspace for reproducible research and open science to all researchers, regardless of their programming experience. The environment allows researchers to create, share, and publish detailed descriptions of their work, including the executable analyses, making it easy for others to understand it and adapt it to their own research.
 
-<a href="http://www.genepattern-notebook.org" target="_blank">
-  <img src="../_images/portals/genepattern-notebook.png" width=800/>
-</a>
+[![GenePattern Notebook](../_images/portals/genepattern-notebook.png)](http://www.genepattern-notebook.org)
 
-# Contact
-Genepattern Team (<a href="mailto:genepattern-team@broadinstitute.org">genepattern-team@broadinstitute.org</a>)
+## Contact
+Genepattern Team ([genepattern-team@broadinstitute.org](mailto:genepattern-team@broadinstitute.org))

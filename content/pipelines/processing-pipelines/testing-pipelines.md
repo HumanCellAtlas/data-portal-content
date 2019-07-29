@@ -4,7 +4,7 @@ date: "2018-07-12"
 title: "Pipeline Testing Guide"
 ---
 
-## How do I test my pipeline in the Portability Service?
+# How do I test my pipeline in the Portability Service?
 
 Currently, the [Portability Service](/pipelines/hca-pipelines/data-processing-pipelines/pipeline-portability) exists as an API that can be leveraged using command line or continuous integration tools. With this interface you can demonstrate that your pipeline runs in HCA DCP execution environments as well as other execution environments. The service records whether the pipeline was able to execute to completion without error and whether it produced the expected output results in each environment.
 

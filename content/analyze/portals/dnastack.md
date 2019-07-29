@@ -10,9 +10,7 @@ componentName: "analysisDetail"
 
 [DNAstack](https://www.dnastack.com) is a cloud platform for bioinformatics based on open standards like Workflow Description Language and Common Workflow Language.
 
-<a href="https://www.dnastack.com" target="_blank">
-  <img src="../_images/portals/dnastack.jpg" width=800/>
-</a>
+[![DNAstack](../_images/portals/dnastack.jpg)](https://www.dnastack.com)
 
-# Contact
-General information (<a href="mailto:info@dnastack.com">info@dnastack.com</a>)
+## Contact
+General information ([info@dnastack.com](mailto:info@dnastack.com))

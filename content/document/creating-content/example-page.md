@@ -23,13 +23,11 @@ Then, link to the the image using something like:
 
 ```![Data Portal](./_images/data-portal.png "Data Potal Learn Section")```
 
-
 ## Viewing the Source Markdown for this page on Github
 
 The raw source for this page is located at:
 
 https://raw.githubusercontent.com/HumanCellAtlas/data-portal-content/master/content/document/creating-content/example-page.md
-
 
 ## Viewing a Preview of this page on Github
 
@@ -37,8 +35,6 @@ The preview source for this page is located at:
 
 https://github.com/HumanCellAtlas/data-portal-content/blob/master/content/document/creating-content/example-page.md
 
-
- 
 >####Tip
 >I am a blockquote with only one paragrah
 

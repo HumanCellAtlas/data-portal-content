@@ -9,11 +9,12 @@ appUrl: "https://pypi.org/project/magic-impute/"
 upstreamRegistryUrl: "https://pypi.org/project/magic-impute/"
 componentName: "analysisDetail"
 ---
+
 [![Build Status](https://travis-ci.com/KrishnaswamyLab/MAGIC.svg?branch=master)](https://travis-ci.com/KrishnaswamyLab/MAGIC#)
 
 Markov Affinity-based Graph Imputation of Cells ([MAGIC](https://pypi.org/project/magic-impute/)) is an algorithm for denoising and imputation of single cells applied to single-cell RNA sequencing data, as described in Van Dijk D et al. (2018), Recovering Gene Interactions from Single-Cell Data Using Data Diffusion, Cell https://www.cell.com/cell/abstract/S0092-8674(18)30724-4.
 
-# Use
+## Use
 
 ```
 docker pull scottgigante/magic:release-1.1
@@ -28,12 +29,12 @@ docker run -v ${PWD}:/data --rm scottgigante/magic:release-1.1 --filename  https
 ```
 
 
-# Validate 
+## Validate
 Run this command to confirm your container produces correct reference output:
 
 ```
 docker run --rm scottgigante/magic:release-1.1 --validate
 ```
 
-# Contact
-Scott Gigante (<a href="mailto://scott.gigante@yale.edu">scott.gigante@yale.edu</a>)
+## Contact
+Scott Gigante ([scott.gigante@yale.edu](mailto:scott.gigante@yale.edu))

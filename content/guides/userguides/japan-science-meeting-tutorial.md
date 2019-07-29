@@ -5,7 +5,7 @@ title: "Accessing HCA Data in a Jupyter Notebook"
 subTitle: ""
 ---
 
-## Accessing HCA Data in a Jupyter Notebook
+# Accessing HCA Data in a Jupyter Notebook
 
 This tutorial will walk you through the process of finding data in the HCA Data
 Explorer, generating an expression matrix in loom format, and then loading these data
@@ -23,7 +23,7 @@ The notebook presented here is based on a [Data Consumer Vignette](https://githu
 created by Genevieve Haliburton and other members of the HCA DCP team.  You can find other vignettes in
 this GitHub repo and more will be adapted into tutorials over time.
 
-### Step 1 - Performing a Search in the Data Explorer
+## Step 1 - Performing a Search in the Data Explorer
 
 Since you're reading this tutorial on our DCP Data Portal site we are going to assume you are at least
 generally familiar with the portal.  To find data, use the Data Explorer which can be reached by
@@ -57,7 +57,7 @@ the metadata available for each project.
 samples, and files. Here we are searching for all projects that have data from pancreas cells and
 further refining our search to focus on the Enge et al. study.
 
-### Step 2 - Create the Expression Matrix
+## Step 2 - Create the Expression Matrix
 
 Now that you've done the very simple query in the previous step to find all data from the Enge et al.
 study let's go ahead and generate a cell by gene matrix of expression values for all ~2.5K cells
@@ -83,7 +83,7 @@ for your matrix result.
 
 Make sure you copy the URL starting with https://s3... for the next step.
 
-### Step 3 - Launching the Notebook
+## Step 3 - Launching the Notebook
 
 There are many different ways to launch Jupyter Notebooks including:
 
@@ -120,7 +120,7 @@ from a previous run of the notebook.
 ![Opening the Notebook in Terra](./_images/screen6.png "Notebook")
 **Figure 4**: The Jupyter notebook opened and running in Terra.  Running a Jupyter Notebook locally will look almost identical to the Terra interface presented here.
 
-### Step 4 - Examining the Result
+## Step 4 - Examining the Result
 
 Now that you have 1) a URL for the matrix from the Data Explorer for the Enge et al. study and 2)
 the `notebooks_hca_demo_scanpy.ipynb` notebook opened in a Jupyter notebook environment,

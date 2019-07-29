@@ -12,17 +12,13 @@ componentName: "analysisDetail"
 
 [![Build Status](https://travis-ci.org/pinellolab/STREAM.svg)](https://travis-ci.org/pinellolab/STREAM)
 
-
-<a href="http://stream.pinellolab.org/" target="_blank">
-  <img src="../_images/methods/stream_logo.png" width=200 align="right">
-</a>
-
+[![STREAM](../_images/methods/stream_logo.png)](http://stream.pinellolab.org/)
 
 [STREAM](https://bioconda.github.io/recipes/stream/README.html) is an interactive computational pipeline for reconstructing complex cellular developmental trajectories from sc-qPCR, scRNA-seq or scATAC-seq data.
 
 [![STREAM](../_images/methods/stream_screenshot.png)](http://stream.pinellolab.org/)
 
-# Usage
+## Usage
 
 ### Obtain docker image
 
@@ -40,9 +36,7 @@ unzip testData.zip
 
 __Input files must be located in the directory where the docker container will be launched__
 
-###
-
-### How to run trajectory inference (transcriptomic data) with marker gene exploration 
+### How to run trajectory inference (transcriptomic data) with marker gene exploration
 Perform trajectory inference analysis on single cell transcriptomic data then detect DE (differentially expressed) genes, transition genes, and leaf genes
 
 ```
@@ -72,9 +66,8 @@ docker run -v ${PWD}:/data -w /data pinellolab/stream:0.3.2 --atac -m zscore.tsv
 ```
 
 
-# Validate 
+## Validate
 Run this command to confirm your container produces correct reference output:
-
 
 ```
 docker run --entrypoint stream_run_test pinellolab/stream:0.3.2
@@ -82,10 +75,9 @@ docker run --entrypoint stream_run_test pinellolab/stream:0.3.2
 
 The validation test includes marker gene detction and will take ~15m to finish.
 
-# Integrate
+## Integrate
 View STREAM in its [production portal](http://stream.pinellolab.org/).
 
-
-
-# Contact
-Huidong Chen (<a href="mailto://huidong.chen@mgh.harvard.edu">huidong.chen@mgh.harvard.edu</a>), Luca Pinello (<a href="mailto://lpinello@mgh.harvard.edu">lpinello@mgh.harvard.edu</a>)
+## Contact
+Huidong Chen ([huidong.chen@mgh.harvard.edu](mailto:huidong.chen@mgh.harvard.edu))\
+Luca Pinello ([lpinello@mgh.harvard.edu](mailto:lpinello@mgh.harvard.edu))

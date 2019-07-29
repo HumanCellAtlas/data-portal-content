@@ -22,39 +22,35 @@ Selecting the  edit button will open the file in the github web editor and let y
 
 ## Edit/Preview the Markdown
 Once in the editor, you can update content as you like and even preview the markdown by selecing the "Preview Changes" tab.
- 
+
 The preview will be styled for the github site, not for the HCA site, but you can see if your image links work and check general formatting of the document.
-  
- >Note that the github editor does not highlight spell check errors so be vigilant.
- 
- 
+
+>Note that the github editor does not highlight spell check errors so be vigilant.
+
 
 ![Edit in Github](./_images/edit-mode.png "Edit an Existing Page")
 
-
-
 ### Front Matter
- 
-At the top of the file you will see a "Front Matter" sections between the `---` markers. Here you can change the Title and Publication Date of the document or the URL to the document in the site.
- 
 
- ```
-    ---
-    path: "/document/creating-content/example-page"
-    date: "2018-05-30"
-    title: "Example Page"
-    ---
- ```
- 
- >####Tip 
- >Note that any changes to the `path:` section need a corresponding change to a `sitemap.js` file in the data-data portal repository. Please create [Github/Zenhub](https://app.zenhub.com/workspace/o/humancellatlas/data-portal-content/boards?repos=130759918) ticket for updating the stiemap.
-    
- ## Create a Pull Request
- 
+At the top of the file you will see a "Front Matter" sections between the `---` markers. Here you can change the Title and Publication Date of the document or the URL to the document in the site.
+
+```
+   ---
+   path: "/document/creating-content/example-page"
+   date: "2018-05-30"
+   title: "Example Page"
+   ---
+```
+
+>####Tip
+>Note that any changes to the `path:` section need a corresponding change to a `sitemap.js` file in the data-data portal repository. Please create [Github/Zenhub](https://app.zenhub.com/workspace/o/humancellatlas/data-portal-content/boards?repos=130759918) ticket for updating the stiemap.
+
+## Create a Pull Request
+
 Once you are ready, request a review from a peer, by creating a pull request in github using the pull reqest UI at the bottom of the edit or preview mode editor.
- 
- Once your pull request is merged it will be deployed to the site.
- 
- ![Create a Pull Reqeust](./_images/edit-mode.png "Edit an Existing Page")
+
+Once your pull request is merged it will be deployed to the site.
+
+![Create a Pull Reqeust](./_images/edit-mode.png "Edit an Existing Page")
  
  

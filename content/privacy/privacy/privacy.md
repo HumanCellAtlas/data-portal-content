@@ -5,12 +5,12 @@ title: "Privacy"
 noNav: true
 ---
 
-## Privacy Notice for Human Cell Atlas Data Portal Public Website
+# Privacy Notice for Human Cell Atlas Data Portal Public Website
 
 This Privacy Notice explains what personal data is collected by the specific service you are requesting, for what purposes, how it is processed, and how we keep it secure.
 Note that this service collects personal data directly provided by the user, and also collects personal data from users that is provided by other organizations.
 
-### 1. Who controls your personal data and how to contact us?
+## 1. Who controls your personal data and how to contact us?
 
 EMBL, Chan Zuckerberg Initiative, UC Santa Cruz and the Broad Institute are joint data controllers of your personal data on behalf of the Human Cell Atlas (HCA) Project, an unincorporated research project without separate legal personality.
 
@@ -50,11 +50,11 @@ For the Broad Institute as data controller, contact details are:
 >415 Main Street, Cambridge, MA 02142, United States\
 >Email: [privacy@broadinstitute.org](mailto:privacy@broadinstitute.org)
 
-### 2. Which is the lawful basis for processing personal data?
+## 2. Which is the lawful basis for processing personal data?
 
 We request your consent to process your personal data. If you do not consent to us processing your personal data, we will not be able to provide you access to the service or we will only provide you a subset of functionalities available within the service.
 
-### 3. What data types are collected from users of the service and how do we use this data?
+## 3. What data types are collected from users of the service and how do we use this data?
 
 We collect the following data from users of the service, some of which may be personal data:
 
@@ -88,7 +88,7 @@ The data controller will use your personal data for the following purposes:
 - To communicate with the user regarding support requests
 - To develop, test and improve the service
 
-### 4. Who will have access to your personal data?
+## 4. Who will have access to your personal data?
 
 The personal data will be disclosed to:
 
@@ -99,7 +99,7 @@ The data controller will also rely on certain data processors to support the ser
 - Google Analytics, which HCA relies on to analyze service usage (see https://www.google.com/analytics/terms/us.html). To learn more about how to opt out of Google’s use of cookies as part of its Analytics services, you may visit Google’s [Ads Settings](https://adssettings.google.com/authenticated). You will be able to prevent your browsing data from being used by Google Analytics by installing Google’s opt-out browser add-on from the [Google Analytics Opt-out Page](https://tools.google.com/dlpage/gaoptout).
 - Zendesk, which HCA relies on to manage and respond to help requests. More information about Zendesk can be found at their [GDPR compliance statement](https://www.zendesk.com/company/customers-partners/eu-data-protection).
 
-### 5. Will your personal data be transferred to third countries (i.e. countries not part of EU/EEA) and/or international organizations?
+## 5. Will your personal data be transferred to third countries (i.e. countries not part of EU/EEA) and/or international organizations?
 
 Personal data is transferred to the following organization based in third countries and that provide the service on behalf of the Human Cell Atlas Project:
 
@@ -118,11 +118,11 @@ Personal data is transferred to the following organization based in third countr
 
 There are no personal data transfers to international organizations. However, EMBL as a joint controller of this service is an international organization. Further details on EMBL’s data protection principles are accessible [here](https://www.embl.de/aboutus/administration/legal-services/data-protection/index.html).
 
-### 6. How long do we keep your personal data?
+## 6. How long do we keep your personal data?
 
 Any personal data not directly obtained from you will be retained even after the service is no longer running. The data controllers will keep the personal data for the minimum amount of time possible to ensure legal compliance and the possibility to undergo internal and external audits.
 
-### 7. The joint Data Controllers provide these rights regarding your personal data
+## 7. The joint Data Controllers provide these rights regarding your personal data
 
 You have the right to:
 

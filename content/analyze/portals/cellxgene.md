@@ -11,9 +11,7 @@ componentName: "analysisDetail"
 
 [cellxgene](https://github.com/chanzuckerberg/cellxgene) is an interactive, performant explorer for single cell transcriptomics data - an open-source experiment in how to bring powerful tools from modern web development to visualize and explore large single-cell transcriptomics datasets. cellxgene hopes to both enable scientists to explore their data and to equip developers with scalable, reusable patterns and frameworks for visualizing large scientific datasets. Features will include scalable visualization of at least 1 million cells, interactive exploration via performant cross-filtering and comparison, and a flexible API that supports a range of existing analysis packages (e.g. scanpy) for backend computational tasks integrated with client-side visualization.
 
-<a href="https://github.com/chanzuckerberg/cellxgene" target="_blank">
-  <img src="../_images/portals/cellxgene.png" width=800/>
-</a>
+[![cellxgene](../_images/portals/cellxgene.png)](https://github.com/chanzuckerberg/cellxgene)
 
-# Contact
-Fiona Griffin (<a href="mailto://fiona.griffin@chanzuckerberg.com">fiona.griffin@chanzuckerberg.com</a>)
+## Contact
+Fiona Griffin ([fiona.griffin@chanzuckerberg.com](mailto:fiona.griffin@chanzuckerberg.com))
