@@ -2,7 +2,7 @@
 path: "/guides/userguides/exploring-projects"
 date: "2018-05-30"
 title: "Exploring Projects"
-draft: true
+draft: false
 ---
 
 
