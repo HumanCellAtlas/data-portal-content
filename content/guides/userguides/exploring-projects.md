@@ -59,7 +59,7 @@ For each project, the HCA DCP maintains a project specific tsv file containing t
  The metadata tsv file gives a flattened representation of the projects metadata graph that can be sorted and filtered using standard spreadsheet or data manipulation tools.
   
 
-![Project TSV Files](./_images/exploring-projects-project-downloads.png "Project Detail")
+![Project Downloads](./_images/exploring-projects-project-downloads.png "Project Downloads")
 **Figure 3**: The "Project Downloads" section of the project details page.
 
 Selecting the tsv download icon immediately downloads the projects metadata tsv file. Metadata file sizes vary across projects but will generally be between 1 and 100 megabytes.
@@ -72,10 +72,8 @@ CD4+ cytotoxic T lymphocytes 2019-07-19 19.09.tsv
 
 A partial example of a tsv file is listed below:
  
-  ![Browsing Files in the Data Explorer](./_images/exploring-projects-tsv.png "Project Detail")
-  **Figure 4**: The Data Explorer's projects tab lists the projects making up the DCP. 
-  the project list is filterable by key metadata properties.
-
+  ![Partial Metadata tsv](./_images/exploring-projects-tsv.png "TSV File")
+  **Figure 4**: A partial view of an expression matrix in csv format. 
 
 ### Downloading Project Expression Matrices
 
@@ -86,6 +84,6 @@ For projects with supported library construction approaches, the project detail 
  The rows in the expression matrix represent cells, columns give the expression value for the column's gene.
 
 
-![Browsing Files in the Data Explorer](./_images/exploring-projects-expression-matrix.png "Project Detail")
+![Partial Expression Matrox](./_images/exploring-projects-expression-matrix.png "Expression Matrix")
 **Figure 5**: A partial view of an expression matrix in csv format. 
 
