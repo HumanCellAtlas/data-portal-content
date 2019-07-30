@@ -73,7 +73,7 @@ CD4+ cytotoxic T lymphocytes 2019-07-19 19.09.tsv
 A partial example of a tsv file is listed below:
  
   ![Partial Metadata tsv](./_images/exploring-projects-tsv.png "TSV File")
-  **Figure 4**: A partial view of an expression matrix in csv format. 
+  **Figure 4**: A partial view of a project metadata tsv file. 
 
 ### Downloading Project Expression Matrices
 
