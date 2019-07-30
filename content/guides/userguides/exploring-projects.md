@@ -16,7 +16,7 @@ Projects are a basic unit of data organization in the HCA Data Coordination Plat
   1. the  [sequencing](/metadata/dictionary/protocol/sequencing/sequencing_protocol)  methods used
   1. details about the [project](/metadata/dictionary/project/project) contributors and their institutions
  
-[Metadata](/metadata/dictionary/process/analysis/analysis_process)  about any [analysis](/pipelines) performed by the HCA DCP is also added to the project during project ingest.
+[Metadata](/metadata/dictionary/process/analysis/analysis_process)  about [analyses](/pipelines) performed by the HCA DCP is also added to the project during project ingest.
 
 ### Finding a Project of Interest
 
@@ -77,9 +77,9 @@ A partial example of a tsv file is listed below:
 
 ### Downloading Project Expression Matrices
 
-For projects with supported library construction approaches, the project detail page will also contain a link to download expression matrices pre-generated for the project by the HCA Matrix Service
+For projects with supported library construction approaches, the project detail page will also contain a link to download expression matrices pre-generated for the project by the HCA Matrix Service.
  
- Matrices are available in [.loom](http://loompy.org/), [.csv](https://en.wikipedia.org/wiki/Comma-separated_values) and [.mtx](https://math.nist.gov/MatrixMarket/formats.html) formats and also contain a subset of the available ingest metadata for the project. 
+ Expression matrices are available in [.loom](http://loompy.org/), [.csv](https://en.wikipedia.org/wiki/Comma-separated_values) and [.mtx](https://math.nist.gov/MatrixMarket/formats.html) formats and also contain a subset of the available ingest metadata for the project. 
  
  The rows in the expression matrix represent cells, columns give the expression value for the column's gene.
 
