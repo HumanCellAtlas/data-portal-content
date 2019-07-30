@@ -16,7 +16,7 @@ Projects are a basic unit of data organization in the HCA Data Coordination Plat
   1. the  [sequencing](/metadata/dictionary/protocol/sequencing/sequencing_protocol)  methods used
   1. details about the [project](/metadata/dictionary/project/project) contributors and their institutions
  
-[Metadata](/metadata/dictionary/process/analysis/analysis_process)  about [analyses](/pipelines) performed by the HCA DCP is also added to the project during project ingest.
+[Metadata](/metadata/dictionary/process/analysis/analysis_process)  about [analyses](/pipelines) performed by the HCA DCP are also added to the project during project ingest.
 
 ### Finding a Project of Interest
 
@@ -53,16 +53,15 @@ The project detail page contains:
 
 For each project, the HCA DCP maintains a project specific tsv file containing the full project metadata. The tsv contains a row for each file in the project and columns for each metadata property. Meanings of the metadata properties are listed in the [HCA Metadata Dictionary](/metadata).
 
-
-
-
  The metadata tsv file gives a flattened representation of the projects metadata graph that can be sorted and filtered using standard spreadsheet or data manipulation tools.
+ 
+ The "Project Downloads" section of the project details page contains a link to download the project metadata file. 
   
 
 ![Project Downloads](./_images/exploring-projects-project-downloads.png "Project Downloads")
 **Figure 3**: The "Project Downloads" section of the project details page.
 
-Selecting the tsv download icon immediately downloads the projects metadata tsv file. Metadata file sizes vary across projects but will generally be between 1 and 100 megabytes.
+Metadata file sizes vary across projects but will generally be between 1 and 100 megabytes.
 
 The tsv file is named after the project and includes the date and time the file was created. For example:
 
