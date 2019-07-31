@@ -5,7 +5,7 @@ title: "Metadata Dictionary"
 componentName: "metadata"
 ---
 
-## Metadata Dictionary
+# Metadata Dictionary
 
 The five Metadata Dictionary sections (Biomaterial, Process, Protocol, Project, File) list the current set of metadata fields used to describe datasets in the Human Cell Atlas.
 

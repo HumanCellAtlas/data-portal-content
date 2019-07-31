@@ -10,7 +10,7 @@ linked:
     - ./morpheus.md
 ---
 
-## Visualization Packages
+# Visualization Packages
 
 Visualization packages listed below are JavaScript modules that enable analysis through interactive data exploration on the web.  To ease integration into [portals](/analyze), these web components are all available as NPM packages and can be imported using standard ES6 syntax.  They each provide domain-specific ways to visualize biological data produced by Human Cell Atlas.
 

@@ -4,7 +4,8 @@ date: "2018-05-03"
 title: "Pipeline Processing Development Guides"
 subTitle: "Information and resources to help you produce and optimize single cell data processing pipelines."
 ---
-## Pipeline Processing Development Guides
+
+# Pipeline Processing Development Guides
 
 We provide pipeline development guides, described briefly below, to help you design and build your own single cell data processing pipelines. When your pipeline is working, please consider submitting it to the DCP to help process data from the community. Email us at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 

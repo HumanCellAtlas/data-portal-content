@@ -5,7 +5,7 @@ title: "Consumer Vignettes"
 subTitle: "All HCA DCP software has an associated GitHub repository that will include more detailed technical documentation of the software."
 ---
 
-## How Do I Find Examples of Developing Against DCP Services?
+# How Do I Find Examples of Developing Against DCP Services?
 
 All HCA DCP software has an associated GitHub repository that will include more detailed technical documentation of the software.   
 

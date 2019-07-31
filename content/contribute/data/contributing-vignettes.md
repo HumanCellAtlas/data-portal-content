@@ -4,7 +4,7 @@ date: "2019-02-21"
 title: "Contributing Vignettes"
 ---
 
-## Contributing Vignettes
+# Contributing Vignettes
 
 The HCA maintains a repository of [Data Consumer Vignettes](https://github.com/HumanCellAtlas/data-consumer-vignettes) containing Python scripts, Jupyter notebooks and code snippets showing how to access and use the HCA data and metadata. The HCA welcomes community submissions to the vignettes repository. 
 

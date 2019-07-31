@@ -5,16 +5,16 @@ title: "Ingest Broker Development Guide"
 subTitle: "General guidelines for developing brokers for the Ingest API."
 ---
 
-## Ingest API
+# Ingest API
 
 The Ingestion Service provides a programmatic API for submitting data to the HCA DCP. The Ingest API could be used, for example, to enable integration with existing LIMS software. Using the Ingest API requires authentication and contacting the Ingestion Service team at [data-help@humancellatlas.org](mailto:data-help@humancellatlas.org).
 
-### Resources
+## Resources
 GitHub Repository: [Ingest Central (ingest-central)](https://github.com/HumanCellAtlas/ingest-central)    
 GitHub Repository: [Ingest API (ingest-broker-api)](https://github.com/HumanCellAtlas/ingest-broker-api)   
 [HAL Browser for the Ingest API](http://api.ingest.dev.data.humancellatlas.org/browser/index.html)   
 
-# Ingest Broker Development
+## Ingest Broker Development
 
 We envisage that Brokers will expose those parts of the Ingest API for which it makes sense for a Submitter to call directly (e.g. data file upload). Brokers may therefore expose REST API functions to perform:
 
@@ -148,7 +148,7 @@ curl -X POST \
 
 The example metadata content in this document may be out of date. The updated metadata schema can be found in [schema.humancellatlas.org](https://schema.humancellatlas.org/~).
 
-##### Files Endpoint
+#### Files Endpoint
 
 For most of the metadata types, adding metadata is mostly a matter of sending a HTTP POST to the proper endpoints as shown previously for the biomaterial. For the file endpoint, however, the system requires the file name to be provided in the endpoint path. For example, if metadata on a file named `R1.fastq.gz` is to be added to the envelope, the endpoint would be:
 

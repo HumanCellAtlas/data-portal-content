@@ -10,11 +10,9 @@ upstreamRegistryUrl: "Submitted to bioconductor on 03/13/2019"
 componentName: "analysisDetail"
 ---
 
-[![Build Status](https://travis-ci.com/broadinstitute/infercnv.svg?branch=master )](https://travis-ci.com/broadinstitute/infercnv )
+[![Build Status](https://travis-ci.com/broadinstitute/infercnv.svg?branch=master )](https://travis-ci.com/broadinstitute/infercnv)
 
-<a href="https://github.com/broadinstitute/infercnv" target="_blank">
-  <img src="../_images/methods/infercnv_logo.png" width=200 align="right">
-</a>
+[![InferCNV](../_images/methods/infercnv_logo.png)](https://github.com/broadinstitute/infercnv)
 
 [InferCNV](https://github.com/broadinstitute/infercnv) is used to explore tumor single cell RNA-Seq data to identify evidence for large-scale chromosomal copy number variations, such as gains or deletions of entire chromosomes or large segments of chromosomes. This is done by exploring expression intensity of genes across positions of the genome in comparison to a set of reference 'normal' cells. A heatmap is generated illustrating the relative expression intensities across each chromosome, and it often becomes readily apparent as to which regions of the genome are over-abundant or less-abundant as compared to normal cells.
 
@@ -24,7 +22,7 @@ InferCNV is one component of the TrinityCTAT toolkit focused on leveraging the u
 
 [![inferCNV](../_images/methods/infercnv_screenshot.png)](https://github.com/broadinstitute/infercnv)
 
-# Use
+## Use
 
 ```
 docker pull singlecellportal/infercnv:0-99-5
@@ -48,15 +46,15 @@ docker run -v ${PWD}:/data -w /data --rm -it singlecellportal/infercnv:0-99-5 /i
 
 
 
-# Validate
+## Validate
 Run this command to confirm your container produces correct reference output: 
 
 ```
 docker run -v ${PWD}:/data -w /data --rm -it singlecellportal/infercnv:0-99-5  Rscript /inferCNV/scripts/infercnv_validate.R
 ```
 
-# Integrate
+## Integrate
 [Run inferCNV](https://github.com/broadinstitute/single_cell_portal/wiki/Running-inferCNV) in Single Cell Portal.
 
-# Contact
-Christophe Georgescu (<a href="mailto://cgeorges@broadinsitute.org">cgeorges@broadinsitute.org</a>)
+## Contact
+Christophe Georgescu ([cgeorges@broadinsitute.org](mailto:cgeorges@broadinsitute.org))

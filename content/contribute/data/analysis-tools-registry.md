@@ -4,10 +4,11 @@ date: "2019-02-01"
 title: "Contributing to the Analysis Tools Registry"
 ---
 
-## Contributing to the Analysis Tools Registry
+# Contributing to the Analysis Tools Registry
+
 The [Analysis Tools Registry](/analyze) lists portals, methods packages, and visualization packages.  Computational biologists submit packages for use by software engineers in portal development. [Analysis Tools Registry standards](/contribute/analysis-tools-registry/registry-standards) promote software best practices and help facilitate ease of package deployment by non-biologists (e.g. software engineers) and non-computational biologists.
 
-### Submission Forms
+## Submission Forms
 Submissions are contributed via GitHub - use these links to access the submission forms:
 
 [Portal submission](https://github.com/HumanCellAtlas/data-portal-content/issues/new/?template=submit-portal.md)\
@@ -16,11 +17,11 @@ Submissions are contributed via GitHub - use these links to access the submissio
 
 Below, we provide details about the information requested in the methods and visualizations submission forms.
 
-### Package Submission Field Details
+## Package Submission Field Details
 
 The package details pages provide software engineers with information (basic command line usage, code repository location, etc.) and resources (Docker image URL, contact name and email etc.) to support rapid incorporation of these packages into web portals.
 
-#### Required Submission Fields for Methods and Visualizations
+### Required Submission Fields for Methods and Visualizations
 - Package title
     - Name of method or visualization
     - Each Methods Registry entry is associated with one container image. Methods Registry recommends authors provide one canonical package. However, some authors may wish to submit registry entries for different language implementations or minimal vs extended docker images; the package title should reflect the difference between such entries.
@@ -47,7 +48,7 @@ The package details pages provide software engineers with information (basic com
     - Content may be truncated, e.g. to 150 characters, on summary listing page; the full description will appear in details page.
     - Example 2-3 sentence description: STREAM is an interactive computational pipeline for reconstructing complex cellular developmental trajectories from sc-qPCR, scRNA-seq or scATAC-seq data.
 
-#### Optional Fields for Methods and Visualizations
+### Optional Fields for Methods and Visualizations
 - Build badge URL
     - Packages should execute automated tests upon every push to their default branch (e.g. master) on GitHub using a continuous integration service.  Such services include [Travis CI](https://docs.travis-ci.com/user/tutorial/) or [Circle CI](https://circleci.com/docs/2.0/first-steps/), which report whether the package build passes its own tests.
     - Example Build badge URL: https\://travis-ci.org/pinellolab/STREAM.svg
@@ -67,7 +68,7 @@ The package details pages provide software engineers with information (basic com
     - Specific URLs directly showcasing the method in use would be ideal but not required.
     - Example URL: http\://stream.pinellolab.org
 
-#### Method-Specific Required Fields
+### Method-Specific Required Fields
 - Method-ready Docker image:
     - Containerized images allow consistent deployment of packages by bundling OS requirements, necessary dependencies and configurations so portal developers can rapidly incorporate a package while bypassing the need to build unfamiliar software.
     - Images should be tagged with method version so the docker pull command requests a versioned image compatible with the example command line(s) and validation commands provided below.
@@ -114,12 +115,12 @@ The package details pages provide software engineers with information (basic com
         - indicates success/failure of validation programmatically (to facilitated automated deployment/testing)
     - Example Command to validate installation: docker run --entrypoint stream\_run\_test pinellolab/stream
 
-#### Visualization Component-Specific Optional Fields:
+### Visualization Component-Specific Optional Fields:
 - URL to implementation of this package in an active portal:
     - Please provide a URL to a simple page with a visualization demo.
     - In our examples we use “Mashups”, see example here https://github.com/eweitz/igv.js-react/blob/master/README.md#igvjs-in-react
 
-### Packages Submitted in Collaboration with a Methodologist 
+## Packages Submitted in Collaboration with a Methodologist
 with separate maintenance of supporting scripts should provide parallel information for "methodologist" and "accessibility maintainer" for the following fields:
 - Contact name
 - Contact email
@@ -132,7 +133,7 @@ with separate maintenance of supporting scripts should provide parallel informat
 
 For such collaborative submissions the long description may be used to describe the relationship between the supporting scripts and the listed package.
 
-### How to Update Your Package Entry
+## How to Update Your Package Entry
 Package information may be updated by creating a GitHub pull request:
 - From the package details page, click "Improve this page"
 - Edit the page content to reflect your updates

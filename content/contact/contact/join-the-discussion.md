@@ -4,7 +4,7 @@ date: "2018-05-03"
 title: "Join the Discussion"
 ---
 
-## Join the Discussion
+# Join the Discussion
 
 The Human Cell Atlas is a community-driven effort. There are many opportunities to get involved. 
 

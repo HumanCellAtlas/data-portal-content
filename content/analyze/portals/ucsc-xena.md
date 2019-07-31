@@ -17,17 +17,13 @@ Researchers interactively query the HCA data and build their spreadsheet, enabli
 
 Researchers can also dynamically create cell groups based on any genomic data already on the spreadsheet, filer and compare cell groups using Xena Charts and statitical analysis. Live visualizations can be saved as Xena Bookmarks, to access the same view again later or be shared with colleagues.
 
-<a href="https://singlecell.xenahubs.net" target="_blank">
-  <img src="../_images/portals/ucsc-xena.png" width=800/>
-</a>
+[![UCSC Xena single cell browser](../_images/portals/ucsc-xena.png)](https://singlecell.xenahubs.net)
 
-# Source code
+## Source code
 <a href="https://github.com/ucscXena">https://github.com/ucscXena</a>
 
-# Contact
-<a href="mailto:ucsc-cancer-genomics-browser@googlegroups.com">ucsc-cancer-genomics-browser@googlegroups.com</a>
-
-<a href="mailto:genome-cancer@soe.ucsc.edu">genome-cancer@soe.ucsc.edu</a>
-
-<a href="https://twitter.com/UCSCXena">Follow @UCSCXena</a>
+## Contact
+[ucsc-cancer-genomics-browser@googlegroups.com](mailto:ucsc-cancer-genomics-browser@googlegroups.com)\
+[genome-cancer@soe.ucsc.edu](mailto:genome-cancer@soe.ucsc.edu)\
+Follow [@UCSCXena](https://twitter.com/UCSCXena)
 
