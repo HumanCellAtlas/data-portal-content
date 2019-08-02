@@ -6,8 +6,8 @@ about: Create or update a portal listing
 
 Thank you for submitting a portal to the HCA DCP Methods Registry!
 
-To expedite your portal's addition to https://prod.data.humancellatlas.org/analyze/portals,
-please provide the following package metadata.  You can easily edit this information later by clicking "Improve this page" at the bottom of your portal's detail page ([example](https://prod.data.humancellatlas.org/analyze/portals/asap)).
+To expedite your portal's addition to https://data.humancellatlas.org/analyze/portals,
+please provide the following package metadata.  You can easily edit this information later by clicking "Improve this page" at the bottom of your portal's detail page ([example](https://data.humancellatlas.org/analyze/portals/asap)).
 
 Required:
 - Tool title: 
