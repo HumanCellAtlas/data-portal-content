@@ -6,8 +6,7 @@ title: "Data Store Consumer API"
 
 # Data Store API
 
-The HCA Data Storage System (DSS) is a replicated data storage system designed for hosting large sets of scientific experimental data on 
-Amazon S3 and Google Storage. 
+The HCA Data Storage System (DSS) is a replicated data storage system designed for hosting large sets of scientific experimental data on Amazon S3 and Google Storage. The Data Store API provides a low level search and access interface to all  data stored in the DCP.
 
 The DSS exposes a [REST API](https://dss.data.humancellatlas.org/), with [Python bindings](https://hca.readthedocs.io/en/latest/) allowing client applications to:
 
