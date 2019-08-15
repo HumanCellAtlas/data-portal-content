@@ -12,7 +12,7 @@ Matrices are best downloaded through the HCA *Data Portal*. You can use the port
 
 We are creating vignettes to demonstrate working with HCA expression matrices in several common data science environments. Please note that these notebook vignettes are intended to show how to initiate data analysis with data from the HCA DCP and that these data are usable in common environments. The vignettes are not intended to teach analysis.
 
-* [Jupyter Notebook](https://github.com/HumanCellAtlas/data-consumer-vignettes/blob/master/tasks/Download%20Expression%20Matrix%20for%20Scanpy/Download%20SmartSeq2%20Expression%20Matrix%20as%20Input%20to%20Scanpy.ipynb) showing analysis of Smart-seq2 data in python using HCA matrices.
+* [Jupyter Notebook](https://github.com/HumanCellAtlas/data-consumer-vignettes/tree/master/Download%20Expression%20Matrix%20for%20Scanpy) showing analysis of Smart-seq2 data in python using HCA matrices.
 
 ## Matrix Data Storage File Format
 
