@@ -12,6 +12,8 @@ The Human Cell Atlas (HCA) Data Coordination Platform (DCP) is built to ingest, 
 
 Here we describe the general process of data flow through the components of the DCP. Please see the guides in the *Guides* section for more detailed information.
 
+![Data Lifecycle](./_images/data-lifecycle-diagram.jpg)
+
 ## Ingestion Service
 
 Data flow begins with the ingestion of raw experimental data files and associated metadata. Currently, the ingest process is supported by HCA data wranglers, an interactive UI, and a REST API. The Ingestion Service processes, validates, and assembles biomolecular data and metadata before pushing them to the central Data Store, where all HCA data are stored. 
