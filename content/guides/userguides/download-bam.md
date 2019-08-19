@@ -21,7 +21,7 @@ tutorials:
 
 ## Step one: finding BAM files with the HCA Data Explorer
 
-You can use the [HCA Data Explorer][exporer] to find data to download using
+You can use the [HCA Data Explorer][explorer] to find data to download using
 the HCA CLI tools. The Data Explorer lists projects with data available
 for download from the Data Store and lets you filter the data for a number of
 attributes.
