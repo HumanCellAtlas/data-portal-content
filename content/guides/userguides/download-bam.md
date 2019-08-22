@@ -28,7 +28,7 @@ attributes.
 
 If you were interested in a project, you could select the project(s) you were
 interested in then click the big blue *Export Selected Data* button at the top
-right of the page. You would see something like this:
+right of the page. After pressing the button, you'd see something like this:
 
 ![Choosing how to download selected data](_images/basic-request_manifest.png)
 
@@ -73,8 +73,9 @@ do
 .
 
 Depending on how much data was selected, the download might take a second. Once
-the download is complete, you'll see the data you downloaded arranged by
-bundle:
+the download is complete, you'll see the data you downloaded arranged by bundle
+UUID. Note that several supporting files are included with every download,
+which is why you'll see more than just the BAM files you selected for download.
 
 ![Preview of downloaded files](_images/basic-downloaded_files.png)
 
