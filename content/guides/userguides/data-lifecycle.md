@@ -12,7 +12,7 @@ The Human Cell Atlas (HCA) Data Coordination Platform (DCP) is built to ingest, 
 
 Here we describe the general process of data flow through the components of the DCP. Please see the guides in the *Guides* section for more detailed information.
 
-![Data Lifecycle](./_images/data-lifecycle-diagram.jpg)
+![Data Lifecycle](./_images/data-lifecycle-diagram.png)
 
 ## Ingestion Service
 
